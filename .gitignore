@@ -27,3 +27,10 @@
 *.exe
 *.out
 *.app
+
+
+
+# Qt ignores
+*.pro.user
+.DS_Store
+
