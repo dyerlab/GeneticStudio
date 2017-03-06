@@ -28,7 +28,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
-#include "gdal.h"
+#include "gdal_priv.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
