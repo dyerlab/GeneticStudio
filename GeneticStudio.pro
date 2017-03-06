@@ -1,4 +1,6 @@
 TEMPLATE = subdirs
 
 SUBDIRS += \
-    Geno
+    Geno \
+    Graph \
+    Distance
