@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A9407742296996F009D3C30 /* genetic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A94076A2296996F009D3C30 /* genetic.framework */; };
+		2A9407792296996F009D3C30 /* geneticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9407782296996F009D3C30 /* geneticTests.swift */; };
+		2A94077B2296996F009D3C30 /* genetic.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A94076D2296996F009D3C30 /* genetic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A94078722969991009D3C30 /* GenotypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94078422969991009D3C30 /* GenotypeTests.swift */; };
+		2A94078822969991009D3C30 /* LocusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94078522969991009D3C30 /* LocusTests.swift */; };
+		2A94078922969991009D3C30 /* FrequenciesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94078622969991009D3C30 /* FrequenciesTests.swift */; };
+		2A94078D229699AC009D3C30 /* Locus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94078A229699AC009D3C30 /* Locus.swift */; };
+		2A94078E229699AC009D3C30 /* Locus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94078A229699AC009D3C30 /* Locus.swift */; };
+		2A94078F229699AC009D3C30 /* Frequencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94078B229699AC009D3C30 /* Frequencies.swift */; };
+		2A940790229699AC009D3C30 /* Frequencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94078B229699AC009D3C30 /* Frequencies.swift */; };
+		2A940791229699AC009D3C30 /* Genotype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94078C229699AC009D3C30 /* Genotype.swift */; };
+		2A940792229699AC009D3C30 /* Genotype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94078C229699AC009D3C30 /* Genotype.swift */; };
+		2A9407942296A416009D3C30 /* Individual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9407932296A416009D3C30 /* Individual.swift */; };
+		2A9407952296A416009D3C30 /* Individual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9407932296A416009D3C30 /* Individual.swift */; };
+		2A9407972296A45D009D3C30 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9407962296A45D009D3C30 /* Coordinate.swift */; };
+		2A9407982296A45D009D3C30 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9407962296A45D009D3C30 /* Coordinate.swift */; };
+		2A94079A2296A939009D3C30 /* CoordinateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9407992296A939009D3C30 /* CoordinateTests.swift */; };
+		2A94079C2296AEBF009D3C30 /* IndividualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94079B2296AEBF009D3C30 /* IndividualTests.swift */; };
+		2A94079E2296B8E8009D3C30 /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94079D2296B8E8009D3C30 /* DataSet.swift */; };
+		2A94079F2296B8E8009D3C30 /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94079D2296B8E8009D3C30 /* DataSet.swift */; };
+		2A9407A12296BAF4009D3C30 /* DataSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9407A02296BAF4009D3C30 /* DataSetTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A9407752296996F009D3C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A9407612296996F009D3C30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A9407692296996F009D3C30;
+			remoteInfo = genetic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A94076A2296996F009D3C30 /* genetic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = genetic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A94076D2296996F009D3C30 /* genetic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = genetic.h; sourceTree = "<group>"; };
+		2A94076E2296996F009D3C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A9407732296996F009D3C30 /* geneticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geneticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9407782296996F009D3C30 /* geneticTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geneticTests.swift; sourceTree = "<group>"; };
+		2A94077A2296996F009D3C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A94078422969991009D3C30 /* GenotypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenotypeTests.swift; sourceTree = "<group>"; };
+		2A94078522969991009D3C30 /* LocusTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocusTests.swift; sourceTree = "<group>"; };
+		2A94078622969991009D3C30 /* FrequenciesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrequenciesTests.swift; sourceTree = "<group>"; };
+		2A94078A229699AC009D3C30 /* Locus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locus.swift; sourceTree = "<group>"; };
+		2A94078B229699AC009D3C30 /* Frequencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frequencies.swift; sourceTree = "<group>"; };
+		2A94078C229699AC009D3C30 /* Genotype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genotype.swift; sourceTree = "<group>"; };
+		2A9407932296A416009D3C30 /* Individual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Individual.swift; sourceTree = "<group>"; };
+		2A9407962296A45D009D3C30 /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		2A9407992296A939009D3C30 /* CoordinateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateTests.swift; sourceTree = "<group>"; };
+		2A94079B2296AEBF009D3C30 /* IndividualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualTests.swift; sourceTree = "<group>"; };
+		2A94079D2296B8E8009D3C30 /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
+		2A9407A02296BAF4009D3C30 /* DataSetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSetTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A9407672296996F009D3C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A9407702296996F009D3C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9407742296996F009D3C30 /* genetic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A9407602296996F009D3C30 = {
+			isa = PBXGroup;
+			children = (
+				2A94076C2296996F009D3C30 /* genetic */,
+				2A9407772296996F009D3C30 /* geneticTests */,
+				2A94076B2296996F009D3C30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A94076B2296996F009D3C30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A94076A2296996F009D3C30 /* genetic.framework */,
+				2A9407732296996F009D3C30 /* geneticTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A94076C2296996F009D3C30 /* genetic */ = {
+			isa = PBXGroup;
+			children = (
+				2A94076E2296996F009D3C30 /* Info.plist */,
+				2A94076D2296996F009D3C30 /* genetic.h */,
+				2A94078C229699AC009D3C30 /* Genotype.swift */,
+				2A94078A229699AC009D3C30 /* Locus.swift */,
+				2A9407962296A45D009D3C30 /* Coordinate.swift */,
+				2A94078B229699AC009D3C30 /* Frequencies.swift */,
+				2A9407932296A416009D3C30 /* Individual.swift */,
+				2A94079D2296B8E8009D3C30 /* DataSet.swift */,
+			);
+			path = genetic;
+			sourceTree = "<group>";
+		};
+		2A9407772296996F009D3C30 /* geneticTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A94078422969991009D3C30 /* GenotypeTests.swift */,
+				2A94078522969991009D3C30 /* LocusTests.swift */,
+				2A9407992296A939009D3C30 /* CoordinateTests.swift */,
+				2A94079B2296AEBF009D3C30 /* IndividualTests.swift */,
+				2A94078622969991009D3C30 /* FrequenciesTests.swift */,
+				2A9407A02296BAF4009D3C30 /* DataSetTests.swift */,
+				2A9407782296996F009D3C30 /* geneticTests.swift */,
+				2A94077A2296996F009D3C30 /* Info.plist */,
+			);
+			path = geneticTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A9407652296996F009D3C30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A94077B2296996F009D3C30 /* genetic.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A9407692296996F009D3C30 /* genetic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A94077E2296996F009D3C30 /* Build configuration list for PBXNativeTarget "genetic" */;
+			buildPhases = (
+				2A9407652296996F009D3C30 /* Headers */,
+				2A9407662296996F009D3C30 /* Sources */,
+				2A9407672296996F009D3C30 /* Frameworks */,
+				2A9407682296996F009D3C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = genetic;
+			productName = genetic;
+			productReference = 2A94076A2296996F009D3C30 /* genetic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A9407722296996F009D3C30 /* geneticTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A9407812296996F009D3C30 /* Build configuration list for PBXNativeTarget "geneticTests" */;
+			buildPhases = (
+				2A94076F2296996F009D3C30 /* Sources */,
+				2A9407702296996F009D3C30 /* Frameworks */,
+				2A9407712296996F009D3C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A9407762296996F009D3C30 /* PBXTargetDependency */,
+			);
+			name = geneticTests;
+			productName = geneticTests;
+			productReference = 2A9407732296996F009D3C30 /* geneticTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A9407612296996F009D3C30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Rodney Dyer";
+				TargetAttributes = {
+					2A9407692296996F009D3C30 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+					2A9407722296996F009D3C30 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2A9407642296996F009D3C30 /* Build configuration list for PBXProject "genetic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A9407602296996F009D3C30;
+			productRefGroup = 2A94076B2296996F009D3C30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A9407692296996F009D3C30 /* genetic */,
+				2A9407722296996F009D3C30 /* geneticTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A9407682296996F009D3C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A9407712296996F009D3C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A9407662296996F009D3C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A94079E2296B8E8009D3C30 /* DataSet.swift in Sources */,
+				2A9407942296A416009D3C30 /* Individual.swift in Sources */,
+				2A94078F229699AC009D3C30 /* Frequencies.swift in Sources */,
+				2A940791229699AC009D3C30 /* Genotype.swift in Sources */,
+				2A94078D229699AC009D3C30 /* Locus.swift in Sources */,
+				2A9407972296A45D009D3C30 /* Coordinate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A94076F2296996F009D3C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A94078E229699AC009D3C30 /* Locus.swift in Sources */,
+				2A940792229699AC009D3C30 /* Genotype.swift in Sources */,
+				2A9407A12296BAF4009D3C30 /* DataSetTests.swift in Sources */,
+				2A94078722969991009D3C30 /* GenotypeTests.swift in Sources */,
+				2A94079C2296AEBF009D3C30 /* IndividualTests.swift in Sources */,
+				2A94079A2296A939009D3C30 /* CoordinateTests.swift in Sources */,
+				2A940790229699AC009D3C30 /* Frequencies.swift in Sources */,
+				2A94079F2296B8E8009D3C30 /* DataSet.swift in Sources */,
+				2A9407952296A416009D3C30 /* Individual.swift in Sources */,
+				2A9407982296A45D009D3C30 /* Coordinate.swift in Sources */,
+				2A9407792296996F009D3C30 /* geneticTests.swift in Sources */,
+				2A94078922969991009D3C30 /* FrequenciesTests.swift in Sources */,
+				2A94078822969991009D3C30 /* LocusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A9407762296996F009D3C30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A9407692296996F009D3C30 /* genetic */;
+			targetProxy = 2A9407752296996F009D3C30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A94077C2296996F009D3C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A94077D2296996F009D3C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A94077F2296996F009D3C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 626QFAP74Z;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = genetic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.genetic;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2A9407802296996F009D3C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 626QFAP74Z;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = genetic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.genetic;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2A9407822296996F009D3C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 626QFAP74Z;
+				INFOPLIST_FILE = geneticTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.geneticTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2A9407832296996F009D3C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 626QFAP74Z;
+				INFOPLIST_FILE = geneticTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.geneticTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A9407642296996F009D3C30 /* Build configuration list for PBXProject "genetic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A94077C2296996F009D3C30 /* Debug */,
+				2A94077D2296996F009D3C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A94077E2296996F009D3C30 /* Build configuration list for PBXNativeTarget "genetic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A94077F2296996F009D3C30 /* Debug */,
+				2A9407802296996F009D3C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A9407812296996F009D3C30 /* Build configuration list for PBXNativeTarget "geneticTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9407822296996F009D3C30 /* Debug */,
+				2A9407832296996F009D3C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A9407612296996F009D3C30 /* Project object */;
+}
