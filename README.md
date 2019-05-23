@@ -8,4 +8,4 @@ Rodney J. Dyer (rjdyer@vcu.edu)
 
 ### License
 
-GLP v. 3
+GNU General Public License v3.0
