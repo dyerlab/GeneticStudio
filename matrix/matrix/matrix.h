@@ -15,5 +15,3 @@ FOUNDATION_EXPORT double matrixVersionNumber;
 FOUNDATION_EXPORT const unsigned char matrixVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <matrix/PublicHeader.h>
-
-

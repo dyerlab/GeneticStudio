@@ -8,10 +8,8 @@
 
 import Foundation
 
-
-
 /**
- The default object for holding `Double` values in matrix format
+ The default object for holding `Double` values in matrix format.
  
  - Author: Rodney J. Dyer
  */

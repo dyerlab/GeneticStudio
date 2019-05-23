@@ -12,7 +12,7 @@ import Foundation
  Produces an Identity Matrix
  
  - Parameters:
- - N: Number of rows and columns
+    - N: Number of rows and columns
  
  - Returns: A square matrix of zeros except for down the diagonal.
  */
