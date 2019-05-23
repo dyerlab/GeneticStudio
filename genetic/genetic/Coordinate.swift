@@ -11,7 +11,7 @@ import MapKit
 
 
 /// Error for Coordinate enum
-enum CoordinateError: Error {
+public enum CoordinateError: Error {
     
     /// Coordiante out of bounds
     case CoordinateOutOfBounds
@@ -23,7 +23,7 @@ enum CoordinateError: Error {
  Struct for a general coordinate that can be Codable and Equatable
  
  */
-struct Coordinate: Codable, Hashable, Equatable    {
+public struct Coordinate: Codable, Hashable, Equatable    {
     
     // Longitude as decimal
     var longitude: Double = 0.0
