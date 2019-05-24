@@ -18,11 +18,7 @@ extension Array where Element == Double {
     
     /// Overload vector/vector subtraction operator.
     public static func - (left: Vector, right: Vector ) -> Vector {
-        var ret = Array(repeating: 0.0, count: left.count)
-        for i in 0..<N {
-            ret[i] = left[i] - right[i]
-        }
-        return ret
+        return zip(left,right).map {$0 - $1}
     }
     
     /// Overload vector/scalar subtraction operator.
@@ -32,11 +28,7 @@ extension Array where Element == Double {
     
     /// Overload vector/vector addition operator.
     public static func + (left: Vector, right: Vector ) -> Vector {
-        var ret = Array(repeating: 0.0, count: left.count)
-        for i in 0..<left.count {
-            ret[i] = left[i] + right[i]
-        }
-        return ret
+        return zip(left,right).map {$0 - $1}
     }
     
     /// Overload vector/scale addition operator.
