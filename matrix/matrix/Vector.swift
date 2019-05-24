@@ -28,7 +28,7 @@ extension Array where Element == Double {
     
     /// Overload vector/vector addition operator.
     public static func + (left: Vector, right: Vector ) -> Vector {
-        return zip(left,right).map {$0 - $1}
+        return zip(left,right).map {$0 + $1}
     }
     
     /// Overload vector/scale addition operator.
