@@ -226,7 +226,7 @@ public extension Matrix {
     
     /// + Operator for 2 matrices
     static func +(left: Matrix, right: Matrix ) -> Matrix {
-        return Matrix(rows: left.rows, cols: left.cols, values: zip(left.values, right.values).map {$0 + $1})
+        return Matrix(rows: left.rows, cols: right.cols, values: zip(left.values, right.values).map {$0 + $1})
     }
     
     /// + Operator for Matrix and Double
@@ -236,7 +236,7 @@ public extension Matrix {
     
     /// Kronecker product
     static func •(left: Matrix, right: Matrix ) -> Matrix {
-        return Matrix(rows: left.rows, cols: left.cols, values: zip(left.values, right.values).map {$0 * $1})
+        return Matrix(rows: left.rows, cols: right.cols, values: zip(left.values, right.values).map {$0 * $1})
     }
     
     /// Matrix Multipliation
