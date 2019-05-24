@@ -55,11 +55,12 @@ public final class Frequencies {
                 self.numAlleles += 1.0
                 self.counts[allele] = self.counts[allele, default: 0.0] + 1.0
             }
-            if geno.ploidy > Ploidy.haploid {
-                self.numDiploid += 1.0
-                if geno.isHeterozygote {
-                    self.numHeterozygote += 1.0
-                }
+        }
+        
+        if geno.ploidy > Ploidy.haploid {
+            self.numDiploid += 1.0
+            if geno.isHeterozygote {
+                self.numHeterozygote += 1.0
             }
         }
     }

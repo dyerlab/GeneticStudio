@@ -18,8 +18,12 @@ class FrequenciesTests: XCTestCase {
         XCTAssertEqual( freq.observedHeterozygosity, 0.0 )
         XCTAssertEqual( freq.frequency(allele: "Bob"), 0.0 )
 
+        _ = String("\(freq)")
+    }
+
+    func testAddGenotype() {
+        let freq = Frequencies()
         freq.add(geno: Genotype(left: "A", right: "B") )
-        XCTAssertEqual( freq.frequency(allele: "Bob"), 0.0 )
 
         XCTAssertEqual( freq.alleles, ["A", "B"] )
         XCTAssertEqual( freq.expectedHeterozygosity, 0.5 )
@@ -36,7 +40,12 @@ class FrequenciesTests: XCTestCase {
         XCTAssertEqual( freq.frequency(allele: "B"), 0.25 )
         XCTAssertEqual( freq.frequency(alleles: freq.alleles ), [0.75, 0.25] )
 
-        _ = String("\(freq)")
+    }
+
+    func testRemoveGenotypes() {
+        let freq = Frequencies()
+        freq.add(geno: Genotype(left: "A", right: "B") )
+        freq.add(geno: Genotype(left: "A", right: "A") )
 
         freq.remove(geno: Genotype(left: "A", right: "A"))
         XCTAssertEqual( freq.alleles, ["A", "B"] )
@@ -50,7 +59,6 @@ class FrequenciesTests: XCTestCase {
         XCTAssertEqual( freq.alleles, [String]() )
         XCTAssertEqual( freq.expectedHeterozygosity, 0.0 )
         XCTAssertEqual( freq.observedHeterozygosity, 0.0 )
-
     }
 
 }
