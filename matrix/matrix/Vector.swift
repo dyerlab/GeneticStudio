@@ -38,10 +38,6 @@ extension Array where Element == Double {
     /// Overload vector/vector subtraction operator.
     public static func - (left: Vector, right: Vector ) -> Vector {
         let N = left.count
-
-        if N != right.count {
-            fatalError()
-        }
         
         var ret = Array(repeating: 0.0, count: N)
         for i in 0..<N {
@@ -61,10 +57,6 @@ extension Array where Element == Double {
     public static func + (left: Vector, right: Vector ) -> Vector {
         let N = left.count
         
-        if N != right.count {
-            fatalError()
-        }
-        
         var ret = Array(repeating: 0.0, count: N)
         for i in 0..<N {
             ret[i] = left[i] + right[i]
@@ -81,10 +73,6 @@ extension Array where Element == Double {
     public static func * (left: Vector, right: Vector ) -> Vector {
         let N = left.count
         
-        if N != right.count {
-            fatalError()
-        }
-        
         var ret = Array(repeating: 0.0, count: N)
         for i in 0..<N {
             ret[i] = left[i] * right[i]
@@ -100,10 +88,6 @@ extension Array where Element == Double {
     /// Overload of vector/vector division operator
     public static func / (left: Vector, right: Vector ) -> Vector {
         let N = left.count
-        
-        if N != right.count {
-            fatalError()
-        }
         
         var ret = Array(repeating: 0.0, count: N)
         for i in 0..<N {
