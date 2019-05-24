@@ -27,6 +27,7 @@
 		2A94079E2296B8E8009D3C30 /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94079D2296B8E8009D3C30 /* DataSet.swift */; };
 		2A94079F2296B8E8009D3C30 /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94079D2296B8E8009D3C30 /* DataSet.swift */; };
 		2A9407A12296BAF4009D3C30 /* DataSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9407A02296BAF4009D3C30 /* DataSetTests.swift */; };
+		2ADB78C72297737700EF9BDE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2ADB78C62297737700EF9BDE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		2A94079B2296AEBF009D3C30 /* IndividualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualTests.swift; sourceTree = "<group>"; };
 		2A94079D2296B8E8009D3C30 /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
 		2A9407A02296BAF4009D3C30 /* DataSetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSetTests.swift; sourceTree = "<group>"; };
+		2ADB78C62297737700EF9BDE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		2A9407602296996F009D3C30 = {
 			isa = PBXGroup;
 			children = (
+				2ADB78C62297737700EF9BDE /* README.md */,
 				2A94076C2296996F009D3C30 /* genetic */,
 				2A9407772296996F009D3C30 /* geneticTests */,
 				2A94076B2296996F009D3C30 /* Products */,
@@ -217,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ADB78C72297737700EF9BDE /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

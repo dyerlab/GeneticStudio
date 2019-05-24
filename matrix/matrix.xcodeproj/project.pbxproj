@@ -15,6 +15,7 @@
 		2AC5C84722970E74001037A6 /* IdentityMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC5C84022970E74001037A6 /* IdentityMatrix.swift */; };
 		2AC5C84822970E74001037A6 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC5C84122970E74001037A6 /* Matrix.swift */; };
 		2AC5C84922970E74001037A6 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC5C84122970E74001037A6 /* Matrix.swift */; };
+		2ADB78C9229774B000EF9BDE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2ADB78C8229774B000EF9BDE /* README.md */; };
 		2AFEC0702296EBAD006F006E /* matrix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFEC0662296EBAD006F006E /* matrix.framework */; };
 		2AFEC0752296EBAD006F006E /* matrixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFEC0742296EBAD006F006E /* matrixTests.swift */; };
 		2AFEC0772296EBAD006F006E /* matrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AFEC0692296EBAD006F006E /* matrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,6 +36,7 @@
 		2AC5C83F22970E74001037A6 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		2AC5C84022970E74001037A6 /* IdentityMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentityMatrix.swift; sourceTree = "<group>"; };
 		2AC5C84122970E74001037A6 /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		2ADB78C8229774B000EF9BDE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2AFEC0662296EBAD006F006E /* matrix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = matrix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AFEC0692296EBAD006F006E /* matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
 		2AFEC06A2296EBAD006F006E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		2AFEC05C2296EBAD006F006E = {
 			isa = PBXGroup;
 			children = (
+				2ADB78C8229774B000EF9BDE /* README.md */,
 				2AFEC0682296EBAD006F006E /* matrix */,
 				2AFEC0732296EBAD006F006E /* matrixTests */,
 				2AFEC0672296EBAD006F006E /* Products */,
@@ -194,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ADB78C9229774B000EF9BDE /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
