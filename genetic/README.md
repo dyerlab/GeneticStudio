@@ -1,8 +1,5 @@
 # genetic.framework
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/521f663f009f0b2c8429/maintainability)](https://codeclimate.com/github/dyerlab/GeneticStudio/maintainability)
-
-[![Test Coverage](https://api.codeclimate.com/v1/badges/521f663f009f0b2c8429/test_coverage)](https://codeclimate.com/github/dyerlab/GeneticStudio/test_coverage)
 
 
 This swift framework contains the mechanisms for genotype-level genetic analyses.  This includes:  
