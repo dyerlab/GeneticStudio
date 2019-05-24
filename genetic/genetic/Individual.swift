@@ -14,7 +14,7 @@ import Foundation
  Class for maintaining information on an individual including
     strata, loci, and coordinates.
  */
-final class Individual {
+public final class Individual {
     
     /// Indivdiual unique ID
     var id: String = ""
@@ -54,7 +54,7 @@ extension Individual: Equatable {
      
      - Returns: Bool indicating equality of strata, genotypes, and location.
      */
-    static func == (lhs: Individual, rhs: Individual) -> Bool {
+    public static func == (lhs: Individual, rhs: Individual) -> Bool {
         return lhs.strata == rhs.strata &&
             lhs.locus == rhs.locus &&
             lhs.location == rhs.location

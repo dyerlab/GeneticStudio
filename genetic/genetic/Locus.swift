@@ -20,7 +20,7 @@ import Foundation
     that satisfy conditions (e.g., contig location, Fst, allele frequencies,
     etd.) rather than loading up hundreds of thousands of locus objects.
  */
-final class Locus {
+public final class Locus {
     
     /// Container array for genotype objects
     private var genotypes: [Genotype]
