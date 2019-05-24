@@ -13,12 +13,14 @@ import Foundation
  
  - Author: Rodney J. Dyer
  */
-public struct Matrix {
+public class Matrix {
     
     /// Rows in the matrix
     public let rows: Int
+    
     /// Cols in the matrix
     public let cols: Int
+    
     /// Values are stored as a `[Double] == Vector`
     public var values: Vector
     
@@ -81,6 +83,15 @@ public struct Matrix {
         self.colNames = matrix.colNames
     }
     
+    /**
+     Determine if index is valid for this matrix (e.g., checks row and col valididy)
+     
+     - Parameters:
+     - row: `Int` of row
+     - col: `Int` of column
+     
+     - Returns: Flag indicating this is a valid pair of indices for this matrix.
+     */
     func validIndex( row: Int, col: Int ) -> Bool {
         return row>=0 && row < self.rows &&
                 col >= 0 && col < self.cols
@@ -145,9 +156,9 @@ public struct Matrix {
 }
 
 
+// MARK: -
 
 // MARK: Equatable
-
 extension Matrix : Equatable {
     
     /// Equality operator
@@ -163,7 +174,7 @@ extension Matrix : Equatable {
     
 }
 
-
+// MARK: -
 // MARK: Custom String Convertible
 
 extension Matrix: CustomStringConvertible {
@@ -197,7 +208,7 @@ extension Matrix: CustomStringConvertible {
     
 }
 
-
+// MARK: -
 // MARK: Math operators
 
 infix operator •: MultiplicationPrecedence

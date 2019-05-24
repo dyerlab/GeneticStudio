@@ -17,4 +17,3 @@ done
 perl -0pe 's/\]\n\[/,/g' sk.output  > geneticstudio.output
 jazzy --sourcekitten-sourcefile geneticstudio.output
 
-git add docs/*

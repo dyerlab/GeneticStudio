@@ -30,10 +30,12 @@ public func sequence( from: Int, to: Int) -> Vector {
     
 }
 
+// MARK: -
 
+/// Extend `Double` array elements for numeric operators.
 extension Array where Element == Double {
     
-    
+    /// Overload vector/vector subtraction operator.
     public static func - (left: Vector, right: Vector ) -> Vector {
         let N = left.count
 
@@ -48,6 +50,14 @@ extension Array where Element == Double {
         return ret
     }
     
+    
+    
+    /// Overload vector/scalar subtraction operator.
+    public static func - (left: Vector, right: Double ) -> Vector {
+        return left.map {$0 - right}
+    }
+    
+    /// Overload vector/vector addition operator.
     public static func + (left: Vector, right: Vector ) -> Vector {
         let N = left.count
         
@@ -62,17 +72,12 @@ extension Array where Element == Double {
         return ret
     }
     
+    /// Overload vector/scale addition operator.
     public static func + (vec: Vector, val: Double ) -> Vector {
-        let N = vec.count
-        
-        var ret = Array(repeating: 0.0, count: N)
-        for i in 0..<N {
-            ret[i] = vec[i] + val
-        }
-        return ret
+        return vec.map {$0 + val }
     }
     
-    
+    /// Overload of vector/vector multiplication operator
     public static func * (left: Vector, right: Vector ) -> Vector {
         let N = left.count
         
@@ -87,18 +92,12 @@ extension Array where Element == Double {
         return ret
     }
     
-    
+    /// Overload of vector/scalar operator
     public static func * (vec: Vector, val: Double ) -> Vector {
-        let N = vec.count
-        
-        var ret = Array(repeating: 0.0, count: N)
-        for i in 0..<N {
-            ret[i] = vec[i] * val
-        }
-        return ret
+        return vec.map {$0 * val}
     }
     
-    
+    /// Overload of vector/vector division operator
     public static func / (left: Vector, right: Vector ) -> Vector {
         let N = left.count
         
@@ -113,14 +112,9 @@ extension Array where Element == Double {
         return ret
     }
     
+    /// Overload of vector/scalar operator
     public static func / (vec: Vector, val: Double ) -> Vector {
-        let N = vec.count
-        
-        var ret = Vector(repeating: 0.0, count: N)
-        for i in 0..<N {
-            ret[i] = vec[i] / val
-        }
-        return ret
+        return vec.map {$0 / val }
     }
     
     /**

@@ -7,6 +7,11 @@
 
 import Foundation
 
+
+
+/**
+ Overload of base Array Object
+ */
 extension Array {
     
     /**
@@ -24,6 +29,8 @@ extension Array {
 }
 
 
+
+/// Overload for numeric arrays to get sum
 extension Array where Element: Numeric {
 
     /**

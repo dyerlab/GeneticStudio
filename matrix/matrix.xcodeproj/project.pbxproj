@@ -87,9 +87,9 @@
 			isa = PBXGroup;
 			children = (
 				2AC5C83F22970E74001037A6 /* Array.swift */,
-				2AC5C84022970E74001037A6 /* IdentityMatrix.swift */,
-				2AC5C84122970E74001037A6 /* Matrix.swift */,
 				2AC5C83E22970E74001037A6 /* Vector.swift */,
+				2AC5C84122970E74001037A6 /* Matrix.swift */,
+				2AC5C84022970E74001037A6 /* IdentityMatrix.swift */,
 				2AFEC0692296EBAD006F006E /* matrix.h */,
 				2AFEC06A2296EBAD006F006E /* Info.plist */,
 			);
