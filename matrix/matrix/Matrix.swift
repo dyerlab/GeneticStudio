@@ -221,7 +221,6 @@ public extension Matrix {
     
     /// - Operator
     static func -(left: Matrix, right: Matrix ) -> Matrix {
-        assert( left.rows == right.rows && left.cols == right.cols, "Non conforming matrices")
         var ret = Matrix(rows: left.rows, cols: left.cols)
         ret.values = left.values - right.values
         return ret
@@ -229,7 +228,6 @@ public extension Matrix {
     
     /// + Operator for 2 matrices
     static func +(left: Matrix, right: Matrix ) -> Matrix {
-        assert( left.rows == right.rows && left.cols == right.cols, "Non conforming matrices")
         var ret = Matrix(rows: left.rows, cols: left.cols)
         ret.values = left.values + right.values
         return ret
@@ -244,7 +242,6 @@ public extension Matrix {
     
     /// Kronecker product
     static func •(left: Matrix, right: Matrix ) -> Matrix {
-        assert(left.rows == right.rows && left.cols == right.cols, "Non conforming matrices")
         var ret = Matrix(rows: left.rows, cols: left.cols)
         ret.values = left.values * right.values
         return ret
@@ -252,7 +249,6 @@ public extension Matrix {
     
     /// Matrix Multipliation
     static func *(left: Matrix, right: Matrix) -> Matrix {
-        assert( left.cols == right.rows, "Non conforming matrices")
         var ret = Matrix(rows: left.rows, cols: right.cols )
         for i in 0..<ret.rows {
             let r = left.row(i)
