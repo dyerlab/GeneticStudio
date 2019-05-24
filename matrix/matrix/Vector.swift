@@ -11,25 +11,6 @@ import Foundation
 /// Alias a `[Double]` as `Vector`
 public typealias Vector = [Double]
 
-
-/**
- Creates a `Vector` using a sequence of numbers.
- 
- - Parameters:
-    - from: starting index
-    - to: ending index (inclusive)
- 
- - Returns: A Vector `[start, start+1, ..., to-1, to]`
- */
-public func sequence( from: Int, to: Int) -> Vector {
-    var ret = Vector(repeating: 0.0, count: (to-from+1)  )
-    for i in 0..<ret.count {
-        ret[i] = Double(i + from)
-    }
-    return ret
-    
-}
-
 // MARK: -
 
 /// Extend `Double` array elements for numeric operators.
@@ -37,16 +18,12 @@ extension Array where Element == Double {
     
     /// Overload vector/vector subtraction operator.
     public static func - (left: Vector, right: Vector ) -> Vector {
-        let N = left.count
-        
-        var ret = Array(repeating: 0.0, count: N)
+        var ret = Array(repeating: 0.0, count: left.count)
         for i in 0..<N {
             ret[i] = left[i] - right[i]
         }
         return ret
     }
-    
-    
     
     /// Overload vector/scalar subtraction operator.
     public static func - (left: Vector, right: Double ) -> Vector {
@@ -55,10 +32,8 @@ extension Array where Element == Double {
     
     /// Overload vector/vector addition operator.
     public static func + (left: Vector, right: Vector ) -> Vector {
-        let N = left.count
-        
-        var ret = Array(repeating: 0.0, count: N)
-        for i in 0..<N {
+        var ret = Array(repeating: 0.0, count: left.count)
+        for i in 0..<left.count {
             ret[i] = left[i] + right[i]
         }
         return ret
@@ -71,10 +46,8 @@ extension Array where Element == Double {
     
     /// Overload of vector/vector multiplication operator
     public static func * (left: Vector, right: Vector ) -> Vector {
-        let N = left.count
-        
-        var ret = Array(repeating: 0.0, count: N)
-        for i in 0..<N {
+        var ret = Array(repeating: 0.0, count: left.count)
+        for i in 0..<left.count {
             ret[i] = left[i] * right[i]
         }
         return ret
