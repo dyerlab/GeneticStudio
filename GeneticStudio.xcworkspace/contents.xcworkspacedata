@@ -5,9 +5,6 @@
       location = "group:genetic/genetic.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Playground.playground">
-   </FileRef>
-   <FileRef
       location = "group:LICENSE">
    </FileRef>
    <FileRef
