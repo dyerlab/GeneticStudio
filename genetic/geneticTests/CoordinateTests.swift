@@ -20,13 +20,13 @@ class CoordinateTests: XCTestCase {
 
         XCTAssertEqual(rva, rva2)
         XCTAssertEqual(rva, rva3)
-        XCTAssertTrue( rva.is_valid )
+        XCTAssertTrue( rva.isValid )
 
         rva.longitude = 420.0
-        XCTAssertFalse( rva.is_valid )
+        XCTAssertFalse( rva.isValid )
 
         rva2.latitude = -91.0
-        XCTAssertFalse( rva2.is_valid )
+        XCTAssertFalse( rva2.isValid )
     }
 
 }
