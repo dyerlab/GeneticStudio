@@ -67,10 +67,10 @@
 		2AFEC05C2296EBAD006F006E = {
 			isa = PBXGroup;
 			children = (
-				2ADB78C8229774B000EF9BDE /* README.md */,
 				2AFEC0682296EBAD006F006E /* matrix */,
 				2AFEC0732296EBAD006F006E /* matrixTests */,
 				2AFEC0672296EBAD006F006E /* Products */,
+				2ADB78C8229774B000EF9BDE /* README.md */,
 			);
 			sourceTree = "<group>";
 		};

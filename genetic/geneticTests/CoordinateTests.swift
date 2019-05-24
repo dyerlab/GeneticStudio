@@ -9,7 +9,6 @@
 import XCTest
 import MapKit
 
-
 class CoordinateTests: XCTestCase {
 
     func testInit() {
@@ -18,14 +17,14 @@ class CoordinateTests: XCTestCase {
         var rva2 = Coordinate(clcoord)
         let clcoord2 = CLLocationCoordinate2D(rva2)
         let rva3 = Coordinate(clcoord2)
-        
+
         XCTAssertEqual(rva, rva2)
         XCTAssertEqual(rva, rva3)
         XCTAssertTrue( rva.is_valid )
-        
+
         rva.longitude = 420.0
         XCTAssertFalse( rva.is_valid )
-        
+
         rva2.latitude = -91.0
         XCTAssertFalse( rva2.is_valid )
     }

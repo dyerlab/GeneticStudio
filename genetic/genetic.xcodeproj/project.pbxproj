@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A76D2BE2297E95500DE324C /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 2A76D2BD2297E95500DE324C /* Cartfile */; };
 		2A9407742296996F009D3C30 /* genetic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A94076A2296996F009D3C30 /* genetic.framework */; };
 		2A94077B2296996F009D3C30 /* genetic.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A94076D2296996F009D3C30 /* genetic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A94078722969991009D3C30 /* GenotypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94078422969991009D3C30 /* GenotypeTests.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A76D2BD2297E95500DE324C /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		2A94076A2296996F009D3C30 /* genetic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = genetic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A94076D2296996F009D3C30 /* genetic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = genetic.h; sourceTree = "<group>"; };
 		2A94076E2296996F009D3C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,10 +85,11 @@
 		2A9407602296996F009D3C30 = {
 			isa = PBXGroup;
 			children = (
-				2ADB78C62297737700EF9BDE /* README.md */,
 				2A94076C2296996F009D3C30 /* genetic */,
 				2A9407772296996F009D3C30 /* geneticTests */,
 				2A94076B2296996F009D3C30 /* Products */,
+				2ADB78C62297737700EF9BDE /* README.md */,
+				2A76D2BD2297E95500DE324C /* Cartfile */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,6 +149,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A94077E2296996F009D3C30 /* Build configuration list for PBXNativeTarget "genetic" */;
 			buildPhases = (
+				2A76D2CD2297F2B700DE324C /* SwiftLint */,
 				2A9407652296996F009D3C30 /* Headers */,
 				2A9407662296996F009D3C30 /* Sources */,
 				2A9407672296996F009D3C30 /* Frameworks */,
@@ -220,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A76D2BE2297E95500DE324C /* Cartfile in Resources */,
 				2ADB78C72297737700EF9BDE /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +237,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A76D2CD2297F2B700DE324C /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint > /dev/null; then\n    swiftlint autocorrect\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2A9407662296996F009D3C30 /* Sources */ = {

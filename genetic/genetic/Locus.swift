@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 /**
  Class for a collection of loci.
  
@@ -18,22 +17,22 @@ import Foundation
     deposit them into a database.  Subsequent analysis could select the
     subset of loci who meet specific criteria by selecting rows (instances)
     that satisfy conditions (e.g., contig location, Fst, allele frequencies,
-    etd.) rather than loading up hundreds of thousands of locus objects.
+    etc.) rather than loading up hundreds of thousands of locus objects.
  */
 public final class Locus {
-    
+
     /// Container array for genotype objects
     private var genotypes: [Genotype]
-    
+
     /// A meta-data container to stash locus specific data (e.g., rs#, position, etc.)
-    var meta: [String:String]
-    
+    var meta: [String: String]
+
     /// Convience function for the number of Genotype objects in the locus
     var count: Int { return genotypes.count }
-    
+
     /// Embedded `Frequencies` object
     var frequencies: Frequencies
-    
+
     /**
     Overload for subscript operator that removes does a switch with the
      `Frequencies` object for setting.  For appending use the append() function.
@@ -54,8 +53,7 @@ public final class Locus {
             self.genotypes[index] = newValue
         }
     }
-    
-    
+
     /**
      Default initializer for object.
      
@@ -64,10 +62,10 @@ public final class Locus {
      */
     init() {
         self.genotypes = [Genotype]()
-        self.meta = [String:String]()
+        self.meta = [String: String]()
         self.frequencies = Frequencies()
     }
-    
+
     /**
      Adding loci sequentially to cycle through the embedded `Frequencies` object.
      
@@ -80,7 +78,5 @@ public final class Locus {
     }
 }
 
-
 // MARK: Codable
 extension Locus: Codable {}
-

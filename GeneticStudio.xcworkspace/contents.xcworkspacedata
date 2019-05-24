@@ -2,12 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:LICENSE">
-   </FileRef>
-   <FileRef
-      location = "group:README.md">
-   </FileRef>
-   <FileRef
       location = "group:matrix/matrix.xcodeproj">
    </FileRef>
    <FileRef
@@ -15,5 +9,11 @@
    </FileRef>
    <FileRef
       location = "group:Playground.playground">
+   </FileRef>
+   <FileRef
+      location = "group:LICENSE">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
    </FileRef>
 </Workspace>

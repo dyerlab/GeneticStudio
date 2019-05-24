@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 /**
  Enum summarizing the number of alleles at an instance.
  
@@ -19,58 +18,50 @@ import Foundation
  - `polyploid`: More than 2 alleles.
  */
 public enum Ploidy: Int, CaseIterable, Comparable {
-    
+
     /// Empty instance with no alleles present at the locus.
     case missing
-    
+
     /// Only one allele present at the locus.
     case haploid
-    
+
     /// Two alleles present at the locus.
     case diploid
-    
+
     /// Three alleles present at the locus.
     case polyploid
-    
-    
+
     /// Allows comparison of magnitude of Ploidy levels.
     public static func < (lhs: Ploidy, rhs: Ploidy) -> Bool {
         return lhs.rawValue < rhs.rawValue
     }
 }
 
-
-
 /// Fundamental class for a genotype, independent of ploidy or type.
 public final class Genotype {
-    
+
     /// The storage type for all alleles
     var alleles: [String]
-    
+
     /// Ploidy represents the current number of alleles at an instance.
     var ploidy: Ploidy {
-        get {
-            switch alleles.count {
-            case 0:
-                return .missing
-            case 1:
-                return .haploid
-            case 2:
-                return .diploid
-            default:
-                return .polyploid
-            }
+        switch alleles.count {
+        case 0:
+            return .missing
+        case 1:
+            return .haploid
+        case 2:
+            return .diploid
+        default:
+            return .polyploid
         }
     }
 
     /// Heterozygosity based upon having more than one unique type of allele
-    var is_heterozygote: Bool {
-        get {
-            return Set(self.alleles).count > 1
-            
-        }
+    var isHeterozygote: Bool {
+        return Set(self.alleles).count > 1
     }
-    
+
     /**
     Default initializer with no allocation of alleles.
  
@@ -78,9 +69,9 @@ public final class Genotype {
         - A new instance of Genotype
     */
     init() {
-        self.alleles = Array<String>()
+        self.alleles = [String]()
     }
-    
+
     /**
      Initializer for separate alleles.
      
@@ -92,12 +83,12 @@ public final class Genotype {
         - A new instance of Genotype
      */
     init(left: String, right: String, phased: Bool = false ) {
-        self.alleles = [left,right]
+        self.alleles = [left, right]
         if !phased {
             self.alleles.sort()
         }
     }
-    
+
     /**
      Initializer for array of alleles.  These are not sorted.
      
@@ -111,14 +102,12 @@ public final class Genotype {
     }
 }
 
-
 // MARK: CustomStringConvertible
 extension Genotype: CustomStringConvertible {
     public var description: String {
         return self.alleles.joined(separator: ":")
     }
 }
-
 
 // MARK: Equatable
 extension Genotype: Equatable {
