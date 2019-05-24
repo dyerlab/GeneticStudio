@@ -47,8 +47,6 @@ public struct Coordinate: Codable, Hashable, Equatable    {
 
 
 // MARK: -
-
-
 extension Coordinate {
     
     // Override init for CLLocationCoordiante2D

@@ -8,39 +8,59 @@
 
 import Foundation
 
-final class Frequencies {
-    var counts = [String:Double]()
+/**
+ Class to maintain stats related to allele and genotype frequencies.
+ 
+ Add and remove genotypes from this through the add() and remove()
+    functions to maintain internal consistencey.
+ */
+public final class Frequencies {
+    
+    /// Dictionary for maintaing allele counts
+    private var counts = [String:Double]()
+    
+    /// Total number of alleles recorded in counts
     private var numAlleles: Double = 0.0
+    
+    /// Number of Diploid or greater `Genotype` objects
     private var numDiploid: Double = 0.0
+    
+    /// Number of Diploid `Genotype` objects that were heterozygotes
     private var numHeterozygote: Double = 0.0
     
+    /// Access for set of alleles recorded.
     var alleles: [String] {
         get {
             return self.counts.keys.sorted()
         }
     }
     
+    /// Fraction of diploid `Genotype` objects that were heterozygote.
     var observed_heterozygosity: Double {
         get {
             return numHeterozygote / ( numDiploid > 0.0 ? numDiploid : 1.0)
         }
     }
     
+    /// Expected fraction of `Genotype` objects given Hardy-Weinberg Equilibrium.
     var expected_heterozygosity: Double {
         get {
             return numAlleles > 0.0 ? 1.0 - self.frequency(alleles: self.alleles).map {$0*$0}.reduce( 0.0, + ) : 0.0
         }
     }
     
-    
+    /**
+     Default function to add a `Genotype` to the class.
+     
+     - Parameters:
+     - geno: The `Genotype` to add
+     */
     func add( geno: Genotype ) {
-        
         if geno.ploidy != .missing {
             for allele in geno.alleles {
                 self.numAlleles += 1.0
                 self.counts[allele] = self.counts[allele, default: 0.0] + 1.0
             }
-            
             if geno.ploidy > Ploidy.haploid {
                 self.numDiploid += 1.0
                 if geno.is_heterozygote {
@@ -50,6 +70,40 @@ final class Frequencies {
         }
     }
     
+    /**
+     Default function to remove a `Genotype` from the frequeny object.
+     
+     - Parameters:
+     - geno: The `Genotype` object to remove.
+     */
+    func remove( geno: Genotype ) {
+        for allele in geno.alleles {
+            self.numAlleles -= 1.0
+            
+            if self.counts[allele] == 1.0 {
+                self.counts.removeValue(forKey: allele)
+            } else {
+                self.counts[allele] = self.counts[allele]! - 1.0
+            }
+        }
+        
+        if geno.ploidy > Ploidy.haploid {
+            self.numDiploid -= 1.0
+            if geno.is_heterozygote {
+                self.numHeterozygote -= 1.0
+            }
+        }
+    }
+    
+    
+    /**
+     Grab allele frequencies for specific allele.
+     
+     - Parameters:
+     - allele: The allele to inquire about.
+     
+     - Returns: The frequency of the allele (or 0.0 if not here)
+     */
     func frequency(allele: String ) -> Double {
         if counts.keys.contains(allele) {
             return counts[allele]! / numAlleles
@@ -57,6 +111,14 @@ final class Frequencies {
         return 0.0
     }
     
+    /**
+     Grab frequencies for a set of alleles.
+     
+     - Parameters:
+     - alleles: An array of alleles to inquire about.
+     
+     - Returns: A 
+    */
     func frequency(alleles: [String]) -> [Double] {
         var ret = [Double]()
         for allele in alleles {
@@ -65,17 +127,18 @@ final class Frequencies {
         return ret
     }
     
-    
-    
-    
-    
 }
 
+// MARK: -
 
+// MARK: Codable
 extension Frequencies: Codable {}
 
+
+
+// MARK: CustomStringConvertible
 extension Frequencies: CustomStringConvertible {
-    var description: String {
+    public var description: String {
         var ret = ["Allele Frequencies:"]
         for allele in self.counts.keys.sorted() {
             ret.append( String("\(allele): \(self.frequency(allele: allele))"))

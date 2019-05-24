@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2A9407742296996F009D3C30 /* genetic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A94076A2296996F009D3C30 /* genetic.framework */; };
-		2A9407792296996F009D3C30 /* geneticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9407782296996F009D3C30 /* geneticTests.swift */; };
 		2A94077B2296996F009D3C30 /* genetic.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A94076D2296996F009D3C30 /* genetic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A94078722969991009D3C30 /* GenotypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94078422969991009D3C30 /* GenotypeTests.swift */; };
 		2A94078822969991009D3C30 /* LocusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94078522969991009D3C30 /* LocusTests.swift */; };
@@ -45,7 +44,6 @@
 		2A94076D2296996F009D3C30 /* genetic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = genetic.h; sourceTree = "<group>"; };
 		2A94076E2296996F009D3C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A9407732296996F009D3C30 /* geneticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geneticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A9407782296996F009D3C30 /* geneticTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geneticTests.swift; sourceTree = "<group>"; };
 		2A94077A2296996F009D3C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A94078422969991009D3C30 /* GenotypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenotypeTests.swift; sourceTree = "<group>"; };
 		2A94078522969991009D3C30 /* LocusTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocusTests.swift; sourceTree = "<group>"; };
@@ -122,7 +120,6 @@
 				2A94079B2296AEBF009D3C30 /* IndividualTests.swift */,
 				2A94078622969991009D3C30 /* FrequenciesTests.swift */,
 				2A9407A02296BAF4009D3C30 /* DataSetTests.swift */,
-				2A9407782296996F009D3C30 /* geneticTests.swift */,
 				2A94077A2296996F009D3C30 /* Info.plist */,
 			);
 			path = geneticTests;
@@ -260,7 +257,6 @@
 				2A94079F2296B8E8009D3C30 /* DataSet.swift in Sources */,
 				2A9407952296A416009D3C30 /* Individual.swift in Sources */,
 				2A9407982296A45D009D3C30 /* Coordinate.swift in Sources */,
-				2A9407792296996F009D3C30 /* geneticTests.swift in Sources */,
 				2A94078922969991009D3C30 /* FrequenciesTests.swift in Sources */,
 				2A94078822969991009D3C30 /* LocusTests.swift in Sources */,
 			);

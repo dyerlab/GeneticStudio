@@ -31,9 +31,22 @@ class DataSetTests: XCTestCase {
         let data2 = data.subset(key: "Population", value: "Bellingham")
         
         XCTAssertEqual(data2.count, 1)
-        XCTAssertEqual(data2.individuals[0], data.individuals[1])
+        XCTAssertEqual(data2[0], data[1])
         XCTAssertEqual(data2.frequencies["TPI"]?.frequency(allele: "A"),0.0)
         XCTAssertEqual(data2.frequencies["TPI"]?.frequency(allele: "B"),1.0)
+        
+        let ind3 = Individual()
+        ind3.locus["TPI"] = Genotype(alleles: ["A","C"])
+        ind3.strata["Population"] = "Kirkwood"
+        
+        
+        data[1] = ind3
+        XCTAssertEqual( data.frequencies["TPI"]!.alleles , ["A","B","C"])
+        
+        let populations = data.partition(stratum: "Population")
+        XCTAssertEqual( populations.keys.sorted(), ["Kirkwood", "RVA"] )
+       
+        
     }
 
 }

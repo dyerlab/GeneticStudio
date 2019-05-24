@@ -16,11 +16,16 @@ class LocusTests: XCTestCase {
     
         XCTAssertEqual(locus.count, 0)
         
-        locus.genotypes.append( Genotype(left: "A",right: "B") )
-        locus.genotypes.append( Genotype(left: "B",right: "B") )
-        locus.genotypes.append( Genotype(left: "B",right: "B") )
+        locus.append( geno: Genotype(left: "A", right: "B") )
+        locus.append( geno: Genotype(left: "B", right: "B") )
+        locus.append( geno: Genotype(left: "B", right: "B") )
         
         XCTAssertEqual(locus.count, 3)
+        
+        XCTAssertEqual( locus[0],  Genotype(left: "A", right: "B") )
+        
+        locus[1] = Genotype(left: "A", right: "B")
+        XCTAssertEqual( locus[1], Genotype(left: "A", right: "B") )
         
     }
 

@@ -23,10 +23,38 @@ import Foundation
 final class Locus {
     
     /// Container array for genotype objects
-    var genotypes: [Genotype]
+    private var genotypes: [Genotype]
     
     /// A meta-data container to stash locus specific data (e.g., rs#, position, etc.)
     var meta: [String:String]
+    
+    /// Convience function for the number of Genotype objects in the locus
+    var count: Int { return genotypes.count }
+    
+    /// Embedded `Frequencies` object
+    var frequencies: Frequencies
+    
+    /**
+    Overload for subscript operator that removes does a switch with the
+     `Frequencies` object for setting.  For appending use the append() function.
+     
+     - Parameters:
+        - index: The index for the genotype to get or set.
+     
+     - Returns:
+        - The value
+    */
+    subscript(index: Int) -> Genotype {
+        get {
+            return self.genotypes[index]
+        }
+        set(newValue) {
+            self.frequencies.remove(geno: genotypes[index])
+            self.frequencies.add(geno: newValue)
+            self.genotypes[index] = newValue
+        }
+    }
+    
     
     /**
      Default initializer for object.
@@ -37,6 +65,18 @@ final class Locus {
     init() {
         self.genotypes = [Genotype]()
         self.meta = [String:String]()
+        self.frequencies = Frequencies()
+    }
+    
+    /**
+     Adding loci sequentially to cycle through the embedded `Frequencies` object.
+     
+     - Parameters:
+        - geno: A `Genotype` object
+     */
+    func append(geno: Genotype ) {
+        self.frequencies.add(geno: geno)
+        self.genotypes.append(geno)
     }
 }
 
