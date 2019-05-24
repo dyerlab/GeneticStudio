@@ -220,31 +220,23 @@ precedencegroup MultiplicationPrecedence {
 public extension Matrix {
     
     /// - Operator
-    static func -(left: Matrix, right: Matrix ) -> Matrix {
-        var ret = Matrix(rows: left.rows, cols: left.cols)
-        ret.values = left.values - right.values
-        return ret
+    static func -(left: Matrix, right: Matrix ) -> Matrix {        
+        return Matrix(rows: left.rows, cols: left.cols, values: zip(left.values, right.values).map {$0 - $1})
     }
     
     /// + Operator for 2 matrices
     static func +(left: Matrix, right: Matrix ) -> Matrix {
-        var ret = Matrix(rows: left.rows, cols: left.cols)
-        ret.values = left.values + right.values
-        return ret
+        return Matrix(rows: left.rows, cols: left.cols, values: zip(left.values, right.values).map {$0 + $1})
     }
     
     /// + Operator for Matrix and Double
     static func +( X: Matrix, val: Double ) -> Matrix {
-        var ret = X
-        ret.values = ret.values + val;
-        return ret
+        return Matrix(rows: left.rows, cols: left.cols, values: X.values.map {$0 + val})
     }
     
     /// Kronecker product
     static func •(left: Matrix, right: Matrix ) -> Matrix {
-        var ret = Matrix(rows: left.rows, cols: left.cols)
-        ret.values = left.values * right.values
-        return ret
+        return Matrix(rows: left.rows, cols: left.cols, values: zip(left.values, right.values).map {$0 * $1})
     }
     
     /// Matrix Multipliation
@@ -262,16 +254,12 @@ public extension Matrix {
     
     /// Scalar multiplication of Matrix and Double
     static func *( X: Matrix, val: Double ) -> Matrix {
-        var ret = X
-        ret.values = ret.values * val;
-        return ret
+        return Matrix(rows: left.rows, cols: left.cols, values: X.values.map {$0 * val})
     }
     
     /// Scalar division of Matrix and Double
     static func /( X: Matrix, val: Double ) -> Matrix {
-        var ret = X
-        ret.values = ret.values / val;
-        return ret
+        return Matrix(rows: left.rows, cols: left.cols, values: X.values.map {$0 / val})
     }
     
     /// Sum the entire matrix
