@@ -18,6 +18,7 @@
 		2A84E117229EC06B00FAF728 /* PopgraphEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A84E115229EC06B00FAF728 /* PopgraphEdge.swift */; };
 		2A84E118229EC06B00FAF728 /* PopgraphNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A84E116229EC06B00FAF728 /* PopgraphNode.swift */; };
 		2A84E11A229EC16800FAF728 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A84E119229EC16800FAF728 /* GraphView.swift */; };
+		2ADAB216229EC8B500D66802 /* SCNVector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADAB215229EC8B500D66802 /* SCNVector3.swift */; };
 		2AE49E1E229DA0EB00658BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE49E1D229DA0EB00658BA4 /* AppDelegate.swift */; };
 		2AE49E24229DA0EC00658BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE49E23229DA0EC00658BA4 /* Assets.xcassets */; };
 		2AE49E27229DA0EC00658BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE49E25229DA0EC00658BA4 /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		2A84E115229EC06B00FAF728 /* PopgraphEdge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopgraphEdge.swift; sourceTree = "<group>"; };
 		2A84E116229EC06B00FAF728 /* PopgraphNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopgraphNode.swift; sourceTree = "<group>"; };
 		2A84E119229EC16800FAF728 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		2ADAB215229EC8B500D66802 /* SCNVector3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNVector3.swift; sourceTree = "<group>"; };
 		2AE49E1A229DA0EB00658BA4 /* Population Graphs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Population Graphs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE49E1D229DA0EB00658BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AE49E23229DA0EC00658BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -107,6 +109,14 @@
 			path = Popgraph;
 			sourceTree = "<group>";
 		};
+		2ADAB214229EC8A400D66802 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2ADAB215229EC8B500D66802 /* SCNVector3.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		2AE49E11229DA0EB00658BA4 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +138,7 @@
 		2AE49E1C229DA0EB00658BA4 /* Population Graphs */ = {
 			isa = PBXGroup;
 			children = (
+				2ADAB214229EC8A400D66802 /* Extension */,
 				2A84E114229EC06A00FAF728 /* Popgraph */,
 				2A84E10B229EC05E00FAF728 /* Graphable */,
 				2A84E106229EC05300FAF728 /* Document */,
@@ -250,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A84E117229EC06B00FAF728 /* PopgraphEdge.swift in Sources */,
+				2ADAB216229EC8B500D66802 /* SCNVector3.swift in Sources */,
 				2A84E112229EC05E00FAF728 /* Graphable.swift in Sources */,
 				2A84E109229EC05300FAF728 /* ViewController.swift in Sources */,
 				2A84E118229EC06B00FAF728 /* PopgraphNode.swift in Sources */,

@@ -44,11 +44,14 @@ class GraphScene: SCNScene {
     func makeAxes() {
         let axes: [PopgraphEdge] = [
             PopgraphEdge(from: SCNVector3Make(-50.0, 0.0, 0.0),
-                         to:   SCNVector3Make(50.0, 0.0, 0.0) ),
+                         to:   SCNVector3Make(50.0, 0.0, 0.0),
+                         radius: 0.02),
             PopgraphEdge(from: SCNVector3Make(0.0, -50.0, 0.0),
-                         to:   SCNVector3Make(0.0, 50.0, 0.0) ),
-          //  PopgraphEdge(from: SCNVector3Make(0.0, 0.0, -50.0),
-          //               to:   SCNVector3Make(0.0, 0.0,  50.0) )
+                         to:   SCNVector3Make(0.0, 50.0, 0.0),
+                         radius: 0.02 ),
+            PopgraphEdge(from: SCNVector3Make(0.0, 0.0, -50.0),
+                         to:   SCNVector3Make(0.0, 0.0,  50.0),
+                         radius: 0.02 )
         ]
         
         for axis in axes {
