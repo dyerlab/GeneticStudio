@@ -723,7 +723,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="850" height="626"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <sceneView translatesAutoresizingMaskIntoConstraints="NO" id="TsE-RV-7qn">
+                            <sceneView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TsE-RV-7qn" customClass="GraphView" customModule="Population_Graphs" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="850" height="626"/>
                             </sceneView>
                         </subviews>

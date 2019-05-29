@@ -11,7 +11,7 @@ import SceneKit
 
 class ViewController: NSViewController {
 
-    @IBOutlet weak var graphView: SCNView!
+    @IBOutlet weak var graphView: GraphView!
     var scene: GraphScene = GraphScene()
     
     
@@ -23,11 +23,9 @@ class ViewController: NSViewController {
         scene.makeBox()
         scene.makeAxes()
         
+        graphView.config()
         graphView.scene = scene
-        graphView.allowsCameraControl = true
-        graphView.showsStatistics = true
-        graphView.backgroundColor = NSColor.controlBackgroundColor
-        graphView.autoenablesDefaultLighting = true
+
         
     }
     

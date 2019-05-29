@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		2A4D92BB229DA11B0076DC60 /* GraphScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D92BA229DA11B0076DC60 /* GraphScene.swift */; };
 		2A4D92C0229DA8EF0076DC60 /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D92BF229DA8EF0076DC60 /* DataSet.swift */; };
-		2A4D92C1229DA8EF0076DC60 /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D92BF229DA8EF0076DC60 /* DataSet.swift */; };
-		2A4D92C3229DAF930076DC60 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D92C2229DAF930076DC60 /* Node.swift */; };
-		2A4D92C4229DAF930076DC60 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D92C2229DAF930076DC60 /* Node.swift */; };
-		2A4D92C6229DB8AD0076DC60 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D92C5229DB8AD0076DC60 /* Edge.swift */; };
-		2A4D92C7229DB8AD0076DC60 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D92C5229DB8AD0076DC60 /* Edge.swift */; };
-		2A4D92C9229DB9070076DC60 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D92C8229DB9070076DC60 /* Graph.swift */; };
-		2A4D92CA229DB9070076DC60 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D92C8229DB9070076DC60 /* Graph.swift */; };
+		2A84E109229EC05300FAF728 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A84E107229EC05300FAF728 /* ViewController.swift */; };
+		2A84E10A229EC05300FAF728 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A84E108229EC05300FAF728 /* Document.swift */; };
+		2A84E110229EC05E00FAF728 /* AdjacencyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A84E10C229EC05E00FAF728 /* AdjacencyList.swift */; };
+		2A84E111229EC05E00FAF728 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A84E10D229EC05E00FAF728 /* Link.swift */; };
+		2A84E112229EC05E00FAF728 /* Graphable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A84E10E229EC05E00FAF728 /* Graphable.swift */; };
+		2A84E113229EC05E00FAF728 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A84E10F229EC05E00FAF728 /* Vertex.swift */; };
+		2A84E117229EC06B00FAF728 /* PopgraphEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A84E115229EC06B00FAF728 /* PopgraphEdge.swift */; };
+		2A84E118229EC06B00FAF728 /* PopgraphNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A84E116229EC06B00FAF728 /* PopgraphNode.swift */; };
+		2A84E11A229EC16800FAF728 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A84E119229EC16800FAF728 /* GraphView.swift */; };
 		2AE49E1E229DA0EB00658BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE49E1D229DA0EB00658BA4 /* AppDelegate.swift */; };
-		2AE49E20229DA0EB00658BA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE49E1F229DA0EB00658BA4 /* ViewController.swift */; };
-		2AE49E22229DA0EB00658BA4 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE49E21229DA0EB00658BA4 /* Document.swift */; };
 		2AE49E24229DA0EC00658BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE49E23229DA0EC00658BA4 /* Assets.xcassets */; };
 		2AE49E27229DA0EC00658BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE49E25229DA0EC00658BA4 /* Main.storyboard */; };
 		2AE49E33229DA0EC00658BA4 /* Population_GraphsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE49E32229DA0EC00658BA4 /* Population_GraphsTests.swift */; };
@@ -37,13 +37,17 @@
 /* Begin PBXFileReference section */
 		2A4D92BA229DA11B0076DC60 /* GraphScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphScene.swift; sourceTree = "<group>"; };
 		2A4D92BF229DA8EF0076DC60 /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
-		2A4D92C2229DAF930076DC60 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
-		2A4D92C5229DB8AD0076DC60 /* Edge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
-		2A4D92C8229DB9070076DC60 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		2A84E107229EC05300FAF728 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A84E108229EC05300FAF728 /* Document.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		2A84E10C229EC05E00FAF728 /* AdjacencyList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjacencyList.swift; sourceTree = "<group>"; };
+		2A84E10D229EC05E00FAF728 /* Link.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		2A84E10E229EC05E00FAF728 /* Graphable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graphable.swift; sourceTree = "<group>"; };
+		2A84E10F229EC05E00FAF728 /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		2A84E115229EC06B00FAF728 /* PopgraphEdge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopgraphEdge.swift; sourceTree = "<group>"; };
+		2A84E116229EC06B00FAF728 /* PopgraphNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopgraphNode.swift; sourceTree = "<group>"; };
+		2A84E119229EC16800FAF728 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		2AE49E1A229DA0EB00658BA4 /* Population Graphs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Population Graphs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE49E1D229DA0EB00658BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2AE49E1F229DA0EB00658BA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2AE49E21229DA0EB00658BA4 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		2AE49E23229DA0EC00658BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AE49E26229DA0EC00658BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2AE49E28229DA0EC00658BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,6 +75,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A84E106229EC05300FAF728 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				2A84E107229EC05300FAF728 /* ViewController.swift */,
+				2A84E108229EC05300FAF728 /* Document.swift */,
+			);
+			path = Document;
+			sourceTree = "<group>";
+		};
+		2A84E10B229EC05E00FAF728 /* Graphable */ = {
+			isa = PBXGroup;
+			children = (
+				2A84E10C229EC05E00FAF728 /* AdjacencyList.swift */,
+				2A84E10D229EC05E00FAF728 /* Link.swift */,
+				2A84E10E229EC05E00FAF728 /* Graphable.swift */,
+				2A84E10F229EC05E00FAF728 /* Vertex.swift */,
+			);
+			path = Graphable;
+			sourceTree = "<group>";
+		};
+		2A84E114229EC06A00FAF728 /* Popgraph */ = {
+			isa = PBXGroup;
+			children = (
+				2A4D92BF229DA8EF0076DC60 /* DataSet.swift */,
+				2A4D92BA229DA11B0076DC60 /* GraphScene.swift */,
+				2A84E115229EC06B00FAF728 /* PopgraphEdge.swift */,
+				2A84E116229EC06B00FAF728 /* PopgraphNode.swift */,
+				2A84E119229EC16800FAF728 /* GraphView.swift */,
+			);
+			path = Popgraph;
+			sourceTree = "<group>";
+		};
 		2AE49E11229DA0EB00658BA4 = {
 			isa = PBXGroup;
 			children = (
@@ -92,18 +128,14 @@
 		2AE49E1C229DA0EB00658BA4 /* Population Graphs */ = {
 			isa = PBXGroup;
 			children = (
+				2A84E114229EC06A00FAF728 /* Popgraph */,
+				2A84E10B229EC05E00FAF728 /* Graphable */,
+				2A84E106229EC05300FAF728 /* Document */,
 				2AE49E1D229DA0EB00658BA4 /* AppDelegate.swift */,
-				2AE49E1F229DA0EB00658BA4 /* ViewController.swift */,
-				2AE49E21229DA0EB00658BA4 /* Document.swift */,
 				2AE49E23229DA0EC00658BA4 /* Assets.xcassets */,
 				2AE49E25229DA0EC00658BA4 /* Main.storyboard */,
 				2AE49E28229DA0EC00658BA4 /* Info.plist */,
 				2AE49E29229DA0EC00658BA4 /* Population_Graphs.entitlements */,
-				2A4D92BA229DA11B0076DC60 /* GraphScene.swift */,
-				2A4D92BF229DA8EF0076DC60 /* DataSet.swift */,
-				2A4D92C2229DAF930076DC60 /* Node.swift */,
-				2A4D92C5229DB8AD0076DC60 /* Edge.swift */,
-				2A4D92C8229DB9070076DC60 /* Graph.swift */,
 			);
 			path = "Population Graphs";
 			sourceTree = "<group>";
@@ -217,14 +249,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A4D92C9229DB9070076DC60 /* Graph.swift in Sources */,
-				2AE49E20229DA0EB00658BA4 /* ViewController.swift in Sources */,
+				2A84E117229EC06B00FAF728 /* PopgraphEdge.swift in Sources */,
+				2A84E112229EC05E00FAF728 /* Graphable.swift in Sources */,
+				2A84E109229EC05300FAF728 /* ViewController.swift in Sources */,
+				2A84E118229EC06B00FAF728 /* PopgraphNode.swift in Sources */,
+				2A84E113229EC05E00FAF728 /* Vertex.swift in Sources */,
+				2A84E10A229EC05300FAF728 /* Document.swift in Sources */,
+				2A84E111229EC05E00FAF728 /* Link.swift in Sources */,
 				2A4D92C0229DA8EF0076DC60 /* DataSet.swift in Sources */,
-				2A4D92C6229DB8AD0076DC60 /* Edge.swift in Sources */,
+				2A84E110229EC05E00FAF728 /* AdjacencyList.swift in Sources */,
 				2AE49E1E229DA0EB00658BA4 /* AppDelegate.swift in Sources */,
-				2A4D92C3229DAF930076DC60 /* Node.swift in Sources */,
-				2AE49E22229DA0EB00658BA4 /* Document.swift in Sources */,
 				2A4D92BB229DA11B0076DC60 /* GraphScene.swift in Sources */,
+				2A84E11A229EC16800FAF728 /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,11 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A4D92C4229DAF930076DC60 /* Node.swift in Sources */,
-				2A4D92C1229DA8EF0076DC60 /* DataSet.swift in Sources */,
-				2A4D92C7229DB8AD0076DC60 /* Edge.swift in Sources */,
 				2AE49E33229DA0EC00658BA4 /* Population_GraphsTests.swift in Sources */,
-				2A4D92CA229DB9070076DC60 /* Graph.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,10 +417,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 626QFAP74Z;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Population Graphs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -408,10 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 626QFAP74Z;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Population Graphs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
