@@ -13,15 +13,16 @@ class ViewController: NSViewController {
 
     @IBOutlet weak var graphView: GraphView!
     var scene: GraphScene = GraphScene()
-    
+    var popgraph: Popgraph?
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         scene.configure()
-        scene.makeBox()
-        scene.makeAxes()
+        
+        popgraph = makeLopho()
+        scene.rootNode.addChildNode( popgraph!.rootNode )
+        
         
         graphView.config()
         graphView.scene = scene
@@ -37,7 +38,7 @@ class ViewController: NSViewController {
 
 
     @IBAction func onToggleAxes( sender: AnyObject ) {
-        
+        scene.toggleAxes()
     }
 
 }

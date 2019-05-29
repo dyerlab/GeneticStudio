@@ -18,13 +18,16 @@ struct PopgraphNodeConfig {
 }
 
 
-class PopgraphNode: SCNNode {
-
+class PopgraphNode: SCNNode  {
+    var key: String
     var labelNode: SCNNode
+    var edges: [PopgraphEdge]
     
     init( config: PopgraphNodeConfig ) {
+        self.key = config.label
         let text = SCNText(string: config.label, extrusionDepth: 1.0)
         labelNode = SCNNode(geometry: text)
+        self.edges = [PopgraphEdge]()
         super.init()
         self.geometry = SCNSphere(radius: CGFloat(config.radius) )
         self.position = config.position
@@ -35,5 +38,5 @@ class PopgraphNode: SCNNode {
     }
     
     
-    
 }
+

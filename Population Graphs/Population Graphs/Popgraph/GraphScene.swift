@@ -28,38 +28,63 @@ class GraphScene: SCNScene {
         cameraNode.look(at: SCNVector3Zero )
         rootNode.addChildNode(cameraNode)
         
+        makeAxes()
+        
     }
     
     
     
-    func makeBox() {
-        let geo = SCNBox(width: 0.5, height: 0.5, length: 0.5, chamferRadius: 0.05)
-        let box = SCNNode(geometry: geo )
-        box.position = SCNVector3Zero
-        geo.firstMaterial!.diffuse.contents = NSColor.darkGray
-        geo.firstMaterial!.specular.contents = NSColor.white
-        rootNode.addChildNode( box )
-    }
     
     func makeAxes() {
-        let axes: [PopgraphEdge] = [
-            PopgraphEdge(from: SCNVector3Make(-50.0, 0.0, 0.0),
-                         to:   SCNVector3Make(50.0, 0.0, 0.0),
-                         radius: 0.02),
-            PopgraphEdge(from: SCNVector3Make(0.0, -50.0, 0.0),
-                         to:   SCNVector3Make(0.0, 50.0, 0.0),
-                         radius: 0.02 ),
-            PopgraphEdge(from: SCNVector3Make(0.0, 0.0, -50.0),
-                         to:   SCNVector3Make(0.0, 0.0,  50.0),
-                         radius: 0.02 )
-        ]
         
-        for axis in axes {
-            axisNode.addChildNode(axis)
-        }
+        let axisColorDiffuse = NSColor.darkGray
+        let axisColorSpecular = NSColor.white
+        
+        let geo = SCNBox(width: 0.25, height: 0.25, length: 0.25, chamferRadius: 0.05)
+        let box = SCNNode(geometry: geo )
+        box.position = SCNVector3Zero
+        geo.firstMaterial!.diffuse.contents = axisColorDiffuse
+        geo.firstMaterial!.specular.contents = axisColorSpecular
+
+        
+        let xaxis = PopgraphEdge(from: SCNVector3Make(-50.0, 0.0, 0.0),
+                                 to:   SCNVector3Make(50.0, 0.0, 0.0),
+                                 radius: 0.02)
+        xaxis.geometry?.firstMaterial!.diffuse.contents = axisColorDiffuse
+        xaxis.geometry?.firstMaterial!.specular.contents = axisColorSpecular
+        
+        
+        let yaxis = PopgraphEdge(from: SCNVector3Make(0.0, -50.0, 0.0),
+                                 to:   SCNVector3Make(0.0, 50.0, 0.0),
+                                 radius: 0.02 )
+        
+        yaxis.geometry?.firstMaterial!.diffuse.contents = axisColorDiffuse
+        yaxis.geometry?.firstMaterial!.specular.contents = axisColorSpecular
+        
+        
+        let zaxis = PopgraphEdge(from: SCNVector3Make(0.0, 0.0, -50.0),
+                                 to:   SCNVector3Make(0.0, 0.0,  50.0),
+                                 radius: 0.02 )
+        zaxis.geometry?.firstMaterial!.diffuse.contents = axisColorDiffuse
+        zaxis.geometry?.firstMaterial!.specular.contents = axisColorSpecular
+        
+        axisNode.addChildNode(box)
+        axisNode.addChildNode(xaxis)
+        axisNode.addChildNode(yaxis)
+        axisNode.addChildNode(zaxis)
         
         self.rootNode.addChildNode(axisNode)
         
+    }
+    
+    
+    func toggleAxes() {
+        
+        if rootNode.childNodes.contains(axisNode) {
+            axisNode.removeFromParentNode()
+        } else {
+            rootNode.addChildNode(axisNode)
+        }
     }
     
     
