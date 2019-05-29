@@ -1,6 +1,6 @@
 #!/bin/bash
 
-array=(genetic matrix)
+array=(PopgenKit)
 
 # Remove existing structures
 rm -rf docs
@@ -10,7 +10,7 @@ touch sk.output
 # Cycle through the modules
 for i in ${array[@]};
 do
-	echo "Running $i ------------------------------------------------------"
+	echo "------------------------------------------------------ Documents for $i"
 	sourcekitten doc -- -project ./$i/$i.xcodeproj -scheme $i >> sk.output
 done
 

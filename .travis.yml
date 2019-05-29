@@ -1,4 +1,13 @@
+os: osx
 language: swift
 xcode_workspace: GeneticStudio.xcworkspace
 xcode_scheme: genetic
 xcode_destination: platform=macOS
+osx_image: xcode10.2
+
+
+addons:
+	homebrew:
+		packages:
+			- swiftlint
+		update: true

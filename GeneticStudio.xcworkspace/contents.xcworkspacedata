@@ -2,7 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:genetic/genetic.xcodeproj">
+      location = "group:Population Graphs/Population Graphs.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PopgenKit/PopgenKit.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:LICENSE">

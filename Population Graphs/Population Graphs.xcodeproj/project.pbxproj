@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A4D92BB229DA11B0076DC60 /* GraphScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D92BA229DA11B0076DC60 /* GraphScene.swift */; };
+		2A4D92C0229DA8EF0076DC60 /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D92BF229DA8EF0076DC60 /* DataSet.swift */; };
+		2A4D92C1229DA8EF0076DC60 /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D92BF229DA8EF0076DC60 /* DataSet.swift */; };
+		2A4D92C3229DAF930076DC60 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D92C2229DAF930076DC60 /* Node.swift */; };
+		2A4D92C4229DAF930076DC60 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D92C2229DAF930076DC60 /* Node.swift */; };
+		2A4D92C6229DB8AD0076DC60 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D92C5229DB8AD0076DC60 /* Edge.swift */; };
+		2A4D92C7229DB8AD0076DC60 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D92C5229DB8AD0076DC60 /* Edge.swift */; };
+		2A4D92C9229DB9070076DC60 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D92C8229DB9070076DC60 /* Graph.swift */; };
+		2A4D92CA229DB9070076DC60 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D92C8229DB9070076DC60 /* Graph.swift */; };
+		2AE49E1E229DA0EB00658BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE49E1D229DA0EB00658BA4 /* AppDelegate.swift */; };
+		2AE49E20229DA0EB00658BA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE49E1F229DA0EB00658BA4 /* ViewController.swift */; };
+		2AE49E22229DA0EB00658BA4 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE49E21229DA0EB00658BA4 /* Document.swift */; };
+		2AE49E24229DA0EC00658BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE49E23229DA0EC00658BA4 /* Assets.xcassets */; };
+		2AE49E27229DA0EC00658BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE49E25229DA0EC00658BA4 /* Main.storyboard */; };
+		2AE49E33229DA0EC00658BA4 /* Population_GraphsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE49E32229DA0EC00658BA4 /* Population_GraphsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AE49E2F229DA0EC00658BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AE49E12229DA0EB00658BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AE49E19229DA0EB00658BA4;
+			remoteInfo = "Population Graphs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A4D92BA229DA11B0076DC60 /* GraphScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphScene.swift; sourceTree = "<group>"; };
+		2A4D92BF229DA8EF0076DC60 /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
+		2A4D92C2229DAF930076DC60 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		2A4D92C5229DB8AD0076DC60 /* Edge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		2A4D92C8229DB9070076DC60 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		2AE49E1A229DA0EB00658BA4 /* Population Graphs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Population Graphs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE49E1D229DA0EB00658BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AE49E1F229DA0EB00658BA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AE49E21229DA0EB00658BA4 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		2AE49E23229DA0EC00658BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AE49E26229DA0EC00658BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AE49E28229DA0EC00658BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE49E29229DA0EC00658BA4 /* Population_Graphs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Population_Graphs.entitlements; sourceTree = "<group>"; };
+		2AE49E2E229DA0EC00658BA4 /* Population GraphsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Population GraphsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE49E32229DA0EC00658BA4 /* Population_GraphsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Population_GraphsTests.swift; sourceTree = "<group>"; };
+		2AE49E34229DA0EC00658BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AE49E17229DA0EB00658BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE49E2B229DA0EC00658BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AE49E11229DA0EB00658BA4 = {
+			isa = PBXGroup;
+			children = (
+				2AE49E1C229DA0EB00658BA4 /* Population Graphs */,
+				2AE49E31229DA0EC00658BA4 /* Population GraphsTests */,
+				2AE49E1B229DA0EB00658BA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AE49E1B229DA0EB00658BA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AE49E1A229DA0EB00658BA4 /* Population Graphs.app */,
+				2AE49E2E229DA0EC00658BA4 /* Population GraphsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AE49E1C229DA0EB00658BA4 /* Population Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				2AE49E1D229DA0EB00658BA4 /* AppDelegate.swift */,
+				2AE49E1F229DA0EB00658BA4 /* ViewController.swift */,
+				2AE49E21229DA0EB00658BA4 /* Document.swift */,
+				2AE49E23229DA0EC00658BA4 /* Assets.xcassets */,
+				2AE49E25229DA0EC00658BA4 /* Main.storyboard */,
+				2AE49E28229DA0EC00658BA4 /* Info.plist */,
+				2AE49E29229DA0EC00658BA4 /* Population_Graphs.entitlements */,
+				2A4D92BA229DA11B0076DC60 /* GraphScene.swift */,
+				2A4D92BF229DA8EF0076DC60 /* DataSet.swift */,
+				2A4D92C2229DAF930076DC60 /* Node.swift */,
+				2A4D92C5229DB8AD0076DC60 /* Edge.swift */,
+				2A4D92C8229DB9070076DC60 /* Graph.swift */,
+			);
+			path = "Population Graphs";
+			sourceTree = "<group>";
+		};
+		2AE49E31229DA0EC00658BA4 /* Population GraphsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AE49E32229DA0EC00658BA4 /* Population_GraphsTests.swift */,
+				2AE49E34229DA0EC00658BA4 /* Info.plist */,
+			);
+			path = "Population GraphsTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AE49E19229DA0EB00658BA4 /* Population Graphs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AE49E37229DA0EC00658BA4 /* Build configuration list for PBXNativeTarget "Population Graphs" */;
+			buildPhases = (
+				2AE49E16229DA0EB00658BA4 /* Sources */,
+				2AE49E17229DA0EB00658BA4 /* Frameworks */,
+				2AE49E18229DA0EB00658BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Population Graphs";
+			productName = "Population Graphs";
+			productReference = 2AE49E1A229DA0EB00658BA4 /* Population Graphs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AE49E2D229DA0EC00658BA4 /* Population GraphsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AE49E3A229DA0EC00658BA4 /* Build configuration list for PBXNativeTarget "Population GraphsTests" */;
+			buildPhases = (
+				2AE49E2A229DA0EC00658BA4 /* Sources */,
+				2AE49E2B229DA0EC00658BA4 /* Frameworks */,
+				2AE49E2C229DA0EC00658BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AE49E30229DA0EC00658BA4 /* PBXTargetDependency */,
+			);
+			name = "Population GraphsTests";
+			productName = "Population GraphsTests";
+			productReference = 2AE49E2E229DA0EC00658BA4 /* Population GraphsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AE49E12229DA0EB00658BA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Rodney Dyer";
+				TargetAttributes = {
+					2AE49E19229DA0EB00658BA4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2AE49E2D229DA0EC00658BA4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2AE49E19229DA0EB00658BA4;
+					};
+				};
+			};
+			buildConfigurationList = 2AE49E15229DA0EB00658BA4 /* Build configuration list for PBXProject "Population Graphs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AE49E11229DA0EB00658BA4;
+			productRefGroup = 2AE49E1B229DA0EB00658BA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AE49E19229DA0EB00658BA4 /* Population Graphs */,
+				2AE49E2D229DA0EC00658BA4 /* Population GraphsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AE49E18229DA0EB00658BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE49E24229DA0EC00658BA4 /* Assets.xcassets in Resources */,
+				2AE49E27229DA0EC00658BA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE49E2C229DA0EC00658BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AE49E16229DA0EB00658BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4D92C9229DB9070076DC60 /* Graph.swift in Sources */,
+				2AE49E20229DA0EB00658BA4 /* ViewController.swift in Sources */,
+				2A4D92C0229DA8EF0076DC60 /* DataSet.swift in Sources */,
+				2A4D92C6229DB8AD0076DC60 /* Edge.swift in Sources */,
+				2AE49E1E229DA0EB00658BA4 /* AppDelegate.swift in Sources */,
+				2A4D92C3229DAF930076DC60 /* Node.swift in Sources */,
+				2AE49E22229DA0EB00658BA4 /* Document.swift in Sources */,
+				2A4D92BB229DA11B0076DC60 /* GraphScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE49E2A229DA0EC00658BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4D92C4229DAF930076DC60 /* Node.swift in Sources */,
+				2A4D92C1229DA8EF0076DC60 /* DataSet.swift in Sources */,
+				2A4D92C7229DB8AD0076DC60 /* Edge.swift in Sources */,
+				2AE49E33229DA0EC00658BA4 /* Population_GraphsTests.swift in Sources */,
+				2A4D92CA229DB9070076DC60 /* Graph.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AE49E30229DA0EC00658BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AE49E19229DA0EB00658BA4 /* Population Graphs */;
+			targetProxy = 2AE49E2F229DA0EC00658BA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AE49E25229DA0EC00658BA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AE49E26229DA0EC00658BA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AE49E35229DA0EC00658BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AE49E36229DA0EC00658BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2AE49E38229DA0EC00658BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Population Graphs/Population_Graphs.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 626QFAP74Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "Population Graphs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dyerlab.Population-Graphs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2AE49E39229DA0EC00658BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Population Graphs/Population_Graphs.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 626QFAP74Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "Population Graphs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dyerlab.Population-Graphs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2AE49E3B229DA0EC00658BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 626QFAP74Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "Population GraphsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dyerlab.Population-GraphsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Population Graphs.app/Contents/MacOS/Population Graphs";
+			};
+			name = Debug;
+		};
+		2AE49E3C229DA0EC00658BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 626QFAP74Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "Population GraphsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dyerlab.Population-GraphsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Population Graphs.app/Contents/MacOS/Population Graphs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AE49E15229DA0EB00658BA4 /* Build configuration list for PBXProject "Population Graphs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AE49E35229DA0EC00658BA4 /* Debug */,
+				2AE49E36229DA0EC00658BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AE49E37229DA0EC00658BA4 /* Build configuration list for PBXNativeTarget "Population Graphs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AE49E38229DA0EC00658BA4 /* Debug */,
+				2AE49E39229DA0EC00658BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AE49E3A229DA0EC00658BA4 /* Build configuration list for PBXNativeTarget "Population GraphsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AE49E3B229DA0EC00658BA4 /* Debug */,
+				2AE49E3C229DA0EC00658BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AE49E12229DA0EB00658BA4 /* Project object */;
+}
