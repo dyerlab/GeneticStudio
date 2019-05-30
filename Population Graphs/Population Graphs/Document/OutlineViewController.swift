@@ -10,9 +10,16 @@ import Cocoa
 
 class OutlineViewController: NSViewController {
 
+    @IBOutlet weak var outlineScrollView: NSScrollView!
+    @IBOutlet weak var outlineView: NSOutlineView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do view setup here.
+        
+        
+        let offset = window.frame.height - window.contentLayoutRect.maxY
+        
+        outlineScrollView.contentInsets.top = offset
     }
     
 }

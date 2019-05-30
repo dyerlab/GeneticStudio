@@ -740,10 +740,10 @@
             </objects>
             <point key="canvasLocation" x="694" y="235"/>
         </scene>
-        <!--View Controller-->
+        <!--Outline View Controller-->
         <scene sceneID="IPd-uq-OS9">
             <objects>
-                <viewController id="YOQ-W6-zv0" sceneMemberID="viewController">
+                <viewController id="YOQ-W6-zv0" customClass="OutlineViewController" customModule="Population_Graphs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="3XE-qp-La3">
                         <rect key="frame" x="0.0" y="0.0" width="157" height="708"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -840,6 +840,10 @@
                             <constraint firstItem="zRT-AQ-Fsm" firstAttribute="leading" secondItem="3XE-qp-La3" secondAttribute="leading" id="x12-Yt-piv"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="outlineScrollView" destination="zRT-AQ-Fsm" id="CKa-Vm-ElB"/>
+                        <outlet property="outlineView" destination="q6r-jg-sVG" id="LHc-2a-LsB"/>
+                    </connections>
                 </viewController>
                 <customObject id="Gw1-qd-SDL" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
