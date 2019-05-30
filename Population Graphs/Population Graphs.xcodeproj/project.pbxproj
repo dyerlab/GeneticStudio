@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2A4D4B7A22A0232B00FE61AB /* LineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D4B7922A0232B00FE61AB /* LineNode.swift */; };
+		2A4D4B7C22A0314300FE61AB /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D4B7B22A0314300FE61AB /* SplitViewController.swift */; };
+		2A4D4B7E22A0317000FE61AB /* OutlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D4B7D22A0317000FE61AB /* OutlineViewController.swift */; };
 		2A4D92BB229DA11B0076DC60 /* GraphScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D92BA229DA11B0076DC60 /* GraphScene.swift */; };
 		2A4D92C0229DA8EF0076DC60 /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D92BF229DA8EF0076DC60 /* DataSet.swift */; };
 		2A84E109229EC05300FAF728 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A84E107229EC05300FAF728 /* ViewController.swift */; };
@@ -39,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		2A4D4B7922A0232B00FE61AB /* LineNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineNode.swift; sourceTree = "<group>"; };
+		2A4D4B7B22A0314300FE61AB /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		2A4D4B7D22A0317000FE61AB /* OutlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineViewController.swift; sourceTree = "<group>"; };
 		2A4D92BA229DA11B0076DC60 /* GraphScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphScene.swift; sourceTree = "<group>"; };
 		2A4D92BF229DA8EF0076DC60 /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
 		2A84E107229EC05300FAF728 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 			children = (
 				2A84E107229EC05300FAF728 /* ViewController.swift */,
 				2A84E108229EC05300FAF728 /* Document.swift */,
+				2A4D4B7B22A0314300FE61AB /* SplitViewController.swift */,
+				2A4D4B7D22A0317000FE61AB /* OutlineViewController.swift */,
 			);
 			path = Document;
 			sourceTree = "<group>";
@@ -269,6 +275,7 @@
 				2A84E117229EC06B00FAF728 /* PopgraphEdge.swift in Sources */,
 				2A4D4B7A22A0232B00FE61AB /* LineNode.swift in Sources */,
 				2ADAB216229EC8B500D66802 /* SCNVector3.swift in Sources */,
+				2A4D4B7E22A0317000FE61AB /* OutlineViewController.swift in Sources */,
 				2A84E112229EC05E00FAF728 /* Graphable.swift in Sources */,
 				2A84E109229EC05300FAF728 /* ViewController.swift in Sources */,
 				2ADAB218229EE35E00D66802 /* Popgraph.swift in Sources */,
@@ -281,6 +288,7 @@
 				2AE49E1E229DA0EB00658BA4 /* AppDelegate.swift in Sources */,
 				2A4D92BB229DA11B0076DC60 /* GraphScene.swift in Sources */,
 				2A84E11A229EC16800FAF728 /* GraphView.swift in Sources */,
+				2A4D4B7C22A0314300FE61AB /* SplitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
