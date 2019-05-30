@@ -9,34 +9,24 @@
 import Cocoa
 import SceneKit
 
-class PopgraphEdge: SCNNode {
-    
-    fileprivate var end1: SCNVector3
-    fileprivate var end2: SCNVector3
-    fileprivate var radius: CGFloat
-    
-    
-    init( from vec1: SCNVector3, to vec2: SCNVector3, radius: Float ) {
-        self.end1 = vec1
-        self.end2 = vec2
-        self.radius = CGFloat( radius )
-        
-        super.init()
-        
-        self.adjustGeo()
 
+class PopgraphEdge: LineNode {
+    
+    fileprivate var node1: PopgraphNode
+    fileprivate var node2: PopgraphNode
+    
+    init( from node1: PopgraphNode, to node2: PopgraphNode, weight: Float ) {
+        self.node1 = node1
+        self.node2 = node2
+        
+        super.init(from: node1.position, to: node2.position, radius: CGFloat(weight) )
+        
     }
 
-    func adjustGeo() {
-        let vector = end2 - end1
-        let height = vector.length()
-        let cylinder = SCNCylinder(radius: self.radius, height: height)
-        cylinder.radialSegmentCount = 4
-        cylinder.firstMaterial!.diffuse.contents = NSColor.darkGray
-        cylinder.firstMaterial!.specular.contents = NSColor.white
-        self.geometry = cylinder
-        self.position = (end2+end1) / 2.0
-        self.eulerAngles = SCNVector3.lineEulerAngles(vector: vector)
+    func adjust() {
+        self.pos1 = node1.position
+        self.pos2 = node2.position
+        self.adjustGeo()
     }
     
     required init?(coder aDecoder: NSCoder) {

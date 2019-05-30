@@ -11,7 +11,7 @@ import SceneKit
 
 
 class GraphScene: SCNScene {
-
+    
     var cameraNode = SCNNode()
     var lightNode = SCNNode()
     var axisNode = SCNNode()
@@ -22,16 +22,16 @@ class GraphScene: SCNScene {
         lightNode.light?.type = .ambient
         lightNode.position = SCNVector3(0.0, 10.0, 10.0)
         rootNode.addChildNode(lightNode)
-
+        
         cameraNode.camera = SCNCamera()
         cameraNode.position = SCNVector3(10.0, 10.0, 10.0)
         cameraNode.look(at: SCNVector3Zero )
+        cameraNode.camera!.automaticallyAdjustsZRange = true
         rootNode.addChildNode(cameraNode)
         
         makeAxes()
         
     }
-    
     
     
     
@@ -45,26 +45,26 @@ class GraphScene: SCNScene {
         box.position = SCNVector3Zero
         geo.firstMaterial!.diffuse.contents = axisColorDiffuse
         geo.firstMaterial!.specular.contents = axisColorSpecular
-
         
-        let xaxis = PopgraphEdge(from: SCNVector3Make(-50.0, 0.0, 0.0),
-                                 to:   SCNVector3Make(50.0, 0.0, 0.0),
-                                 radius: 0.02)
+        
+        let xaxis = LineNode(from: SCNVector3Make(-50.0, 0.0, 0.0),
+                             to:   SCNVector3Make(50.0, 0.0, 0.0),
+                             radius: 0.02)
         xaxis.geometry?.firstMaterial!.diffuse.contents = axisColorDiffuse
         xaxis.geometry?.firstMaterial!.specular.contents = axisColorSpecular
         
         
-        let yaxis = PopgraphEdge(from: SCNVector3Make(0.0, -50.0, 0.0),
-                                 to:   SCNVector3Make(0.0, 50.0, 0.0),
-                                 radius: 0.02 )
+        let yaxis = LineNode(from: SCNVector3Make(0.0, -50.0, 0.0),
+                             to:   SCNVector3Make(0.0, 50.0, 0.0),
+                             radius: 0.02 )
         
         yaxis.geometry?.firstMaterial!.diffuse.contents = axisColorDiffuse
         yaxis.geometry?.firstMaterial!.specular.contents = axisColorSpecular
         
         
-        let zaxis = PopgraphEdge(from: SCNVector3Make(0.0, 0.0, -50.0),
-                                 to:   SCNVector3Make(0.0, 0.0,  50.0),
-                                 radius: 0.02 )
+        let zaxis = LineNode(from: SCNVector3Make(0.0, 0.0, -50.0),
+                             to:   SCNVector3Make(0.0, 0.0,  50.0),
+                             radius: 0.02 )
         zaxis.geometry?.firstMaterial!.diffuse.contents = axisColorDiffuse
         zaxis.geometry?.firstMaterial!.specular.contents = axisColorSpecular
         

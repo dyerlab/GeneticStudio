@@ -22,6 +22,14 @@ class PopgraphNode: SCNNode  {
     var key: String
     var labelNode: SCNNode
     var edges: [PopgraphEdge]
+    override var position: SCNVector3 {
+        didSet {
+            for e in self.edges {
+                e.adjust()
+            }
+        }
+    }
+    
     
     init( config: PopgraphNodeConfig ) {
         self.key = config.label
@@ -32,6 +40,7 @@ class PopgraphNode: SCNNode  {
         self.geometry = SCNSphere(radius: CGFloat(config.radius) )
         self.position = config.position
     }
+    
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")

@@ -27,11 +27,22 @@ class Popgraph {
     func addEdge(from: String, to: String, weight: Float ) {
         if let n1 = (nodes.keys.filter {$0.key == from}).first {
             if let n2 = (nodes.keys.filter {$0.key == to}).first {
-                let edge = PopgraphEdge(from: n1.position, to: n2.position, radius: weight)
+                let edge = PopgraphEdge(from: n1, to: n2, weight: weight)
                 n1.edges.append(edge)
                 n2.edges.append(edge)
                 rootNode.addChildNode(edge)
             }
+        }
+    }
+    
+    func recenter() {
+        var centroid = SCNVector3Zero
+        for (node, _) in nodes {
+            centroid = centroid + node.position
+        }
+        centroid = centroid / (CGFloat(nodes.count))
+        for (node, _ ) in nodes {
+            node.position = node.position - centroid
         }
     }
 }
@@ -168,8 +179,10 @@ func makeLopho() -> Popgraph {
     ]
     
     for i in 0 ..< edgePairs.count {
-        graph.addEdge(from: edgePairs[i][0], to: edgePairs[i][1], weight: edgeWeights[i])
+        graph.addEdge(from: edgePairs[i][0], to: edgePairs[i][1], weight: edgeWeights[i]/10.0)
     }
+    
+    graph.recenter()
     
     return graph
     
