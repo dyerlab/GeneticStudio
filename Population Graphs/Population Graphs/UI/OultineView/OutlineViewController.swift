@@ -68,24 +68,8 @@ extension OutlineViewController: NSOutlineViewDelegate {
             view = outlineView.makeView(withIdentifier: NSUserInterfaceItemIdentifier("ItemView"), owner: self) as? NSTableCellView
             view?.textField?.stringValue = itm.label
         }
-        
         return view
-        
     }
-//        var text = "undef"
-//
-//        if let obj = item as? OutlineViewCategory {
-//            text = obj.label
-//        } else if let obj = item as? OutlineViewItem {
-//            text = obj.label
-//        }
-//
-//        var tableCell: NSTableCellView
-//        tableCell = outlineView.makeView(withIdentifier: NSUserInterfaceItemIdentifier(rawValue: "outlineObjectCell"), owner:  self)
-//        tableCell.textField?.stringValue = text
-//        return tableCell
-//    }
-    
 }
 
 extension OutlineViewController: NSOutlineViewDataSource {

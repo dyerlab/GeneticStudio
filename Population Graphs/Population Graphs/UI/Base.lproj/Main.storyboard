@@ -743,7 +743,7 @@
                 </splitViewController>
                 <customObject id="3NU-VH-Wdc" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="590" y="250"/>
+            <point key="canvasLocation" x="636" y="242"/>
         </scene>
         <!--Outline View Controller-->
         <scene sceneID="IPd-uq-OS9">
