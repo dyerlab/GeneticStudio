@@ -12,9 +12,7 @@ import SceneKit
 struct PopgraphNodeConfig {
     let radius: Float
     let label: String
-    let position: SCNVector3 = SCNVector3Make( CGFloat.random(in: 0.0...100.0),
-                                               CGFloat.random(in: 0.0...100.0),
-                                               CGFloat.random(in: 0.0...100.0) )
+    let position: SCNVector3 
 }
 
 
@@ -28,6 +26,10 @@ class PopgraphNode: SCNNode  {
                 e.adjust()
             }
         }
+    }
+    
+    override var description: String {
+        return String("\(key): ( \(self.position.x) \(self.position.y) \(self.position.z) ) \(edges.count) edges")
     }
     
     
@@ -48,4 +50,5 @@ class PopgraphNode: SCNNode  {
     
     
 }
+
 

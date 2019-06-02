@@ -20,16 +20,18 @@ class GraphScene: SCNScene {
     func configure() {
         lightNode.light = SCNLight()
         lightNode.light?.type = .ambient
-        lightNode.position = SCNVector3(0.0, 10.0, 10.0)
+        lightNode.position = SCNVector3(0.0, 0.0, 0.0)
         rootNode.addChildNode(lightNode)
         
         cameraNode.camera = SCNCamera()
-        cameraNode.position = SCNVector3(10.0, 10.0, 10.0)
+        cameraNode.position = SCNVector3(60.0, 60.0, 60.0)
         cameraNode.look(at: SCNVector3Zero )
         cameraNode.camera!.automaticallyAdjustsZRange = true
         rootNode.addChildNode(cameraNode)
         
         makeAxes()
+        
+        toggleAxes()
         
     }
     
