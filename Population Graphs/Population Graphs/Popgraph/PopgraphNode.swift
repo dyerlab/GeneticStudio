@@ -58,8 +58,8 @@ class PopgraphNode: SCNNode  {
         }
         else {
             let bloomFilter = CIFilter(name: "CIBloom")
-            bloomFilter?.setValue(10.0, forKey: "inputIntensity")
-            bloomFilter?.setValue(30.0, forKey: "inputRadius")
+            bloomFilter?.setValue(5.0, forKey: "inputIntensity")
+            bloomFilter?.setValue(10.0, forKey: "inputRadius")
             self.filters = ([bloomFilter] as! [CIFilter])
         }
     }

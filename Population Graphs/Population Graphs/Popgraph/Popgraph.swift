@@ -128,6 +128,9 @@ func makeLopho() -> Popgraph {
                                       position: SCNVector3Make( x[i], y[i], z[i] ) )
         let node = PopgraphNode(config: cfg )
         graph.addNode(node: node)
+        if labels[i] == "SenBas" {
+            node.toggleSelection()
+        }
     }
     
     let edgeWeights: [Float] = [  9.052676,  9.716150, 12.382480,
