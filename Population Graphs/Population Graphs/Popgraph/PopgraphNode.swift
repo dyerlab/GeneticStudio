@@ -18,6 +18,7 @@ struct PopgraphNodeConfig {
 
 class PopgraphNode: SCNNode  {
     var key: String
+    var selected: Bool
     var labelNode: SCNNode
     var edges: [PopgraphEdge]
     override var position: SCNVector3 {
@@ -35,17 +36,32 @@ class PopgraphNode: SCNNode  {
     
     init( config: PopgraphNodeConfig ) {
         self.key = config.label
+        self.selected = false
         let text = SCNText(string: config.label, extrusionDepth: 1.0)
         labelNode = SCNNode(geometry: text)
         self.edges = [PopgraphEdge]()
         super.init()
         self.geometry = SCNSphere(radius: CGFloat(config.radius) )
         self.position = config.position
+        
     }
     
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    
+    func toggleSelection() {
+        if self.selected {
+            self.filters = nil
+        }
+        else {
+            let bloomFilter = CIFilter(name: "CIBloom")
+            bloomFilter?.setValue(10.0, forKey: "inputIntensity")
+            bloomFilter?.setValue(30.0, forKey: "inputRadius")
+            self.filters = ([bloomFilter] as! [CIFilter])
+        }
     }
     
     
