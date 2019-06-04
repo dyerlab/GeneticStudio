@@ -10,7 +10,7 @@ import Cocoa
 
 class ViewController: NSViewController {
     
-    var coreDataManager: CoreDataManager?
+    var coreDataManager = CoreDataManager(modelName: "DataSet")
     
 
     override func viewDidLoad() {

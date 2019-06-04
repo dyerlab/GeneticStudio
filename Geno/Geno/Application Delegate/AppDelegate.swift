@@ -15,14 +15,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     // MARK: - Properties
     var window: NSWindow?
 
-    private let coreDataManager = CoreDataManager(modelName: "DataSet")
-    
-    // MARK: -
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
-        let coreDataManager = CoreDataManager(modelName: "DataSet")
-        print( coreDataManager.managedObjectContext )
         
     }
 
