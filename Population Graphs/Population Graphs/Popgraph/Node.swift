@@ -9,18 +9,14 @@
 import Cocoa
 import SceneKit
 
-struct PopgraphNodeConfig {
-    let radius: Float
-    let label: String
-    let position: SCNVector3 
-}
 
 
-class PopgraphNode: SCNNode  {
+class Node: SCNNode  {
     var key: String
     var selected: Bool
     var labelNode: SCNNode
-    var edges: [PopgraphEdge]
+    var edges: [Edge]
+    var displacement: SCNVector3
     override var position: SCNVector3 {
         didSet {
             for e in self.edges {
@@ -34,16 +30,18 @@ class PopgraphNode: SCNNode  {
     }
     
     
-    init( config: PopgraphNodeConfig ) {
+    init( config: NodeConfig ) {
         self.key = config.label
         self.selected = false
         let text = SCNText(string: config.label, extrusionDepth: 1.0)
         labelNode = SCNNode(geometry: text)
-        self.edges = [PopgraphEdge]()
+        self.edges = [Edge]()
+        self.displacement = SCNVector3Zero
         super.init()
         self.geometry = SCNSphere(radius: CGFloat(config.radius) )
-        self.position = config.position
-        
+        self.position = SCNVector3Make( CGFloat.random(in: -50.0 ... 50.0 ),
+                                        CGFloat.random(in: -50.0 ... 50.0 ),
+                                        CGFloat.random(in: -50.0 ... 50.0 ))
     }
     
     
@@ -51,6 +49,13 @@ class PopgraphNode: SCNNode  {
         fatalError("init(coder:) has not been implemented")
     }
     
+}
+
+
+
+
+
+extension Node: NodeSelectable {
     
     func toggleSelection() {
         if self.selected {
@@ -62,8 +67,9 @@ class PopgraphNode: SCNNode  {
             bloomFilter?.setValue(10.0, forKey: "inputRadius")
             self.filters = ([bloomFilter] as! [CIFilter])
         }
+        
+        self.selected = !self.selected
     }
-    
     
 }
 

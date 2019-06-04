@@ -10,15 +10,15 @@ import Cocoa
 import SceneKit
 
 
-class PopgraphEdge: LineNode {
+class Edge: LineNode {
     
-    fileprivate var node1: PopgraphNode
-    fileprivate var node2: PopgraphNode
+    fileprivate var node1: Node
+    fileprivate var node2: Node
     override var description: String {
         return String("\(node1.key) <--> \(node2.key)")
     }
     
-    init( from node1: PopgraphNode, to node2: PopgraphNode, weight: Float ) {
+    init( from node1: Node, to node2: Node, weight: Float ) {
         self.node1 = node1
         self.node2 = node2
         super.init(from: node1.position, to: node2.position, radius: CGFloat(weight) )

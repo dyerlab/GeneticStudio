@@ -11,26 +11,23 @@ import SceneKit
 
 class Popgraph {
     var rootNode: SCNNode = SCNNode()
-    var nodes: [PopgraphNode: [PopgraphEdge] ] = [:]
+    var nodes: [Node: [Edge] ] = [:]
     
-    func addNode(node: PopgraphNode ) {
+    func addNode(node: Node ) {
         nodes[node] = []
         rootNode.addChildNode(node)
     }
     
     func newNode(label: String, radius: Float ) {
-        let pos = SCNVector3Make( CGFloat.random(in: -50.0...50.0),
-                                  CGFloat.random(in: -50.0...50.0),
-                                  CGFloat.random(in: -50.0...50.0) )
-        let cfg = PopgraphNodeConfig( radius: radius, label: label, position: pos )
-        let node = PopgraphNode(config: cfg)
+        let cfg = NodeConfig( radius: radius, label: label )
+        let node = Node(config: cfg)
         addNode(node: node)
     }
     
     func addEdge(from: String, to: String, weight: Float ) {
         if let n1 = (nodes.keys.filter {$0.key == from}).first {
             if let n2 = (nodes.keys.filter {$0.key == to}).first {
-                let edge = PopgraphEdge(from: n1, to: n2, weight: weight)
+                let edge = Edge(from: n1, to: n2, weight: weight)
                 n1.edges.append(edge)
                 n2.edges.append(edge)
                 rootNode.addChildNode(edge)
@@ -56,8 +53,36 @@ class Popgraph {
         centroid = centroid / (CGFloat(nodes.count))
         print("New Centroid: \(centroid)")
     }
+    
+    
+    func deselectAll() {
+        for node in self.nodes.keys {
+            if node.selected {
+                node.toggleSelection()
+            }
+        }
+    }
+    
+    
+    func moveNodesIntoPlace() {
+        for node in nodes.keys {
+            if node.displacement != SCNVector3Zero {
+                let ac = SCNAction.move(to: node.displacement, duration: 1.0)
+                node.runAction(ac)
+                node.displacement = SCNVector3Zero
+                print("moving node \(node.key)")
+            }
+            else {
+                print("node \(node.key) had a zero displacement")
+            }
+        }
+    }
+    
+    
 }
 
+
+// MARK: -
 
 
 extension Popgraph: CustomStringConvertible {
@@ -77,6 +102,8 @@ extension Popgraph: CustomStringConvertible {
 
 
 
+
+// MARK: -
 
 func makeLopho() -> Popgraph {
     
@@ -123,14 +150,11 @@ func makeLopho() -> Popgraph {
     let graph = Popgraph()
     
     for i in 0 ..< labels.count {
-        let cfg = PopgraphNodeConfig( radius: sizes[i]/5.0,
-                                      label: labels[i],
-                                      position: SCNVector3Make( x[i], y[i], z[i] ) )
-        let node = PopgraphNode(config: cfg )
+        let cfg = NodeConfig( radius: sizes[i]/5.0,
+                                      label: labels[i] )
+        let node = Node(config: cfg )
+        node.displacement = SCNVector3Make( x[i], y[i], z[i] )
         graph.addNode(node: node)
-        if labels[i] == "SenBas" {
-            node.toggleSelection()
-        }
     }
     
     let edgeWeights: [Float] = [  9.052676,  9.716150, 12.382480,

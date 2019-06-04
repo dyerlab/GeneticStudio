@@ -7,12 +7,14 @@
 //
 
 import Foundation
-
+import SceneKit
 
 class OutlineViewItem {
     var label: String
+    var node: SCNNode?
 
-    init( label: String ) {
+    init( label: String, node: SCNNode? = nil ) {
         self.label = label
+        self.node = node
     }
 }

@@ -1,27 +1,18 @@
 //
 //  Document.swift
-//  Population Graphs
+//  Geno
 //
-//  Created by Rodney Dyer on 5/28/19.
+//  Created by Rodney Dyer on 6/4/19.
 //  Copyright © 2019 Rodney Dyer. All rights reserved.
 //
 
 import Cocoa
 
-class PopgraphDocument: NSDocument {
-    
-    var dataSet: DataSet? {
-        didSet {
-            NotificationCenter.default.post(name: .NewDataAddedToDocument,
-                                            object: nil,
-                                            userInfo: ["DataSet" : self.dataSet!] )
-        }
-    }
+class Document: NSDocument {
 
     override init() {
-        
         super.init()
-        
+        // Add your subclass-specific initialization here.
     }
 
     override class var autosavesInPlace: Bool {
@@ -31,8 +22,7 @@ class PopgraphDocument: NSDocument {
     override func makeWindowControllers() {
         // Returns the Storyboard that contains your Document window.
         let storyboard = NSStoryboard(name: NSStoryboard.Name("Main"), bundle: nil)
-        let windowController = storyboard.instantiateController(withIdentifier: NSStoryboard.SceneIdentifier("Document Window Controller")) as! DocumentWindowController
-        
+        let windowController = storyboard.instantiateController(withIdentifier: NSStoryboard.SceneIdentifier("Document Window Controller")) as! NSWindowController
         self.addWindowController(windowController)
     }
 
@@ -47,16 +37,6 @@ class PopgraphDocument: NSDocument {
         // Alternatively, you could remove this method and override read(from:ofType:) instead.
         // If you do, you should also override isEntireFileLoaded to return false if the contents are lazily loaded.
         throw NSError(domain: NSOSStatusErrorDomain, code: unimpErr, userInfo: nil)
-    }
-
-    
-    func importDataSet() {
-        let data = DataSet()
-        
-        
-        data.graph = makeLopho()
-        self.dataSet = data
-        data.graph?.moveNodesIntoPlace()
     }
 
 

@@ -17,7 +17,7 @@ import Foundation
  
  - Returns: An array of string array objects.
  */
-func ParseDelimitedFile(path: String, delimiter: String) -> [[String]] {
+func parseDelimitedFile(path: String, delimiter: String) -> [[String]] {
     let url = URL(fileURLWithPath: path)
     let contents: String
     var lines = [String]()

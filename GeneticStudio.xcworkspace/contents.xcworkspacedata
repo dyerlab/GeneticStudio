@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Geno/Geno.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Population Graphs/Population Graphs.xcodeproj">
    </FileRef>
    <FileRef

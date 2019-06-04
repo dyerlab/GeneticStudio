@@ -26,6 +26,7 @@ class OutlineViewController: NSViewController {
         
         self.outlineView.delegate = self
         self.outlineView.dataSource = self
+        self.outlineView.allowsMultipleSelection = false
         
         NotificationCenter.default.addObserver( self,
                                                 selector: #selector(setData(_:)),
@@ -43,6 +44,7 @@ class OutlineViewController: NSViewController {
             
             for node in (ds.graph?.nodes.keys)! {
                 let item = OutlineViewItem(label: node.key )
+                item.node = node
                 nodes.items.append( item )
             }
             outlineView.reloadData()
@@ -52,6 +54,10 @@ class OutlineViewController: NSViewController {
 }
 
 
+
+
+
+// MARK: -
 
 
 extension OutlineViewController: NSOutlineViewDelegate {
@@ -70,7 +76,21 @@ extension OutlineViewController: NSOutlineViewDelegate {
         }
         return view
     }
+    
+    
+    func outlineViewSelectionDidChange(_ notification: Notification) {
+        dataSet?.graph?.deselectAll()
+        if let item = outlineView.item(atRow: outlineView.selectedRow) as? OutlineViewItem {
+            if let node = item.node as? Node {
+                node.toggleSelection()
+            }
+        }
+    }
 }
+
+
+
+
 
 extension OutlineViewController: NSOutlineViewDataSource {
     
@@ -100,4 +120,5 @@ extension OutlineViewController: NSOutlineViewDataSource {
             return outlineCategories.count
         }
     }
+    
 }

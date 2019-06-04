@@ -15,9 +15,6 @@ class GraphViewController: NSViewController {
     var scene: GraphScene = GraphScene()
     var popgraph: Popgraph?
     
-   
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         scene.configure()
@@ -56,6 +53,12 @@ class GraphViewController: NSViewController {
     
     @IBAction func onToggleAxes( sender: AnyObject ) {
         scene.toggleAxes()
+    }
+    
+    
+    @IBAction func onLayoutGraph( sender: AnyObject ) {
+        print("onLayoutGraph")
+        popgraph?.moveNodesIntoPlace()
     }
     
 }

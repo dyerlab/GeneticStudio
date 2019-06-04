@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A47286522A695CF007694C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47286422A695CF007694C9 /* AppDelegate.swift */; };
+		2A47286722A695CF007694C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47286622A695CF007694C9 /* ViewController.swift */; };
+		2A47286922A695CF007694C9 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47286822A695CF007694C9 /* Document.swift */; };
+		2A47286B22A695D1007694C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A47286A22A695D1007694C9 /* Assets.xcassets */; };
+		2A47286E22A695D1007694C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A47286C22A695D1007694C9 /* Main.storyboard */; };
+		2A47287A22A695D1007694C9 /* GenoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47287922A695D1007694C9 /* GenoTests.swift */; };
+		2A47288C22A6975C007694C9 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47288B22A6975C007694C9 /* CoreDataManager.swift */; };
+		2A47289022A699EC007694C9 /* DataSet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A47288E22A699EC007694C9 /* DataSet.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A47287622A695D1007694C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A47285922A695CF007694C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A47286022A695CF007694C9;
+			remoteInfo = Geno;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A47286122A695CF007694C9 /* Geno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geno.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A47286422A695CF007694C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A47286622A695CF007694C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A47286822A695CF007694C9 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		2A47286A22A695D1007694C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A47286D22A695D1007694C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A47286F22A695D1007694C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A47287022A695D1007694C9 /* Geno.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Geno.entitlements; sourceTree = "<group>"; };
+		2A47287522A695D1007694C9 /* GenoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A47287922A695D1007694C9 /* GenoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenoTests.swift; sourceTree = "<group>"; };
+		2A47287B22A695D1007694C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A47288B22A6975C007694C9 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		2A47288F22A699EC007694C9 /* DataSet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataSet.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A47285E22A695CF007694C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A47287222A695D1007694C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A47285822A695CF007694C9 = {
+			isa = PBXGroup;
+			children = (
+				2A47286322A695CF007694C9 /* Geno */,
+				2A47287822A695D1007694C9 /* GenoTests */,
+				2A47286222A695CF007694C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A47286222A695CF007694C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A47286122A695CF007694C9 /* Geno.app */,
+				2A47287522A695D1007694C9 /* GenoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A47286322A695CF007694C9 /* Geno */ = {
+			isa = PBXGroup;
+			children = (
+				2A47288D22A699D2007694C9 /* Core Data */,
+				2A47288A22A69750007694C9 /* Managers */,
+				2A47288522A69600007694C9 /* Application Delegate */,
+				2A47288922A69739007694C9 /* Geno Document */,
+				2A47288422A695EB007694C9 /* View Controllers */,
+				2A47288722A69625007694C9 /* Storyboards */,
+				2A47288822A6963A007694C9 /* Supporting Files */,
+				2A47288622A69613007694C9 /* Resources */,
+				2A47287022A695D1007694C9 /* Geno.entitlements */,
+			);
+			path = Geno;
+			sourceTree = "<group>";
+		};
+		2A47287822A695D1007694C9 /* GenoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A47287922A695D1007694C9 /* GenoTests.swift */,
+				2A47287B22A695D1007694C9 /* Info.plist */,
+			);
+			path = GenoTests;
+			sourceTree = "<group>";
+		};
+		2A47288422A695EB007694C9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2A47286622A695CF007694C9 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2A47288522A69600007694C9 /* Application Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				2A47286422A695CF007694C9 /* AppDelegate.swift */,
+			);
+			path = "Application Delegate";
+			sourceTree = "<group>";
+		};
+		2A47288622A69613007694C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A47286A22A695D1007694C9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2A47288722A69625007694C9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2A47286C22A695D1007694C9 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2A47288822A6963A007694C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A47286F22A695D1007694C9 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A47288922A69739007694C9 /* Geno Document */ = {
+			isa = PBXGroup;
+			children = (
+				2A47286822A695CF007694C9 /* Document.swift */,
+			);
+			path = "Geno Document";
+			sourceTree = "<group>";
+		};
+		2A47288A22A69750007694C9 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2A47288B22A6975C007694C9 /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2A47288D22A699D2007694C9 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				2A47288E22A699EC007694C9 /* DataSet.xcdatamodeld */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A47286022A695CF007694C9 /* Geno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A47287E22A695D1007694C9 /* Build configuration list for PBXNativeTarget "Geno" */;
+			buildPhases = (
+				2A47285D22A695CF007694C9 /* Sources */,
+				2A47285E22A695CF007694C9 /* Frameworks */,
+				2A47285F22A695CF007694C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Geno;
+			productName = Geno;
+			productReference = 2A47286122A695CF007694C9 /* Geno.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A47287422A695D1007694C9 /* GenoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A47288122A695D1007694C9 /* Build configuration list for PBXNativeTarget "GenoTests" */;
+			buildPhases = (
+				2A47287122A695D1007694C9 /* Sources */,
+				2A47287222A695D1007694C9 /* Frameworks */,
+				2A47287322A695D1007694C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A47287722A695D1007694C9 /* PBXTargetDependency */,
+			);
+			name = GenoTests;
+			productName = GenoTests;
+			productReference = 2A47287522A695D1007694C9 /* GenoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A47285922A695CF007694C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Rodney Dyer";
+				TargetAttributes = {
+					2A47286022A695CF007694C9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2A47287422A695D1007694C9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2A47286022A695CF007694C9;
+					};
+				};
+			};
+			buildConfigurationList = 2A47285C22A695CF007694C9 /* Build configuration list for PBXProject "Geno" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A47285822A695CF007694C9;
+			productRefGroup = 2A47286222A695CF007694C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A47286022A695CF007694C9 /* Geno */,
+				2A47287422A695D1007694C9 /* GenoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A47285F22A695CF007694C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A47286B22A695D1007694C9 /* Assets.xcassets in Resources */,
+				2A47286E22A695D1007694C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A47287322A695D1007694C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A47285D22A695CF007694C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A47286722A695CF007694C9 /* ViewController.swift in Sources */,
+				2A47286522A695CF007694C9 /* AppDelegate.swift in Sources */,
+				2A47288C22A6975C007694C9 /* CoreDataManager.swift in Sources */,
+				2A47286922A695CF007694C9 /* Document.swift in Sources */,
+				2A47289022A699EC007694C9 /* DataSet.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A47287122A695D1007694C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A47287A22A695D1007694C9 /* GenoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A47287722A695D1007694C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A47286022A695CF007694C9 /* Geno */;
+			targetProxy = 2A47287622A695D1007694C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A47286C22A695D1007694C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A47286D22A695D1007694C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A47287C22A695D1007694C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A47287D22A695D1007694C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2A47287F22A695D1007694C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Geno/Geno.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 626QFAP74Z;
+				INFOPLIST_FILE = "Geno/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.Geno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2A47288022A695D1007694C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Geno/Geno.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 626QFAP74Z;
+				INFOPLIST_FILE = "Geno/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.Geno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2A47288222A695D1007694C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 626QFAP74Z;
+				INFOPLIST_FILE = GenoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.GenoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geno.app/Contents/MacOS/Geno";
+			};
+			name = Debug;
+		};
+		2A47288322A695D1007694C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 626QFAP74Z;
+				INFOPLIST_FILE = GenoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.GenoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geno.app/Contents/MacOS/Geno";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A47285C22A695CF007694C9 /* Build configuration list for PBXProject "Geno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A47287C22A695D1007694C9 /* Debug */,
+				2A47287D22A695D1007694C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A47287E22A695D1007694C9 /* Build configuration list for PBXNativeTarget "Geno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A47287F22A695D1007694C9 /* Debug */,
+				2A47288022A695D1007694C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A47288122A695D1007694C9 /* Build configuration list for PBXNativeTarget "GenoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A47288222A695D1007694C9 /* Debug */,
+				2A47288322A695D1007694C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A47288E22A699EC007694C9 /* DataSet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A47288F22A699EC007694C9 /* DataSet.xcdatamodel */,
+			);
+			currentVersion = 2A47288F22A699EC007694C9 /* DataSet.xcdatamodel */;
+			path = DataSet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2A47285922A695CF007694C9 /* Project object */;
+}
