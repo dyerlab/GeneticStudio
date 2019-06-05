@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18F132" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14838.16" systemVersion="18F132" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="NO" userDefinedModelVersionIdentifier="">
+    <entity name="Individual" representedClassName="Individual" syncable="YES" codeGenerationType="class">
+        <attribute name="id" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="location" optional="YES" attributeType="Transformable" customClassName="CLLocationCoordinate2D"/>
+        <relationship name="loci" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Locus" inverseName="individual" inverseEntity="Locus"/>
+        <relationship name="strata" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Stratum" inverseName="samples" inverseEntity="Stratum"/>
+    </entity>
+    <entity name="Locus" representedClassName="Locus" syncable="YES" codeGenerationType="class">
+        <attribute name="alleles" optional="YES" attributeType="Transformable"/>
+        <attribute name="name" attributeType="String" spotlightIndexingEnabled="YES"/>
+        <relationship name="individual" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Individual" inverseName="loci" inverseEntity="Individual"/>
+    </entity>
+    <entity name="Stratum" representedClassName="Stratum" syncable="YES" codeGenerationType="class">
+        <attribute name="name" attributeType="String" spotlightIndexingEnabled="YES"/>
+        <relationship name="samples" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Individual" inverseName="strata" inverseEntity="Individual"/>
+    </entity>
+    <elements>
+        <element name="Individual" positionX="-230.9375" positionY="-116.796875" width="128" height="103"/>
+        <element name="Locus" positionX="-465.67578125" positionY="-116.27734375" width="128" height="88"/>
+        <element name="Stratum" positionX="-25.62890625" positionY="-86.140625" width="128" height="73"/>
+    </elements>
 </model>

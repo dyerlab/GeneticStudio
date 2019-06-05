@@ -7,16 +7,20 @@
 //
 
 import Cocoa
+import MapKit
+
 
 class ViewController: NSViewController {
     
-    var coreDataManager = CoreDataManager(modelName: "DataSet")
+    private let coreDataManager = CoreDataManager(modelName: "DataSet")
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        print("\(coreDataManager.managedObjectContext)")
     }
 
     override var representedObject: Any? {
