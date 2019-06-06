@@ -8,9 +8,6 @@
       location = "group:Population Graphs/Population Graphs.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:PopgenKit/PopgenKit.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:LICENSE">
    </FileRef>
    <FileRef
