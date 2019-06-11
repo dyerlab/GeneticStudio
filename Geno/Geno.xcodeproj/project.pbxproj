@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A150FDF22AFFBF500B64AB9 /* TabbedDataAreaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A150FDE22AFFBF500B64AB9 /* TabbedDataAreaType.swift */; };
+		2A150FE122AFFD1B00B64AB9 /* PopgraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A150FE022AFFD1B00B64AB9 /* PopgraphViewController.swift */; };
+		2A150FE322B0008900B64AB9 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A150FE222B0008900B64AB9 /* Notification.swift */; };
+		2A150FE622B0056C00B64AB9 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A150FE522B0056C00B64AB9 /* SplitViewController.swift */; };
 		2A47286522A695CF007694C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47286422A695CF007694C9 /* AppDelegate.swift */; };
-		2A47286722A695CF007694C9 /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47286622A695CF007694C9 /* DocumentViewController.swift */; };
 		2A47286922A695CF007694C9 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47286822A695CF007694C9 /* Document.swift */; };
 		2A47286B22A695D1007694C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A47286A22A695D1007694C9 /* Assets.xcassets */; };
 		2A47286E22A695D1007694C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A47286C22A695D1007694C9 /* Main.storyboard */; };
 		2A47287A22A695D1007694C9 /* GenoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47287922A695D1007694C9 /* GenoTests.swift */; };
-		2A47288C22A6975C007694C9 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47288B22A6975C007694C9 /* CoreDataManager.swift */; };
-		2A47289022A699EC007694C9 /* DataSet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A47288E22A699EC007694C9 /* DataSet.xcdatamodeld */; };
+		2A5BF24322AAF552009BEC2A /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5BF24222AAF552009BEC2A /* DataSet.swift */; };
+		2A6F190122A9921C00042AA7 /* GenotypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6F190022A9921C00042AA7 /* GenotypeTableViewController.swift */; };
+		2A6F190322A9923100042AA7 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6F190222A9923100042AA7 /* ResultsViewController.swift */; };
+		2A71DFBA22AABB5E00749201 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 2A71DFB922AABB5E00749201 /* Style.css */; };
+		2A71DFBE22AAE51100749201 /* highcharts.js in Resources */ = {isa = PBXBuildFile; fileRef = 2A71DFBD22AAE51100749201 /* highcharts.js */; };
+		2A8D419122AEC40600222CDB /* DocumentWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8D419022AEC40600222CDB /* DocumentWindowController.swift */; };
+		2AF30F7322AEC265002868C7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF30F7222AEC265002868C7 /* MapViewController.swift */; };
+		2AF30F7522AEC2EA002868C7 /* TabbedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF30F7422AEC2EA002868C7 /* TabbedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A150FDE22AFFBF500B64AB9 /* TabbedDataAreaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedDataAreaType.swift; sourceTree = "<group>"; };
+		2A150FE022AFFD1B00B64AB9 /* PopgraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopgraphViewController.swift; sourceTree = "<group>"; };
+		2A150FE222B0008900B64AB9 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		2A150FE522B0056C00B64AB9 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
 		2A47286122A695CF007694C9 /* Geno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geno.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A47286422A695CF007694C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2A47286622A695CF007694C9 /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
 		2A47286822A695CF007694C9 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		2A47286A22A695D1007694C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A47286D22A695D1007694C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,9 +51,14 @@
 		2A47287522A695D1007694C9 /* GenoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A47287922A695D1007694C9 /* GenoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenoTests.swift; sourceTree = "<group>"; };
 		2A47287B22A695D1007694C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A47288B22A6975C007694C9 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
-		2A47288F22A699EC007694C9 /* DataSet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataSet.xcdatamodel; sourceTree = "<group>"; };
-		2A9AF62E22A976F60002EEBD /* DataSet 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DataSet 2.xcdatamodel"; sourceTree = "<group>"; };
+		2A5BF24222AAF552009BEC2A /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
+		2A6F190022A9921C00042AA7 /* GenotypeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenotypeTableViewController.swift; sourceTree = "<group>"; };
+		2A6F190222A9923100042AA7 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		2A71DFB922AABB5E00749201 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		2A71DFBD22AAE51100749201 /* highcharts.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = highcharts.js; sourceTree = "<group>"; };
+		2A8D419022AEC40600222CDB /* DocumentWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentWindowController.swift; sourceTree = "<group>"; };
+		2AF30F7222AEC265002868C7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2AF30F7422AEC2EA002868C7 /* TabbedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +79,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A150FE422B000D500B64AB9 /* Extensions & Overrides */ = {
+			isa = PBXGroup;
+			children = (
+				2A150FDE22AFFBF500B64AB9 /* TabbedDataAreaType.swift */,
+				2A150FE222B0008900B64AB9 /* Notification.swift */,
+			);
+			path = "Extensions & Overrides";
+			sourceTree = "<group>";
+		};
 		2A47285822A695CF007694C9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,12 +109,11 @@
 		2A47286322A695CF007694C9 /* Geno */ = {
 			isa = PBXGroup;
 			children = (
-				2A47288D22A699D2007694C9 /* Core Data */,
-				2A47288A22A69750007694C9 /* Managers */,
 				2A47288522A69600007694C9 /* Application Delegate */,
 				2A47288922A69739007694C9 /* Geno Document */,
 				2A47288422A695EB007694C9 /* View Controllers */,
 				2A47288722A69625007694C9 /* Storyboards */,
+				2A150FE422B000D500B64AB9 /* Extensions & Overrides */,
 				2A47288822A6963A007694C9 /* Supporting Files */,
 				2A47288622A69613007694C9 /* Resources */,
 				2A47287022A695D1007694C9 /* Geno.entitlements */,
@@ -108,7 +133,12 @@
 		2A47288422A695EB007694C9 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2A47286622A695CF007694C9 /* DocumentViewController.swift */,
+				2A150FE522B0056C00B64AB9 /* SplitViewController.swift */,
+				2AF30F7422AEC2EA002868C7 /* TabbedViewController.swift */,
+				2A6F190022A9921C00042AA7 /* GenotypeTableViewController.swift */,
+				2AF30F7222AEC265002868C7 /* MapViewController.swift */,
+				2A150FE022AFFD1B00B64AB9 /* PopgraphViewController.swift */,
+				2A6F190222A9923100042AA7 /* ResultsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -117,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				2A47286422A695CF007694C9 /* AppDelegate.swift */,
+				2A8D419022AEC40600222CDB /* DocumentWindowController.swift */,
 			);
 			path = "Application Delegate";
 			sourceTree = "<group>";
@@ -141,6 +172,8 @@
 			isa = PBXGroup;
 			children = (
 				2A47286F22A695D1007694C9 /* Info.plist */,
+				2A71DFB922AABB5E00749201 /* Style.css */,
+				2A71DFBD22AAE51100749201 /* highcharts.js */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -149,24 +182,9 @@
 			isa = PBXGroup;
 			children = (
 				2A47286822A695CF007694C9 /* Document.swift */,
+				2A5BF24222AAF552009BEC2A /* DataSet.swift */,
 			);
 			path = "Geno Document";
-			sourceTree = "<group>";
-		};
-		2A47288A22A69750007694C9 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				2A47288B22A6975C007694C9 /* CoreDataManager.swift */,
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
-		2A47288D22A699D2007694C9 /* Core Data */ = {
-			isa = PBXGroup;
-			children = (
-				2A47288E22A699EC007694C9 /* DataSet.xcdatamodeld */,
-			);
-			path = "Core Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A47286B22A695D1007694C9 /* Assets.xcassets in Resources */,
+				2A71DFBE22AAE51100749201 /* highcharts.js in Resources */,
 				2A47286E22A695D1007694C9 /* Main.storyboard in Resources */,
+				2A71DFBA22AABB5E00749201 /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,11 +289,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A47286722A695CF007694C9 /* DocumentViewController.swift in Sources */,
+				2A150FDF22AFFBF500B64AB9 /* TabbedDataAreaType.swift in Sources */,
+				2A6F190122A9921C00042AA7 /* GenotypeTableViewController.swift in Sources */,
+				2AF30F7522AEC2EA002868C7 /* TabbedViewController.swift in Sources */,
+				2AF30F7322AEC265002868C7 /* MapViewController.swift in Sources */,
 				2A47286522A695CF007694C9 /* AppDelegate.swift in Sources */,
-				2A47288C22A6975C007694C9 /* CoreDataManager.swift in Sources */,
+				2A8D419122AEC40600222CDB /* DocumentWindowController.swift in Sources */,
+				2A5BF24322AAF552009BEC2A /* DataSet.swift in Sources */,
+				2A6F190322A9923100042AA7 /* ResultsViewController.swift in Sources */,
+				2A150FE322B0008900B64AB9 /* Notification.swift in Sources */,
 				2A47286922A695CF007694C9 /* Document.swift in Sources */,
-				2A47289022A699EC007694C9 /* DataSet.xcdatamodeld in Sources */,
+				2A150FE122AFFD1B00B64AB9 /* PopgraphViewController.swift in Sources */,
+				2A150FE622B0056C00B64AB9 /* SplitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,20 +565,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		2A47288E22A699EC007694C9 /* DataSet.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				2A9AF62E22A976F60002EEBD /* DataSet 2.xcdatamodel */,
-				2A47288F22A699EC007694C9 /* DataSet.xcdatamodel */,
-			);
-			currentVersion = 2A9AF62E22A976F60002EEBD /* DataSet 2.xcdatamodel */;
-			path = DataSet.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 2A47285922A695CF007694C9 /* Project object */;
 }
