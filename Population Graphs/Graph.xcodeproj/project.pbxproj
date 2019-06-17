@@ -67,13 +67,13 @@
 		2A84E119229EC16800FAF728 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		2ADAB215229EC8B500D66802 /* SCNVector3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNVector3.swift; sourceTree = "<group>"; };
 		2ADAB217229EE35E00D66802 /* Popgraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popgraph.swift; sourceTree = "<group>"; };
-		2AE49E1A229DA0EB00658BA4 /* Population Graphs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Population Graphs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE49E1A229DA0EB00658BA4 /* Graph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Graph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE49E1D229DA0EB00658BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AE49E23229DA0EC00658BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AE49E26229DA0EC00658BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2AE49E28229DA0EC00658BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AE49E29229DA0EC00658BA4 /* Population_Graphs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Population_Graphs.entitlements; sourceTree = "<group>"; };
-		2AE49E2E229DA0EC00658BA4 /* Population GraphsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Population GraphsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE49E2E229DA0EC00658BA4 /* GraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE49E32229DA0EC00658BA4 /* Population_GraphsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Population_GraphsTests.swift; sourceTree = "<group>"; };
 		2AE49E34229DA0EC00658BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AEEA70A22A29B5B00459FF3 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
@@ -159,8 +159,8 @@
 		2AE49E1B229DA0EB00658BA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2AE49E1A229DA0EB00658BA4 /* Population Graphs.app */,
-				2AE49E2E229DA0EC00658BA4 /* Population GraphsTests.xctest */,
+				2AE49E1A229DA0EB00658BA4 /* Graph.app */,
+				2AE49E2E229DA0EC00658BA4 /* GraphTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -223,9 +223,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2AE49E19229DA0EB00658BA4 /* Population Graphs */ = {
+		2AE49E19229DA0EB00658BA4 /* Graph */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AE49E37229DA0EC00658BA4 /* Build configuration list for PBXNativeTarget "Population Graphs" */;
+			buildConfigurationList = 2AE49E37229DA0EC00658BA4 /* Build configuration list for PBXNativeTarget "Graph" */;
 			buildPhases = (
 				2AE49E16229DA0EB00658BA4 /* Sources */,
 				2AE49E17229DA0EB00658BA4 /* Frameworks */,
@@ -235,14 +235,14 @@
 			);
 			dependencies = (
 			);
-			name = "Population Graphs";
+			name = Graph;
 			productName = "Population Graphs";
-			productReference = 2AE49E1A229DA0EB00658BA4 /* Population Graphs.app */;
+			productReference = 2AE49E1A229DA0EB00658BA4 /* Graph.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2AE49E2D229DA0EC00658BA4 /* Population GraphsTests */ = {
+		2AE49E2D229DA0EC00658BA4 /* GraphTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AE49E3A229DA0EC00658BA4 /* Build configuration list for PBXNativeTarget "Population GraphsTests" */;
+			buildConfigurationList = 2AE49E3A229DA0EC00658BA4 /* Build configuration list for PBXNativeTarget "GraphTests" */;
 			buildPhases = (
 				2AE49E2A229DA0EC00658BA4 /* Sources */,
 				2AE49E2B229DA0EC00658BA4 /* Frameworks */,
@@ -253,9 +253,9 @@
 			dependencies = (
 				2AE49E30229DA0EC00658BA4 /* PBXTargetDependency */,
 			);
-			name = "Population GraphsTests";
+			name = GraphTests;
 			productName = "Population GraphsTests";
-			productReference = 2AE49E2E229DA0EC00658BA4 /* Population GraphsTests.xctest */;
+			productReference = 2AE49E2E229DA0EC00658BA4 /* GraphTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -277,7 +277,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2AE49E15229DA0EB00658BA4 /* Build configuration list for PBXProject "Population Graphs" */;
+			buildConfigurationList = 2AE49E15229DA0EB00658BA4 /* Build configuration list for PBXProject "Graph" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -290,8 +290,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2AE49E19229DA0EB00658BA4 /* Population Graphs */,
-				2AE49E2D229DA0EC00658BA4 /* Population GraphsTests */,
+				2AE49E19229DA0EB00658BA4 /* Graph */,
+				2AE49E2D229DA0EC00658BA4 /* GraphTests */,
 			);
 		};
 /* End PBXProject section */
@@ -361,7 +361,7 @@
 /* Begin PBXTargetDependency section */
 		2AE49E30229DA0EC00658BA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2AE49E19229DA0EB00658BA4 /* Population Graphs */;
+			target = 2AE49E19229DA0EB00658BA4 /* Graph */;
 			targetProxy = 2AE49E2F229DA0EC00658BA4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -556,7 +556,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dyerlab.Population-GraphsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Population Graphs.app/Contents/MacOS/Population Graphs";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Graph.app/Contents/MacOS/Graph";
 			};
 			name = Debug;
 		};
@@ -581,14 +581,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dyerlab.Population-GraphsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Population Graphs.app/Contents/MacOS/Population Graphs";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Graph.app/Contents/MacOS/Graph";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2AE49E15229DA0EB00658BA4 /* Build configuration list for PBXProject "Population Graphs" */ = {
+		2AE49E15229DA0EB00658BA4 /* Build configuration list for PBXProject "Graph" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2AE49E35229DA0EC00658BA4 /* Debug */,
@@ -597,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2AE49E37229DA0EC00658BA4 /* Build configuration list for PBXNativeTarget "Population Graphs" */ = {
+		2AE49E37229DA0EC00658BA4 /* Build configuration list for PBXNativeTarget "Graph" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2AE49E38229DA0EC00658BA4 /* Debug */,
@@ -606,7 +606,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2AE49E3A229DA0EC00658BA4 /* Build configuration list for PBXNativeTarget "Population GraphsTests" */ = {
+		2AE49E3A229DA0EC00658BA4 /* Build configuration list for PBXNativeTarget "GraphTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2AE49E3B229DA0EC00658BA4 /* Debug */,

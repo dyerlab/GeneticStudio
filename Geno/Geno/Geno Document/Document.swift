@@ -7,9 +7,11 @@
 //
 
 import Cocoa
-
+import PopgenKit
 
 class Document: NSDocument {
+    
+    var data: DataSet?
     
     override init() {
         super.init()

@@ -16,7 +16,6 @@
 		2A47286B22A695D1007694C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A47286A22A695D1007694C9 /* Assets.xcassets */; };
 		2A47286E22A695D1007694C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A47286C22A695D1007694C9 /* Main.storyboard */; };
 		2A47287A22A695D1007694C9 /* GenoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47287922A695D1007694C9 /* GenoTests.swift */; };
-		2A5BF24322AAF552009BEC2A /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5BF24222AAF552009BEC2A /* DataSet.swift */; };
 		2A6F190122A9921C00042AA7 /* GenotypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6F190022A9921C00042AA7 /* GenotypeTableViewController.swift */; };
 		2A6F190322A9923100042AA7 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6F190222A9923100042AA7 /* ResultsViewController.swift */; };
 		2A71DFBA22AABB5E00749201 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 2A71DFB922AABB5E00749201 /* Style.css */; };
@@ -37,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A00AB6722B1578600831DC5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2A150FDE22AFFBF500B64AB9 /* TabbedDataAreaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedDataAreaType.swift; sourceTree = "<group>"; };
 		2A150FE022AFFD1B00B64AB9 /* PopgraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopgraphViewController.swift; sourceTree = "<group>"; };
 		2A150FE222B0008900B64AB9 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
@@ -51,7 +51,6 @@
 		2A47287522A695D1007694C9 /* GenoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A47287922A695D1007694C9 /* GenoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenoTests.swift; sourceTree = "<group>"; };
 		2A47287B22A695D1007694C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A5BF24222AAF552009BEC2A /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
 		2A6F190022A9921C00042AA7 /* GenotypeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenotypeTableViewController.swift; sourceTree = "<group>"; };
 		2A6F190222A9923100042AA7 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		2A71DFB922AABB5E00749201 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
@@ -91,6 +90,7 @@
 		2A47285822A695CF007694C9 = {
 			isa = PBXGroup;
 			children = (
+				2A00AB6722B1578600831DC5 /* README.md */,
 				2A47286322A695CF007694C9 /* Geno */,
 				2A47287822A695D1007694C9 /* GenoTests */,
 				2A47286222A695CF007694C9 /* Products */,
@@ -182,7 +182,6 @@
 			isa = PBXGroup;
 			children = (
 				2A47286822A695CF007694C9 /* Document.swift */,
-				2A5BF24222AAF552009BEC2A /* DataSet.swift */,
 			);
 			path = "Geno Document";
 			sourceTree = "<group>";
@@ -203,6 +202,8 @@
 			dependencies = (
 			);
 			name = Geno;
+			packageProductDependencies = (
+			);
 			productName = Geno;
 			productReference = 2A47286122A695CF007694C9 /* Geno.app */;
 			productType = "com.apple.product-type.application";
@@ -253,6 +254,8 @@
 				Base,
 			);
 			mainGroup = 2A47285822A695CF007694C9;
+			packageReferences = (
+			);
 			productRefGroup = 2A47286222A695CF007694C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -295,7 +298,6 @@
 				2AF30F7322AEC265002868C7 /* MapViewController.swift in Sources */,
 				2A47286522A695CF007694C9 /* AppDelegate.swift in Sources */,
 				2A8D419122AEC40600222CDB /* DocumentWindowController.swift in Sources */,
-				2A5BF24322AAF552009BEC2A /* DataSet.swift in Sources */,
 				2A6F190322A9923100042AA7 /* ResultsViewController.swift in Sources */,
 				2A150FE322B0008900B64AB9 /* Notification.swift in Sources */,
 				2A47286922A695CF007694C9 /* Document.swift in Sources */,
