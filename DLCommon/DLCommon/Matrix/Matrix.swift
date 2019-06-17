@@ -50,7 +50,7 @@ public struct Matrix {
     }
     
     /**
-     Init for constant vector of values.
+     Init for constant vector of values.  This fills up the matrix row-wise _first_.
      
      - Parameters rows: The number of rows requested.
      - Parameters  cols: The number of columns in the matrix
