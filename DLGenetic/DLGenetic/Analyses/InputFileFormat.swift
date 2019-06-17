@@ -20,7 +20,7 @@ import Foundation
  - The names `Longitude` and `Latitude` will be required and put the coordinates in damn decimal degrees already!
  - Loci are single column with alleles separated by a colon `:`
  */
-struct InputFileFormat {
+public struct InputFileFormat {
     /// Number of columns for individual strata
     var numStrata: Int
     /// Each individual has coordiante flag

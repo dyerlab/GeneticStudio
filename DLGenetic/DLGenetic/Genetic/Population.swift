@@ -68,7 +68,7 @@ public final class Population {
     }
 
     /// Default constructor.
-    init() {
+    public init() {
         self.individuals = [Individual]()
         self.frequencies = [String: Frequencies]()
     }

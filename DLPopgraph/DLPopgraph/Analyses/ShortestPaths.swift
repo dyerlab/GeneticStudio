@@ -6,40 +6,8 @@
 //
 
 import Foundation
+import DLCommon
 
-
-/// This implements the Djikstra's Algorithm.
-func shortestPathDijkstra(source: PopgraphNode, destination: PopgraphNode) -> PopgraphPath? {
-    
-    var frontier: [PopgraphPath] = [] {
-        didSet { frontier.sort {return $0.length < $1.length } }
-    }
-    
-    
-    print("from: \(source) to: \(destination)")
-    frontier.append(PopgraphPath(to: source))
-    
-    
-    
-    
-    while !frontier.isEmpty {
-        
-        let cheapestPath = frontier.removeFirst()
-        guard !cheapestPath.node.selected else { continue }
-        
-        if cheapestPath.node == destination {
-            return cheapestPath
-        }
-        
-        cheapestPath.node.selected = true
-        
-        for edge in cheapestPath.node.edges {
-            let neighbor = edge.connectedTo(source: cheapestPath.node )
-            frontier.append( PopgraphPath(to: neighbor, via: edge, previous: cheapestPath) )
-        }
-    }
-    return nil
-}
 
 /// This does the whole, all-pairs paths.
 ///

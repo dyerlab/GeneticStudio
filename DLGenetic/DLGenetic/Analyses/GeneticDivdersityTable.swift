@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import DLCommon
 
 
 
@@ -16,7 +17,7 @@ import Foundation
 /// - Parameter stratum: The name of the stratum to use.  If omitted, it will estimate for the whole dataset.
 ///
 /// - Returns: A `Matrix` instance with cols for strata
-func geneticDiversityTable( data: Population, locus: String, stratum: String? ) -> Matrix? {
+public func geneticDiversityTable( data: Population, locus: String, stratum: String? ) -> Matrix? {
     if data.count == 0 { return nil }
     
     let pops = data.partition(stratum: stratum ?? "" )

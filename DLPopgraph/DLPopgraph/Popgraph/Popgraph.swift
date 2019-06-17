@@ -6,11 +6,16 @@
 //
 
 import Foundation
+import DLCommon
 
 
-class Popgraph {
+public class Popgraph {
     var nodes = [PopgraphNode]()
     var edges = [PopgraphEdge]()
+    
+    public init() {
+        
+    }
     
     func addNode( label: String, size: Double ) {
         self.nodes.append( PopgraphNode(label: label, size: size) )
@@ -37,7 +42,7 @@ class Popgraph {
 
 extension Popgraph: MatrixAdaptable {
     
-    func asMatrix() -> Matrix {
+    public func asMatrix() -> Matrix {
         let nodeLabels = self.nodes.map{ $0.label }
         var ret = Matrix(rows: nodeLabels.count, cols: nodeLabels.count)
         

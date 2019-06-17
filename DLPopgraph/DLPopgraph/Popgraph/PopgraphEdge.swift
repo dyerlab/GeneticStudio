@@ -8,7 +8,7 @@
 import Foundation
 
 
-class PopgraphEdge {
+public class PopgraphEdge {
     
     var weight: Double
     var neighbors: (PopgraphNode,PopgraphNode)
@@ -35,7 +35,7 @@ class PopgraphEdge {
 
 
 extension PopgraphEdge: Equatable {
-    static func == (lhs: PopgraphEdge, rhs: PopgraphEdge) -> Bool {
+    public static func == (lhs: PopgraphEdge, rhs: PopgraphEdge) -> Bool {
         return lhs.weight == rhs.weight && lhs.neighbors == rhs.neighbors
     }
 }

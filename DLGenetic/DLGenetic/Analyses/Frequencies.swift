@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import DLCommon
 
 /**
  Class to maintain stats related to allele and genotype frequencies.
@@ -195,7 +196,7 @@ extension Frequencies: CustomStringConvertible {
 
 extension Frequencies: MatrixAdaptable {
     
-    func asMatrix() -> Matrix {
+    public func asMatrix() -> Matrix {
         let alleles = self.alleles.sorted()
         let nrow = alleles.count
         var ret = Matrix(rows: nrow, cols: 1)

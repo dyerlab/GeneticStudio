@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import DLCommon
 
 
 /// Frequency to table for all and subsets of populations.
@@ -16,7 +17,7 @@ import Foundation
 /// will return only the total data allele frequencies.
 ///
 /// - Returns: A `Matrix` object with row and column headers.
-func alleleFrequencyTable( data: Population, locus: String, stratum: String? ) -> Matrix? {
+public func alleleFrequencyTable( data: Population, locus: String, stratum: String? ) -> Matrix? {
     if data.count == 0 { return nil }
     
     let pops = data.partition(stratum: stratum ?? "" )

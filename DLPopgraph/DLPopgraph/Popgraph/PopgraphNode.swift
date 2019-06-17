@@ -7,7 +7,7 @@
 
 import Foundation
 
-class PopgraphNode {
+public class PopgraphNode {
     var size: Double
     var label: String
     var edges: [PopgraphEdge]
@@ -27,7 +27,7 @@ class PopgraphNode {
 
 
 extension PopgraphNode: Equatable {
-    static func == (lhs: PopgraphNode, rhs: PopgraphNode) -> Bool {
+    public static func == (lhs: PopgraphNode, rhs: PopgraphNode) -> Bool {
         return lhs.size == rhs.size &&
                 lhs.label == rhs.label &&
                 lhs.edges == rhs.edges
@@ -38,7 +38,7 @@ extension PopgraphNode: Equatable {
 
 extension PopgraphNode: CustomStringConvertible {
     
-    var description: String {
+    public var description: String {
         var ret = "Node: \(self.label) sz=\(self.size)\n"
         for edge in self.edges {
             let other = edge.connectedTo(source: self)

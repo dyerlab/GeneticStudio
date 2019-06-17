@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Common
+import DLCommon
 
 
 /**
@@ -22,7 +22,7 @@ func importGenotypeFile(path: String, format: InputFileFormat ) -> Population? {
         return data
     }
     
-    let contents = parseDelimitedFile(path: path, delimiter: ",")
+    guard let contents = parseDelimitedFile(path: path, delimiter: ",") else { return nil }
     if contents.isEmpty {
         return data
     }

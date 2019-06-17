@@ -7,10 +7,10 @@
 
 import Foundation
 
-class PopgraphPath {
-    var length: Double
-    var node: PopgraphNode
-    var previousPath: PopgraphPath?
+public class PopgraphPath {
+    public var length: Double
+    public var node: PopgraphNode
+    public var previousPath: PopgraphPath?
     
     init(to node: PopgraphNode, via edge: PopgraphEdge? = nil, previous path: PopgraphPath? = nil ) {
         if
@@ -51,7 +51,7 @@ class PopgraphPath {
 
 
 extension PopgraphPath : CustomStringConvertible {
-    var description: String {
+    public var description: String {
         var ret = "Path: \(node) ( \(length) ) \n"
         if let prev = previousPath {
             ret += "\(prev)"

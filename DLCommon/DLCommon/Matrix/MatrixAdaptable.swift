@@ -8,7 +8,7 @@
 import Foundation
 
 
-protocol MatrixAdaptable {
+public protocol MatrixAdaptable {
     
     func asMatrix() -> Matrix
     

@@ -15,6 +15,15 @@
 		2A8CAED122B7DFB9007FC711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8CAED022B7DFB9007FC711 /* Assets.xcassets */; };
 		2A8CAED422B7DFB9007FC711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8CAED222B7DFB9007FC711 /* LaunchScreen.storyboard */; };
 		2A8CAEDF22B7DFB9007FC711 /* GeneticStudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CAEDE22B7DFB9007FC711 /* GeneticStudioTests.swift */; };
+		2AF667BB22B7FA450061D658 /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF667BA22B7FA450061D658 /* DataSet.swift */; };
+		2AF667BF22B7FCC40061D658 /* GStudioDocument.gstudio in Resources */ = {isa = PBXBuildFile; fileRef = 2AF667BE22B7FCC40061D658 /* GStudioDocument.gstudio */; };
+		2AF667C022B7FCC40061D658 /* GStudioDocument.gstudio in Resources */ = {isa = PBXBuildFile; fileRef = 2AF667BE22B7FCC40061D658 /* GStudioDocument.gstudio */; };
+		2AFE913F22B7EC72000BA813 /* DLCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFE913C22B7EC72000BA813 /* DLCommon.framework */; };
+		2AFE914022B7EC72000BA813 /* DLCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFE913C22B7EC72000BA813 /* DLCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2AFE914122B7EC72000BA813 /* DLGenetic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFE913D22B7EC72000BA813 /* DLGenetic.framework */; };
+		2AFE914222B7EC72000BA813 /* DLGenetic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFE913D22B7EC72000BA813 /* DLGenetic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2AFE914322B7EC72000BA813 /* DLPopgraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFE913E22B7EC72000BA813 /* DLPopgraph.framework */; };
+		2AFE914422B7EC72000BA813 /* DLPopgraph.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFE913E22B7EC72000BA813 /* DLPopgraph.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +35,22 @@
 			remoteInfo = GeneticStudio;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2AFE914522B7EC72000BA813 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2AFE914422B7EC72000BA813 /* DLPopgraph.framework in Embed Frameworks */,
+				2AFE914222B7EC72000BA813 /* DLGenetic.framework in Embed Frameworks */,
+				2AFE914022B7EC72000BA813 /* DLCommon.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2A8CAEC222B7DFB8007FC711 /* GeneticStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneticStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +65,11 @@
 		2A8CAEDA22B7DFB9007FC711 /* GeneticStudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneticStudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A8CAEDE22B7DFB9007FC711 /* GeneticStudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioTests.swift; sourceTree = "<group>"; };
 		2A8CAEE022B7DFB9007FC711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AF667BA22B7FA450061D658 /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
+		2AF667BE22B7FCC40061D658 /* GStudioDocument.gstudio */ = {isa = PBXFileReference; lastKnownFileType = text; path = GStudioDocument.gstudio; sourceTree = "<group>"; };
+		2AFE913C22B7EC72000BA813 /* DLCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DLCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFE913D22B7EC72000BA813 /* DLGenetic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DLGenetic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFE913E22B7EC72000BA813 /* DLPopgraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DLPopgraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +77,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AFE914322B7EC72000BA813 /* DLPopgraph.framework in Frameworks */,
+				2AFE914122B7EC72000BA813 /* DLGenetic.framework in Frameworks */,
+				2AFE913F22B7EC72000BA813 /* DLCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +99,7 @@
 				2A8CAEC422B7DFB8007FC711 /* GeneticStudio */,
 				2A8CAEDD22B7DFB9007FC711 /* GeneticStudioTests */,
 				2A8CAEC322B7DFB8007FC711 /* Products */,
+				2AFE913B22B7EC72000BA813 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,13 +116,13 @@
 			isa = PBXGroup;
 			children = (
 				2A8CAEC522B7DFB8007FC711 /* AppDelegate.swift */,
-				2A8CAEC722B7DFB8007FC711 /* DocumentBrowserViewController.swift */,
-				2A8CAEC922B7DFB8007FC711 /* DocumentViewController.swift */,
-				2A8CAECB22B7DFB8007FC711 /* Document.swift */,
+				2AF667BD22B7FC7C0061D658 /* View Controllers */,
+				2AF667BC22B7FC710061D658 /* Document */,
 				2A8CAECD22B7DFB8007FC711 /* Main.storyboard */,
 				2A8CAED022B7DFB9007FC711 /* Assets.xcassets */,
 				2A8CAED222B7DFB9007FC711 /* LaunchScreen.storyboard */,
 				2A8CAED522B7DFB9007FC711 /* Info.plist */,
+				2AF667BE22B7FCC40061D658 /* GStudioDocument.gstudio */,
 			);
 			path = GeneticStudio;
 			sourceTree = "<group>";
@@ -102,6 +136,34 @@
 			path = GeneticStudioTests;
 			sourceTree = "<group>";
 		};
+		2AF667BC22B7FC710061D658 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				2A8CAECB22B7DFB8007FC711 /* Document.swift */,
+				2AF667BA22B7FA450061D658 /* DataSet.swift */,
+			);
+			path = Document;
+			sourceTree = "<group>";
+		};
+		2AF667BD22B7FC7C0061D658 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2A8CAEC722B7DFB8007FC711 /* DocumentBrowserViewController.swift */,
+				2A8CAEC922B7DFB8007FC711 /* DocumentViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2AFE913B22B7EC72000BA813 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AFE913C22B7EC72000BA813 /* DLCommon.framework */,
+				2AFE913D22B7EC72000BA813 /* DLGenetic.framework */,
+				2AFE913E22B7EC72000BA813 /* DLPopgraph.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,6 +174,7 @@
 				2A8CAEBE22B7DFB8007FC711 /* Sources */,
 				2A8CAEBF22B7DFB8007FC711 /* Frameworks */,
 				2A8CAEC022B7DFB8007FC711 /* Resources */,
+				2AFE914522B7EC72000BA813 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,6 +248,7 @@
 			files = (
 				2A8CAED422B7DFB9007FC711 /* LaunchScreen.storyboard in Resources */,
 				2A8CAED122B7DFB9007FC711 /* Assets.xcassets in Resources */,
+				2AF667BF22B7FCC40061D658 /* GStudioDocument.gstudio in Resources */,
 				2A8CAECF22B7DFB8007FC711 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AF667C022B7FCC40061D658 /* GStudioDocument.gstudio in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A8CAECC22B7DFB8007FC711 /* Document.swift in Sources */,
+				2AF667BB22B7FA450061D658 /* DataSet.swift in Sources */,
 				2A8CAECA22B7DFB8007FC711 /* DocumentViewController.swift in Sources */,
 				2A8CAEC822B7DFB8007FC711 /* DocumentBrowserViewController.swift in Sources */,
 				2A8CAEC622B7DFB8007FC711 /* AppDelegate.swift in Sources */,

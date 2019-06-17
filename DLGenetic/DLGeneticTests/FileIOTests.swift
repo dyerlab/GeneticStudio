@@ -19,11 +19,11 @@ class FileIOTests: XCTestCase {
                                       numLoci: 8 )
         
         
-        let path = Bundle(identifier: "com.dyerlab.Common")?.path(forResource: "arapat", ofType: "csv")
+        guard let path = Bundle(identifier: "com.dyerlab.DLCommon")?.path(forResource: "arapat", ofType: "csv") else { return }
         XCTAssertNotNil(path)
         
         
-        if let pop = importGenotypeFile(path: arapatPath, format: config) {
+        if let pop = importGenotypeFile(path: path, format: config) {
             XCTAssertEqual( pop.count, 363)
             let locusNames = ["LTRS","WNT","EN","EF","ZMP","AML","ATPS","MP20"].sorted()
             XCTAssertEqual( pop.frequencies.keys.sorted(),  locusNames )
