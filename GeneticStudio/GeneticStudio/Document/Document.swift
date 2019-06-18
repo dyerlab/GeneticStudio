@@ -14,9 +14,7 @@ class Document: UIDocument {
     var theData : DataSet = {
         let data = DataSet()
         guard let path = Bundle(identifier: "com.dyerlab.DLCommon")?.path(forResource: "arapat", ofType: "csv") else { return data }
-        let config = InputFileFormat( numStrata: 3,
-                                      hasCoordinates: true,
-                                      numLoci: 8 )
+        let config = InputFileFormat( strata: 3, loci: 8, coords: true )
         if let pop = importGenotypeFile(path: path, format: config) {
             data.population = pop
         }

@@ -16,7 +16,7 @@ import DLCommon
  - Parameter path: The path to the file
  - Parameter format: An instance of the InputFileFormat that describes the contents of the file being imported.
  */
-func importGenotypeFile(path: String, format: InputFileFormat ) -> Population? {
+public func importGenotypeFile(path: String, format: InputFileFormat ) -> Population? {
     var data: Population?
     if path.isEmpty {
         return data

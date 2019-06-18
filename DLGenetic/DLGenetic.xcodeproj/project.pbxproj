@@ -173,6 +173,7 @@
 		2AFE911722B7EA61000BA813 /* FileIO */ = {
 			isa = PBXGroup;
 			children = (
+				2AFE90EC22B7E854000BA813 /* InputFileFormat.swift */,
 				2AFE90EA22B7E854000BA813 /* FileIO.swift */,
 			);
 			path = FileIO;
@@ -197,7 +198,6 @@
 				2AFE90E522B7E854000BA813 /* AlleleFrequencyTable.swift */,
 				2AFE90EB22B7E854000BA813 /* GeneticDivdersityTable.swift */,
 				2AFE90E822B7E854000BA813 /* GeneticDiversityType.swift */,
-				2AFE90EC22B7E854000BA813 /* InputFileFormat.swift */,
 			);
 			path = Analyses;
 			sourceTree = "<group>";
