@@ -9,7 +9,7 @@
 import Foundation
 
 /// This implements the Djikstra's Algorithm.
-public func shortestPathDijkstra(source: PopgraphNode, destination: PopgraphNode) -> PopgraphPath? {
+public func shortestPathDijkstra(source: Node, destination: Node) -> PopgraphPath? {
     
     var frontier: [PopgraphPath] = [] {
         didSet { frontier.sort {return $0.length < $1.length } }
@@ -31,9 +31,12 @@ public func shortestPathDijkstra(source: PopgraphNode, destination: PopgraphNode
         cheapestPath.node.selected = true
         
         for edge in cheapestPath.node.edges {
-            let neighbor = edge.connectedTo(source: cheapestPath.node )
+            let neighbor = edge.connectedTo(node: cheapestPath.node )
+            
             frontier.append( PopgraphPath(to: neighbor, via: edge, previous: cheapestPath) )
         }
     }
+    
+    
     return nil
 }

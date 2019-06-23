@@ -205,6 +205,12 @@ extension Matrix: CustomStringConvertible {
 
 
 
+extension Matrix: Codable {}
+
+
+
+
+
 // MARK: -
 
 // MARK: Math operators

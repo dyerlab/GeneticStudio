@@ -6,45 +6,38 @@
 //
 
 import Foundation
+import SceneKit
 
-public class PopgraphNode {
+final public class Node: SCNNode  {
     var size: Double
     var label: String
-    var edges: [PopgraphEdge]
+    var edges: [Edge]
     var selected: Bool 
     
     init(label: String, size: Double ) {
         self.size = size
         self.label = label
-        self.edges = [PopgraphEdge]()
+        self.edges = [Edge]()
         self.selected = false
+        super.init()
     }
-}
-
-
-
-
-
-
-extension PopgraphNode: Equatable {
-    public static func == (lhs: PopgraphNode, rhs: PopgraphNode) -> Bool {
-        return lhs.size == rhs.size &&
-                lhs.label == rhs.label &&
-                lhs.edges == rhs.edges
-    }
-}
-
-
-
-extension PopgraphNode: CustomStringConvertible {
     
-    public var description: String {
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    
+    public override var description: String {
         var ret = "Node: \(self.label) sz=\(self.size)\n"
         for edge in self.edges {
-            let other = edge.connectedTo(source: self)
+            let other = edge.connectedTo(node: self)
             ret += " - \(other.label) wt=\(edge.weight)\n"
         }
         return ret
     }
-    
 }
+
+
+extension Node: Codable {}
+
+

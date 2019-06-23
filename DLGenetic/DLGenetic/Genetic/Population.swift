@@ -164,3 +164,8 @@ extension Population: CustomStringConvertible {
     }
     
 }
+
+
+
+extension Population: Codable {}
+

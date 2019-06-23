@@ -9,10 +9,10 @@ import Foundation
 
 public class PopgraphPath {
     public var length: Double
-    public var node: PopgraphNode
+    public var node: Node
     public var previousPath: PopgraphPath?
     
-    init(to node: PopgraphNode, via edge: PopgraphEdge? = nil, previous path: PopgraphPath? = nil ) {
+    init(to node: Node, via edge: Edge? = nil, previous path: PopgraphPath? = nil ) {
         if
             let previousPath = path,
             let viaConnection = edge {
@@ -25,8 +25,8 @@ public class PopgraphPath {
     }
     
     
-    var array: [PopgraphNode] {
-        var array: [PopgraphNode] = [self.node]
+    var array: [Node] {
+        var array: [Node] = [self.node]
         var iterativePath = self
         while let path = iterativePath.previousPath {
             array.append( path.node )
@@ -38,7 +38,7 @@ public class PopgraphPath {
     
     
     func succession() -> [String] {
-        let ret: [String] = array.reversed().compactMap( { $0 as PopgraphNode }).map({$0.label})
+        let ret: [String] = array.reversed().compactMap( { $0 as Node }).map({$0.label})
         return ret
     }
     

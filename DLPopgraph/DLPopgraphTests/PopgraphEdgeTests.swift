@@ -11,9 +11,9 @@ class PopgraphEdgeTests: XCTestCase {
 
     func testPopgraphEdge() {
 
-        let source = PopgraphNode(label: "source", size: 2.0)
-        let destination = PopgraphNode( label: "destination", size: 4.0 )
-        let edge = PopgraphEdge(from: source, to: destination, weight: 8.9)
+        let source = Node(label: "source", size: 2.0)
+        let destination = Node( label: "destination", size: 4.0 )
+        let edge = Edge(from: source, to: destination, weight: 8.9)
         
         XCTAssertEqual( edge.weight, 8.9 )
         XCTAssertTrue( edge.connects(from: "source", to: "destination") )

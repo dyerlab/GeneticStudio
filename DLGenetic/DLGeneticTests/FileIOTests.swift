@@ -9,19 +9,12 @@ import XCTest
 
 class FileIOTests: XCTestCase {
     
-    
-
-    
     func testImportGenotypeFile() {
         
-        let config = InputFileFormat( numStrata: 3,
-                                      hasCoordinates: true,
-                                      numLoci: 8 )
-        
+        let config = InputFileFormat( strata: 3, loci: 8, coords: true )
         
         guard let path = Bundle(identifier: "com.dyerlab.DLCommon")?.path(forResource: "arapat", ofType: "csv") else { return }
         XCTAssertNotNil(path)
-        
         
         if let pop = importGenotypeFile(path: path, format: config) {
             XCTAssertEqual( pop.count, 363)
