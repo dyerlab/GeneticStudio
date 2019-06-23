@@ -52,11 +52,10 @@ public class PopgraphPath {
 
 extension PopgraphPath : CustomStringConvertible {
     public var description: String {
-        var ret = "Path: \(node) ( \(length) ) \n"
+        var ret: String!
+        ret = " \(node.label) (\(length)) "
         if let prev = previousPath {
-            ret += "\(prev)"
-        } else {
-            ret += " -|"
+            ret += String("\(prev)")
         }
         return ret
     }

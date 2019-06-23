@@ -30,7 +30,6 @@ final public class Popgraph {
         let node = Node(label: label, size: size)
         self.nodes.append( node )
         self.rootNode.addChildNode( node )
-        
     }
     
     
@@ -40,12 +39,15 @@ final public class Popgraph {
     /// - Parameter to: The ending `Node`
     /// - Parameter weight: The strength of the edge
     /// - Parameter symmetric: A flag indicating that edges connect in both directions (default `true`)
-    func addEdge( from: String, to: String, weight: Double, symmetric: Bool = true ) {
+    func addEdge( from: String, to: String, weight: Double, symmetric: Bool ) {
         if let n1 = getNode(label: from), let n2 = getNode(label: to) {
-            self.edges.append( Edge(from: n1, to: n2, weight: weight))
-            
+            let e12 = Edge(from: n1, to: n2, weight: weight)
+            self.edges.append( e12 )
+            n1.edges.append( e12 )
             if symmetric {
-                self.edges.append( Edge(from:n2, to: n1, weight: weight) )
+                let e21 = Edge(from:n2, to: n1, weight: weight)
+                n2.edges.append( e21 ) 
+                self.edges.append( e21 )
             }
         }
     }
@@ -94,3 +96,13 @@ extension Popgraph: MatrixAdaptable {
 
 
 
+extension Popgraph: CustomStringConvertible {
+    
+    public var description: String {
+        var ret = "Graph\n"
+        self.nodes.forEach{ node in
+            ret = ret + "\(node)\n"
+        }
+        return ret
+    }
+}

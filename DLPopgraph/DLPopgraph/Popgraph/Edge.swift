@@ -40,7 +40,7 @@ final public class Edge: SCNNode  {
         return self.source == node ? self.destination : self.source
     }
     
-    fileprivate func adjustGeometry() {
+    func adjustGeometry() {
         let vector = source.position - destination.position
         let height = CGFloat(vector.length())
         let cylinder = SCNCylinder(radius: CGFloat(self.weight), height: height)
@@ -59,7 +59,6 @@ final public class Edge: SCNNode  {
 // MARK: -
 
 
-extension Edge: Codable {}
 
 
 

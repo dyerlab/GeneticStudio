@@ -20,9 +20,16 @@ class PopgraphTests: XCTestCase {
         G.addNode(label: "Alice", size: 2.0)
         XCTAssertEqual( G.nodes.count, 2)
         
-        G.addEdge(from: "Bob", to: "Alice", weight: 4.3 )
-        XCTAssertEqual( G.edges.count, 1 )
+        G.addEdge(from: "Bob", to: "Alice", weight: 4.3, symmetric: true )
+        print(G)
+        XCTAssertEqual( G.edges.count, 2 )
         XCTAssertEqual( G.edges.first!.weight, 4.3 )
+        
+        G.addNode( label: "Felix", size: 3.0)
+        G.addEdge(from: "Alice", to: "Felix", weight: 3.4, symmetric: false )
+        
+        XCTAssertEqual( G.edges.count, 3 )
+        
         
     }
     
