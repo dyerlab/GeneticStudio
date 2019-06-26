@@ -2,13 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../../Desktop/GeneticStudio/popgraph/popgraph.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:LICENSE">
    </FileRef>
    <FileRef
       location = "group:README.md">
-   </FileRef>
-   <FileRef
-      location = "group:GeneticStudio/GeneticStudio.xcodeproj">
    </FileRef>
    <Group
       location = "container:"
