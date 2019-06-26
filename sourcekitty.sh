@@ -1,6 +1,6 @@
 #!/bin/bash
 
-array=(DLCommon DLGenetic DLPopgraph GeneticStudio)
+array=(DLCommon DLGenetic DLPopgraph)
 
 # Remove existing structures
 rm -rf docs
