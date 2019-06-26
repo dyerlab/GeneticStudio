@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../../Desktop/GeneticStudio/popgraph/popgraph.xcodeproj">
+      location = "group:Geno/Geno.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:LICENSE">
