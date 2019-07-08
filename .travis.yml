@@ -1,4 +1,0 @@
-language: swift
-xcode_workspace: GeneticStudio.xcworkspace
-xcode_scheme: genetic
-xcode_destination: platform=macOS
