@@ -12,4 +12,11 @@ Rodney J. Dyer (rjdyer@vcu.edu)
 GNU General Public License v3.0
 
 
-https://www.swiftdevjournal.com/creating-document-based-ios-apps-part-1/
+/*  https://www.swiftdevjournal.com/creating-document-based-ios-apps-part-1/ */
+
+
+### Documentation
+
+https://dyerlab.github.io/GeneticStudio/
+
+
