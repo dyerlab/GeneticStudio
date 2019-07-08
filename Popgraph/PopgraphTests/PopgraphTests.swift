@@ -1,15 +1,15 @@
 //
-//  GenoTests.swift
-//  GenoTests
+//  PopgraphTests.swift
+//  PopgraphTests
 //
-//  Created by Rodney Dyer on 7/7/19.
+//  Created by Rodney Dyer on 7/8/19.
 //  Copyright © 2019 Rodney Dyer. All rights reserved.
 //
 
 import XCTest
-@testable import Geno
+@testable import Popgraph
 
-class GenoTests: XCTestCase {
+class PopgraphTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

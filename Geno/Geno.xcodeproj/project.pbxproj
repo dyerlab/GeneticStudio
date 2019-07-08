@@ -7,64 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A90888722C39C4C007C4ABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A90888622C39C4C007C4ABA /* AppDelegate.swift */; };
-		2A90888922C39C4C007C4ABA /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A90888822C39C4C007C4ABA /* Document.swift */; };
-		2A90888B22C39C4C007C4ABA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A90888A22C39C4C007C4ABA /* ContentView.swift */; };
-		2A90888E22C39C4C007C4ABA /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A90888C22C39C4C007C4ABA /* Document.xcdatamodeld */; };
-		2A90889022C39C4E007C4ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A90888F22C39C4E007C4ABA /* Assets.xcassets */; };
-		2A90889322C39C4E007C4ABA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A90889222C39C4E007C4ABA /* Preview Assets.xcassets */; };
-		2A90889622C39C4E007C4ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A90889422C39C4E007C4ABA /* Main.storyboard */; };
-		2A9088A222C39C4E007C4ABA /* GenoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9088A122C39C4E007C4ABA /* GenoTests.swift */; };
+		2A2367CA22D23D0800449C96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2367C922D23D0800449C96 /* AppDelegate.swift */; };
+		2A2367CE22D23D0800449C96 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2367CD22D23D0800449C96 /* Document.swift */; };
+		2A2367D122D23D0800449C96 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A2367CF22D23D0800449C96 /* Document.xcdatamodeld */; };
+		2A2367D322D23D0B00449C96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2367D222D23D0B00449C96 /* Assets.xcassets */; };
+		2A2367D622D23D0B00449C96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2367D422D23D0B00449C96 /* Main.storyboard */; };
+		2A2367E222D23D0B00449C96 /* GenoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2367E122D23D0B00449C96 /* GenoTests.swift */; };
+		2A2367ED22D23F5400449C96 /* SidebarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2367EC22D23F5400449C96 /* SidebarController.swift */; };
+		2A2367EE22D23F5400449C96 /* SidebarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2367EC22D23F5400449C96 /* SidebarController.swift */; };
+		2A2367F022D23F9300449C96 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2367EF22D23F9300449C96 /* ContentViewController.swift */; };
+		2A2367F122D23F9300449C96 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2367EF22D23F9300449C96 /* ContentViewController.swift */; };
+		2A2367F422D2405100449C96 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2367F322D2405100449C96 /* TableViewController.swift */; };
+		2A2367F522D2405100449C96 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2367F322D2405100449C96 /* TableViewController.swift */; };
+		2A2367F722D249A400449C96 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2367F622D249A400449C96 /* DB.swift */; };
+		2A2367F822D249A400449C96 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2367F622D249A400449C96 /* DB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2A90889E22C39C4E007C4ABA /* PBXContainerItemProxy */ = {
+		2A2367DE22D23D0B00449C96 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2A90887B22C39C4B007C4ABA /* Project object */;
+			containerPortal = 2A2367BE22D23D0800449C96 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2A90888222C39C4C007C4ABA;
+			remoteGlobalIDString = 2A2367C522D23D0800449C96;
 			remoteInfo = Geno;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		2A9088BA22C39CF0007C4ABA /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		2A90888322C39C4C007C4ABA /* Geno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geno.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A90888622C39C4C007C4ABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2A90888822C39C4C007C4ABA /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
-		2A90888A22C39C4C007C4ABA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2A90888D22C39C4C007C4ABA /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
-		2A90888F22C39C4E007C4ABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2A90889222C39C4E007C4ABA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2A90889522C39C4E007C4ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2A90889722C39C4E007C4ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A90889822C39C4E007C4ABA /* Geno.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Geno.entitlements; sourceTree = "<group>"; };
-		2A90889D22C39C4E007C4ABA /* GenoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A9088A122C39C4E007C4ABA /* GenoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenoTests.swift; sourceTree = "<group>"; };
-		2A9088A322C39C4E007C4ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2367C622D23D0800449C96 /* Geno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geno.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2367C922D23D0800449C96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A2367CD22D23D0800449C96 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		2A2367D022D23D0800449C96 /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
+		2A2367D222D23D0B00449C96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A2367D522D23D0B00449C96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A2367D722D23D0B00449C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2367D822D23D0B00449C96 /* Geno.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Geno.entitlements; sourceTree = "<group>"; };
+		2A2367DD22D23D0B00449C96 /* GenoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2367E122D23D0B00449C96 /* GenoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenoTests.swift; sourceTree = "<group>"; };
+		2A2367E322D23D0B00449C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2367EC22D23F5400449C96 /* SidebarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarController.swift; sourceTree = "<group>"; };
+		2A2367EF22D23F9300449C96 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		2A2367F322D2405100449C96 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2A2367F622D249A400449C96 /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2A90888022C39C4C007C4ABA /* Frameworks */ = {
+		2A2367C322D23D0800449C96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A90889A22C39C4E007C4ABA /* Frameworks */ = {
+		2A2367DA22D23D0B00449C96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,76 +69,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A90887A22C39C4B007C4ABA = {
+		2A2367BD22D23D0800449C96 = {
 			isa = PBXGroup;
 			children = (
-				2A90888522C39C4C007C4ABA /* Geno */,
-				2A9088A022C39C4E007C4ABA /* GenoTests */,
-				2A90888422C39C4C007C4ABA /* Products */,
-				2A9088AC22C39C63007C4ABA /* Frameworks */,
+				2A2367C822D23D0800449C96 /* Geno */,
+				2A2367E022D23D0B00449C96 /* GenoTests */,
+				2A2367C722D23D0800449C96 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2A90888422C39C4C007C4ABA /* Products */ = {
+		2A2367C722D23D0800449C96 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A90888322C39C4C007C4ABA /* Geno.app */,
-				2A90889D22C39C4E007C4ABA /* GenoTests.xctest */,
+				2A2367C622D23D0800449C96 /* Geno.app */,
+				2A2367DD22D23D0B00449C96 /* GenoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2A90888522C39C4C007C4ABA /* Geno */ = {
+		2A2367C822D23D0800449C96 /* Geno */ = {
 			isa = PBXGroup;
 			children = (
-				2A90888622C39C4C007C4ABA /* AppDelegate.swift */,
-				2A90888822C39C4C007C4ABA /* Document.swift */,
-				2A90888A22C39C4C007C4ABA /* ContentView.swift */,
-				2A90888F22C39C4E007C4ABA /* Assets.xcassets */,
-				2A90889422C39C4E007C4ABA /* Main.storyboard */,
-				2A90889722C39C4E007C4ABA /* Info.plist */,
-				2A90889822C39C4E007C4ABA /* Geno.entitlements */,
-				2A90888C22C39C4C007C4ABA /* Document.xcdatamodeld */,
-				2A90889122C39C4E007C4ABA /* Preview Content */,
+				2A2367C922D23D0800449C96 /* AppDelegate.swift */,
+				2A2367CD22D23D0800449C96 /* Document.swift */,
+				2A2367D222D23D0B00449C96 /* Assets.xcassets */,
+				2A2367D422D23D0B00449C96 /* Main.storyboard */,
+				2A2367D722D23D0B00449C96 /* Info.plist */,
+				2A2367D822D23D0B00449C96 /* Geno.entitlements */,
+				2A2367CF22D23D0800449C96 /* Document.xcdatamodeld */,
+				2A2367F222D23F9E00449C96 /* View Controllers */,
+				2A2367F622D249A400449C96 /* DB.swift */,
 			);
 			path = Geno;
 			sourceTree = "<group>";
 		};
-		2A90889122C39C4E007C4ABA /* Preview Content */ = {
+		2A2367E022D23D0B00449C96 /* GenoTests */ = {
 			isa = PBXGroup;
 			children = (
-				2A90889222C39C4E007C4ABA /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		2A9088A022C39C4E007C4ABA /* GenoTests */ = {
-			isa = PBXGroup;
-			children = (
-				2A9088A122C39C4E007C4ABA /* GenoTests.swift */,
-				2A9088A322C39C4E007C4ABA /* Info.plist */,
+				2A2367E122D23D0B00449C96 /* GenoTests.swift */,
+				2A2367E322D23D0B00449C96 /* Info.plist */,
 			);
 			path = GenoTests;
 			sourceTree = "<group>";
 		};
-		2A9088AC22C39C63007C4ABA /* Frameworks */ = {
+		2A2367F222D23F9E00449C96 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2A2367EC22D23F5400449C96 /* SidebarController.swift */,
+				2A2367EF22D23F9300449C96 /* ContentViewController.swift */,
+				2A2367F322D2405100449C96 /* TableViewController.swift */,
 			);
-			name = Frameworks;
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2A90888222C39C4C007C4ABA /* Geno */ = {
+		2A2367C522D23D0800449C96 /* Geno */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A9088A622C39C4E007C4ABA /* Build configuration list for PBXNativeTarget "Geno" */;
+			buildConfigurationList = 2A2367E622D23D0B00449C96 /* Build configuration list for PBXNativeTarget "Geno" */;
 			buildPhases = (
-				2A90887F22C39C4C007C4ABA /* Sources */,
-				2A90888022C39C4C007C4ABA /* Frameworks */,
-				2A90888122C39C4C007C4ABA /* Resources */,
-				2A9088BA22C39CF0007C4ABA /* Embed Frameworks */,
+				2A2367C222D23D0800449C96 /* Sources */,
+				2A2367C322D23D0800449C96 /* Frameworks */,
+				2A2367C422D23D0800449C96 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -151,47 +139,47 @@
 			);
 			name = Geno;
 			productName = Geno;
-			productReference = 2A90888322C39C4C007C4ABA /* Geno.app */;
+			productReference = 2A2367C622D23D0800449C96 /* Geno.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2A90889C22C39C4E007C4ABA /* GenoTests */ = {
+		2A2367DC22D23D0B00449C96 /* GenoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A9088A922C39C4E007C4ABA /* Build configuration list for PBXNativeTarget "GenoTests" */;
+			buildConfigurationList = 2A2367E922D23D0B00449C96 /* Build configuration list for PBXNativeTarget "GenoTests" */;
 			buildPhases = (
-				2A90889922C39C4E007C4ABA /* Sources */,
-				2A90889A22C39C4E007C4ABA /* Frameworks */,
-				2A90889B22C39C4E007C4ABA /* Resources */,
+				2A2367D922D23D0B00449C96 /* Sources */,
+				2A2367DA22D23D0B00449C96 /* Frameworks */,
+				2A2367DB22D23D0B00449C96 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2A90889F22C39C4E007C4ABA /* PBXTargetDependency */,
+				2A2367DF22D23D0B00449C96 /* PBXTargetDependency */,
 			);
 			name = GenoTests;
 			productName = GenoTests;
-			productReference = 2A90889D22C39C4E007C4ABA /* GenoTests.xctest */;
+			productReference = 2A2367DD22D23D0B00449C96 /* GenoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2A90887B22C39C4B007C4ABA /* Project object */ = {
+		2A2367BE22D23D0800449C96 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Rodney Dyer";
 				TargetAttributes = {
-					2A90888222C39C4C007C4ABA = {
+					2A2367C522D23D0800449C96 = {
 						CreatedOnToolsVersion = 11.0;
 					};
-					2A90889C22C39C4E007C4ABA = {
+					2A2367DC22D23D0B00449C96 = {
 						CreatedOnToolsVersion = 11.0;
-						TestTargetID = 2A90888222C39C4C007C4ABA;
+						TestTargetID = 2A2367C522D23D0800449C96;
 					};
 				};
 			};
-			buildConfigurationList = 2A90887E22C39C4B007C4ABA /* Build configuration list for PBXProject "Geno" */;
+			buildConfigurationList = 2A2367C122D23D0800449C96 /* Build configuration list for PBXProject "Geno" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -199,29 +187,28 @@
 				en,
 				Base,
 			);
-			mainGroup = 2A90887A22C39C4B007C4ABA;
-			productRefGroup = 2A90888422C39C4C007C4ABA /* Products */;
+			mainGroup = 2A2367BD22D23D0800449C96;
+			productRefGroup = 2A2367C722D23D0800449C96 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A90888222C39C4C007C4ABA /* Geno */,
-				2A90889C22C39C4E007C4ABA /* GenoTests */,
+				2A2367C522D23D0800449C96 /* Geno */,
+				2A2367DC22D23D0B00449C96 /* GenoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2A90888122C39C4C007C4ABA /* Resources */ = {
+		2A2367C422D23D0800449C96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A90889622C39C4E007C4ABA /* Main.storyboard in Resources */,
-				2A90889322C39C4E007C4ABA /* Preview Assets.xcassets in Resources */,
-				2A90889022C39C4E007C4ABA /* Assets.xcassets in Resources */,
+				2A2367D322D23D0B00449C96 /* Assets.xcassets in Resources */,
+				2A2367D622D23D0B00449C96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A90889B22C39C4E007C4ABA /* Resources */ = {
+		2A2367DB22D23D0B00449C96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -231,40 +218,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2A90887F22C39C4C007C4ABA /* Sources */ = {
+		2A2367C222D23D0800449C96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A90888E22C39C4C007C4ABA /* Document.xcdatamodeld in Sources */,
-				2A90888922C39C4C007C4ABA /* Document.swift in Sources */,
-				2A90888722C39C4C007C4ABA /* AppDelegate.swift in Sources */,
-				2A90888B22C39C4C007C4ABA /* ContentView.swift in Sources */,
+				2A2367D122D23D0800449C96 /* Document.xcdatamodeld in Sources */,
+				2A2367F422D2405100449C96 /* TableViewController.swift in Sources */,
+				2A2367ED22D23F5400449C96 /* SidebarController.swift in Sources */,
+				2A2367CA22D23D0800449C96 /* AppDelegate.swift in Sources */,
+				2A2367F022D23F9300449C96 /* ContentViewController.swift in Sources */,
+				2A2367CE22D23D0800449C96 /* Document.swift in Sources */,
+				2A2367F722D249A400449C96 /* DB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A90889922C39C4E007C4ABA /* Sources */ = {
+		2A2367D922D23D0B00449C96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A9088A222C39C4E007C4ABA /* GenoTests.swift in Sources */,
+				2A2367EE22D23F5400449C96 /* SidebarController.swift in Sources */,
+				2A2367F122D23F9300449C96 /* ContentViewController.swift in Sources */,
+				2A2367E222D23D0B00449C96 /* GenoTests.swift in Sources */,
+				2A2367F822D249A400449C96 /* DB.swift in Sources */,
+				2A2367F522D2405100449C96 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2A90889F22C39C4E007C4ABA /* PBXTargetDependency */ = {
+		2A2367DF22D23D0B00449C96 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2A90888222C39C4C007C4ABA /* Geno */;
-			targetProxy = 2A90889E22C39C4E007C4ABA /* PBXContainerItemProxy */;
+			target = 2A2367C522D23D0800449C96 /* Geno */;
+			targetProxy = 2A2367DE22D23D0B00449C96 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2A90889422C39C4E007C4ABA /* Main.storyboard */ = {
+		2A2367D422D23D0B00449C96 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2A90889522C39C4E007C4ABA /* Base */,
+				2A2367D522D23D0B00449C96 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -272,7 +266,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2A9088A422C39C4E007C4ABA /* Debug */ = {
+		2A2367E422D23D0B00449C96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +326,7 @@
 			};
 			name = Debug;
 		};
-		2A9088A522C39C4E007C4ABA /* Release */ = {
+		2A2367E522D23D0B00449C96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -385,17 +379,15 @@
 			};
 			name = Release;
 		};
-		2A9088A722C39C4E007C4ABA /* Debug */ = {
+		2A2367E722D23D0B00449C96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Geno/Geno.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "Geno/Preview\\ Content";
 				DEVELOPMENT_TEAM = 2D28XM92C4;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Geno/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -407,17 +399,15 @@
 			};
 			name = Debug;
 		};
-		2A9088A822C39C4E007C4ABA /* Release */ = {
+		2A2367E822D23D0B00449C96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Geno/Geno.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "Geno/Preview\\ Content";
 				DEVELOPMENT_TEAM = 2D28XM92C4;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Geno/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -429,7 +419,7 @@
 			};
 			name = Release;
 		};
-		2A9088AA22C39C4E007C4ABA /* Debug */ = {
+		2A2367EA22D23D0B00449C96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -450,7 +440,7 @@
 			};
 			name = Debug;
 		};
-		2A9088AB22C39C4E007C4ABA /* Release */ = {
+		2A2367EB22D23D0B00449C96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -474,29 +464,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A90887E22C39C4B007C4ABA /* Build configuration list for PBXProject "Geno" */ = {
+		2A2367C122D23D0800449C96 /* Build configuration list for PBXProject "Geno" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A9088A422C39C4E007C4ABA /* Debug */,
-				2A9088A522C39C4E007C4ABA /* Release */,
+				2A2367E422D23D0B00449C96 /* Debug */,
+				2A2367E522D23D0B00449C96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A9088A622C39C4E007C4ABA /* Build configuration list for PBXNativeTarget "Geno" */ = {
+		2A2367E622D23D0B00449C96 /* Build configuration list for PBXNativeTarget "Geno" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A9088A722C39C4E007C4ABA /* Debug */,
-				2A9088A822C39C4E007C4ABA /* Release */,
+				2A2367E722D23D0B00449C96 /* Debug */,
+				2A2367E822D23D0B00449C96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A9088A922C39C4E007C4ABA /* Build configuration list for PBXNativeTarget "GenoTests" */ = {
+		2A2367E922D23D0B00449C96 /* Build configuration list for PBXNativeTarget "GenoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A9088AA22C39C4E007C4ABA /* Debug */,
-				2A9088AB22C39C4E007C4ABA /* Release */,
+				2A2367EA22D23D0B00449C96 /* Debug */,
+				2A2367EB22D23D0B00449C96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -504,17 +494,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		2A90888C22C39C4C007C4ABA /* Document.xcdatamodeld */ = {
+		2A2367CF22D23D0800449C96 /* Document.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				2A90888D22C39C4C007C4ABA /* Document.xcdatamodel */,
+				2A2367D022D23D0800449C96 /* Document.xcdatamodel */,
 			);
-			currentVersion = 2A90888D22C39C4C007C4ABA /* Document.xcdatamodel */;
+			currentVersion = 2A2367D022D23D0800449C96 /* Document.xcdatamodel */;
 			path = Document.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 2A90887B22C39C4B007C4ABA /* Project object */;
+	rootObject = 2A2367BE22D23D0800449C96 /* Project object */;
 }
