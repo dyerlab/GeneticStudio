@@ -1,6 +1,6 @@
 #!/bin/bash
 
-array=(DLCommon DLGenetic DLPopgraph)
+array=(DLCommon DLGenetic DLPopgraph Geno Popgraph)
 
 # Remove existing structures
 rm -rf docs
@@ -15,4 +15,4 @@ do
 done
 
 perl -0pe 's/\]\n\[/,/g' sk.output  > geneticstudio.output
-jazzy --sourcekitten-sourcefile geneticstudio.output
+jazzy --min-acl private --sourcekitten-sourcefile geneticstudio.output

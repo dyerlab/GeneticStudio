@@ -1,0 +1,614 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLCommon/DLCommon/Matrix/MatrixAdaptable.swift",
+      "line": 11,
+      "symbol": "MatrixAdaptable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLCommon/DLCommon/Matrix/MatrixAdaptable.swift",
+      "line": 13,
+      "symbol": "MatrixAdaptable.asMatrix()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLGenetic/DLGenetic/Analyses/Frequencies.swift",
+      "line": 199,
+      "symbol": "Frequencies.asMatrix()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLGenetic/DLGenetic/Genetic/Coordinate.swift",
+      "line": 25,
+      "symbol": "Coordinate.longitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLGenetic/DLGenetic/Genetic/Coordinate.swift",
+      "line": 28,
+      "symbol": "Coordinate.latitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLGenetic/DLGenetic/Genetic/Coordinate.swift",
+      "line": 43,
+      "symbol": "Coordinate.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLGenetic/DLGenetic/Genetic/Coordinate.swift",
+      "line": 52,
+      "symbol": "CLLocationCoordinate2D.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Analyses/PopgraphPath.swift",
+      "line": 10,
+      "symbol": "PopgraphPath",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Analyses/PopgraphPath.swift",
+      "line": 11,
+      "symbol": "PopgraphPath.length",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Analyses/PopgraphPath.swift",
+      "line": 12,
+      "symbol": "PopgraphPath.node",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Analyses/PopgraphPath.swift",
+      "line": 13,
+      "symbol": "PopgraphPath.previousPath",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Analyses/PopgraphPath.swift",
+      "line": 15,
+      "symbol": "PopgraphPath.init(to:via:previous:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Analyses/PopgraphPath.swift",
+      "line": 28,
+      "symbol": "PopgraphPath.array",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Analyses/PopgraphPath.swift",
+      "line": 40,
+      "symbol": "PopgraphPath.succession()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Analyses/PopgraphPath.swift",
+      "line": 53,
+      "symbol": "PopgraphPath",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Extensions/DLFloat.swift",
+      "line": 15,
+      "symbol": "DLFloat",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Extensions/SCNVector3.swift",
+      "line": 16,
+      "symbol": "SCNVector3.length()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Extensions/SCNVector3.swift",
+      "line": 21,
+      "symbol": "SCNVector3.normalize()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Extensions/SCNVector3.swift",
+      "line": 30,
+      "symbol": "SCNVector3.midpoint(between:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Extensions/SCNVector3.swift",
+      "line": 36,
+      "symbol": "SCNVector3.distance(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Extensions/SCNVector3.swift",
+      "line": 44,
+      "symbol": "SCNVector3.lineEulerAngles(vector:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Extensions/SCNVector3.swift",
+      "line": 62,
+      "symbol": "SCNVector3.-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Extensions/SCNVector3.swift",
+      "line": 66,
+      "symbol": "SCNVector3.+(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Extensions/SCNVector3.swift",
+      "line": 70,
+      "symbol": "SCNVector3./(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Extensions/SCNVector3.swift",
+      "line": 74,
+      "symbol": "SCNVector3.==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Extensions/SCNVector3.swift",
+      "line": 78,
+      "symbol": "SCNVector3.!=(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Edge.swift",
+      "line": 12,
+      "symbol": "Edge",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Edge.swift",
+      "line": 14,
+      "symbol": "Edge.weight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Edge.swift",
+      "line": 15,
+      "symbol": "Edge.source",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Edge.swift",
+      "line": 16,
+      "symbol": "Edge.destination",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Edge.swift",
+      "line": 19,
+      "symbol": "Edge.init(from:to:weight:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Edge.swift",
+      "line": 29,
+      "symbol": "Edge.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Edge.swift",
+      "line": 33,
+      "symbol": "Edge.connects(from:to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Edge.swift",
+      "line": 39,
+      "symbol": "Edge.connectedTo(node:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Edge.swift",
+      "line": 43,
+      "symbol": "Edge.adjustGeometry()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/LineNode.swift",
+      "line": 12,
+      "symbol": "LineNode",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/LineNode.swift",
+      "line": 14,
+      "symbol": "LineNode.radius",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/LineNode.swift",
+      "line": 15,
+      "symbol": "LineNode.pos1",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/LineNode.swift",
+      "line": 16,
+      "symbol": "LineNode.pos2",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/LineNode.swift",
+      "line": 18,
+      "symbol": "LineNode.init(from:to:radius:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/LineNode.swift",
+      "line": 29,
+      "symbol": "LineNode.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/LineNode.swift",
+      "line": 34,
+      "symbol": "LineNode.adjustGeo()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Node.swift",
+      "line": 11,
+      "symbol": "Node",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Node.swift",
+      "line": 12,
+      "symbol": "Node.size",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Node.swift",
+      "line": 13,
+      "symbol": "Node.label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Node.swift",
+      "line": 14,
+      "symbol": "Node.textNode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Node.swift",
+      "line": 15,
+      "symbol": "Node.edges",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Node.swift",
+      "line": 16,
+      "symbol": "Node.selected",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Node.swift",
+      "line": 21,
+      "symbol": "Node.displacement",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Node.swift",
+      "line": 22,
+      "symbol": "Node.position",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Node.swift",
+      "line": 30,
+      "symbol": "Node.init(label:size:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Node.swift",
+      "line": 45,
+      "symbol": "Node.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Node.swift",
+      "line": 49,
+      "symbol": "Node.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Node.swift",
+      "line": 58,
+      "symbol": "Node.toggleSelection()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Popgraph.swift",
+      "line": 12,
+      "symbol": "Popgraph",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Popgraph.swift",
+      "line": 78,
+      "symbol": "Popgraph",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/Popgraph/Popgraph.swift",
+      "line": 99,
+      "symbol": "Popgraph",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/UI/GraphScene.swift",
+      "line": 12,
+      "symbol": "GraphScene",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/UI/GraphScene.swift",
+      "line": 14,
+      "symbol": "GraphScene.cameraNode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/UI/GraphScene.swift",
+      "line": 15,
+      "symbol": "GraphScene.lightNode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/UI/GraphScene.swift",
+      "line": 16,
+      "symbol": "GraphScene.axisNode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/UI/GraphScene.swift",
+      "line": 19,
+      "symbol": "GraphScene.configure()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/UI/GraphScene.swift",
+      "line": 39,
+      "symbol": "GraphScene.makeAxes()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/UI/GraphScene.swift",
+      "line": 82,
+      "symbol": "GraphScene.toggleAxes()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/UI/GraphView.swift",
+      "line": 12,
+      "symbol": "GraphView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/UI/GraphView.swift",
+      "line": 14,
+      "symbol": "GraphView.config()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/UI/Graphable.swift",
+      "line": 11,
+      "symbol": "Graphable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/DLPopgraph/DLPopgraph/UI/Graphable.swift",
+      "line": 13,
+      "symbol": "Graphable.addNode()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/Geno/Geno/AppDelegate.swift",
+      "line": 12,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/Geno/Geno/AppDelegate.swift",
+      "line": 16,
+      "symbol": "AppDelegate.applicationDidFinishLaunching(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/Geno/Geno/AppDelegate.swift",
+      "line": 22,
+      "symbol": "AppDelegate.applicationWillTerminate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/Geno/Geno/Document.swift",
+      "line": 11,
+      "symbol": "Document",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/Geno/Geno/Document.swift",
+      "line": 13,
+      "symbol": "Document.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/Geno/Geno/Document.swift",
+      "line": 18,
+      "symbol": "Document.autosavesInPlace",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/Geno/Geno/Document.swift",
+      "line": 22,
+      "symbol": "Document.makeWindowControllers()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/Popgraph/Popgraph/AppDelegate.swift",
+      "line": 12,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/Popgraph/Popgraph/AppDelegate.swift",
+      "line": 16,
+      "symbol": "AppDelegate.applicationDidFinishLaunching(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/Popgraph/Popgraph/AppDelegate.swift",
+      "line": 20,
+      "symbol": "AppDelegate.applicationWillTerminate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/Popgraph/Popgraph/Document.swift",
+      "line": 11,
+      "symbol": "Document",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/Popgraph/Popgraph/Document.swift",
+      "line": 13,
+      "symbol": "Document.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/Popgraph/Popgraph/Document.swift",
+      "line": 18,
+      "symbol": "Document.autosavesInPlace",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/Popgraph/Popgraph/Document.swift",
+      "line": 22,
+      "symbol": "Document.makeWindowControllers()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/Popgraph/Popgraph/Document.swift",
+      "line": 29,
+      "symbol": "Document.data(ofType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/Popgraph/Popgraph/Document.swift",
+      "line": 35,
+      "symbol": "Document.read(from:ofType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/Popgraph/Popgraph/ViewController.swift",
+      "line": 11,
+      "symbol": "ViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/Popgraph/Popgraph/ViewController.swift",
+      "line": 13,
+      "symbol": "ViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio/Popgraph/Popgraph/ViewController.swift",
+      "line": 19,
+      "symbol": "ViewController.representedObject",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/rodney/Library/Mobile Documents/com~apple~CloudDocs/Souces/GeneticStudio"
+}
