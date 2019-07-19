@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2A7F7C4422D38B640014AB4D /* DLabPopgraphKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7F7C3A22D38B640014AB4D /* DLabPopgraphKit.framework */; };
-		2A7F7C4922D38B640014AB4D /* DLabPopgraphKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F7C4822D38B640014AB4D /* DLabPopgraphKitTests.swift */; };
 		2A7F7C4B22D38B640014AB4D /* DLabPopgraphKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A7F7C3D22D38B640014AB4D /* DLabPopgraphKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A7F7C6622D38BC50014AB4D /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F7C5522D38BC50014AB4D /* Edge.swift */; };
 		2A7F7C6722D38BC50014AB4D /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F7C5522D38BC50014AB4D /* Edge.swift */; };
@@ -43,6 +42,8 @@
 		2A7F7C8722D38D310014AB4D /* DLabKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7F7C8622D38D310014AB4D /* DLabKit.framework */; };
 		2A7F7C8822D38D310014AB4D /* DLabKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7F7C8622D38D310014AB4D /* DLabKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2AA9684C22E2102000F9C3D4 /* NodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9684B22E2102000F9C3D4 /* NodeTest.swift */; };
+		2AA9684E22E21E4C00F9C3D4 /* EdgeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9684D22E21E4C00F9C3D4 /* EdgeTest.swift */; };
+		2AA9685022E2221E00F9C3D4 /* PopgraphTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9684F22E2221E00F9C3D4 /* PopgraphTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,7 +75,6 @@
 		2A7F7C3D22D38B640014AB4D /* DLabPopgraphKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLabPopgraphKit.h; sourceTree = "<group>"; };
 		2A7F7C3E22D38B640014AB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A7F7C4322D38B640014AB4D /* DLabPopgraphKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLabPopgraphKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A7F7C4822D38B640014AB4D /* DLabPopgraphKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLabPopgraphKitTests.swift; sourceTree = "<group>"; };
 		2A7F7C4A22D38B640014AB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A7F7C5522D38BC50014AB4D /* Edge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
 		2A7F7C5622D38BC50014AB4D /* Popgraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Popgraph.swift; sourceTree = "<group>"; };
@@ -93,6 +93,8 @@
 		2A7F7C8222D38C360014AB4D /* DLColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLColor.swift; sourceTree = "<group>"; };
 		2A7F7C8622D38D310014AB4D /* DLabKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DLabKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA9684B22E2102000F9C3D4 /* NodeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeTest.swift; sourceTree = "<group>"; };
+		2AA9684D22E21E4C00F9C3D4 /* EdgeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeTest.swift; sourceTree = "<group>"; };
+		2AA9684F22E2221E00F9C3D4 /* PopgraphTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopgraphTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,9 +152,10 @@
 		2A7F7C4722D38B640014AB4D /* DLabPopgraphKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				2A7F7C4822D38B640014AB4D /* DLabPopgraphKitTests.swift */,
 				2A7F7C4A22D38B640014AB4D /* Info.plist */,
 				2AA9684B22E2102000F9C3D4 /* NodeTest.swift */,
+				2AA9684D22E21E4C00F9C3D4 /* EdgeTest.swift */,
+				2AA9684F22E2221E00F9C3D4 /* PopgraphTest.swift */,
 			);
 			path = DLabPopgraphKitTests;
 			sourceTree = "<group>";
@@ -344,7 +347,9 @@
 				2A7F7C8122D38BC50014AB4D /* PopgraphPath.swift in Sources */,
 				2A7F7C6722D38BC50014AB4D /* Edge.swift in Sources */,
 				2A7F7C6F22D38BC50014AB4D /* LineNode.swift in Sources */,
+				2AA9684E22E21E4C00F9C3D4 /* EdgeTest.swift in Sources */,
 				2A7F7C7922D38BC50014AB4D /* GraphScene.swift in Sources */,
+				2AA9685022E2221E00F9C3D4 /* PopgraphTest.swift in Sources */,
 				2A7F7C7F22D38BC50014AB4D /* ShortestPaths.swift in Sources */,
 				2A7F7C6D22D38BC50014AB4D /* Node.swift in Sources */,
 				2A7F7C8422D38C360014AB4D /* DLColor.swift in Sources */,
@@ -356,7 +361,6 @@
 				2A7F7C7522D38BC50014AB4D /* DLFloat.swift in Sources */,
 				2A7F7C7D22D38BC50014AB4D /* ShortestPathDijkstra.swift in Sources */,
 				2A7F7C6B22D38BC50014AB4D /* makeLopho.swift in Sources */,
-				2A7F7C4922D38B640014AB4D /* DLabPopgraphKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -56,9 +56,6 @@ final public class Edge: SCNNode  {
 
 
 
-// MARK: -
-
-
 
 
 
