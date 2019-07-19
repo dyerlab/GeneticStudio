@@ -13,12 +13,10 @@
 		2A23680C22D35AD200449C96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A23680B22D35AD200449C96 /* Assets.xcassets */; };
 		2A23680F22D35AD200449C96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A23680D22D35AD200449C96 /* Main.storyboard */; };
 		2A23681B22D35AD200449C96 /* PopgraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A23681A22D35AD200449C96 /* PopgraphTests.swift */; };
-		2A751E3522D35D3900BC2DE7 /* DLPopgraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A751E3422D35D3900BC2DE7 /* DLPopgraph.framework */; };
-		2A751E3622D35D3900BC2DE7 /* DLPopgraph.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A751E3422D35D3900BC2DE7 /* DLPopgraph.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2A751E3822D35D3D00BC2DE7 /* DLGenetic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A751E3722D35D3D00BC2DE7 /* DLGenetic.framework */; };
-		2A751E3922D35D3D00BC2DE7 /* DLGenetic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A751E3722D35D3D00BC2DE7 /* DLGenetic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2A751E3B22D35D3F00BC2DE7 /* DLCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A751E3A22D35D3F00BC2DE7 /* DLCommon.framework */; };
-		2A751E3C22D35D3F00BC2DE7 /* DLCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A751E3A22D35D3F00BC2DE7 /* DLCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2A7F7C8D22D38E3A0014AB4D /* DLabPopgraphKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7F7C8C22D38E3A0014AB4D /* DLabPopgraphKit.framework */; };
+		2A7F7C8E22D38E3A0014AB4D /* DLabPopgraphKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7F7C8C22D38E3A0014AB4D /* DLabPopgraphKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2AA9684922E20B4700F9C3D4 /* DLabKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA9684822E20B4700F9C3D4 /* DLabKit.framework */; };
+		2AA9684A22E20B4700F9C3D4 /* DLabKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA9684822E20B4700F9C3D4 /* DLabKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +36,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2A751E3C22D35D3F00BC2DE7 /* DLCommon.framework in Embed Frameworks */,
-				2A751E3922D35D3D00BC2DE7 /* DLGenetic.framework in Embed Frameworks */,
-				2A751E3622D35D3900BC2DE7 /* DLPopgraph.framework in Embed Frameworks */,
+				2AA9684A22E20B4700F9C3D4 /* DLabKit.framework in Embed Frameworks */,
+				2A7F7C8E22D38E3A0014AB4D /* DLabPopgraphKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,9 +56,8 @@
 		2A23681622D35AD200449C96 /* PopgraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopgraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A23681A22D35AD200449C96 /* PopgraphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopgraphTests.swift; sourceTree = "<group>"; };
 		2A23681C22D35AD200449C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A751E3422D35D3900BC2DE7 /* DLPopgraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DLPopgraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A751E3722D35D3D00BC2DE7 /* DLGenetic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DLGenetic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A751E3A22D35D3F00BC2DE7 /* DLCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DLCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7F7C8C22D38E3A0014AB4D /* DLabPopgraphKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DLabPopgraphKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AA9684822E20B4700F9C3D4 /* DLabKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DLabKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A751E3B22D35D3F00BC2DE7 /* DLCommon.framework in Frameworks */,
-				2A751E3822D35D3D00BC2DE7 /* DLGenetic.framework in Frameworks */,
-				2A751E3522D35D3900BC2DE7 /* DLPopgraph.framework in Frameworks */,
+				2AA9684922E20B4700F9C3D4 /* DLabKit.framework in Frameworks */,
+				2A7F7C8D22D38E3A0014AB4D /* DLabPopgraphKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,9 +125,8 @@
 		2A23682522D35B0D00449C96 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2A751E3422D35D3900BC2DE7 /* DLPopgraph.framework */,
-				2A751E3722D35D3D00BC2DE7 /* DLGenetic.framework */,
-				2A751E3A22D35D3F00BC2DE7 /* DLCommon.framework */,
+				2AA9684822E20B4700F9C3D4 /* DLabKit.framework */,
+				2A7F7C8C22D38E3A0014AB4D /* DLabPopgraphKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

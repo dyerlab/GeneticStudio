@@ -21,6 +21,8 @@
 		2A2367F522D2405100449C96 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2367F322D2405100449C96 /* TableViewController.swift */; };
 		2A2367F722D249A400449C96 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2367F622D249A400449C96 /* DB.swift */; };
 		2A2367F822D249A400449C96 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2367F622D249A400449C96 /* DB.swift */; };
+		2A7F7C9122D3927A0014AB4D /* DLabKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7F7C9022D3927A0014AB4D /* DLabKit.framework */; };
+		2A7F7C9222D3927A0014AB4D /* DLabKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7F7C9022D3927A0014AB4D /* DLabKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,20 @@
 			remoteInfo = Geno;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2A7F7C9322D3927A0014AB4D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2A7F7C9222D3927A0014AB4D /* DLabKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2A2367C622D23D0800449C96 /* Geno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geno.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +65,7 @@
 		2A2367EF22D23F9300449C96 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		2A2367F322D2405100449C96 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		2A2367F622D249A400449C96 /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
+		2A7F7C9022D3927A0014AB4D /* DLabKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DLabKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A7F7C9122D3927A0014AB4D /* DLabKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +93,7 @@
 				2A2367C822D23D0800449C96 /* Geno */,
 				2A2367E022D23D0B00449C96 /* GenoTests */,
 				2A2367C722D23D0800449C96 /* Products */,
+				2A7F7C8F22D3927A0014AB4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +141,14 @@
 			path = "View Controllers";
 			sourceTree = "<group>";
 		};
+		2A7F7C8F22D3927A0014AB4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A7F7C9022D3927A0014AB4D /* DLabKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +159,7 @@
 				2A2367C222D23D0800449C96 /* Sources */,
 				2A2367C322D23D0800449C96 /* Frameworks */,
 				2A2367C422D23D0800449C96 /* Resources */,
+				2A7F7C9322D3927A0014AB4D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

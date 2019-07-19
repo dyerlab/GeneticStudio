@@ -8,22 +8,19 @@
       location = "group:README.md">
    </FileRef>
    <FileRef
-      location = "group:Popgraph/Popgraph.xcodeproj">
+      location = "group:Geno/Geno.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Geno/Geno.xcodeproj">
+      location = "group:Popgraph/Popgraph.xcodeproj">
    </FileRef>
    <Group
       location = "container:"
-      name = "Components">
+      name = "Frameworks">
       <FileRef
-         location = "group:DLPopgraph/DLPopgraph.xcodeproj">
+         location = "group:Frameworks/DLabPopgraphKit/DLabPopgraphKit.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:DLGenetic/DLGenetic.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:DLCommon/DLCommon.xcodeproj">
+         location = "group:Frameworks/DLabKit/DLabKit.xcodeproj">
       </FileRef>
    </Group>
 </Workspace>
