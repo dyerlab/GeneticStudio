@@ -15,4 +15,4 @@ do
 done
 
 perl -0pe 's/\]\n\[/,/g' sk.output  > geneticstudio.output
-jazzy --min-acl private --sourcekitten-sourcefile geneticstudio.output
+jazzy --min-acl private --theme jony --sourcekitten-sourcefile geneticstudio.output

@@ -206,14 +206,14 @@
 		2A4387202399845C006A9DA0 /* Genetic */ = {
 			isa = PBXGroup;
 			children = (
-				2A43873E2399859D006A9DA0 /* AlleleFrequencyTable.swift */,
-				2A43873D2399859D006A9DA0 /* Frequencies.swift */,
-				2A43873F2399859D006A9DA0 /* GeneticDivdersityTable.swift */,
-				2A4387432399859D006A9DA0 /* GeneticDiversityType.swift */,
+				2A43873B2399859D006A9DA0 /* Locus.swift */,
 				2A4387412399859D006A9DA0 /* Genotype.swift */,
 				2A4387422399859D006A9DA0 /* Individual.swift */,
-				2A43873B2399859D006A9DA0 /* Locus.swift */,
 				2A43873C2399859D006A9DA0 /* Population.swift */,
+				2A43873D2399859D006A9DA0 /* Frequencies.swift */,
+				2A43873E2399859D006A9DA0 /* AlleleFrequencyTable.swift */,
+				2A43873F2399859D006A9DA0 /* GeneticDivdersityTable.swift */,
+				2A4387432399859D006A9DA0 /* GeneticDiversityType.swift */,
 			);
 			path = Genetic;
 			sourceTree = "<group>";
@@ -230,6 +230,7 @@
 		2A4387222399847B006A9DA0 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				2A43873523998592006A9DA0 /* Array.swift */,
 				2A43876223998B19006A9DA0 /* DLColor.swift */,
 				2A43876323998B19006A9DA0 /* DLFloat.swift */,
 				2A43876423998B19006A9DA0 /* Notification.swift */,
@@ -256,10 +257,9 @@
 		2A438724239984E7006A9DA0 /* Matrix */ = {
 			isa = PBXGroup;
 			children = (
-				2A43873523998592006A9DA0 /* Array.swift */,
+				2A43873623998592006A9DA0 /* Vector.swift */,
 				2A43873323998592006A9DA0 /* Matrix.swift */,
 				2A43873423998592006A9DA0 /* MatrixAdaptable.swift */,
-				2A43873623998592006A9DA0 /* Vector.swift */,
 			);
 			path = Matrix;
 			sourceTree = "<group>";
@@ -277,12 +277,12 @@
 			children = (
 				2A43875523998B0E006A9DA0 /* Edge.swift */,
 				2A43875123998B0E006A9DA0 /* LineNode.swift */,
-				2A43875823998B0E006A9DA0 /* makeLopho.swift */,
 				2A43875323998B0E006A9DA0 /* Node.swift */,
 				2A43875623998B0E006A9DA0 /* Popgraph.swift */,
+				2A43875823998B0E006A9DA0 /* makeLopho.swift */,
 				2A43875423998B0E006A9DA0 /* PopgraphPath.swift */,
-				2A43875723998B0E006A9DA0 /* ShortestPathDijkstra.swift */,
 				2A43875223998B0E006A9DA0 /* ShortestPaths.swift */,
+				2A43875723998B0E006A9DA0 /* ShortestPathDijkstra.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
