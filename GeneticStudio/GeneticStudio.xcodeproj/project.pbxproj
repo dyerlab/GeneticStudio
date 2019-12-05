@@ -45,6 +45,9 @@
 		2A43876723998B19006A9DA0 /* DLFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A43876323998B19006A9DA0 /* DLFloat.swift */; };
 		2A43876823998B19006A9DA0 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A43876423998B19006A9DA0 /* Notification.swift */; };
 		2A43876A23998B72006A9DA0 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A43876923998B72006A9DA0 /* Coordinate.swift */; };
+		2A85542223998D0E00D6B48A /* GraphScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A85541F23998D0E00D6B48A /* GraphScene.swift */; };
+		2A85542323998D0E00D6B48A /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A85542023998D0E00D6B48A /* GraphView.swift */; };
+		2A85542423998D0E00D6B48A /* Graphable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A85542123998D0E00D6B48A /* Graphable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +114,9 @@
 		2A43876323998B19006A9DA0 /* DLFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLFloat.swift; sourceTree = "<group>"; };
 		2A43876423998B19006A9DA0 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		2A43876923998B72006A9DA0 /* Coordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		2A85541F23998D0E00D6B48A /* GraphScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphScene.swift; sourceTree = "<group>"; };
+		2A85542023998D0E00D6B48A /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		2A85542123998D0E00D6B48A /* Graphable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graphable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +241,9 @@
 		2A43872323998485006A9DA0 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				2A85542123998D0E00D6B48A /* Graphable.swift */,
+				2A85541F23998D0E00D6B48A /* GraphScene.swift */,
+				2A85542023998D0E00D6B48A /* GraphView.swift */,
 				2A43872623998575006A9DA0 /* ContentViewController.swift */,
 				2A43872823998575006A9DA0 /* DB.swift */,
 				2A43872923998575006A9DA0 /* Document.swift */,
@@ -419,6 +428,7 @@
 				2A43872A23998575006A9DA0 /* SidebarController.swift in Sources */,
 				2A43876723998B19006A9DA0 /* DLFloat.swift in Sources */,
 				2A43872C23998575006A9DA0 /* TableViewController.swift in Sources */,
+				2A85542323998D0E00D6B48A /* GraphView.swift in Sources */,
 				2A43876023998B0E006A9DA0 /* makeLopho.swift in Sources */,
 				2A4386F523998436006A9DA0 /* AppDelegate.swift in Sources */,
 				2A43874B2399859D006A9DA0 /* Individual.swift in Sources */,
@@ -427,6 +437,7 @@
 				2A4387472399859D006A9DA0 /* AlleleFrequencyTable.swift in Sources */,
 				2A43876823998B19006A9DA0 /* Notification.swift in Sources */,
 				2A43874A2399859D006A9DA0 /* Genotype.swift in Sources */,
+				2A85542423998D0E00D6B48A /* Graphable.swift in Sources */,
 				2A43872E23998575006A9DA0 /* Document.swift in Sources */,
 				2A4387482399859D006A9DA0 /* GeneticDivdersityTable.swift in Sources */,
 				2A43873723998592006A9DA0 /* Matrix.swift in Sources */,
@@ -436,6 +447,7 @@
 				2A43876623998B19006A9DA0 /* DLColor.swift in Sources */,
 				2A43875A23998B0E006A9DA0 /* ShortestPaths.swift in Sources */,
 				2A43873A23998592006A9DA0 /* Vector.swift in Sources */,
+				2A85542223998D0E00D6B48A /* GraphScene.swift in Sources */,
 				2A43876523998B19006A9DA0 /* SCNVector3.swift in Sources */,
 				2A43873823998592006A9DA0 /* MatrixAdaptable.swift in Sources */,
 				2A43873923998592006A9DA0 /* Array.swift in Sources */,
