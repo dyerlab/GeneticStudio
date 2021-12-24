@@ -23,6 +23,19 @@
 		2A1B9B302775F40300154CE4 /* DogwoodByCanopyType.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B9B212775F40300154CE4 /* DogwoodByCanopyType.csv */; };
 		2A1B9B312775F40300154CE4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B9B222775F40300154CE4 /* LICENSE */; };
 		2A1B9B322775F40300154CE4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B9B222775F40300154CE4 /* LICENSE */; };
+		2A1B9B342775FD7100154CE4 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B9B332775FD7100154CE4 /* Documentation.docc */; };
+		2A1B9B4C2776001700154CE4 /* Project+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B9B4A2776001700154CE4 /* Project+CoreDataClass.swift */; };
+		2A1B9B4D2776001700154CE4 /* Project+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B9B4A2776001700154CE4 /* Project+CoreDataClass.swift */; };
+		2A1B9B4E2776001700154CE4 /* Project+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B9B4A2776001700154CE4 /* Project+CoreDataClass.swift */; };
+		2A1B9B4F2776001700154CE4 /* Project+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B9B4A2776001700154CE4 /* Project+CoreDataClass.swift */; };
+		2A1B9B502776001700154CE4 /* Project+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B9B4B2776001700154CE4 /* Project+CoreDataProperties.swift */; };
+		2A1B9B512776001700154CE4 /* Project+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B9B4B2776001700154CE4 /* Project+CoreDataProperties.swift */; };
+		2A1B9B522776001700154CE4 /* Project+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B9B4B2776001700154CE4 /* Project+CoreDataProperties.swift */; };
+		2A1B9B532776001700154CE4 /* Project+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B9B4B2776001700154CE4 /* Project+CoreDataProperties.swift */; };
+		2A1B9B552776003900154CE4 /* ProjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B9B542776003900154CE4 /* ProjectListView.swift */; };
+		2A1B9B562776003900154CE4 /* ProjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B9B542776003900154CE4 /* ProjectListView.swift */; };
+		2A1B9B582776004B00154CE4 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B9B572776004B00154CE4 /* Project.swift */; };
+		2A1B9B592776004B00154CE4 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B9B572776004B00154CE4 /* Project.swift */; };
 		2A9F98B92775F0980071F9E7 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F98B82775F0980071F9E7 /* Tests_iOS.swift */; };
 		2A9F98BB2775F0980071F9E7 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F98BA2775F0980071F9E7 /* Tests_iOSLaunchTests.swift */; };
 		2A9F98C52775F0980071F9E7 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F98C42775F0980071F9E7 /* Tests_macOS.swift */; };
@@ -65,6 +78,11 @@
 		2A1B9B202775F40300154CE4 /* Euphorbia_lomelli.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Euphorbia_lomelli.csv; sourceTree = "<group>"; };
 		2A1B9B212775F40300154CE4 /* DogwoodByCanopyType.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DogwoodByCanopyType.csv; sourceTree = "<group>"; };
 		2A1B9B222775F40300154CE4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2A1B9B332775FD7100154CE4 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		2A1B9B4A2776001700154CE4 /* Project+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2A1B9B4B2776001700154CE4 /* Project+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2A1B9B542776003900154CE4 /* ProjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListView.swift; sourceTree = "<group>"; };
+		2A1B9B572776004B00154CE4 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 		2A9F989E2775F0970071F9E7 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		2A9F989F2775F0970071F9E7 /* Genetic_StudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genetic_StudioApp.swift; sourceTree = "<group>"; };
 		2A9F98A02775F0970071F9E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,12 +144,32 @@
 			path = data;
 			sourceTree = "<group>";
 		};
+		2A1B9B3F2775FF3B00154CE4 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2A1B9B4A2776001700154CE4 /* Project+CoreDataClass.swift */,
+				2A1B9B4B2776001700154CE4 /* Project+CoreDataProperties.swift */,
+				2A1B9B572776004B00154CE4 /* Project.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		2A1B9B5A2776016400154CE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A9F98A02775F0970071F9E7 /* ContentView.swift */,
+				2A1B9B542776003900154CE4 /* ProjectListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2A9F98972775F0970071F9E7 = {
 			isa = PBXGroup;
 			children = (
 				2A1B9B1B2775F40300154CE4 /* data */,
 				2A1B9B222775F40300154CE4 /* LICENSE */,
 				2A1B9B1A2775F40300154CE4 /* README.md */,
+				2A1B9B332775FD7100154CE4 /* Documentation.docc */,
 				2A9F989C2775F0970071F9E7 /* Shared */,
 				2A9F98AE2775F0980071F9E7 /* macOS */,
 				2A9F98B72775F0980071F9E7 /* Tests iOS */,
@@ -143,11 +181,12 @@
 		2A9F989C2775F0970071F9E7 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				2A1B9B3F2775FF3B00154CE4 /* CoreData */,
 				2A9F989F2775F0970071F9E7 /* Genetic_StudioApp.swift */,
-				2A9F98A02775F0970071F9E7 /* ContentView.swift */,
 				2A9F98A12775F0970071F9E7 /* Persistence.swift */,
 				2A9F98A22775F0980071F9E7 /* Assets.xcassets */,
 				2A9F989D2775F0970071F9E7 /* Genetic_Studio.xcdatamodeld */,
+				2A1B9B5A2776016400154CE4 /* Views */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -364,9 +403,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A9F98C82775F0980071F9E7 /* Genetic_Studio.xcdatamodeld in Sources */,
+				2A1B9B552776003900154CE4 /* ProjectListView.swift in Sources */,
 				2A9F98CE2775F0980071F9E7 /* Persistence.swift in Sources */,
 				2A9F98CA2775F0980071F9E7 /* Genetic_StudioApp.swift in Sources */,
 				2A9F98CC2775F0980071F9E7 /* ContentView.swift in Sources */,
+				2A1B9B502776001700154CE4 /* Project+CoreDataProperties.swift in Sources */,
+				2A1B9B4C2776001700154CE4 /* Project+CoreDataClass.swift in Sources */,
+				2A1B9B582776004B00154CE4 /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,8 +419,13 @@
 			files = (
 				2A9F98C92775F0980071F9E7 /* Genetic_Studio.xcdatamodeld in Sources */,
 				2A9F98CF2775F0980071F9E7 /* Persistence.swift in Sources */,
+				2A1B9B562776003900154CE4 /* ProjectListView.swift in Sources */,
 				2A9F98CB2775F0980071F9E7 /* Genetic_StudioApp.swift in Sources */,
+				2A1B9B512776001700154CE4 /* Project+CoreDataProperties.swift in Sources */,
+				2A1B9B4D2776001700154CE4 /* Project+CoreDataClass.swift in Sources */,
+				2A1B9B342775FD7100154CE4 /* Documentation.docc in Sources */,
 				2A9F98CD2775F0980071F9E7 /* ContentView.swift in Sources */,
+				2A1B9B592776004B00154CE4 /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,7 +433,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A1B9B4E2776001700154CE4 /* Project+CoreDataClass.swift in Sources */,
 				2A9F98BB2775F0980071F9E7 /* Tests_iOSLaunchTests.swift in Sources */,
+				2A1B9B522776001700154CE4 /* Project+CoreDataProperties.swift in Sources */,
 				2A9F98B92775F0980071F9E7 /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,7 +444,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A1B9B4F2776001700154CE4 /* Project+CoreDataClass.swift in Sources */,
 				2A9F98C72775F0980071F9E7 /* Tests_macOSLaunchTests.swift in Sources */,
+				2A1B9B532776001700154CE4 /* Project+CoreDataProperties.swift in Sources */,
 				2A9F98C52775F0980071F9E7 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -549,6 +601,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dyerlab.Genetic-Studio";
 				PRODUCT_NAME = "Genetic Studio";
+				RUN_DOCUMENTATION_COMPILER = YES;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -579,6 +632,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dyerlab.Genetic-Studio";
 				PRODUCT_NAME = "Genetic Studio";
+				RUN_DOCUMENTATION_COMPILER = YES;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -600,6 +654,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -609,6 +664,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dyerlab.Genetic-Studio";
 				PRODUCT_NAME = "Genetic Studio";
+				RUN_DOCUMENTATION_COMPILER = YES;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -628,6 +684,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -637,6 +694,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dyerlab.Genetic-Studio";
 				PRODUCT_NAME = "Genetic Studio";
+				RUN_DOCUMENTATION_COMPILER = YES;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

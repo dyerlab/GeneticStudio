@@ -13,9 +13,11 @@ struct PersistenceController {
     static var preview: PersistenceController = {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
-        for _ in 0..<10 {
-            let newItem = Item(context: viewContext)
+        let species = ["Cornus florida", "Araptus attenuata", "Clemmys guttata"]
+        for i in 0..<3 {
+            let newItem = Project(context: viewContext)
             newItem.timestamp = Date()
+            newItem.species = species[i]
         }
         do {
             try viewContext.save()

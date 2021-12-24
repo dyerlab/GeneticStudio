@@ -9,21 +9,25 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+    
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
+        sortDescriptors: [NSSortDescriptor(keyPath: \Project.timestamp, ascending: true)],
         animation: .default)
-    private var items: FetchedResults<Item>
+    
+    private var projects: FetchedResults<Project>
 
     var body: some View {
         NavigationView {
             List {
-                ForEach(items) { item in
+                ForEach(projects) { project in
                     NavigationLink {
-                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
+                        Text("Project View")
                     } label: {
-                        Text(item.timestamp!, formatter: itemFormatter)
+                        ProjectListView(species: project.species ?? "Undefined",
+                                        date: project.timestamp ?? Date() )
+                        
                     }
                 }
                 .onDelete(perform: deleteItems)
@@ -46,7 +50,7 @@ struct ContentView: View {
 
     private func addItem() {
         withAnimation {
-            let newItem = Item(context: viewContext)
+            let newItem = Project(context: viewContext)
             newItem.timestamp = Date()
 
             do {
@@ -62,7 +66,7 @@ struct ContentView: View {
 
     private func deleteItems(offsets: IndexSet) {
         withAnimation {
-            offsets.map { items[$0] }.forEach(viewContext.delete)
+            offsets.map { projects[$0] }.forEach(viewContext.delete)
 
             do {
                 try viewContext.save()
@@ -75,13 +79,6 @@ struct ContentView: View {
         }
     }
 }
-
-private let itemFormatter: DateFormatter = {
-    let formatter = DateFormatter()
-    formatter.dateStyle = .short
-    formatter.timeStyle = .medium
-    return formatter
-}()
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
