@@ -36,6 +36,8 @@
 		2A1B9B562776003900154CE4 /* ProjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B9B542776003900154CE4 /* ProjectListView.swift */; };
 		2A1B9B582776004B00154CE4 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B9B572776004B00154CE4 /* Project.swift */; };
 		2A1B9B592776004B00154CE4 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B9B572776004B00154CE4 /* Project.swift */; };
+		2A1B9B5D277605E300154CE4 /* DLabMatrix in Frameworks */ = {isa = PBXBuildFile; productRef = 2A1B9B5C277605E300154CE4 /* DLabMatrix */; };
+		2A1B9B602776061A00154CE4 /* DLGenetic in Frameworks */ = {isa = PBXBuildFile; productRef = 2A1B9B5F2776061A00154CE4 /* DLGenetic */; };
 		2A9F98B92775F0980071F9E7 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F98B82775F0980071F9E7 /* Tests_iOS.swift */; };
 		2A9F98BB2775F0980071F9E7 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F98BA2775F0980071F9E7 /* Tests_iOSLaunchTests.swift */; };
 		2A9F98C52775F0980071F9E7 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F98C42775F0980071F9E7 /* Tests_macOS.swift */; };
@@ -104,6 +106,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A1B9B602776061A00154CE4 /* DLGenetic in Frameworks */,
+				2A1B9B5D277605E300154CE4 /* DLabMatrix in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +248,10 @@
 			dependencies = (
 			);
 			name = "Genetic Studio (iOS)";
+			packageProductDependencies = (
+				2A1B9B5C277605E300154CE4 /* DLabMatrix */,
+				2A1B9B5F2776061A00154CE4 /* DLGenetic */,
+			);
 			productName = "Genetic Studio (iOS)";
 			productReference = 2A9F98A72775F0980071F9E7 /* Genetic Studio.app */;
 			productType = "com.apple.product-type.application";
@@ -336,6 +344,10 @@
 				Base,
 			);
 			mainGroup = 2A9F98972775F0970071F9E7;
+			packageReferences = (
+				2A1B9B5B277605E300154CE4 /* XCRemoteSwiftPackageReference "DLabMatrix" */,
+				2A1B9B5E2776061A00154CE4 /* XCRemoteSwiftPackageReference "DLabGenetic" */,
+			);
 			productRefGroup = 2A9F98A82775F0980071F9E7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -829,6 +841,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2A1B9B5B277605E300154CE4 /* XCRemoteSwiftPackageReference "DLabMatrix" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dyerlab/DLabMatrix.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		2A1B9B5E2776061A00154CE4 /* XCRemoteSwiftPackageReference "DLabGenetic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dyerlab/DLabGenetic.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A1B9B5C277605E300154CE4 /* DLabMatrix */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A1B9B5B277605E300154CE4 /* XCRemoteSwiftPackageReference "DLabMatrix" */;
+			productName = DLabMatrix;
+		};
+		2A1B9B5F2776061A00154CE4 /* DLGenetic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A1B9B5E2776061A00154CE4 /* XCRemoteSwiftPackageReference "DLabGenetic" */;
+			productName = DLGenetic;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		2A9F989D2775F0970071F9E7 /* Genetic_Studio.xcdatamodeld */ = {
