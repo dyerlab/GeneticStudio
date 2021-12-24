@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1B9B232775F40300154CE4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B9B1A2775F40300154CE4 /* README.md */; };
+		2A1B9B242775F40300154CE4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B9B1A2775F40300154CE4 /* README.md */; };
+		2A1B9B252775F40300154CE4 /* virginia.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B9B1C2775F40300154CE4 /* virginia.tif */; };
+		2A1B9B262775F40300154CE4 /* virginia.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B9B1C2775F40300154CE4 /* virginia.tif */; };
+		2A1B9B272775F40300154CE4 /* PedimaFinalGenotypesRegions.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B9B1D2775F40300154CE4 /* PedimaFinalGenotypesRegions.csv */; };
+		2A1B9B282775F40300154CE4 /* PedimaFinalGenotypesRegions.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B9B1D2775F40300154CE4 /* PedimaFinalGenotypesRegions.csv */; };
+		2A1B9B292775F40300154CE4 /* Araptus.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B9B1E2775F40300154CE4 /* Araptus.csv */; };
+		2A1B9B2A2775F40300154CE4 /* Araptus.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B9B1E2775F40300154CE4 /* Araptus.csv */; };
+		2A1B9B2B2775F40300154CE4 /* human.snp in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B9B1F2775F40300154CE4 /* human.snp */; };
+		2A1B9B2C2775F40300154CE4 /* human.snp in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B9B1F2775F40300154CE4 /* human.snp */; };
+		2A1B9B2D2775F40300154CE4 /* Euphorbia_lomelli.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B9B202775F40300154CE4 /* Euphorbia_lomelli.csv */; };
+		2A1B9B2E2775F40300154CE4 /* Euphorbia_lomelli.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B9B202775F40300154CE4 /* Euphorbia_lomelli.csv */; };
+		2A1B9B2F2775F40300154CE4 /* DogwoodByCanopyType.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B9B212775F40300154CE4 /* DogwoodByCanopyType.csv */; };
+		2A1B9B302775F40300154CE4 /* DogwoodByCanopyType.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B9B212775F40300154CE4 /* DogwoodByCanopyType.csv */; };
+		2A1B9B312775F40300154CE4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B9B222775F40300154CE4 /* LICENSE */; };
+		2A1B9B322775F40300154CE4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B9B222775F40300154CE4 /* LICENSE */; };
 		2A9F98B92775F0980071F9E7 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F98B82775F0980071F9E7 /* Tests_iOS.swift */; };
 		2A9F98BB2775F0980071F9E7 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F98BA2775F0980071F9E7 /* Tests_iOSLaunchTests.swift */; };
 		2A9F98C52775F0980071F9E7 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F98C42775F0980071F9E7 /* Tests_macOS.swift */; };
@@ -41,6 +57,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A1B9B1A2775F40300154CE4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2A1B9B1C2775F40300154CE4 /* virginia.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = virginia.tif; sourceTree = "<group>"; };
+		2A1B9B1D2775F40300154CE4 /* PedimaFinalGenotypesRegions.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PedimaFinalGenotypesRegions.csv; sourceTree = "<group>"; };
+		2A1B9B1E2775F40300154CE4 /* Araptus.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Araptus.csv; sourceTree = "<group>"; };
+		2A1B9B1F2775F40300154CE4 /* human.snp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = human.snp; sourceTree = "<group>"; };
+		2A1B9B202775F40300154CE4 /* Euphorbia_lomelli.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Euphorbia_lomelli.csv; sourceTree = "<group>"; };
+		2A1B9B212775F40300154CE4 /* DogwoodByCanopyType.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DogwoodByCanopyType.csv; sourceTree = "<group>"; };
+		2A1B9B222775F40300154CE4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2A9F989E2775F0970071F9E7 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		2A9F989F2775F0970071F9E7 /* Genetic_StudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genetic_StudioApp.swift; sourceTree = "<group>"; };
 		2A9F98A02775F0970071F9E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,9 +113,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A1B9B1B2775F40300154CE4 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				2A1B9B1C2775F40300154CE4 /* virginia.tif */,
+				2A1B9B1D2775F40300154CE4 /* PedimaFinalGenotypesRegions.csv */,
+				2A1B9B1E2775F40300154CE4 /* Araptus.csv */,
+				2A1B9B1F2775F40300154CE4 /* human.snp */,
+				2A1B9B202775F40300154CE4 /* Euphorbia_lomelli.csv */,
+				2A1B9B212775F40300154CE4 /* DogwoodByCanopyType.csv */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
 		2A9F98972775F0970071F9E7 = {
 			isa = PBXGroup;
 			children = (
+				2A1B9B1B2775F40300154CE4 /* data */,
+				2A1B9B222775F40300154CE4 /* LICENSE */,
+				2A1B9B1A2775F40300154CE4 /* README.md */,
 				2A9F989C2775F0970071F9E7 /* Shared */,
 				2A9F98AE2775F0980071F9E7 /* macOS */,
 				2A9F98B72775F0980071F9E7 /* Tests iOS */,
@@ -274,7 +314,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A1B9B272775F40300154CE4 /* PedimaFinalGenotypesRegions.csv in Resources */,
+				2A1B9B2B2775F40300154CE4 /* human.snp in Resources */,
+				2A1B9B252775F40300154CE4 /* virginia.tif in Resources */,
+				2A1B9B2F2775F40300154CE4 /* DogwoodByCanopyType.csv in Resources */,
+				2A1B9B2D2775F40300154CE4 /* Euphorbia_lomelli.csv in Resources */,
+				2A1B9B232775F40300154CE4 /* README.md in Resources */,
+				2A1B9B312775F40300154CE4 /* LICENSE in Resources */,
 				2A9F98D02775F0980071F9E7 /* Assets.xcassets in Resources */,
+				2A1B9B292775F40300154CE4 /* Araptus.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +330,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A1B9B282775F40300154CE4 /* PedimaFinalGenotypesRegions.csv in Resources */,
+				2A1B9B2C2775F40300154CE4 /* human.snp in Resources */,
+				2A1B9B262775F40300154CE4 /* virginia.tif in Resources */,
+				2A1B9B302775F40300154CE4 /* DogwoodByCanopyType.csv in Resources */,
+				2A1B9B2E2775F40300154CE4 /* Euphorbia_lomelli.csv in Resources */,
+				2A1B9B242775F40300154CE4 /* README.md in Resources */,
+				2A1B9B322775F40300154CE4 /* LICENSE in Resources */,
 				2A9F98D12775F0980071F9E7 /* Assets.xcassets in Resources */,
+				2A1B9B2A2775F40300154CE4 /* Araptus.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
