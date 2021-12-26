@@ -43,6 +43,10 @@
 		2A37414C277874FA00362E14 /* GeneticStudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A37414A277874FA00362E14 /* GeneticStudioView.swift */; };
 		2A37414E2778762F00362E14 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A37414D2778762F00362E14 /* Color.swift */; };
 		2A37414F2778762F00362E14 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A37414D2778762F00362E14 /* Color.swift */; };
+		2A3741512778780700362E14 /* ProjectAnalysisListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3741502778780700362E14 /* ProjectAnalysisListView.swift */; };
+		2A3741522778780700362E14 /* ProjectAnalysisListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3741502778780700362E14 /* ProjectAnalysisListView.swift */; };
+		2A374154277878D100362E14 /* AnalysisListViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A374153277878D100362E14 /* AnalysisListViewItem.swift */; };
+		2A374155277878D100362E14 /* AnalysisListViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A374153277878D100362E14 /* AnalysisListViewItem.swift */; };
 		2A9F98B92775F0980071F9E7 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F98B82775F0980071F9E7 /* Tests_iOS.swift */; };
 		2A9F98BB2775F0980071F9E7 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F98BA2775F0980071F9E7 /* Tests_iOSLaunchTests.swift */; };
 		2A9F98C52775F0980071F9E7 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F98C42775F0980071F9E7 /* Tests_macOS.swift */; };
@@ -94,6 +98,8 @@
 		2A3741472778734B00362E14 /* ProjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListView.swift; sourceTree = "<group>"; };
 		2A37414A277874FA00362E14 /* GeneticStudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioView.swift; sourceTree = "<group>"; };
 		2A37414D2778762F00362E14 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Color.swift; path = Extension/Color.swift; sourceTree = "<group>"; };
+		2A3741502778780700362E14 /* ProjectAnalysisListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectAnalysisListView.swift; sourceTree = "<group>"; };
+		2A374153277878D100362E14 /* AnalysisListViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisListViewItem.swift; sourceTree = "<group>"; };
 		2A9F989E2775F0970071F9E7 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		2A9F989F2775F0970071F9E7 /* Genetic_StudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genetic_StudioApp.swift; sourceTree = "<group>"; };
 		2A9F98A02775F0970071F9E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -174,6 +180,8 @@
 				2A1B9B542776003900154CE4 /* ProjectListItemView.swift */,
 				2A3741472778734B00362E14 /* ProjectListView.swift */,
 				2A37414A277874FA00362E14 /* GeneticStudioView.swift */,
+				2A3741502778780700362E14 /* ProjectAnalysisListView.swift */,
+				2A374153277878D100362E14 /* AnalysisListViewItem.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -433,8 +441,10 @@
 				2A1B9B552776003900154CE4 /* ProjectListItemView.swift in Sources */,
 				2A9F98CE2775F0980071F9E7 /* Persistence.swift in Sources */,
 				2A9F98CA2775F0980071F9E7 /* Genetic_StudioApp.swift in Sources */,
+				2A374154277878D100362E14 /* AnalysisListViewItem.swift in Sources */,
 				2A9F98CC2775F0980071F9E7 /* ContentView.swift in Sources */,
 				2A1B9B502776001700154CE4 /* Project+CoreDataProperties.swift in Sources */,
+				2A3741512778780700362E14 /* ProjectAnalysisListView.swift in Sources */,
 				2A1B9B4C2776001700154CE4 /* Project+CoreDataClass.swift in Sources */,
 				2A1B9B582776004B00154CE4 /* Project.swift in Sources */,
 			);
@@ -453,7 +463,9 @@
 				2A1B9B512776001700154CE4 /* Project+CoreDataProperties.swift in Sources */,
 				2A1B9B4D2776001700154CE4 /* Project+CoreDataClass.swift in Sources */,
 				2A3741492778734B00362E14 /* ProjectListView.swift in Sources */,
+				2A374155277878D100362E14 /* AnalysisListViewItem.swift in Sources */,
 				2A1B9B342775FD7100154CE4 /* Documentation.docc in Sources */,
+				2A3741522778780700362E14 /* ProjectAnalysisListView.swift in Sources */,
 				2A9F98CD2775F0980071F9E7 /* ContentView.swift in Sources */,
 				2A1B9B592776004B00154CE4 /* Project.swift in Sources */,
 			);
