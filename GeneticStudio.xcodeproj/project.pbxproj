@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A4901A7277C9049002755A3 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901A6277C9049002755A3 /* Tests_iOS.swift */; };
+		2A4901A9277C9049002755A3 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901A8277C9049002755A3 /* Tests_iOSLaunchTests.swift */; };
+		2A4901B3277C9049002755A3 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901B2277C9049002755A3 /* Tests_macOS.swift */; };
+		2A4901B5277C9049002755A3 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901B4277C9049002755A3 /* Tests_macOSLaunchTests.swift */; };
+		2A4901B6277C9049002755A3 /* GeneticStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A49018A277C9048002755A3 /* GeneticStudioApp.swift */; };
+		2A4901B7277C9049002755A3 /* GeneticStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A49018A277C9048002755A3 /* GeneticStudioApp.swift */; };
+		2A4901B8277C9049002755A3 /* GeneticStudioDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A49018B277C9048002755A3 /* GeneticStudioDocument.swift */; };
+		2A4901B9277C9049002755A3 /* GeneticStudioDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A49018B277C9048002755A3 /* GeneticStudioDocument.swift */; };
+		2A4901BA277C9049002755A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A49018C277C9048002755A3 /* ContentView.swift */; };
+		2A4901BB277C9049002755A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A49018C277C9048002755A3 /* ContentView.swift */; };
+		2A4901BC277C9049002755A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A49018D277C9049002755A3 /* Assets.xcassets */; };
+		2A4901BD277C9049002755A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A49018D277C9049002755A3 /* Assets.xcassets */; };
+		2A4901D3277C9058002755A3 /* GeneticStudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901CD277C9058002755A3 /* GeneticStudioView.swift */; };
+		2A4901D4277C9058002755A3 /* GeneticStudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901CD277C9058002755A3 /* GeneticStudioView.swift */; };
+		2A4901D7277C9058002755A3 /* ProjectAnalysisListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901CF277C9058002755A3 /* ProjectAnalysisListView.swift */; };
+		2A4901D8277C9058002755A3 /* ProjectAnalysisListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901CF277C9058002755A3 /* ProjectAnalysisListView.swift */; };
+		2A4901DB277C9058002755A3 /* AnalysisListViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901D1277C9058002755A3 /* AnalysisListViewItem.swift */; };
+		2A4901DC277C9058002755A3 /* AnalysisListViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901D1277C9058002755A3 /* AnalysisListViewItem.swift */; };
+		2A4901E0277C90D1002755A3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901DF277C90D1002755A3 /* Color.swift */; };
+		2A4901E1277C90D1002755A3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901DF277C90D1002755A3 /* Color.swift */; };
+		2A4901E3277C9183002755A3 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901E2277C9183002755A3 /* Documentation.docc */; };
+		2A4901E4277C9183002755A3 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901E2277C9183002755A3 /* Documentation.docc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A4901A3277C9049002755A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A490185277C9048002755A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A490191277C9049002755A3;
+			remoteInfo = "GeneticStudio (iOS)";
+		};
+		2A4901AF277C9049002755A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A490185277C9048002755A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A490199277C9049002755A3;
+			remoteInfo = "GeneticStudio (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A49018A277C9048002755A3 /* GeneticStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioApp.swift; sourceTree = "<group>"; };
+		2A49018B277C9048002755A3 /* GeneticStudioDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioDocument.swift; sourceTree = "<group>"; };
+		2A49018C277C9048002755A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A49018D277C9049002755A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A490192277C9049002755A3 /* GeneticStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneticStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A490195277C9049002755A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A49019A277C9049002755A3 /* GeneticStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneticStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A49019C277C9049002755A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A49019D277C9049002755A3 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		2A4901A2277C9049002755A3 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A4901A6277C9049002755A3 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		2A4901A8277C9049002755A3 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		2A4901AE277C9049002755A3 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A4901B2277C9049002755A3 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		2A4901B4277C9049002755A3 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		2A4901CD277C9058002755A3 /* GeneticStudioView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneticStudioView.swift; sourceTree = "<group>"; };
+		2A4901CF277C9058002755A3 /* ProjectAnalysisListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectAnalysisListView.swift; sourceTree = "<group>"; };
+		2A4901D1277C9058002755A3 /* AnalysisListViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisListViewItem.swift; sourceTree = "<group>"; };
+		2A4901DF277C90D1002755A3 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		2A4901E2277C9183002755A3 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A49018F277C9049002755A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A490197277C9049002755A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A49019F277C9049002755A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4901AB277C9049002755A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A490184277C9048002755A3 = {
+			isa = PBXGroup;
+			children = (
+				2A4901E2277C9183002755A3 /* Documentation.docc */,
+				2A490189277C9048002755A3 /* Shared */,
+				2A490194277C9049002755A3 /* iOS */,
+				2A49019B277C9049002755A3 /* macOS */,
+				2A4901A5277C9049002755A3 /* Tests iOS */,
+				2A4901B1277C9049002755A3 /* Tests macOS */,
+				2A490193277C9049002755A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A490189277C9048002755A3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2A49018A277C9048002755A3 /* GeneticStudioApp.swift */,
+				2A49018B277C9048002755A3 /* GeneticStudioDocument.swift */,
+				2A49018C277C9048002755A3 /* ContentView.swift */,
+				2A4901DF277C90D1002755A3 /* Color.swift */,
+				2A4901CC277C9058002755A3 /* Views */,
+				2A49018D277C9049002755A3 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2A490193277C9049002755A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A490192277C9049002755A3 /* GeneticStudio.app */,
+				2A49019A277C9049002755A3 /* GeneticStudio.app */,
+				2A4901A2277C9049002755A3 /* Tests iOS.xctest */,
+				2A4901AE277C9049002755A3 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A490194277C9049002755A3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2A490195277C9049002755A3 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		2A49019B277C9049002755A3 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2A49019C277C9049002755A3 /* Info.plist */,
+				2A49019D277C9049002755A3 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		2A4901A5277C9049002755A3 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2A4901A6277C9049002755A3 /* Tests_iOS.swift */,
+				2A4901A8277C9049002755A3 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		2A4901B1277C9049002755A3 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2A4901B2277C9049002755A3 /* Tests_macOS.swift */,
+				2A4901B4277C9049002755A3 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		2A4901CC277C9058002755A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A4901CD277C9058002755A3 /* GeneticStudioView.swift */,
+				2A4901CF277C9058002755A3 /* ProjectAnalysisListView.swift */,
+				2A4901D1277C9058002755A3 /* AnalysisListViewItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A490191277C9049002755A3 /* GeneticStudio (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A4901C0277C9049002755A3 /* Build configuration list for PBXNativeTarget "GeneticStudio (iOS)" */;
+			buildPhases = (
+				2A49018E277C9049002755A3 /* Sources */,
+				2A49018F277C9049002755A3 /* Frameworks */,
+				2A490190277C9049002755A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GeneticStudio (iOS)";
+			productName = "GeneticStudio (iOS)";
+			productReference = 2A490192277C9049002755A3 /* GeneticStudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A490199277C9049002755A3 /* GeneticStudio (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A4901C3277C9049002755A3 /* Build configuration list for PBXNativeTarget "GeneticStudio (macOS)" */;
+			buildPhases = (
+				2A490196277C9049002755A3 /* Sources */,
+				2A490197277C9049002755A3 /* Frameworks */,
+				2A490198277C9049002755A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GeneticStudio (macOS)";
+			productName = "GeneticStudio (macOS)";
+			productReference = 2A49019A277C9049002755A3 /* GeneticStudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A4901A1277C9049002755A3 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A4901C6277C9049002755A3 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				2A49019E277C9049002755A3 /* Sources */,
+				2A49019F277C9049002755A3 /* Frameworks */,
+				2A4901A0277C9049002755A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A4901A4277C9049002755A3 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 2A4901A2277C9049002755A3 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2A4901AD277C9049002755A3 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A4901C9277C9049002755A3 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				2A4901AA277C9049002755A3 /* Sources */,
+				2A4901AB277C9049002755A3 /* Frameworks */,
+				2A4901AC277C9049002755A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A4901B0277C9049002755A3 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 2A4901AE277C9049002755A3 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A490185277C9048002755A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					2A490191277C9049002755A3 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					2A490199277C9049002755A3 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					2A4901A1277C9049002755A3 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 2A490191277C9049002755A3;
+					};
+					2A4901AD277C9049002755A3 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 2A490199277C9049002755A3;
+					};
+				};
+			};
+			buildConfigurationList = 2A490188277C9048002755A3 /* Build configuration list for PBXProject "GeneticStudio" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A490184277C9048002755A3;
+			productRefGroup = 2A490193277C9049002755A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A490191277C9049002755A3 /* GeneticStudio (iOS) */,
+				2A490199277C9049002755A3 /* GeneticStudio (macOS) */,
+				2A4901A1277C9049002755A3 /* Tests iOS */,
+				2A4901AD277C9049002755A3 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A490190277C9049002755A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4901BC277C9049002755A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A490198277C9049002755A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4901BD277C9049002755A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4901A0277C9049002755A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4901AC277C9049002755A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A49018E277C9049002755A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4901D3277C9058002755A3 /* GeneticStudioView.swift in Sources */,
+				2A4901D7277C9058002755A3 /* ProjectAnalysisListView.swift in Sources */,
+				2A4901E0277C90D1002755A3 /* Color.swift in Sources */,
+				2A4901E3277C9183002755A3 /* Documentation.docc in Sources */,
+				2A4901B8277C9049002755A3 /* GeneticStudioDocument.swift in Sources */,
+				2A4901B6277C9049002755A3 /* GeneticStudioApp.swift in Sources */,
+				2A4901BA277C9049002755A3 /* ContentView.swift in Sources */,
+				2A4901DB277C9058002755A3 /* AnalysisListViewItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A490196277C9049002755A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4901D4277C9058002755A3 /* GeneticStudioView.swift in Sources */,
+				2A4901D8277C9058002755A3 /* ProjectAnalysisListView.swift in Sources */,
+				2A4901E1277C90D1002755A3 /* Color.swift in Sources */,
+				2A4901E4277C9183002755A3 /* Documentation.docc in Sources */,
+				2A4901B9277C9049002755A3 /* GeneticStudioDocument.swift in Sources */,
+				2A4901B7277C9049002755A3 /* GeneticStudioApp.swift in Sources */,
+				2A4901BB277C9049002755A3 /* ContentView.swift in Sources */,
+				2A4901DC277C9058002755A3 /* AnalysisListViewItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A49019E277C9049002755A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4901A9277C9049002755A3 /* Tests_iOSLaunchTests.swift in Sources */,
+				2A4901A7277C9049002755A3 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4901AA277C9049002755A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4901B5277C9049002755A3 /* Tests_macOSLaunchTests.swift in Sources */,
+				2A4901B3277C9049002755A3 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A4901A4277C9049002755A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A490191277C9049002755A3 /* GeneticStudio (iOS) */;
+			targetProxy = 2A4901A3277C9049002755A3 /* PBXContainerItemProxy */;
+		};
+		2A4901B0277C9049002755A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A490199277C9049002755A3 /* GeneticStudio (macOS) */;
+			targetProxy = 2A4901AF277C9049002755A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A4901BE277C9049002755A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A4901BF277C9049002755A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2A4901C1277C9049002755A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L9D67FVN7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.GeneticStudio;
+				PRODUCT_NAME = GeneticStudio;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A4901C2277C9049002755A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L9D67FVN7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.GeneticStudio;
+				PRODUCT_NAME = GeneticStudio;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A4901C4277C9049002755A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L9D67FVN7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.GeneticStudio;
+				PRODUCT_NAME = GeneticStudio;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2A4901C5277C9049002755A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L9D67FVN7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.GeneticStudio;
+				PRODUCT_NAME = GeneticStudio;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2A4901C7277C9049002755A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L9D67FVN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dyerlab.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GeneticStudio (iOS)";
+			};
+			name = Debug;
+		};
+		2A4901C8277C9049002755A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L9D67FVN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dyerlab.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GeneticStudio (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A4901CA277C9049002755A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L9D67FVN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dyerlab.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "GeneticStudio (macOS)";
+			};
+			name = Debug;
+		};
+		2A4901CB277C9049002755A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L9D67FVN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dyerlab.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "GeneticStudio (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A490188277C9048002755A3 /* Build configuration list for PBXProject "GeneticStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A4901BE277C9049002755A3 /* Debug */,
+				2A4901BF277C9049002755A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A4901C0277C9049002755A3 /* Build configuration list for PBXNativeTarget "GeneticStudio (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A4901C1277C9049002755A3 /* Debug */,
+				2A4901C2277C9049002755A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A4901C3277C9049002755A3 /* Build configuration list for PBXNativeTarget "GeneticStudio (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A4901C4277C9049002755A3 /* Debug */,
+				2A4901C5277C9049002755A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A4901C6277C9049002755A3 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A4901C7277C9049002755A3 /* Debug */,
+				2A4901C8277C9049002755A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A4901C9277C9049002755A3 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A4901CA277C9049002755A3 /* Debug */,
+				2A4901CB277C9049002755A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A490185277C9048002755A3 /* Project object */;
+}
