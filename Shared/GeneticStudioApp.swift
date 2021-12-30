@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct GeneticStudioApp: App {
+    
     var body: some Scene {
         DocumentGroup(newDocument: GeneticStudioDocument()) { file in
             ContentView(document: file.$document)
         }
     }
+
+    
 }

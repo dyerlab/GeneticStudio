@@ -7,6 +7,7 @@
 
 import XCTest
 
+/*
 class Tests_macOSLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
@@ -30,3 +31,5 @@ class Tests_macOSLaunchTests: XCTestCase {
         add(attachment)
     }
 }
+
+*/

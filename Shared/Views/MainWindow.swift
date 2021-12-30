@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ProjectAnalysisListView: View {
+struct MainWindow: View {
     
     var body: some View {
         List {
@@ -104,8 +104,8 @@ struct ProjectAnalysisListView: View {
     }
 }
 
-struct ProjectAnalysisListView_Previews: PreviewProvider {
+struct MainWindow_Previews: PreviewProvider {
     static var previews: some View {
-        ProjectAnalysisListView()
+        MainWindow()
     }
 }

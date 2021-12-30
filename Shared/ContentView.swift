@@ -11,7 +11,12 @@ struct ContentView: View {
     @Binding var document: GeneticStudioDocument
 
     var body: some View {
-        TextEditor(text: $document.text)
+        VStack{
+            Text( "\(document.project.species)")
+                .font(.title)
+                .italic()
+        }
+        .frame(minWidth: 500, minHeight: 500 )
     }
 }
 

@@ -19,16 +19,24 @@
 		2A4901BB277C9049002755A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A49018C277C9048002755A3 /* ContentView.swift */; };
 		2A4901BC277C9049002755A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A49018D277C9049002755A3 /* Assets.xcassets */; };
 		2A4901BD277C9049002755A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A49018D277C9049002755A3 /* Assets.xcassets */; };
-		2A4901D3277C9058002755A3 /* GeneticStudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901CD277C9058002755A3 /* GeneticStudioView.swift */; };
-		2A4901D4277C9058002755A3 /* GeneticStudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901CD277C9058002755A3 /* GeneticStudioView.swift */; };
-		2A4901D7277C9058002755A3 /* ProjectAnalysisListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901CF277C9058002755A3 /* ProjectAnalysisListView.swift */; };
-		2A4901D8277C9058002755A3 /* ProjectAnalysisListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901CF277C9058002755A3 /* ProjectAnalysisListView.swift */; };
+		2A4901D7277C9058002755A3 /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901CF277C9058002755A3 /* MainWindow.swift */; };
+		2A4901D8277C9058002755A3 /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901CF277C9058002755A3 /* MainWindow.swift */; };
 		2A4901DB277C9058002755A3 /* AnalysisListViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901D1277C9058002755A3 /* AnalysisListViewItem.swift */; };
 		2A4901DC277C9058002755A3 /* AnalysisListViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901D1277C9058002755A3 /* AnalysisListViewItem.swift */; };
 		2A4901E0277C90D1002755A3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901DF277C90D1002755A3 /* Color.swift */; };
 		2A4901E1277C90D1002755A3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901DF277C90D1002755A3 /* Color.swift */; };
 		2A4901E3277C9183002755A3 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901E2277C9183002755A3 /* Documentation.docc */; };
 		2A4901E4277C9183002755A3 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901E2277C9183002755A3 /* Documentation.docc */; };
+		2AAEF516277DD7D0004EE213 /* ImportFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAEF515277DD7D0004EE213 /* ImportFileView.swift */; };
+		2AAEF517277DD7D0004EE213 /* ImportFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAEF515277DD7D0004EE213 /* ImportFileView.swift */; };
+		2AAEF519277DD824004EE213 /* GeneticStudioLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAEF518277DD824004EE213 /* GeneticStudioLogo.swift */; };
+		2AAEF51A277DD824004EE213 /* GeneticStudioLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAEF518277DD824004EE213 /* GeneticStudioLogo.swift */; };
+		2AAEF51D277DE711004EE213 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAEF51C277DE711004EE213 /* Project.swift */; };
+		2AAEF51E277DE711004EE213 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAEF51C277DE711004EE213 /* Project.swift */; };
+		2AAEF521277DE86B004EE213 /* UTType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAEF520277DE86B004EE213 /* UTType.swift */; };
+		2AAEF522277DE86B004EE213 /* UTType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAEF520277DE86B004EE213 /* UTType.swift */; };
+		2AB7AF85277C953800ABFAB7 /* NewDocumentDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB7AF84277C953800ABFAB7 /* NewDocumentDialog.swift */; };
+		2AB7AF86277C953800ABFAB7 /* NewDocumentDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB7AF84277C953800ABFAB7 /* NewDocumentDialog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,11 +72,15 @@
 		2A4901AE277C9049002755A3 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A4901B2277C9049002755A3 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		2A4901B4277C9049002755A3 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
-		2A4901CD277C9058002755A3 /* GeneticStudioView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneticStudioView.swift; sourceTree = "<group>"; };
-		2A4901CF277C9058002755A3 /* ProjectAnalysisListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectAnalysisListView.swift; sourceTree = "<group>"; };
+		2A4901CF277C9058002755A3 /* MainWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
 		2A4901D1277C9058002755A3 /* AnalysisListViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisListViewItem.swift; sourceTree = "<group>"; };
 		2A4901DF277C90D1002755A3 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		2A4901E2277C9183002755A3 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		2AAEF515277DD7D0004EE213 /* ImportFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportFileView.swift; sourceTree = "<group>"; };
+		2AAEF518277DD824004EE213 /* GeneticStudioLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioLogo.swift; sourceTree = "<group>"; };
+		2AAEF51C277DE711004EE213 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		2AAEF520277DE86B004EE213 /* UTType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTType.swift; sourceTree = "<group>"; };
+		2AB7AF84277C953800ABFAB7 /* NewDocumentDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDocumentDialog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,12 +131,13 @@
 		2A490189277C9048002755A3 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				2A49018D277C9049002755A3 /* Assets.xcassets */,
 				2A49018A277C9048002755A3 /* GeneticStudioApp.swift */,
 				2A49018B277C9048002755A3 /* GeneticStudioDocument.swift */,
+				2AAEF514277DD471004EE213 /* Extensions */,
+				2AAEF51F277DE7FE004EE213 /* Model */,
 				2A49018C277C9048002755A3 /* ContentView.swift */,
-				2A4901DF277C90D1002755A3 /* Color.swift */,
 				2A4901CC277C9058002755A3 /* Views */,
-				2A49018D277C9049002755A3 /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -178,11 +191,38 @@
 		2A4901CC277C9058002755A3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2A4901CD277C9058002755A3 /* GeneticStudioView.swift */,
-				2A4901CF277C9058002755A3 /* ProjectAnalysisListView.swift */,
+				2AAEF51B277DE07A004EE213 /* Opening Dialogs */,
+				2A4901CF277C9058002755A3 /* MainWindow.swift */,
 				2A4901D1277C9058002755A3 /* AnalysisListViewItem.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		2AAEF514277DD471004EE213 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2A4901DF277C90D1002755A3 /* Color.swift */,
+				2AAEF520277DE86B004EE213 /* UTType.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2AAEF51B277DE07A004EE213 /* Opening Dialogs */ = {
+			isa = PBXGroup;
+			children = (
+				2AB7AF84277C953800ABFAB7 /* NewDocumentDialog.swift */,
+				2AAEF515277DD7D0004EE213 /* ImportFileView.swift */,
+				2AAEF518277DD824004EE213 /* GeneticStudioLogo.swift */,
+			);
+			path = "Opening Dialogs";
+			sourceTree = "<group>";
+		};
+		2AAEF51F277DE7FE004EE213 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2AAEF51C277DE711004EE213 /* Project.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,11 +383,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A4901D3277C9058002755A3 /* GeneticStudioView.swift in Sources */,
-				2A4901D7277C9058002755A3 /* ProjectAnalysisListView.swift in Sources */,
+				2A4901D7277C9058002755A3 /* MainWindow.swift in Sources */,
+				2AB7AF85277C953800ABFAB7 /* NewDocumentDialog.swift in Sources */,
+				2AAEF519277DD824004EE213 /* GeneticStudioLogo.swift in Sources */,
 				2A4901E0277C90D1002755A3 /* Color.swift in Sources */,
 				2A4901E3277C9183002755A3 /* Documentation.docc in Sources */,
+				2AAEF516277DD7D0004EE213 /* ImportFileView.swift in Sources */,
+				2AAEF521277DE86B004EE213 /* UTType.swift in Sources */,
 				2A4901B8277C9049002755A3 /* GeneticStudioDocument.swift in Sources */,
+				2AAEF51D277DE711004EE213 /* Project.swift in Sources */,
 				2A4901B6277C9049002755A3 /* GeneticStudioApp.swift in Sources */,
 				2A4901BA277C9049002755A3 /* ContentView.swift in Sources */,
 				2A4901DB277C9058002755A3 /* AnalysisListViewItem.swift in Sources */,
@@ -358,11 +402,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A4901D4277C9058002755A3 /* GeneticStudioView.swift in Sources */,
-				2A4901D8277C9058002755A3 /* ProjectAnalysisListView.swift in Sources */,
+				2A4901D8277C9058002755A3 /* MainWindow.swift in Sources */,
+				2AB7AF86277C953800ABFAB7 /* NewDocumentDialog.swift in Sources */,
+				2AAEF51A277DD824004EE213 /* GeneticStudioLogo.swift in Sources */,
 				2A4901E1277C90D1002755A3 /* Color.swift in Sources */,
 				2A4901E4277C9183002755A3 /* Documentation.docc in Sources */,
+				2AAEF517277DD7D0004EE213 /* ImportFileView.swift in Sources */,
+				2AAEF522277DE86B004EE213 /* UTType.swift in Sources */,
 				2A4901B9277C9049002755A3 /* GeneticStudioDocument.swift in Sources */,
+				2AAEF51E277DE711004EE213 /* Project.swift in Sources */,
 				2A4901B7277C9049002755A3 /* GeneticStudioApp.swift in Sources */,
 				2A4901BB277C9049002755A3 /* ContentView.swift in Sources */,
 				2A4901DC277C9058002755A3 /* AnalysisListViewItem.swift in Sources */,
