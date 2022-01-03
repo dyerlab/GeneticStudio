@@ -11,12 +11,19 @@ struct ContentView: View {
     @Binding var document: GeneticStudioDocument
 
     var body: some View {
-        VStack{
-            Text( "\(document.project.species)")
-                .font(.title)
-                .italic()
+        
+        if document.project.isEmpty {
+            
+            ImportFileView(document: $document)
+            
+        } else {
+            VStack{
+                Text( "\(document.project.species)")
+                    .font(.title)
+                    .italic()
+            }
+            .frame(minWidth: 500, minHeight: 500 )
         }
-        .frame(minWidth: 500, minHeight: 500 )
     }
 }
 

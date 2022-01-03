@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import DLabGenetic
 import UniformTypeIdentifiers
 
 
@@ -20,25 +21,31 @@ struct GeneticStudioDocument: FileDocument, Codable  {
     init() {}
 
     /// Readable types for import and load/save
-    static var readableContentTypes: [UTType] { [.gstudioDocument, .commaSeparatedText] }
+    static var readableContentTypes: [UTType] {
+        return [ .gstudioDocument,
+                 .commaSeparatedText ]
+    }
 
     /**
      Initializer for reading in .gstudio  and .csv types.
      */
     init(configuration: ReadConfiguration) throws {
-        
         guard let data = configuration.file.regularFileContents else { throw CocoaError(.fileReadCorruptFile) }
+        
         
         if configuration.contentType == .gstudioDocument {
             self.project = try JSONDecoder().decode( Project.self, from: data )
         }
         else if configuration.contentType == .commaSeparatedText {
-            print("CSV not configured yet")
-            throw CocoaError( .featureUnsupported )
+            
+            self.project.species = ""
+            self.project.data = Stratum.loadCSV(data: data )
+            
         }
         else {
             print( "\(configuration.contentType) not implemented.")
             throw CocoaError( .fileReadUnsupportedScheme )
+
         }
     }
     
@@ -49,8 +56,6 @@ struct GeneticStudioDocument: FileDocument, Codable  {
         let data = try JSONEncoder().encode( self.project )
         return .init(regularFileWithContents: data )
     }
-    
-    
     
 
 }

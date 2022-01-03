@@ -10,26 +10,24 @@ import SwiftUI
 struct ImportFileView: View {
     @Binding var document: GeneticStudioDocument
     
+    @State var filePath: String = ""
     
     var body: some View {
-        VStack {
+        HStack {
             GeneticStudioLogo()
             
             Divider()
             
 
             VStack( alignment: .leading ) {
+                
                 Text("File Properties")
-                    .font( .title3 )
+                    .font( .title2 )
                 
                 HStack {
                     Text("File Location:")
-                    Button(action: {
-                        
-                    }, label: {
-                        Image(systemName: "arrow.down.doc.fill")
-                            .font(.largeTitle)
-                    })
+                    Image(systemName: "arrow.down.doc.fill")
+                        .font(.largeTitle)
                 }
                 .frame(minHeight: 40)
                 .padding()

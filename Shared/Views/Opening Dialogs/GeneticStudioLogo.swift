@@ -46,6 +46,7 @@ struct GeneticStudioLogo: View {
             Text("Population Genetic Software That Doesn't Suck")
                 .font(.subheadline)
                 .foregroundColor( Color.secondary )
+            
             Text("&copy; 2022 RJ Dyer")
                 .font(.caption )
                 .foregroundColor( Color.secondary )

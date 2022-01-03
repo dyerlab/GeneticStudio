@@ -18,13 +18,20 @@
 
 
 import Foundation
+import DLabGenetic
+
 
 class Project: Codable {
-    
+
+    var data: Stratum?
     var species: String
+    var isEmpty: Bool {
+        return species.isEmpty
+    }
     
     enum CodingKeys: String, CodingKey {
         case species
+        case data
     }
     
     init(species: String) {
@@ -34,10 +41,12 @@ class Project: Codable {
     required init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self )
         self.species = try values.decode( String.self, forKey: .species )
+        self.data = try values.decode( Stratum.self, forKey: .data )
     }
     
     func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self )
         try container.encode( self.species, forKey: .species )
+        try container.encode( self.data, forKey: .data )
     }
 }
