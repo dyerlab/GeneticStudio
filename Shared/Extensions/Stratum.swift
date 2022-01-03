@@ -43,12 +43,12 @@ extension Stratum {
                 let ind = Individual()
                 
                 if let lat = Double( lines[i][idxLat] ),
-                   let lon = Double( lones[i][idxLon] ) {
+                   let lon = Double( lines[i][idxLon] ) {
                     ind.location = CLLocationCoordinate2D( latitude: lat,
                                                            longitude: lon )
                 }
                 
-                let strata: [String] = []
+                var strata: [String] = []
                 for s in 0 ..< mn {
                     strata.append( lines[i][s])
                 }
@@ -63,7 +63,7 @@ extension Stratum {
             }
 
             
-            print("\(data.count) rows of data imported")
+            print("Imported: \n \(data) ")
             
             return data
         }
