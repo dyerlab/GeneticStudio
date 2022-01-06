@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2A229EE727809A9C00A54C8B /* DLabGenetic in Frameworks */ = {isa = PBXBuildFile; productRef = 2A229EE627809A9C00A54C8B /* DLabGenetic */; };
-		2A229EE927833B9500A54C8B /* Stratum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A229EE827833B9500A54C8B /* Stratum.swift */; };
-		2A229EEA27833B9500A54C8B /* Stratum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A229EE827833B9500A54C8B /* Stratum.swift */; };
 		2A4901A7277C9049002755A3 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901A6277C9049002755A3 /* Tests_iOS.swift */; };
 		2A4901A9277C9049002755A3 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901A8277C9049002755A3 /* Tests_iOSLaunchTests.swift */; };
 		2A4901B3277C9049002755A3 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901B2277C9049002755A3 /* Tests_macOS.swift */; };
@@ -61,7 +59,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A229EE827833B9500A54C8B /* Stratum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stratum.swift; sourceTree = "<group>"; };
 		2A49018A277C9048002755A3 /* GeneticStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioApp.swift; sourceTree = "<group>"; };
 		2A49018B277C9048002755A3 /* GeneticStudioDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioDocument.swift; sourceTree = "<group>"; };
 		2A49018C277C9048002755A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -218,7 +215,6 @@
 			children = (
 				2A4901DF277C90D1002755A3 /* Color.swift */,
 				2AAEF520277DE86B004EE213 /* UTType.swift */,
-				2A229EE827833B9500A54C8B /* Stratum.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -415,7 +411,6 @@
 				2A4901E3277C9183002755A3 /* Documentation.docc in Sources */,
 				2AAEF516277DD7D0004EE213 /* ImportFileView.swift in Sources */,
 				2AAEF521277DE86B004EE213 /* UTType.swift in Sources */,
-				2A229EE927833B9500A54C8B /* Stratum.swift in Sources */,
 				2A4901B8277C9049002755A3 /* GeneticStudioDocument.swift in Sources */,
 				2AAEF51D277DE711004EE213 /* Project.swift in Sources */,
 				2A4901B6277C9049002755A3 /* GeneticStudioApp.swift in Sources */,
@@ -435,7 +430,6 @@
 				2A4901E4277C9183002755A3 /* Documentation.docc in Sources */,
 				2AAEF517277DD7D0004EE213 /* ImportFileView.swift in Sources */,
 				2AAEF522277DE86B004EE213 /* UTType.swift in Sources */,
-				2A229EEA27833B9500A54C8B /* Stratum.swift in Sources */,
 				2A4901B9277C9049002755A3 /* GeneticStudioDocument.swift in Sources */,
 				2AAEF51E277DE711004EE213 /* Project.swift in Sources */,
 				2A4901B7277C9049002755A3 /* GeneticStudioApp.swift in Sources */,

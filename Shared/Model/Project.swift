@@ -23,10 +23,10 @@ import DLabGenetic
 
 class Project: Codable {
 
-    var data: Stratum?
+    var data: Stratum
     var species: String
     var isEmpty: Bool {
-        return species.isEmpty
+        return data.isEmpty
     }
     
     enum CodingKeys: String, CodingKey {
@@ -36,6 +36,7 @@ class Project: Codable {
     
     init(species: String) {
         self.species = species
+        self.data = Stratum(label: "All")
     }
     
     required init(from decoder: Decoder) throws {
