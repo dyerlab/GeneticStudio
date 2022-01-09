@@ -19,12 +19,15 @@
 
 import Foundation
 import DLabGenetic
+import SwiftUI
 
 
 class Project: Codable {
 
     var data: Stratum
     var species: String
+    var imageData: Data?
+        
     var isEmpty: Bool {
         return data.isEmpty
     }
@@ -32,6 +35,7 @@ class Project: Codable {
     enum CodingKeys: String, CodingKey {
         case species
         case data
+        case imageData
     }
     
     init(species: String) {
@@ -43,11 +47,24 @@ class Project: Codable {
         let values = try decoder.container(keyedBy: CodingKeys.self )
         self.species = try values.decode( String.self, forKey: .species )
         self.data = try values.decode( Stratum.self, forKey: .data )
+        self.imageData = try values.decode( Data.self, forKey: .imageData )
     }
     
     func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self )
         try container.encode( self.species, forKey: .species )
         try container.encode( self.data, forKey: .data )
+        try container.encode( self.imageData, forKey: .imageData )
+    }
+}
+
+
+
+extension Project {
+    
+    static func DefaultProject() -> Project {
+        let ret = Project(species: "Araptus attenuata")
+        ret.data = Stratum.DefaultStratum()
+        return ret
     }
 }

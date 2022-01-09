@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		2A229EE727809A9C00A54C8B /* DLabGenetic in Frameworks */ = {isa = PBXBuildFile; productRef = 2A229EE627809A9C00A54C8B /* DLabGenetic */; };
+		2A27CD05278B44790067CD00 /* virginia.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2A27CCFF278B44790067CD00 /* virginia.tif */; };
+		2A27CD06278B44790067CD00 /* virginia.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2A27CCFF278B44790067CD00 /* virginia.tif */; };
+		2A27CD07278B44790067CD00 /* PedimaFinalGenotypesRegions.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A27CD00278B44790067CD00 /* PedimaFinalGenotypesRegions.csv */; };
+		2A27CD08278B44790067CD00 /* PedimaFinalGenotypesRegions.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A27CD00278B44790067CD00 /* PedimaFinalGenotypesRegions.csv */; };
+		2A27CD09278B44790067CD00 /* human.snp in Resources */ = {isa = PBXBuildFile; fileRef = 2A27CD01278B44790067CD00 /* human.snp */; };
+		2A27CD0A278B44790067CD00 /* human.snp in Resources */ = {isa = PBXBuildFile; fileRef = 2A27CD01278B44790067CD00 /* human.snp */; };
+		2A27CD0B278B44790067CD00 /* Euphorbia_lomelli.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A27CD02278B44790067CD00 /* Euphorbia_lomelli.csv */; };
+		2A27CD0C278B44790067CD00 /* Euphorbia_lomelli.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A27CD02278B44790067CD00 /* Euphorbia_lomelli.csv */; };
+		2A27CD0D278B44790067CD00 /* Arapat.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A27CD03278B44790067CD00 /* Arapat.csv */; };
+		2A27CD0E278B44790067CD00 /* Arapat.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A27CD03278B44790067CD00 /* Arapat.csv */; };
+		2A27CD0F278B44790067CD00 /* DogwoodByCanopyType.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A27CD04278B44790067CD00 /* DogwoodByCanopyType.csv */; };
+		2A27CD10278B44790067CD00 /* DogwoodByCanopyType.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A27CD04278B44790067CD00 /* DogwoodByCanopyType.csv */; };
+		2A27CD13278B4CEE0067CD00 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A27CD12278B4CEE0067CD00 /* Project.swift */; };
+		2A27CD14278B4CEE0067CD00 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A27CD12278B4CEE0067CD00 /* Project.swift */; };
+		2A27CD16278B4F490067CD00 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A27CD15278B4F490067CD00 /* NSImage.swift */; };
+		2A27CD17278B4F490067CD00 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A27CD15278B4F490067CD00 /* NSImage.swift */; };
 		2A4901A7277C9049002755A3 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901A6277C9049002755A3 /* Tests_iOS.swift */; };
 		2A4901A9277C9049002755A3 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901A8277C9049002755A3 /* Tests_iOSLaunchTests.swift */; };
 		2A4901B3277C9049002755A3 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901B2277C9049002755A3 /* Tests_macOS.swift */; };
@@ -59,6 +75,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A27CCFF278B44790067CD00 /* virginia.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = virginia.tif; sourceTree = "<group>"; };
+		2A27CD00278B44790067CD00 /* PedimaFinalGenotypesRegions.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PedimaFinalGenotypesRegions.csv; sourceTree = "<group>"; };
+		2A27CD01278B44790067CD00 /* human.snp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = human.snp; sourceTree = "<group>"; };
+		2A27CD02278B44790067CD00 /* Euphorbia_lomelli.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Euphorbia_lomelli.csv; sourceTree = "<group>"; };
+		2A27CD03278B44790067CD00 /* Arapat.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Arapat.csv; sourceTree = "<group>"; };
+		2A27CD04278B44790067CD00 /* DogwoodByCanopyType.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DogwoodByCanopyType.csv; sourceTree = "<group>"; };
+		2A27CD12278B4CEE0067CD00 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		2A27CD15278B4F490067CD00 /* NSImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
 		2A49018A277C9048002755A3 /* GeneticStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioApp.swift; sourceTree = "<group>"; };
 		2A49018B277C9048002755A3 /* GeneticStudioDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioDocument.swift; sourceTree = "<group>"; };
 		2A49018C277C9048002755A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -119,9 +143,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A27CCFE278B44790067CD00 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2A27CCFF278B44790067CD00 /* virginia.tif */,
+				2A27CD00278B44790067CD00 /* PedimaFinalGenotypesRegions.csv */,
+				2A27CD01278B44790067CD00 /* human.snp */,
+				2A27CD02278B44790067CD00 /* Euphorbia_lomelli.csv */,
+				2A27CD03278B44790067CD00 /* Arapat.csv */,
+				2A27CD04278B44790067CD00 /* DogwoodByCanopyType.csv */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2A27CD11278B4CDF0067CD00 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2A27CD12278B4CEE0067CD00 /* Project.swift */,
+				2A27CD15278B4F490067CD00 /* NSImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		2A490184277C9048002755A3 = {
 			isa = PBXGroup;
 			children = (
+				2A27CCFE278B44790067CD00 /* Data */,
 				2A4901E2277C9183002755A3 /* Documentation.docc */,
 				2A490189277C9048002755A3 /* Shared */,
 				2A490194277C9049002755A3 /* iOS */,
@@ -169,6 +216,7 @@
 		2A49019B277C9049002755A3 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				2A27CD11278B4CDF0067CD00 /* Extensions */,
 				2A49019C277C9049002755A3 /* Info.plist */,
 				2A49019D277C9049002755A3 /* macOS.entitlements */,
 			);
@@ -371,6 +419,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A27CD0B278B44790067CD00 /* Euphorbia_lomelli.csv in Resources */,
+				2A27CD0D278B44790067CD00 /* Arapat.csv in Resources */,
+				2A27CD0F278B44790067CD00 /* DogwoodByCanopyType.csv in Resources */,
+				2A27CD07278B44790067CD00 /* PedimaFinalGenotypesRegions.csv in Resources */,
+				2A27CD09278B44790067CD00 /* human.snp in Resources */,
+				2A27CD05278B44790067CD00 /* virginia.tif in Resources */,
 				2A4901BC277C9049002755A3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +433,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A27CD0C278B44790067CD00 /* Euphorbia_lomelli.csv in Resources */,
+				2A27CD0E278B44790067CD00 /* Arapat.csv in Resources */,
+				2A27CD10278B44790067CD00 /* DogwoodByCanopyType.csv in Resources */,
+				2A27CD08278B44790067CD00 /* PedimaFinalGenotypesRegions.csv in Resources */,
+				2A27CD0A278B44790067CD00 /* human.snp in Resources */,
+				2A27CD06278B44790067CD00 /* virginia.tif in Resources */,
 				2A4901BD277C9049002755A3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,7 +468,9 @@
 				2AB7AF85277C953800ABFAB7 /* NewDocumentDialog.swift in Sources */,
 				2AAEF519277DD824004EE213 /* GeneticStudioLogo.swift in Sources */,
 				2A4901E0277C90D1002755A3 /* Color.swift in Sources */,
+				2A27CD16278B4F490067CD00 /* NSImage.swift in Sources */,
 				2A4901E3277C9183002755A3 /* Documentation.docc in Sources */,
+				2A27CD13278B4CEE0067CD00 /* Project.swift in Sources */,
 				2AAEF516277DD7D0004EE213 /* ImportFileView.swift in Sources */,
 				2AAEF521277DE86B004EE213 /* UTType.swift in Sources */,
 				2A4901B8277C9049002755A3 /* GeneticStudioDocument.swift in Sources */,
@@ -427,7 +489,9 @@
 				2AB7AF86277C953800ABFAB7 /* NewDocumentDialog.swift in Sources */,
 				2AAEF51A277DD824004EE213 /* GeneticStudioLogo.swift in Sources */,
 				2A4901E1277C90D1002755A3 /* Color.swift in Sources */,
+				2A27CD17278B4F490067CD00 /* NSImage.swift in Sources */,
 				2A4901E4277C9183002755A3 /* Documentation.docc in Sources */,
+				2A27CD14278B4CEE0067CD00 /* Project.swift in Sources */,
 				2AAEF517277DD7D0004EE213 /* ImportFileView.swift in Sources */,
 				2AAEF522277DE86B004EE213 /* UTType.swift in Sources */,
 				2A4901B9277C9049002755A3 /* GeneticStudioDocument.swift in Sources */,
