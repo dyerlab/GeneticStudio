@@ -1,14 +1,38 @@
 //
-//  NSImage.swift
-//  GeneticStudio
+//  dyerlab.org                                          @dyerlab
+//                      _                 _       _
+//                   __| |_   _  ___ _ __| | __ _| |__
+//                  / _` | | | |/ _ \ '__| |/ _` | '_ \
+//                 | (_| | |_| |  __/ |  | | (_| | |_) |
+//                  \__,_|\__, |\___|_|  |_|\__,_|_.__/
+//                        |_ _/
 //
-//  Created by Rodney Dyer on 1/9/22.
+//         Making Population Genetic Software That Doesn't Suck
+//
+//  GeneticStudio
+//  NSImage.swift
+//
+//  Created by Rodney Dyer on 10/27/21.
+//  Copyright (c) 2021 Rodney J Dyer.  All Rights Reserved.
 //
 
+import Cocoa
 import Foundation
 import AppKit
 
+typealias UIImage = NSImage
+
 extension NSImage {
+    
+    
+    var cgImage: CGImage? {
+        var proposedRect = CGRect(origin: .zero, size: size)
+
+        return cgImage(forProposedRect: &proposedRect,
+                       context: nil,
+                       hints: nil)
+    }
+
     
     public func PNGRepresentation() -> Data? {
         guard let cgImage = self.cgImage( forProposedRect: nil,

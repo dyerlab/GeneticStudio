@@ -15,13 +15,13 @@ import UniformTypeIdentifiers
 struct GeneticStudioDocument: FileDocument, Codable  {
     
     /// Project object contains all the content
-    ///var project: Project = Project(species: "Cornus florida")
+    var image: NSImage = NSImage(named: "Tree")!
     
     /// The name of the species
-    var species: String = ""
+    var species: String = "Araptus attenuatus"
     
     /// The stratum
-    var strata: Stratum = Stratum(label: "All", level: "Root")
+    var strata: Stratum = Stratum.DefaultStratum()
 
     /// Readable types for import and load/save
     static var readableContentTypes: [UTType] {
@@ -32,6 +32,7 @@ struct GeneticStudioDocument: FileDocument, Codable  {
     enum CodingKeys: String, CodingKey {
         case species
         case strata
+        case imageData
     }
     
     
@@ -43,6 +44,8 @@ struct GeneticStudioDocument: FileDocument, Codable  {
         let values = try decoder.container(keyedBy: CodingKeys.self )
         self.species = try values.decode( String.self, forKey: .species )
         self.strata = try values.decode( Stratum.self, forKey: .strata )
+        let data = try values.decode( Data.self, forKey: .imageData )
+        self.image = NSImage(data: data ) ?? NSImage(named: "Tree")!
     }
 
     /// Required encoder
@@ -50,6 +53,7 @@ struct GeneticStudioDocument: FileDocument, Codable  {
         var container = encoder.container(keyedBy: CodingKeys.self )
         try container.encode( self.species, forKey: .species )
         try container.encode( self.strata, forKey: .strata )
+        try container.encode( self.image.PNGRepresentation(), forKey: .imageData )
     }
     
 
@@ -88,4 +92,21 @@ struct GeneticStudioDocument: FileDocument, Codable  {
     }
     
 
+}
+
+
+
+extension GeneticStudioDocument {
+    
+    static func DefaultDocument() -> GeneticStudioDocument {
+        
+        var ret = GeneticStudioDocument()
+        
+        ret.strata = Stratum.DefaultStratum()
+        ret.species = "Araptus attenuatus"
+        ret.image = NSImage(named: "Arapat")!
+        
+        return ret
+    }
+    
 }

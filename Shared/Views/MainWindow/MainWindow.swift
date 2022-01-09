@@ -13,7 +13,13 @@ struct MainWindow: View {
     
     var body: some View {
         NavigationView  {
+                        
             List {
+                HStack(alignment:.center) {
+                    SpeciesView(image: document.image,
+                                species: document.species)
+                }
+                Divider()
                 NavigationLink(destination: {
                     Text("Genoytpes")
                 }, label: {
@@ -103,7 +109,7 @@ struct MainWindow: View {
                 
                 Spacer()
             }
-            .frame(minHeight: 625)
+            .frame(minWidth: 215, minHeight: 775)
 
             Text("main window")
         }
