@@ -15,13 +15,13 @@ import UniformTypeIdentifiers
 struct GeneticStudioDocument: FileDocument, Codable  {
     
     /// Project object contains all the content
-    var image: NSImage = NSImage(named: "Tree")!
+    var image: NSImage
     
     /// The name of the species
-    var species: String = "Araptus attenuatus"
+    var species: String
     
     /// The stratum
-    var strata: Stratum = Stratum.DefaultStratum()
+    var strata: Stratum
 
     /// Readable types for import and load/save
     static var readableContentTypes: [UTType] {
@@ -37,7 +37,12 @@ struct GeneticStudioDocument: FileDocument, Codable  {
     
     
     /// Static init
-    init() { }
+    init() {
+        self.species = "Araptus attenuata"
+        self.strata = Stratum.DefaultStratum()
+        self.image = NSImage(named: "Arapat")!
+    }
+    
     
     /// Required initializer
     init(from decoder: Decoder) throws {
