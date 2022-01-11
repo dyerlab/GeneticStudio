@@ -23,11 +23,11 @@ struct FrequencyView: View {
             Text("Allele Frequencies: \(strataLevels[currentLevel])")
                 .font(.title)
             if currentLevel == 0 {
-                StratumDiversityView(label: strataLevels[ currentLevel],
+                StratumDiversityView(level: strataLevels[ currentLevel ],
                                      stratum: stratum )
             } else {
                 ForEach( stratum.substrataAtLevel(named: strataLevels[ currentLevel]), id: \.self ) { name in
-                    StratumDiversityView( label: name,
+                    StratumDiversityView( level: name,
                                           stratum: stratum.substratum(named: name)! )
                 }
             }

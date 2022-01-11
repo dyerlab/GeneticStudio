@@ -9,7 +9,7 @@ import SwiftUI
 import DLabGenetic
 
 struct StratumDiversityView: View {
-    var label: String
+    var level: String
     var stratum: Stratum
     var loci: [String] {
         if let ind = stratum.individuals.first {
@@ -50,7 +50,7 @@ struct StratumDiversityView: View {
 
 struct StratumDiversityView_Previews: PreviewProvider {
     static var previews: some View {
-        StratumDiversityView(label: "All",
+        StratumDiversityView(level: "All",
                              stratum: Stratum.DefaultStratum() )
     }
 }
