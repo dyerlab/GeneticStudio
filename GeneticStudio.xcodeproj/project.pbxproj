@@ -39,8 +39,12 @@
 		2AAEF522277DE86B004EE213 /* UTType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAEF520277DE86B004EE213 /* UTType.swift */; };
 		2AB7AF85277C953800ABFAB7 /* NewDocumentDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB7AF84277C953800ABFAB7 /* NewDocumentDialog.swift */; };
 		2AB7AF86277C953800ABFAB7 /* NewDocumentDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB7AF84277C953800ABFAB7 /* NewDocumentDialog.swift */; };
+		2ACE72FE278DDA6E0089C74E /* GenotypeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACE72FD278DDA6E0089C74E /* GenotypeTableView.swift */; };
+		2ACE7300278DE8310089C74E /* GenotypeTableViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACE72FF278DE8310089C74E /* GenotypeTableViewCoordinator.swift */; };
 		2AD08FF9278B6D8400A55620 /* SpeciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD08FF8278B6D8400A55620 /* SpeciesView.swift */; };
 		2AD08FFA278B6D8400A55620 /* SpeciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD08FF8278B6D8400A55620 /* SpeciesView.swift */; };
+		2AE91604278DFE2B00A00073 /* GenotypeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE91603278DFE2B00A00073 /* GenotypeTable.swift */; };
+		2AE91605278DFE2B00A00073 /* GenotypeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE91603278DFE2B00A00073 /* GenotypeTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,7 +89,10 @@
 		2AAEF518277DD824004EE213 /* GeneticStudioLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioLogo.swift; sourceTree = "<group>"; };
 		2AAEF520277DE86B004EE213 /* UTType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTType.swift; sourceTree = "<group>"; };
 		2AB7AF84277C953800ABFAB7 /* NewDocumentDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDocumentDialog.swift; sourceTree = "<group>"; };
+		2ACE72FD278DDA6E0089C74E /* GenotypeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenotypeTableView.swift; sourceTree = "<group>"; };
+		2ACE72FF278DE8310089C74E /* GenotypeTableViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenotypeTableViewCoordinator.swift; sourceTree = "<group>"; };
 		2AD08FF8278B6D8400A55620 /* SpeciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesView.swift; sourceTree = "<group>"; };
+		2AE91603278DFE2B00A00073 /* GenotypeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenotypeTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +187,7 @@
 		2A49019B277C9049002755A3 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				2ACE72FC278DDA5C0089C74E /* Views */,
 				2A27CD11278B4CDF0067CD00 /* Extensions */,
 				2A49019C277C9049002755A3 /* Info.plist */,
 				2A49019D277C9049002755A3 /* macOS.entitlements */,
@@ -210,6 +218,7 @@
 			children = (
 				2AD08FF7278B6D4000A55620 /* MainWindow */,
 				2AAEF51B277DE07A004EE213 /* Opening Dialogs */,
+				2AE91606278DFE3300A00073 /* GenotypeTable */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -247,6 +256,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		2ACE72FC278DDA5C0089C74E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2ACE72FD278DDA6E0089C74E /* GenotypeTableView.swift */,
+				2ACE72FF278DE8310089C74E /* GenotypeTableViewCoordinator.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2AD08FF7278B6D4000A55620 /* MainWindow */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,6 +273,14 @@
 				2AD08FF8278B6D8400A55620 /* SpeciesView.swift */,
 			);
 			path = MainWindow;
+			sourceTree = "<group>";
+		};
+		2AE91606278DFE3300A00073 /* GenotypeTable */ = {
+			isa = PBXGroup;
+			children = (
+				2AE91603278DFE2B00A00073 /* GenotypeTable.swift */,
+			);
+			path = GenotypeTable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -425,6 +451,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A4901D7277C9058002755A3 /* MainWindow.swift in Sources */,
+				2AE91604278DFE2B00A00073 /* GenotypeTable.swift in Sources */,
 				2AB7AF85277C953800ABFAB7 /* NewDocumentDialog.swift in Sources */,
 				2AAEF519277DD824004EE213 /* GeneticStudioLogo.swift in Sources */,
 				2A4901E0277C90D1002755A3 /* Color.swift in Sources */,
@@ -445,11 +472,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A4901D8277C9058002755A3 /* MainWindow.swift in Sources */,
+				2AE91605278DFE2B00A00073 /* GenotypeTable.swift in Sources */,
 				2AB7AF86277C953800ABFAB7 /* NewDocumentDialog.swift in Sources */,
 				2AAEF51A277DD824004EE213 /* GeneticStudioLogo.swift in Sources */,
 				2A4901E1277C90D1002755A3 /* Color.swift in Sources */,
 				2A27CD17278B4F490067CD00 /* NSImage.swift in Sources */,
 				2A4901E4277C9183002755A3 /* Documentation.docc in Sources */,
+				2ACE72FE278DDA6E0089C74E /* GenotypeTableView.swift in Sources */,
 				2AAEF517277DD7D0004EE213 /* ImportFileView.swift in Sources */,
 				2AAEF522277DE86B004EE213 /* UTType.swift in Sources */,
 				2A4901B9277C9049002755A3 /* GeneticStudioDocument.swift in Sources */,
@@ -457,6 +486,7 @@
 				2A4901B7277C9049002755A3 /* GeneticStudioApp.swift in Sources */,
 				2A4901BB277C9049002755A3 /* ContentView.swift in Sources */,
 				2A4901DC277C9058002755A3 /* AnalysisListViewItem.swift in Sources */,
+				2ACE7300278DE8310089C74E /* GenotypeTableViewCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

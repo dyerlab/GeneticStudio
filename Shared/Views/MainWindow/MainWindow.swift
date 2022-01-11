@@ -21,7 +21,7 @@ struct MainWindow: View {
                 }
                 Divider()
                 NavigationLink(destination: {
-                    Text("Genoytpes")
+                    GenotypeTable(stratum: $document.strata)
                 }, label: {
                     AnalysisListViewItem(title: "Genotypes", subtitle: "View & Edit", image: "square.grid.3x3.square")
                 } )
