@@ -24,7 +24,7 @@ struct StratumDiversityView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text("\(label)")
+            Text("\(level)")
                 .font(.title)
             ForEach( loci, id:\.self){ locus in
                 
