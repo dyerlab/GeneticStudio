@@ -778,7 +778,7 @@ extension Stratum {
         ]
         let header = ["Region", "Pop", "Latitude", "Longitude", "LTRS", "WNT", "EN", "EF", "ZMP", "AML", "ATPS", "MP20" ]
         let K = header.count
-        let strataKeys = ["Region","Pop"]
+        let strataKeys = ["Region","Population"]
         
         for i in 0 ..< raw.count {
             let ind = Individual()

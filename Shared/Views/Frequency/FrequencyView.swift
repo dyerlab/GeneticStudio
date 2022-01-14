@@ -9,7 +9,7 @@ import SwiftUI
 
 
 struct FrequencyView: View {
-    @State var currentLevel: Int = 1
+    @State var currentLevel: Int = 0
     
     var stratum: Stratum
     

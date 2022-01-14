@@ -24,7 +24,12 @@ public class FrequencyViewModel {
         for (_,freq) in self.parameters {
             ret.append(contentsOf: freq.alleles)
         }
-        return ret.unique().sorted()
+        return ret.unique().sorted {$0.localizedStandardCompare($1) == .orderedAscending} 
+    }
+    
+    /// Get all the levels for the stratum
+    public var allStrata: [String] {
+        return  self.parameters.keys.sorted {$0.localizedStandardCompare($1) == .orderedAscending}
     }
     
     /// The initializer
@@ -41,6 +46,17 @@ public class FrequencyViewModel {
         for (_,freq) in parameters {
             freq.alleles = allAlleles
         }
+    }
+    
+    /**
+     Default accessor for frequency of an an allele from a particular stratum
+     - Parameters:
+        - stratum: The name of the stratum
+        - allele: The allele
+     - Returns: Frequency fo the allele at the locus, 0.0 otherwise.
+     */
+    public func getAlleleFrequency( stratum: String, allele: String ) -> Double {
+        return parameters[ stratum, default: AlleleFrequencies() ].frequency(allele: allele)
     }
     
 }
