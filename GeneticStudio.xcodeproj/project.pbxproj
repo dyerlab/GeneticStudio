@@ -310,7 +310,6 @@
 				2AA677B12791053800D1711B /* Genetic */,
 				2AA678112791057600D1711B /* Matrix */,
 				2AAEF51F277DE7FE004EE213 /* Model */,
-				2A49018C277C9048002755A3 /* ContentView.swift */,
 				2A4901CC277C9058002755A3 /* Views */,
 			);
 			path = Shared;
@@ -369,6 +368,7 @@
 		2A4901CC277C9058002755A3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2A49018C277C9048002755A3 /* ContentView.swift */,
 				2AD08FF7278B6D4000A55620 /* MainWindow */,
 				2AE91606278DFE3300A00073 /* GenotypeTable */,
 				2A023B0C278E2C4700221514 /* Frequency */,
