@@ -15,6 +15,7 @@ struct FrequencyView: View {
     var level: String {
         return strataLevels[currentLevel]
     }
+    
     var strataLevels: [String] {
         return stratum.nestedLevels
     }
@@ -40,7 +41,8 @@ struct FrequencyView: View {
                             .font(.title2)
                         Spacer()
                         Button(action: {
-                            print("asking to export")
+                            print("asking to export \(locus) for \(level)")
+                            self.frequenciesToClipboard(locus: locus)
                         }, label: {
                             Image(systemName: "square.and.arrow.up")
                         })
@@ -71,6 +73,19 @@ struct FrequencyView: View {
             })
         }
     }
+    
+    
+    private func frequenciesToClipboard( locus: String ) {
+        let fvm  = FrequencyViewModel(stratum: stratum, level: level, locus: locus)
+        let mat = fvm.asMatrix()
+        
+        let pasteBoard = NSPasteboard.general
+        pasteBoard.clearContents()
+        pasteBoard.setString( mat.toR(), forType: .string)
+        print("copied \(locus) for \(level) to clipboard.")
+    }
+    
+    
 }
 
 struct FrequencyView_Previews: PreviewProvider {

@@ -11,8 +11,6 @@
 		2A023B0F278E2C7200221514 /* FrequencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A023B0D278E2C6E00221514 /* FrequencyView.swift */; };
 		2A27CD16278B4F490067CD00 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A27CD15278B4F490067CD00 /* NSImage.swift */; };
 		2A27CD17278B4F490067CD00 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A27CD15278B4F490067CD00 /* NSImage.swift */; };
-		2A3F7875278E3A5600D0F279 /* StratumDiversityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3F7874278E3A5600D0F279 /* StratumDiversityView.swift */; };
-		2A3F7876278E3A5600D0F279 /* StratumDiversityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3F7874278E3A5600D0F279 /* StratumDiversityView.swift */; };
 		2A4901A7277C9049002755A3 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901A6277C9049002755A3 /* Tests_iOS.swift */; };
 		2A4901A9277C9049002755A3 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901A8277C9049002755A3 /* Tests_iOSLaunchTests.swift */; };
 		2A4901B3277C9049002755A3 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901B2277C9049002755A3 /* Tests_macOS.swift */; };
@@ -168,7 +166,6 @@
 /* Begin PBXFileReference section */
 		2A023B0D278E2C6E00221514 /* FrequencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyView.swift; sourceTree = "<group>"; };
 		2A27CD15278B4F490067CD00 /* NSImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
-		2A3F7874278E3A5600D0F279 /* StratumDiversityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StratumDiversityView.swift; sourceTree = "<group>"; };
 		2A49018A277C9048002755A3 /* GeneticStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioApp.swift; sourceTree = "<group>"; };
 		2A49018B277C9048002755A3 /* GeneticStudioDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioDocument.swift; sourceTree = "<group>"; };
 		2A49018C277C9048002755A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -276,7 +273,6 @@
 			isa = PBXGroup;
 			children = (
 				2A023B0D278E2C6E00221514 /* FrequencyView.swift */,
-				2A3F7874278E3A5600D0F279 /* StratumDiversityView.swift */,
 			);
 			path = Frequency;
 			sourceTree = "<group>";
@@ -780,7 +776,6 @@
 				2AA678322791068D00D1711B /* RangeEnum.swift in Sources */,
 				2AA677F52791053800D1711B /* DiversityType.swift in Sources */,
 				2AA677D12791053800D1711B /* Stratum.swift in Sources */,
-				2A3F7875278E3A5600D0F279 /* StratumDiversityView.swift in Sources */,
 				2AD08FF9278B6D8400A55620 /* SpeciesView.swift in Sources */,
 				2A4901B6277C9049002755A3 /* GeneticStudioApp.swift in Sources */,
 				2AA677DB2791053800D1711B /* Matrix+ANOVA.swift in Sources */,
@@ -849,7 +844,6 @@
 				2AA6782E2791067C00D1711B /* rSourceConvertible.swift in Sources */,
 				2A4901DC277C9058002755A3 /* AnalysisListViewItem.swift in Sources */,
 				2AA677F62791053800D1711B /* DiversityType.swift in Sources */,
-				2A3F7876278E3A5600D0F279 /* StratumDiversityView.swift in Sources */,
 				2ACE7300278DE8310089C74E /* GenotypeTableViewCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
