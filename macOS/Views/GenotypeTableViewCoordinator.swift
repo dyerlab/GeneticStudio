@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 import AppKit
-import DLabGenetic
+
 
 final class GenotypeTableViewCoordinator: NSObject, NSTableViewDelegate, NSTableViewDataSource, NSTextFieldDelegate {
     

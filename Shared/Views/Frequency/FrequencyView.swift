@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import DLabGenetic
+
 
 struct FrequencyView: View {
     @State var currentLevel: Int = 1

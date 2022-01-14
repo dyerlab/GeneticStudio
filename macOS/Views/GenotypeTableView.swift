@@ -7,7 +7,7 @@
 
 import Foundation
 import SwiftUI
-import DLabGenetic
+
 
 struct GenotypeTableView: NSViewRepresentable {
     

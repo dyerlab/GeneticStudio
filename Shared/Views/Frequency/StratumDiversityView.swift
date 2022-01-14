@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import DLabGenetic
+
 
 struct StratumDiversityView: View {
     var level: String

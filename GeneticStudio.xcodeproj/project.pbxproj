@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2A023B0E278E2C6E00221514 /* FrequencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A023B0D278E2C6E00221514 /* FrequencyView.swift */; };
 		2A023B0F278E2C7200221514 /* FrequencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A023B0D278E2C6E00221514 /* FrequencyView.swift */; };
-		2A229EE727809A9C00A54C8B /* DLabGenetic in Frameworks */ = {isa = PBXBuildFile; productRef = 2A229EE627809A9C00A54C8B /* DLabGenetic */; };
 		2A27CD16278B4F490067CD00 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A27CD15278B4F490067CD00 /* NSImage.swift */; };
 		2A27CD17278B4F490067CD00 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A27CD15278B4F490067CD00 /* NSImage.swift */; };
 		2A3F7875278E3A5600D0F279 /* StratumDiversityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3F7874278E3A5600D0F279 /* StratumDiversityView.swift */; };
@@ -34,7 +33,109 @@
 		2A4901E1277C90D1002755A3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901DF277C90D1002755A3 /* Color.swift */; };
 		2A4901E3277C9183002755A3 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901E2277C9183002755A3 /* Documentation.docc */; };
 		2A4901E4277C9183002755A3 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901E2277C9183002755A3 /* Documentation.docc */; };
-		2A5A73D227833DB5006E996A /* DLabGenetic in Frameworks */ = {isa = PBXBuildFile; productRef = 2A5A73D127833DB5006E996A /* DLabGenetic */; };
+		2AA677D12791053800D1711B /* Stratum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B22791053800D1711B /* Stratum.swift */; };
+		2AA677D22791053800D1711B /* Stratum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B22791053800D1711B /* Stratum.swift */; };
+		2AA677D32791053800D1711B /* Locus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B42791053800D1711B /* Locus.swift */; };
+		2AA677D42791053800D1711B /* Locus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B42791053800D1711B /* Locus.swift */; };
+		2AA677D52791053800D1711B /* Individual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B52791053800D1711B /* Individual.swift */; };
+		2AA677D62791053800D1711B /* Individual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B52791053800D1711B /* Individual.swift */; };
+		2AA677D72791053800D1711B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B82791053800D1711B /* String.swift */; };
+		2AA677D82791053800D1711B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B82791053800D1711B /* String.swift */; };
+		2AA677D92791053800D1711B /* Array+CLLocationCoordinate2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BA2791053800D1711B /* Array+CLLocationCoordinate2D.swift */; };
+		2AA677DA2791053800D1711B /* Array+CLLocationCoordinate2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BA2791053800D1711B /* Array+CLLocationCoordinate2D.swift */; };
+		2AA677DB2791053800D1711B /* Matrix+ANOVA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BB2791053800D1711B /* Matrix+ANOVA.swift */; };
+		2AA677DC2791053800D1711B /* Matrix+ANOVA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BB2791053800D1711B /* Matrix+ANOVA.swift */; };
+		2AA677DD2791053800D1711B /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BC2791053800D1711B /* Sequence.swift */; };
+		2AA677DE2791053800D1711B /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BC2791053800D1711B /* Sequence.swift */; };
+		2AA677DF2791053800D1711B /* Array+Individual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BD2791053800D1711B /* Array+Individual.swift */; };
+		2AA677E02791053800D1711B /* Array+Individual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BD2791053800D1711B /* Array+Individual.swift */; };
+		2AA677E12791053800D1711B /* GeneticErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BF2791053800D1711B /* GeneticErrorType.swift */; };
+		2AA677E22791053800D1711B /* GeneticErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BF2791053800D1711B /* GeneticErrorType.swift */; };
+		2AA677E32791053800D1711B /* GeneticError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C02791053800D1711B /* GeneticError.swift */; };
+		2AA677E42791053800D1711B /* GeneticError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C02791053800D1711B /* GeneticError.swift */; };
+		2AA677E52791053800D1711B /* AMOVAAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C42791053800D1711B /* AMOVAAnalysis.swift */; };
+		2AA677E62791053800D1711B /* AMOVAAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C42791053800D1711B /* AMOVAAnalysis.swift */; };
+		2AA677E72791053800D1711B /* AMOVADistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C52791053800D1711B /* AMOVADistance.swift */; };
+		2AA677E82791053800D1711B /* AMOVADistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C52791053800D1711B /* AMOVADistance.swift */; };
+		2AA677E92791053800D1711B /* AMOVA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C62791053800D1711B /* AMOVA.swift */; };
+		2AA677EA2791053800D1711B /* AMOVA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C62791053800D1711B /* AMOVA.swift */; };
+		2AA677EB2791053800D1711B /* AnalysisType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C72791053800D1711B /* AnalysisType.swift */; };
+		2AA677EC2791053800D1711B /* AnalysisType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C72791053800D1711B /* AnalysisType.swift */; };
+		2AA677ED2791053800D1711B /* AlleleFrequencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C92791053800D1711B /* AlleleFrequencies.swift */; };
+		2AA677EE2791053800D1711B /* AlleleFrequencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C92791053800D1711B /* AlleleFrequencies.swift */; };
+		2AA677EF2791053800D1711B /* FrequencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CA2791053800D1711B /* FrequencyViewModel.swift */; };
+		2AA677F02791053800D1711B /* FrequencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CA2791053800D1711B /* FrequencyViewModel.swift */; };
+		2AA677F12791053800D1711B /* DiversityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CC2791053800D1711B /* DiversityViewModel.swift */; };
+		2AA677F22791053800D1711B /* DiversityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CC2791053800D1711B /* DiversityViewModel.swift */; };
+		2AA677F32791053800D1711B /* DiversityParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CD2791053800D1711B /* DiversityParameters.swift */; };
+		2AA677F42791053800D1711B /* DiversityParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CD2791053800D1711B /* DiversityParameters.swift */; };
+		2AA677F52791053800D1711B /* DiversityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CE2791053800D1711B /* DiversityType.swift */; };
+		2AA677F62791053800D1711B /* DiversityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CE2791053800D1711B /* DiversityType.swift */; };
+		2AA677F72791053800D1711B /* AnalysisProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CF2791053800D1711B /* AnalysisProtocol.swift */; };
+		2AA677F82791053800D1711B /* AnalysisProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CF2791053800D1711B /* AnalysisProtocol.swift */; };
+		2AA677F92791053800D1711B /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677D02791053800D1711B /* Defaults.swift */; };
+		2AA677FA2791053800D1711B /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677D02791053800D1711B /* Defaults.swift */; };
+		2AA678042791055100D1711B /* DiversityParametersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677FC2791055100D1711B /* DiversityParametersTest.swift */; };
+		2AA678052791055100D1711B /* DLGeneticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677FD2791055100D1711B /* DLGeneticTests.swift */; };
+		2AA678062791055100D1711B /* AMOVAMatrixTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677FE2791055100D1711B /* AMOVAMatrixTest.swift */; };
+		2AA678072791055100D1711B /* LocusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677FF2791055100D1711B /* LocusTests.swift */; };
+		2AA678082791055100D1711B /* AMOVATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678002791055100D1711B /* AMOVATests.swift */; };
+		2AA678092791055100D1711B /* FrequencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678012791055100D1711B /* FrequencyTests.swift */; };
+		2AA6780A2791055100D1711B /* IndividualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678022791055100D1711B /* IndividualTests.swift */; };
+		2AA6780B2791055100D1711B /* StratumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678032791055100D1711B /* StratumTests.swift */; };
+		2AA6780F2791056400D1711B /* MatrixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6780D2791056400D1711B /* MatrixTests.swift */; };
+		2AA678102791056400D1711B /* VectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6780E2791056400D1711B /* VectorTests.swift */; };
+		2AA678212791057600D1711B /* rSourceConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678122791057600D1711B /* rSourceConvertible.swift */; };
+		2AA678222791057600D1711B /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678142791057600D1711B /* Random.swift */; };
+		2AA678232791057600D1711B /* VectorScalarOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678152791057600D1711B /* VectorScalarOperators.swift */; };
+		2AA678242791057600D1711B /* VectorConvertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678162791057600D1711B /* VectorConvertable.swift */; };
+		2AA678252791057600D1711B /* RangeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678172791057600D1711B /* RangeEnum.swift */; };
+		2AA678262791057600D1711B /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678182791057600D1711B /* Vector.swift */; };
+		2AA678272791057600D1711B /* VectorVectorOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678192791057600D1711B /* VectorVectorOperators.swift */; };
+		2AA678282791057600D1711B /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781A2791057600D1711B /* Operators.swift */; };
+		2AA678292791057600D1711B /* MatrixConvertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781C2791057600D1711B /* MatrixConvertable.swift */; };
+		2AA6782A2791057600D1711B /* MatrixMatrixOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781D2791057600D1711B /* MatrixMatrixOperations.swift */; };
+		2AA6782B2791057600D1711B /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781E2791057600D1711B /* Matrix.swift */; };
+		2AA6782C2791057600D1711B /* MatrixScalarOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781F2791057600D1711B /* MatrixScalarOperators.swift */; };
+		2AA6782D2791057600D1711B /* MatrixAlgebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678202791057600D1711B /* MatrixAlgebra.swift */; };
+		2AA6782E2791067C00D1711B /* rSourceConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678122791057600D1711B /* rSourceConvertible.swift */; };
+		2AA6782F2791068000D1711B /* rSourceConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678122791057600D1711B /* rSourceConvertible.swift */; };
+		2AA678302791068700D1711B /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781A2791057600D1711B /* Operators.swift */; };
+		2AA678312791068800D1711B /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781A2791057600D1711B /* Operators.swift */; };
+		2AA678322791068D00D1711B /* RangeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678172791057600D1711B /* RangeEnum.swift */; };
+		2AA678332791068D00D1711B /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678182791057600D1711B /* Vector.swift */; };
+		2AA678342791068D00D1711B /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678142791057600D1711B /* Random.swift */; };
+		2AA678352791068D00D1711B /* VectorScalarOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678152791057600D1711B /* VectorScalarOperators.swift */; };
+		2AA678362791068D00D1711B /* VectorConvertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678162791057600D1711B /* VectorConvertable.swift */; };
+		2AA678372791068D00D1711B /* VectorVectorOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678192791057600D1711B /* VectorVectorOperators.swift */; };
+		2AA678382791068E00D1711B /* RangeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678172791057600D1711B /* RangeEnum.swift */; };
+		2AA678392791068E00D1711B /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678182791057600D1711B /* Vector.swift */; };
+		2AA6783A2791068E00D1711B /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678142791057600D1711B /* Random.swift */; };
+		2AA6783B2791068E00D1711B /* VectorScalarOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678152791057600D1711B /* VectorScalarOperators.swift */; };
+		2AA6783C2791068E00D1711B /* VectorConvertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678162791057600D1711B /* VectorConvertable.swift */; };
+		2AA6783D2791068E00D1711B /* VectorVectorOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678192791057600D1711B /* VectorVectorOperators.swift */; };
+		2AA6783E2791069300D1711B /* MatrixMatrixOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781D2791057600D1711B /* MatrixMatrixOperations.swift */; };
+		2AA6783F2791069300D1711B /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781E2791057600D1711B /* Matrix.swift */; };
+		2AA678402791069300D1711B /* MatrixScalarOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781F2791057600D1711B /* MatrixScalarOperators.swift */; };
+		2AA678412791069300D1711B /* MatrixAlgebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678202791057600D1711B /* MatrixAlgebra.swift */; };
+		2AA678422791069300D1711B /* MatrixConvertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781C2791057600D1711B /* MatrixConvertable.swift */; };
+		2AA678432791069400D1711B /* MatrixMatrixOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781D2791057600D1711B /* MatrixMatrixOperations.swift */; };
+		2AA678442791069400D1711B /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781E2791057600D1711B /* Matrix.swift */; };
+		2AA678452791069400D1711B /* MatrixScalarOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781F2791057600D1711B /* MatrixScalarOperators.swift */; };
+		2AA678462791069400D1711B /* MatrixAlgebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678202791057600D1711B /* MatrixAlgebra.swift */; };
+		2AA678472791069400D1711B /* MatrixConvertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781C2791057600D1711B /* MatrixConvertable.swift */; };
+		2AA67848279106B800D1711B /* Individual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B52791053800D1711B /* Individual.swift */; };
+		2AA67849279106B800D1711B /* Locus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B42791053800D1711B /* Locus.swift */; };
+		2AA6784A279106BC00D1711B /* Stratum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B22791053800D1711B /* Stratum.swift */; };
+		2AA6784B279106BC00D1711B /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677D02791053800D1711B /* Defaults.swift */; };
+		2AA6784C279106C200D1711B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B82791053800D1711B /* String.swift */; };
+		2AA6784D279106C700D1711B /* Matrix+ANOVA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BB2791053800D1711B /* Matrix+ANOVA.swift */; };
+		2AA6784E279106C700D1711B /* Array+CLLocationCoordinate2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BA2791053800D1711B /* Array+CLLocationCoordinate2D.swift */; };
+		2AA6784F279106C700D1711B /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BC2791053800D1711B /* Sequence.swift */; };
+		2AA67850279106C700D1711B /* Array+Individual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BD2791053800D1711B /* Array+Individual.swift */; };
+		2AA67851279106CC00D1711B /* GeneticErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BF2791053800D1711B /* GeneticErrorType.swift */; };
+		2AA67852279106CC00D1711B /* GeneticError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C02791053800D1711B /* GeneticError.swift */; };
+		2AA67853279106DE00D1711B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901DF277C90D1002755A3 /* Color.swift */; };
 		2AAEF521277DE86B004EE213 /* UTType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAEF520277DE86B004EE213 /* UTType.swift */; };
 		2AAEF522277DE86B004EE213 /* UTType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAEF520277DE86B004EE213 /* UTType.swift */; };
 		2ACE72FE278DDA6E0089C74E /* GenotypeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACE72FD278DDA6E0089C74E /* GenotypeTableView.swift */; };
@@ -85,6 +186,50 @@
 		2A4901D1277C9058002755A3 /* AnalysisListViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisListViewItem.swift; sourceTree = "<group>"; };
 		2A4901DF277C90D1002755A3 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		2A4901E2277C9183002755A3 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		2AA677B22791053800D1711B /* Stratum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stratum.swift; sourceTree = "<group>"; };
+		2AA677B42791053800D1711B /* Locus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locus.swift; sourceTree = "<group>"; };
+		2AA677B52791053800D1711B /* Individual.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Individual.swift; sourceTree = "<group>"; };
+		2AA677B82791053800D1711B /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		2AA677BA2791053800D1711B /* Array+CLLocationCoordinate2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+CLLocationCoordinate2D.swift"; sourceTree = "<group>"; };
+		2AA677BB2791053800D1711B /* Matrix+ANOVA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Matrix+ANOVA.swift"; sourceTree = "<group>"; };
+		2AA677BC2791053800D1711B /* Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
+		2AA677BD2791053800D1711B /* Array+Individual.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Individual.swift"; sourceTree = "<group>"; };
+		2AA677BF2791053800D1711B /* GeneticErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneticErrorType.swift; sourceTree = "<group>"; };
+		2AA677C02791053800D1711B /* GeneticError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneticError.swift; sourceTree = "<group>"; };
+		2AA677C42791053800D1711B /* AMOVAAnalysis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMOVAAnalysis.swift; sourceTree = "<group>"; };
+		2AA677C52791053800D1711B /* AMOVADistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMOVADistance.swift; sourceTree = "<group>"; };
+		2AA677C62791053800D1711B /* AMOVA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMOVA.swift; sourceTree = "<group>"; };
+		2AA677C72791053800D1711B /* AnalysisType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisType.swift; sourceTree = "<group>"; };
+		2AA677C92791053800D1711B /* AlleleFrequencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlleleFrequencies.swift; sourceTree = "<group>"; };
+		2AA677CA2791053800D1711B /* FrequencyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrequencyViewModel.swift; sourceTree = "<group>"; };
+		2AA677CC2791053800D1711B /* DiversityViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiversityViewModel.swift; sourceTree = "<group>"; };
+		2AA677CD2791053800D1711B /* DiversityParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiversityParameters.swift; sourceTree = "<group>"; };
+		2AA677CE2791053800D1711B /* DiversityType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiversityType.swift; sourceTree = "<group>"; };
+		2AA677CF2791053800D1711B /* AnalysisProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisProtocol.swift; sourceTree = "<group>"; };
+		2AA677D02791053800D1711B /* Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		2AA677FC2791055100D1711B /* DiversityParametersTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiversityParametersTest.swift; sourceTree = "<group>"; };
+		2AA677FD2791055100D1711B /* DLGeneticTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLGeneticTests.swift; sourceTree = "<group>"; };
+		2AA677FE2791055100D1711B /* AMOVAMatrixTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMOVAMatrixTest.swift; sourceTree = "<group>"; };
+		2AA677FF2791055100D1711B /* LocusTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocusTests.swift; sourceTree = "<group>"; };
+		2AA678002791055100D1711B /* AMOVATests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMOVATests.swift; sourceTree = "<group>"; };
+		2AA678012791055100D1711B /* FrequencyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrequencyTests.swift; sourceTree = "<group>"; };
+		2AA678022791055100D1711B /* IndividualTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndividualTests.swift; sourceTree = "<group>"; };
+		2AA678032791055100D1711B /* StratumTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StratumTests.swift; sourceTree = "<group>"; };
+		2AA6780D2791056400D1711B /* MatrixTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixTests.swift; sourceTree = "<group>"; };
+		2AA6780E2791056400D1711B /* VectorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorTests.swift; sourceTree = "<group>"; };
+		2AA678122791057600D1711B /* rSourceConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSourceConvertible.swift; sourceTree = "<group>"; };
+		2AA678142791057600D1711B /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		2AA678152791057600D1711B /* VectorScalarOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorScalarOperators.swift; sourceTree = "<group>"; };
+		2AA678162791057600D1711B /* VectorConvertable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorConvertable.swift; sourceTree = "<group>"; };
+		2AA678172791057600D1711B /* RangeEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeEnum.swift; sourceTree = "<group>"; };
+		2AA678182791057600D1711B /* Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
+		2AA678192791057600D1711B /* VectorVectorOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorVectorOperators.swift; sourceTree = "<group>"; };
+		2AA6781A2791057600D1711B /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		2AA6781C2791057600D1711B /* MatrixConvertable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixConvertable.swift; sourceTree = "<group>"; };
+		2AA6781D2791057600D1711B /* MatrixMatrixOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixMatrixOperations.swift; sourceTree = "<group>"; };
+		2AA6781E2791057600D1711B /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		2AA6781F2791057600D1711B /* MatrixScalarOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixScalarOperators.swift; sourceTree = "<group>"; };
+		2AA678202791057600D1711B /* MatrixAlgebra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixAlgebra.swift; sourceTree = "<group>"; };
 		2AAEF520277DE86B004EE213 /* UTType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTType.swift; sourceTree = "<group>"; };
 		2ACE72FD278DDA6E0089C74E /* GenotypeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenotypeTableView.swift; sourceTree = "<group>"; };
 		2ACE72FF278DE8310089C74E /* GenotypeTableViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenotypeTableViewCoordinator.swift; sourceTree = "<group>"; };
@@ -97,7 +242,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A229EE727809A9C00A54C8B /* DLabGenetic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +249,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A5A73D227833DB5006E996A /* DLabGenetic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +307,8 @@
 				2A49018A277C9048002755A3 /* GeneticStudioApp.swift */,
 				2A49018B277C9048002755A3 /* GeneticStudioDocument.swift */,
 				2AAEF514277DD471004EE213 /* Extensions */,
+				2AA677B12791053800D1711B /* Genetic */,
+				2AA678112791057600D1711B /* Matrix */,
 				2AAEF51F277DE7FE004EE213 /* Model */,
 				2A49018C277C9048002755A3 /* ContentView.swift */,
 				2A4901CC277C9058002755A3 /* Views */,
@@ -213,6 +358,8 @@
 		2A4901B1277C9049002755A3 /* Tests macOS */ = {
 			isa = PBXGroup;
 			children = (
+				2AA6780C2791056400D1711B /* DLabMatrixTests */,
+				2AA677FB2791055100D1711B /* DLabGeneticTests */,
 				2A4901B2277C9049002755A3 /* Tests_macOS.swift */,
 				2A4901B4277C9049002755A3 /* Tests_macOSLaunchTests.swift */,
 			);
@@ -236,11 +383,171 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2AA677B12791053800D1711B /* Genetic */ = {
+			isa = PBXGroup;
+			children = (
+				2AA677B22791053800D1711B /* Stratum.swift */,
+				2AA677B32791053800D1711B /* Individuals */,
+				2AA677C12791053800D1711B /* Analyses */,
+				2AA677D02791053800D1711B /* Defaults.swift */,
+			);
+			path = Genetic;
+			sourceTree = "<group>";
+		};
+		2AA677B32791053800D1711B /* Individuals */ = {
+			isa = PBXGroup;
+			children = (
+				2AA677B42791053800D1711B /* Locus.swift */,
+				2AA677B52791053800D1711B /* Individual.swift */,
+			);
+			path = Individuals;
+			sourceTree = "<group>";
+		};
+		2AA677B72791053800D1711B /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				2AAEF520277DE86B004EE213 /* UTType.swift */,
+				2A4901DF277C90D1002755A3 /* Color.swift */,
+				2AA677B82791053800D1711B /* String.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		2AA677B92791053800D1711B /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				2AA677BA2791053800D1711B /* Array+CLLocationCoordinate2D.swift */,
+				2AA677BB2791053800D1711B /* Matrix+ANOVA.swift */,
+				2AA677BC2791053800D1711B /* Sequence.swift */,
+				2AA677BD2791053800D1711B /* Array+Individual.swift */,
+			);
+			path = Containers;
+			sourceTree = "<group>";
+		};
+		2AA677BE2791053800D1711B /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				2AA677BF2791053800D1711B /* GeneticErrorType.swift */,
+				2AA677C02791053800D1711B /* GeneticError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		2AA677C12791053800D1711B /* Analyses */ = {
+			isa = PBXGroup;
+			children = (
+				2AA677C22791053800D1711B /* PCA */,
+				2AA677C32791053800D1711B /* AMOVA */,
+				2AA677C72791053800D1711B /* AnalysisType.swift */,
+				2AA677C82791053800D1711B /* Frequencies */,
+				2AA677CB2791053800D1711B /* Diversity */,
+				2AA677CF2791053800D1711B /* AnalysisProtocol.swift */,
+			);
+			path = Analyses;
+			sourceTree = "<group>";
+		};
+		2AA677C22791053800D1711B /* PCA */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PCA;
+			sourceTree = "<group>";
+		};
+		2AA677C32791053800D1711B /* AMOVA */ = {
+			isa = PBXGroup;
+			children = (
+				2AA677C42791053800D1711B /* AMOVAAnalysis.swift */,
+				2AA677C52791053800D1711B /* AMOVADistance.swift */,
+				2AA677C62791053800D1711B /* AMOVA.swift */,
+			);
+			path = AMOVA;
+			sourceTree = "<group>";
+		};
+		2AA677C82791053800D1711B /* Frequencies */ = {
+			isa = PBXGroup;
+			children = (
+				2AA677C92791053800D1711B /* AlleleFrequencies.swift */,
+				2AA677CA2791053800D1711B /* FrequencyViewModel.swift */,
+			);
+			path = Frequencies;
+			sourceTree = "<group>";
+		};
+		2AA677CB2791053800D1711B /* Diversity */ = {
+			isa = PBXGroup;
+			children = (
+				2AA677CC2791053800D1711B /* DiversityViewModel.swift */,
+				2AA677CD2791053800D1711B /* DiversityParameters.swift */,
+				2AA677CE2791053800D1711B /* DiversityType.swift */,
+			);
+			path = Diversity;
+			sourceTree = "<group>";
+		};
+		2AA677FB2791055100D1711B /* DLabGeneticTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AA677FC2791055100D1711B /* DiversityParametersTest.swift */,
+				2AA677FD2791055100D1711B /* DLGeneticTests.swift */,
+				2AA677FE2791055100D1711B /* AMOVAMatrixTest.swift */,
+				2AA677FF2791055100D1711B /* LocusTests.swift */,
+				2AA678002791055100D1711B /* AMOVATests.swift */,
+				2AA678012791055100D1711B /* FrequencyTests.swift */,
+				2AA678022791055100D1711B /* IndividualTests.swift */,
+				2AA678032791055100D1711B /* StratumTests.swift */,
+			);
+			path = DLabGeneticTests;
+			sourceTree = "<group>";
+		};
+		2AA6780C2791056400D1711B /* DLabMatrixTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AA6780D2791056400D1711B /* MatrixTests.swift */,
+				2AA6780E2791056400D1711B /* VectorTests.swift */,
+			);
+			path = DLabMatrixTests;
+			sourceTree = "<group>";
+		};
+		2AA678112791057600D1711B /* Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				2AA6781A2791057600D1711B /* Operators.swift */,
+				2AA678132791057600D1711B /* Vectors */,
+				2AA6781B2791057600D1711B /* Matrices */,
+				2AA678122791057600D1711B /* rSourceConvertible.swift */,
+			);
+			path = Matrix;
+			sourceTree = "<group>";
+		};
+		2AA678132791057600D1711B /* Vectors */ = {
+			isa = PBXGroup;
+			children = (
+				2AA678142791057600D1711B /* Random.swift */,
+				2AA678152791057600D1711B /* VectorScalarOperators.swift */,
+				2AA678162791057600D1711B /* VectorConvertable.swift */,
+				2AA678172791057600D1711B /* RangeEnum.swift */,
+				2AA678182791057600D1711B /* Vector.swift */,
+				2AA678192791057600D1711B /* VectorVectorOperators.swift */,
+			);
+			path = Vectors;
+			sourceTree = "<group>";
+		};
+		2AA6781B2791057600D1711B /* Matrices */ = {
+			isa = PBXGroup;
+			children = (
+				2AA6781C2791057600D1711B /* MatrixConvertable.swift */,
+				2AA6781D2791057600D1711B /* MatrixMatrixOperations.swift */,
+				2AA6781E2791057600D1711B /* Matrix.swift */,
+				2AA6781F2791057600D1711B /* MatrixScalarOperators.swift */,
+				2AA678202791057600D1711B /* MatrixAlgebra.swift */,
+			);
+			path = Matrices;
+			sourceTree = "<group>";
+		};
 		2AAEF514277DD471004EE213 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				2A4901DF277C90D1002755A3 /* Color.swift */,
-				2AAEF520277DE86B004EE213 /* UTType.swift */,
+				2AA677B92791053800D1711B /* Containers */,
+				2AA677BE2791053800D1711B /* Errors */,
+				2AA677B72791053800D1711B /* Types */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -296,7 +603,6 @@
 			);
 			name = "GeneticStudio (iOS)";
 			packageProductDependencies = (
-				2A229EE627809A9C00A54C8B /* DLabGenetic */,
 			);
 			productName = "GeneticStudio (iOS)";
 			productReference = 2A490192277C9049002755A3 /* GeneticStudio.app */;
@@ -316,7 +622,6 @@
 			);
 			name = "GeneticStudio (macOS)";
 			packageProductDependencies = (
-				2A5A73D127833DB5006E996A /* DLabGenetic */,
 			);
 			productName = "GeneticStudio (macOS)";
 			productReference = 2A49019A277C9049002755A3 /* GeneticStudio.app */;
@@ -394,7 +699,6 @@
 			);
 			mainGroup = 2A490184277C9048002755A3;
 			packageReferences = (
-				2A229EE527809A9C00A54C8B /* XCRemoteSwiftPackageReference "DLabGenetic" */,
 			);
 			productRefGroup = 2A490193277C9049002755A3 /* Products */;
 			projectDirPath = "";
@@ -446,19 +750,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AA678362791068D00D1711B /* VectorConvertable.swift in Sources */,
+				2AA677E12791053800D1711B /* GeneticErrorType.swift in Sources */,
+				2AA677D32791053800D1711B /* Locus.swift in Sources */,
+				2AA6783E2791069300D1711B /* MatrixMatrixOperations.swift in Sources */,
+				2AA678342791068D00D1711B /* Random.swift in Sources */,
+				2AA677EF2791053800D1711B /* FrequencyViewModel.swift in Sources */,
 				2A4901D7277C9058002755A3 /* MainWindow.swift in Sources */,
+				2AA677E72791053800D1711B /* AMOVADistance.swift in Sources */,
+				2AA678352791068D00D1711B /* VectorScalarOperators.swift in Sources */,
+				2AA677DF2791053800D1711B /* Array+Individual.swift in Sources */,
 				2AE91604278DFE2B00A00073 /* GenotypeTable.swift in Sources */,
 				2A023B0E278E2C6E00221514 /* FrequencyView.swift in Sources */,
+				2AA677F72791053800D1711B /* AnalysisProtocol.swift in Sources */,
+				2AA677EB2791053800D1711B /* AnalysisType.swift in Sources */,
+				2AA677E52791053800D1711B /* AMOVAAnalysis.swift in Sources */,
+				2AA677F92791053800D1711B /* Defaults.swift in Sources */,
+				2AA6783F2791069300D1711B /* Matrix.swift in Sources */,
+				2AA677D52791053800D1711B /* Individual.swift in Sources */,
+				2AA678422791069300D1711B /* MatrixConvertable.swift in Sources */,
 				2A4901E0277C90D1002755A3 /* Color.swift in Sources */,
+				2AA678372791068D00D1711B /* VectorVectorOperators.swift in Sources */,
 				2A27CD16278B4F490067CD00 /* NSImage.swift in Sources */,
+				2AA677E32791053800D1711B /* GeneticError.swift in Sources */,
+				2AA677D92791053800D1711B /* Array+CLLocationCoordinate2D.swift in Sources */,
+				2AA678302791068700D1711B /* Operators.swift in Sources */,
 				2A4901E3277C9183002755A3 /* Documentation.docc in Sources */,
 				2AAEF521277DE86B004EE213 /* UTType.swift in Sources */,
+				2AA677F32791053800D1711B /* DiversityParameters.swift in Sources */,
+				2AA678412791069300D1711B /* MatrixAlgebra.swift in Sources */,
 				2A4901B8277C9049002755A3 /* GeneticStudioDocument.swift in Sources */,
+				2AA678322791068D00D1711B /* RangeEnum.swift in Sources */,
+				2AA677F52791053800D1711B /* DiversityType.swift in Sources */,
+				2AA677D12791053800D1711B /* Stratum.swift in Sources */,
 				2A3F7875278E3A5600D0F279 /* StratumDiversityView.swift in Sources */,
 				2AD08FF9278B6D8400A55620 /* SpeciesView.swift in Sources */,
 				2A4901B6277C9049002755A3 /* GeneticStudioApp.swift in Sources */,
+				2AA677DB2791053800D1711B /* Matrix+ANOVA.swift in Sources */,
+				2AA6782F2791068000D1711B /* rSourceConvertible.swift in Sources */,
+				2AA677D72791053800D1711B /* String.swift in Sources */,
+				2AA677F12791053800D1711B /* DiversityViewModel.swift in Sources */,
+				2AA677E92791053800D1711B /* AMOVA.swift in Sources */,
 				2A4901BA277C9049002755A3 /* ContentView.swift in Sources */,
+				2AA678332791068D00D1711B /* Vector.swift in Sources */,
+				2AA677DD2791053800D1711B /* Sequence.swift in Sources */,
 				2A4901DB277C9058002755A3 /* AnalysisListViewItem.swift in Sources */,
+				2AA677ED2791053800D1711B /* AlleleFrequencies.swift in Sources */,
+				2AA678402791069300D1711B /* MatrixScalarOperators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,19 +804,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AA677D82791053800D1711B /* String.swift in Sources */,
 				2A4901D8277C9058002755A3 /* MainWindow.swift in Sources */,
+				2AA678392791068E00D1711B /* Vector.swift in Sources */,
+				2AA677F42791053800D1711B /* DiversityParameters.swift in Sources */,
+				2AA677F22791053800D1711B /* DiversityViewModel.swift in Sources */,
+				2AA677E62791053800D1711B /* AMOVAAnalysis.swift in Sources */,
+				2AA677E82791053800D1711B /* AMOVADistance.swift in Sources */,
 				2AE91605278DFE2B00A00073 /* GenotypeTable.swift in Sources */,
+				2AA6783B2791068E00D1711B /* VectorScalarOperators.swift in Sources */,
+				2AA677DC2791053800D1711B /* Matrix+ANOVA.swift in Sources */,
 				2A4901E1277C90D1002755A3 /* Color.swift in Sources */,
+				2AA677FA2791053800D1711B /* Defaults.swift in Sources */,
+				2AA677D42791053800D1711B /* Locus.swift in Sources */,
+				2AA677DE2791053800D1711B /* Sequence.swift in Sources */,
+				2AA678442791069400D1711B /* Matrix.swift in Sources */,
 				2A27CD17278B4F490067CD00 /* NSImage.swift in Sources */,
+				2AA6783D2791068E00D1711B /* VectorVectorOperators.swift in Sources */,
+				2AA677F82791053800D1711B /* AnalysisProtocol.swift in Sources */,
 				2A4901E4277C9183002755A3 /* Documentation.docc in Sources */,
+				2AA677E02791053800D1711B /* Array+Individual.swift in Sources */,
+				2AA677EC2791053800D1711B /* AnalysisType.swift in Sources */,
 				2A023B0F278E2C7200221514 /* FrequencyView.swift in Sources */,
 				2ACE72FE278DDA6E0089C74E /* GenotypeTableView.swift in Sources */,
+				2AA677EE2791053800D1711B /* AlleleFrequencies.swift in Sources */,
+				2AA678472791069400D1711B /* MatrixConvertable.swift in Sources */,
+				2AA677DA2791053800D1711B /* Array+CLLocationCoordinate2D.swift in Sources */,
 				2AAEF522277DE86B004EE213 /* UTType.swift in Sources */,
+				2AA678452791069400D1711B /* MatrixScalarOperators.swift in Sources */,
+				2AA6783A2791068E00D1711B /* Random.swift in Sources */,
+				2AA677D22791053800D1711B /* Stratum.swift in Sources */,
+				2AA677E42791053800D1711B /* GeneticError.swift in Sources */,
 				2A4901B9277C9049002755A3 /* GeneticStudioDocument.swift in Sources */,
+				2AA678312791068800D1711B /* Operators.swift in Sources */,
+				2AA678382791068E00D1711B /* RangeEnum.swift in Sources */,
+				2AA678462791069400D1711B /* MatrixAlgebra.swift in Sources */,
 				2AD08FFA278B6D8400A55620 /* SpeciesView.swift in Sources */,
+				2AA677D62791053800D1711B /* Individual.swift in Sources */,
 				2A4901B7277C9049002755A3 /* GeneticStudioApp.swift in Sources */,
+				2AA677F02791053800D1711B /* FrequencyViewModel.swift in Sources */,
+				2AA6783C2791068E00D1711B /* VectorConvertable.swift in Sources */,
+				2AA677EA2791053800D1711B /* AMOVA.swift in Sources */,
 				2A4901BB277C9049002755A3 /* ContentView.swift in Sources */,
+				2AA678432791069400D1711B /* MatrixMatrixOperations.swift in Sources */,
+				2AA677E22791053800D1711B /* GeneticErrorType.swift in Sources */,
+				2AA6782E2791067C00D1711B /* rSourceConvertible.swift in Sources */,
 				2A4901DC277C9058002755A3 /* AnalysisListViewItem.swift in Sources */,
+				2AA677F62791053800D1711B /* DiversityType.swift in Sources */,
 				2A3F7876278E3A5600D0F279 /* StratumDiversityView.swift in Sources */,
 				2ACE7300278DE8310089C74E /* GenotypeTableViewCoordinator.swift in Sources */,
 			);
@@ -498,7 +870,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A4901B5277C9049002755A3 /* Tests_macOSLaunchTests.swift in Sources */,
+				2AA6784E279106C700D1711B /* Array+CLLocationCoordinate2D.swift in Sources */,
+				2AA678282791057600D1711B /* Operators.swift in Sources */,
+				2AA678052791055100D1711B /* DLGeneticTests.swift in Sources */,
+				2AA6782A2791057600D1711B /* MatrixMatrixOperations.swift in Sources */,
+				2AA6784D279106C700D1711B /* Matrix+ANOVA.swift in Sources */,
+				2AA678102791056400D1711B /* VectorTests.swift in Sources */,
+				2AA67851279106CC00D1711B /* GeneticErrorType.swift in Sources */,
+				2AA678082791055100D1711B /* AMOVATests.swift in Sources */,
+				2AA67848279106B800D1711B /* Individual.swift in Sources */,
+				2AA67853279106DE00D1711B /* Color.swift in Sources */,
+				2AA678072791055100D1711B /* LocusTests.swift in Sources */,
+				2AA6784A279106BC00D1711B /* Stratum.swift in Sources */,
+				2AA6780B2791055100D1711B /* StratumTests.swift in Sources */,
+				2AA6782C2791057600D1711B /* MatrixScalarOperators.swift in Sources */,
+				2AA6782D2791057600D1711B /* MatrixAlgebra.swift in Sources */,
+				2AA6784C279106C200D1711B /* String.swift in Sources */,
+				2AA678222791057600D1711B /* Random.swift in Sources */,
+				2AA67849279106B800D1711B /* Locus.swift in Sources */,
+				2AA6784F279106C700D1711B /* Sequence.swift in Sources */,
+				2AA678092791055100D1711B /* FrequencyTests.swift in Sources */,
+				2AA6780F2791056400D1711B /* MatrixTests.swift in Sources */,
+				2AA67850279106C700D1711B /* Array+Individual.swift in Sources */,
+				2AA67852279106CC00D1711B /* GeneticError.swift in Sources */,
+				2AA678212791057600D1711B /* rSourceConvertible.swift in Sources */,
+				2AA678242791057600D1711B /* VectorConvertable.swift in Sources */,
+				2AA678042791055100D1711B /* DiversityParametersTest.swift in Sources */,
+				2AA6782B2791057600D1711B /* Matrix.swift in Sources */,
+				2AA678232791057600D1711B /* VectorScalarOperators.swift in Sources */,
 				2A4901B3277C9049002755A3 /* Tests_macOS.swift in Sources */,
+				2AA678062791055100D1711B /* AMOVAMatrixTest.swift in Sources */,
+				2AA678272791057600D1711B /* VectorVectorOperators.swift in Sources */,
+				2AA678292791057600D1711B /* MatrixConvertable.swift in Sources */,
+				2AA6780A2791055100D1711B /* IndividualTests.swift in Sources */,
+				2AA6784B279106BC00D1711B /* Defaults.swift in Sources */,
+				2AA678262791057600D1711B /* Vector.swift in Sources */,
+				2AA678252791057600D1711B /* RangeEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -886,30 +1293,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		2A229EE527809A9C00A54C8B /* XCRemoteSwiftPackageReference "DLabGenetic" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/dyerlab/DLabGenetic.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		2A229EE627809A9C00A54C8B /* DLabGenetic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2A229EE527809A9C00A54C8B /* XCRemoteSwiftPackageReference "DLabGenetic" */;
-			productName = DLabGenetic;
-		};
-		2A5A73D127833DB5006E996A /* DLabGenetic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2A229EE527809A9C00A54C8B /* XCRemoteSwiftPackageReference "DLabGenetic" */;
-			productName = DLabGenetic;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2A490185277C9048002755A3 /* Project object */;
 }

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import DLabGenetic
+
 
 struct GenotypeTable: View {
     @Binding var stratum: Stratum
