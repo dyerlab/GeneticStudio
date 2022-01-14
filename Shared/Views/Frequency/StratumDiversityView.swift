@@ -7,26 +7,19 @@
 
 import SwiftUI
 
+/*
 
 struct StratumDiversityView: View {
-    var level: String
+    
     var stratum: Stratum
     
     
-    var loci: [String] {
-        if let ind = stratum.individuals.first {
-            return ind.loci.keys.sorted {$0.localizedStandardCompare($1) == .orderedAscending}
-        }
-        else {
-            return [String]()
-        }
-    }
+
     
     
     
     var body: some View {
-
-        ScrollView{
+        ScrollView([.horizontal,.vertical]) {
             VStack(alignment: .leading) {
                 ForEach( loci, id:\.self){ locus in
                     HStack{
@@ -44,9 +37,8 @@ struct StratumDiversityView: View {
                                                                                   locus: locus))
                 }
             }
-            .padding()
-
         }
+        .padding()
     }
 }
 
@@ -54,5 +46,7 @@ struct StratumDiversityView_Previews: PreviewProvider {
     static var previews: some View {
         StratumDiversityView(level: "Region",
                              stratum: Stratum.DefaultStratum() )
+            .previewLayout(.sizeThatFits)
     }
 }
+*/

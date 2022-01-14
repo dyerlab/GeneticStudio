@@ -35,49 +35,26 @@ struct FrequencyViewModelView: View {
                         .fixedSize()
                     
                     ForEach( frequencyViewModel.allStrata, id: \.self) { stratum in
-                        Text("\( String( format: "%0.5f", freq( stratum, allele) )  )")
+                        Text("\( freq(stratum,allele)  )")
                             .font( Font.system(.body, design: .monospaced) )
                             .fixedSize()
                     }
 
                 }
             }
-            
-            
         }
-        
-        /*
-        VStack(alignment: .leading, spacing: spacing, content: {
-            
-            // Make the header row
-            HStack(alignment: .center, spacing: spacing, content: {
-                Text("")
-                    .frame(minWidth: boxWidth)
-                ForEach( frequencyViewModel.allAlleles, id: \.self) { allele in
-                    Text("\(allele)")
-                        .bold()
-                        .frame(minWidth: boxWidth)
-                }
-            })
-            
-            
-            ForEach( frequencyViewModel.allStrata, id: \.self) { stratum in
-                HStack(alignment: .center, spacing: spacing) {
-                    Text("\(stratum)")
-                        .frame(minWidth: boxWidth)
-                    ForEach( frequencyViewModel.allAlleles, id: \.self) { allele in
-                        Text("\(String( format: "%.4f", frequencyViewModel.getAlleleFrequency( stratum: stratum, allele: allele ) ))")
-                    }
-                }
-            }
-            
-            
-        })
-         */
+        .fixedSize()
     }
     
-    private func freq(_ stratum: String, _ allele: String) -> Double {
-        return frequencyViewModel.getAlleleFrequency( stratum: stratum, allele: allele )
+    private func freq(_ stratum: String, _ allele: String) -> String {
+        let ret = frequencyViewModel.getAlleleFrequency( stratum: stratum, allele: allele )
+        if ret != 0.0 {
+            return String( format: "%0.5f", ret )
+        }
+        else {
+            return "-"
+        }
+
     }
 }
 
@@ -85,6 +62,6 @@ struct FrequencyViewModelView_Previews: PreviewProvider {
     static var previews: some View {
         FrequencyViewModelView(frequencyViewModel: FrequencyViewModel(stratum: Stratum.DefaultStratum(),
                                                                       level: "Region",
-                                                                      locus: "LTRS"))
+                                                                      locus: "MP20"))
     }
 }

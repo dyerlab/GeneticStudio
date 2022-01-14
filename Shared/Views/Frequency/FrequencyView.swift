@@ -10,29 +10,46 @@ import SwiftUI
 
 struct FrequencyView: View {
     @State var currentLevel: Int = 0
-    
     var stratum: Stratum
     
+    var level: String {
+        return strataLevels[currentLevel]
+    }
     var strataLevels: [String] {
         return stratum.nestedLevels
     }
     
+    var loci: [String] {
+        if let ind = stratum.individuals.first {
+            return ind.loci.keys.sorted {$0.localizedStandardCompare($1) == .orderedAscending}
+        }
+        else {
+            return [String]()
+        }
+    }
+    
     
     var body: some View {
-        List {
+        
+        ScrollView([.horizontal,.vertical]) {
             
-            if currentLevel == 0 {
-                Text("Allele Frequencies: \(strataLevels[currentLevel])")
-                    .font(.title)
-                StratumDiversityView(level: strataLevels[ currentLevel ],
-                                     stratum: stratum )
-            } else {
-                ForEach( stratum.substrataAtLevel(named: strataLevels[ currentLevel]), id: \.self ) { name in
-                    Text("Allele Frequencies: \(name)")
-                        .font(.title)
-                    StratumDiversityView( level: name,
-                                          stratum: stratum.substratum(named: name)! )
+            ForEach( loci, id:\.self){ locus in
+                VStack(alignment: .leading) {
+                    HStack{
+                        Text("\(locus)")
+                            .font(.title2)
+                        Spacer()
+                        Button(action: {
+                            print("asking to export")
+                        }, label: {
+                            Image(systemName: "square.and.arrow.up")
+                        })
+                    }
+                    FrequencyViewModelView(frequencyViewModel: FrequencyViewModel(stratum: stratum,
+                                                                                  level: level,
+                                                                                  locus: locus))
                 }
+                .padding()
             }
         }
         .toolbar {
@@ -59,5 +76,6 @@ struct FrequencyView: View {
 struct FrequencyView_Previews: PreviewProvider {
     static var previews: some View {
         FrequencyView( stratum: Stratum.DefaultStratum() )
+            .previewLayout(.sizeThatFits)
     }
 }
