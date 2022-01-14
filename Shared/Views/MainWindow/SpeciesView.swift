@@ -15,10 +15,10 @@ struct SpeciesView: View {
         VStack {
             Image(nsImage: image)
                 .resizable()
-                .frame(width: 125, height: 125, alignment: .center)
-                .cornerRadius( 8 )
-                .shadow(color: .secondary,
-                        radius: 4, x: 3, y: 3 )
+                .frame(width:100, height:100)
+                .clipShape( Circle() )
+                .overlay( Circle().stroke(.secondary, lineWidth: 2.5))
+                .shadow(radius: 7)
             Text( "\(species)")
                 .italic()
                 .font( .title2 )

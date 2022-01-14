@@ -120,5 +120,6 @@ struct MainWindow_Previews: PreviewProvider {
     static var previews: some View {
         MainWindow(document: .constant( GeneticStudioDocument.DefaultDocument() ))
             .frame(minWidth: 800, minHeight:800)
+            .previewLayout( .sizeThatFits )
     }
 }

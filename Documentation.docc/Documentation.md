@@ -1,6 +1,6 @@
 # ``GeneticStudio``
 
-<!--@START_MENU_TOKEN@-->Summary<!--@END_MENU_TOKEN@-->
+An application intending to make the spatial analysis of genetic structure more intuitive and applicable.
 
 ## Overview
 
