@@ -14,6 +14,11 @@ public class DiversityViewModel {
     /// Parameters for each stratum level
     public var parameters: [String: DiversityParameters] = [:]
     
+    /// All strata sorted appropriately
+    public var allStrata: [String] {
+        return parameters.keys.sorted {$0.localizedStandardCompare($1) == .orderedAscending}
+    }
+    
     /// The locus being examined
     public var locus: String = ""
     
@@ -69,3 +74,4 @@ extension DiversityViewModel {
     }
     
 }
+

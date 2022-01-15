@@ -138,6 +138,23 @@
 		2AA67853279106DE00D1711B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901DF277C90D1002755A3 /* Color.swift */; };
 		2AAEF521277DE86B004EE213 /* UTType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAEF520277DE86B004EE213 /* UTType.swift */; };
 		2AAEF522277DE86B004EE213 /* UTType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAEF520277DE86B004EE213 /* UTType.swift */; };
+		2ABC459127931AE800B2CE98 /* DiversityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC459027931AE800B2CE98 /* DiversityView.swift */; };
+		2ABC459327931B2000B2CE98 /* DiversityViewModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC459227931B2000B2CE98 /* DiversityViewModelView.swift */; };
+		2ABC459527931D4F00B2CE98 /* MatrixGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC459427931D4F00B2CE98 /* MatrixGridView.swift */; };
+		2ABC459627931D4F00B2CE98 /* MatrixGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC459427931D4F00B2CE98 /* MatrixGridView.swift */; };
+		2ABC45972793217B00B2CE98 /* AMOVA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C62791053800D1711B /* AMOVA.swift */; };
+		2ABC45982793217B00B2CE98 /* AMOVAAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C42791053800D1711B /* AMOVAAnalysis.swift */; };
+		2ABC45992793217B00B2CE98 /* AMOVADistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C52791053800D1711B /* AMOVADistance.swift */; };
+		2ABC459A2793218100B2CE98 /* AnalysisProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CF2791053800D1711B /* AnalysisProtocol.swift */; };
+		2ABC459B2793218100B2CE98 /* AnalysisType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C72791053800D1711B /* AnalysisType.swift */; };
+		2ABC459C2793218500B2CE98 /* AlleleFrequencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C92791053800D1711B /* AlleleFrequencies.swift */; };
+		2ABC459D2793218500B2CE98 /* FrequencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CA2791053800D1711B /* FrequencyViewModel.swift */; };
+		2ABC459F2793218C00B2CE98 /* DiversityViewModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC459227931B2000B2CE98 /* DiversityViewModelView.swift */; };
+		2ABC45A02793218D00B2CE98 /* DiversityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CE2791053800D1711B /* DiversityType.swift */; };
+		2ABC45A12793218D00B2CE98 /* DiversityParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CD2791053800D1711B /* DiversityParameters.swift */; };
+		2ABC45A32793218D00B2CE98 /* DiversityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CC2791053800D1711B /* DiversityViewModel.swift */; };
+		2ABC45A52793227F00B2CE98 /* FrequencyViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC45A42793227F00B2CE98 /* FrequencyViewModelTests.swift */; };
+		2ABC45A62793271500B2CE98 /* DiversityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC459027931AE800B2CE98 /* DiversityView.swift */; };
 		2ACE72FE278DDA6E0089C74E /* GenotypeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACE72FD278DDA6E0089C74E /* GenotypeTableView.swift */; };
 		2ACE7300278DE8310089C74E /* GenotypeTableViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACE72FF278DE8310089C74E /* GenotypeTableViewCoordinator.swift */; };
 		2AD08FF9278B6D8400A55620 /* SpeciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD08FF8278B6D8400A55620 /* SpeciesView.swift */; };
@@ -231,6 +248,10 @@
 		2AA6781F2791057600D1711B /* MatrixScalarOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixScalarOperators.swift; sourceTree = "<group>"; };
 		2AA678202791057600D1711B /* MatrixAlgebra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixAlgebra.swift; sourceTree = "<group>"; };
 		2AAEF520277DE86B004EE213 /* UTType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTType.swift; sourceTree = "<group>"; };
+		2ABC459027931AE800B2CE98 /* DiversityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiversityView.swift; sourceTree = "<group>"; };
+		2ABC459227931B2000B2CE98 /* DiversityViewModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiversityViewModelView.swift; sourceTree = "<group>"; };
+		2ABC459427931D4F00B2CE98 /* MatrixGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixGridView.swift; sourceTree = "<group>"; };
+		2ABC45A42793227F00B2CE98 /* FrequencyViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyViewModelTests.swift; sourceTree = "<group>"; };
 		2ACE72FD278DDA6E0089C74E /* GenotypeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenotypeTableView.swift; sourceTree = "<group>"; };
 		2ACE72FF278DE8310089C74E /* GenotypeTableViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenotypeTableViewCoordinator.swift; sourceTree = "<group>"; };
 		2AD08FF8278B6D8400A55620 /* SpeciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesView.swift; sourceTree = "<group>"; };
@@ -370,6 +391,7 @@
 				2AD08FF7278B6D4000A55620 /* MainWindow */,
 				2AE91606278DFE3300A00073 /* GenotypeTable */,
 				2A023B0C278E2C4700221514 /* Frequency */,
+				2ABC458F27931AD200B2CE98 /* Diversity */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -475,6 +497,7 @@
 			isa = PBXGroup;
 			children = (
 				2AA677CC2791053800D1711B /* DiversityViewModel.swift */,
+				2ABC459227931B2000B2CE98 /* DiversityViewModelView.swift */,
 				2AA677CD2791053800D1711B /* DiversityParameters.swift */,
 				2AA677CE2791053800D1711B /* DiversityType.swift */,
 			);
@@ -492,6 +515,7 @@
 				2AA678012791055100D1711B /* FrequencyTests.swift */,
 				2AA678022791055100D1711B /* IndividualTests.swift */,
 				2AA678032791055100D1711B /* StratumTests.swift */,
+				2ABC45A42793227F00B2CE98 /* FrequencyViewModelTests.swift */,
 			);
 			path = DLabGeneticTests;
 			sourceTree = "<group>";
@@ -537,6 +561,7 @@
 				2AA6781E2791057600D1711B /* Matrix.swift */,
 				2AA6781F2791057600D1711B /* MatrixScalarOperators.swift */,
 				2AA678202791057600D1711B /* MatrixAlgebra.swift */,
+				2ABC459427931D4F00B2CE98 /* MatrixGridView.swift */,
 			);
 			path = Matrices;
 			sourceTree = "<group>";
@@ -549,6 +574,14 @@
 				2AA677B72791053800D1711B /* Types */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2ABC458F27931AD200B2CE98 /* Diversity */ = {
+			isa = PBXGroup;
+			children = (
+				2ABC459027931AE800B2CE98 /* DiversityView.swift */,
+			);
+			path = Diversity;
 			sourceTree = "<group>";
 		};
 		2ACE72FC278DDA5C0089C74E /* Views */ = {
@@ -756,6 +789,7 @@
 				2AE91604278DFE2B00A00073 /* GenotypeTable.swift in Sources */,
 				2A023B0E278E2C6E00221514 /* FrequencyView.swift in Sources */,
 				2AA677F72791053800D1711B /* AnalysisProtocol.swift in Sources */,
+				2ABC459327931B2000B2CE98 /* DiversityViewModelView.swift in Sources */,
 				2AA677EB2791053800D1711B /* AnalysisType.swift in Sources */,
 				2AA677E52791053800D1711B /* AMOVAAnalysis.swift in Sources */,
 				2AA677F92791053800D1711B /* Defaults.swift in Sources */,
@@ -770,6 +804,7 @@
 				2AA678302791068700D1711B /* Operators.swift in Sources */,
 				2A4901E3277C9183002755A3 /* Documentation.docc in Sources */,
 				2AAEF521277DE86B004EE213 /* UTType.swift in Sources */,
+				2ABC459127931AE800B2CE98 /* DiversityView.swift in Sources */,
 				2AA677F32791053800D1711B /* DiversityParameters.swift in Sources */,
 				2AA678412791069300D1711B /* MatrixAlgebra.swift in Sources */,
 				2A4901B8277C9049002755A3 /* GeneticStudioDocument.swift in Sources */,
@@ -783,6 +818,7 @@
 				2AA677D72791053800D1711B /* String.swift in Sources */,
 				2AA677F12791053800D1711B /* DiversityViewModel.swift in Sources */,
 				2AA677E92791053800D1711B /* AMOVA.swift in Sources */,
+				2ABC459527931D4F00B2CE98 /* MatrixGridView.swift in Sources */,
 				2A4901BA277C9049002755A3 /* ContentView.swift in Sources */,
 				2AA678332791068D00D1711B /* Vector.swift in Sources */,
 				2AA677DD2791053800D1711B /* Sequence.swift in Sources */,
@@ -839,12 +875,15 @@
 				2AA6783C2791068E00D1711B /* VectorConvertable.swift in Sources */,
 				2AA677EA2791053800D1711B /* AMOVA.swift in Sources */,
 				2A4901BB277C9049002755A3 /* ContentView.swift in Sources */,
+				2ABC459627931D4F00B2CE98 /* MatrixGridView.swift in Sources */,
+				2ABC45A62793271500B2CE98 /* DiversityView.swift in Sources */,
 				2AA678432791069400D1711B /* MatrixMatrixOperations.swift in Sources */,
 				2AA677E22791053800D1711B /* GeneticErrorType.swift in Sources */,
 				2AA6782E2791067C00D1711B /* rSourceConvertible.swift in Sources */,
 				2A4901DC277C9058002755A3 /* AnalysisListViewItem.swift in Sources */,
 				2AA677F62791053800D1711B /* DiversityType.swift in Sources */,
 				2ACE7300278DE8310089C74E /* GenotypeTableViewCoordinator.swift in Sources */,
+				2ABC459F2793218C00B2CE98 /* DiversityViewModelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -862,29 +901,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A4901B5277C9049002755A3 /* Tests_macOSLaunchTests.swift in Sources */,
+				2ABC459D2793218500B2CE98 /* FrequencyViewModel.swift in Sources */,
 				2AA6784E279106C700D1711B /* Array+CLLocationCoordinate2D.swift in Sources */,
 				2AA678282791057600D1711B /* Operators.swift in Sources */,
+				2ABC45A12793218D00B2CE98 /* DiversityParameters.swift in Sources */,
 				2AA678052791055100D1711B /* DLGeneticTests.swift in Sources */,
 				2AA6782A2791057600D1711B /* MatrixMatrixOperations.swift in Sources */,
 				2AA6784D279106C700D1711B /* Matrix+ANOVA.swift in Sources */,
 				2AA678102791056400D1711B /* VectorTests.swift in Sources */,
+				2ABC459A2793218100B2CE98 /* AnalysisProtocol.swift in Sources */,
 				2AA67851279106CC00D1711B /* GeneticErrorType.swift in Sources */,
 				2AA678082791055100D1711B /* AMOVATests.swift in Sources */,
 				2AA67848279106B800D1711B /* Individual.swift in Sources */,
 				2AA67853279106DE00D1711B /* Color.swift in Sources */,
 				2AA678072791055100D1711B /* LocusTests.swift in Sources */,
+				2ABC45A32793218D00B2CE98 /* DiversityViewModel.swift in Sources */,
+				2ABC459B2793218100B2CE98 /* AnalysisType.swift in Sources */,
 				2AA6784A279106BC00D1711B /* Stratum.swift in Sources */,
+				2ABC45992793217B00B2CE98 /* AMOVADistance.swift in Sources */,
 				2AA6780B2791055100D1711B /* StratumTests.swift in Sources */,
 				2AA6782C2791057600D1711B /* MatrixScalarOperators.swift in Sources */,
+				2ABC45982793217B00B2CE98 /* AMOVAAnalysis.swift in Sources */,
 				2AA6782D2791057600D1711B /* MatrixAlgebra.swift in Sources */,
 				2AA6784C279106C200D1711B /* String.swift in Sources */,
+				2ABC45A02793218D00B2CE98 /* DiversityType.swift in Sources */,
 				2AA678222791057600D1711B /* Random.swift in Sources */,
 				2AA67849279106B800D1711B /* Locus.swift in Sources */,
 				2AA6784F279106C700D1711B /* Sequence.swift in Sources */,
+				2ABC45972793217B00B2CE98 /* AMOVA.swift in Sources */,
 				2AA678092791055100D1711B /* FrequencyTests.swift in Sources */,
 				2AA6780F2791056400D1711B /* MatrixTests.swift in Sources */,
 				2AA67850279106C700D1711B /* Array+Individual.swift in Sources */,
 				2AA67852279106CC00D1711B /* GeneticError.swift in Sources */,
+				2ABC459C2793218500B2CE98 /* AlleleFrequencies.swift in Sources */,
 				2AA678212791057600D1711B /* rSourceConvertible.swift in Sources */,
 				2AA678242791057600D1711B /* VectorConvertable.swift in Sources */,
 				2AA678042791055100D1711B /* DiversityParametersTest.swift in Sources */,
@@ -892,6 +941,7 @@
 				2AA678232791057600D1711B /* VectorScalarOperators.swift in Sources */,
 				2A4901B3277C9049002755A3 /* Tests_macOS.swift in Sources */,
 				2AA678062791055100D1711B /* AMOVAMatrixTest.swift in Sources */,
+				2ABC45A52793227F00B2CE98 /* FrequencyViewModelTests.swift in Sources */,
 				2AA678272791057600D1711B /* VectorVectorOperators.swift in Sources */,
 				2AA678292791057600D1711B /* MatrixConvertable.swift in Sources */,
 				2AA6780A2791055100D1711B /* IndividualTests.swift in Sources */,

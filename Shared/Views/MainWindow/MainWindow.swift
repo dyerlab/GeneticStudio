@@ -36,13 +36,13 @@ struct MainWindow: View {
                     })
 
                     NavigationLink(destination: {
-                        Text("Allelic")
+                        DiversityView(diversityType: .Allelic, stratum: document.strata)
                     }, label: {
                         AnalysisListViewItem(title: "Allelic", subtitle: "A, A95, & Ae", image: "a.magnify")
                     })
 
                     NavigationLink(destination: {
-                        Text("Genotypic")
+                        DiversityView(diversityType: .Genotype, stratum: document.strata)
                     }, label: {
                         AnalysisListViewItem(title: "Genotypic", subtitle: "Ho, He, & F", image: "g.circle")
                     })
