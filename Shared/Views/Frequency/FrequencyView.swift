@@ -10,7 +10,13 @@ import SwiftUI
 
 struct FrequencyView: View {
     @State var currentLevel: Int = 0
+    
     var stratum: Stratum
+    
+    @State var currentOutput: Int = 0
+    var asNumeric: Bool {
+        return currentOutput == 0
+    }
     
     var level: String {
         return strataLevels[currentLevel]
@@ -49,7 +55,8 @@ struct FrequencyView: View {
                     }
                     FrequencyViewModelView(frequencyViewModel: FrequencyViewModel(stratum: stratum,
                                                                                   level: level,
-                                                                                  locus: locus))
+                                                                                  locus: locus),
+                                           asNumeric: currentOutput == 0 )
                 }
                 .padding()
             }
@@ -57,7 +64,19 @@ struct FrequencyView: View {
         .toolbar {
             ToolbarItem(placement: .automatic,
                         content: {
+                
                 HStack {
+                    
+                    Picker(selection: $currentOutput, content: {
+                        Text("Numeric").tag( 0 )
+                        Text("Graphical").tag( 1 )
+                    }, label: {
+                        Text("Style")
+                    })
+                        .pickerStyle( .segmented )
+                    
+                    
+                    
                     Text("Hierarchical Level:")
                         .fixedSize()
                     Picker(selection: $currentLevel,
@@ -90,7 +109,13 @@ struct FrequencyView: View {
 
 struct FrequencyView_Previews: PreviewProvider {
     static var previews: some View {
-        FrequencyView( stratum: Stratum.DefaultStratum() )
+        FrequencyView( stratum: Stratum.DefaultStratum(),
+                       currentOutput: 0 )
             .previewLayout(.sizeThatFits)
+        
+        FrequencyView( stratum: Stratum.DefaultStratum(),
+                       currentOutput: 1  )
+            .previewLayout(.sizeThatFits)
+
     }
 }

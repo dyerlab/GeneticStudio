@@ -30,7 +30,7 @@ struct MainWindow: View {
                 Section(content: {
                     
                     NavigationLink(destination: {
-                        FrequencyView(stratum: document.strata)
+                        FrequencyView(stratum: document.strata )
                     }, label: {
                         AnalysisListViewItem(title: "Frequencies", subtitle: "Allele Spectra", image: "chart.pie")
                     })

@@ -91,6 +91,15 @@ public class AlleleFrequencies {
 }
 
 
+extension AlleleFrequencies {
+    
+    static func DefaultFrequencies() -> AlleleFrequencies {
+        return AlleleFrequencies(loci: Stratum.DefaultStratum().individuals.getLoci(named: "LTRS") )
+    }
+    
+}
+
+
 
 
 extension AlleleFrequencies: CustomStringConvertible {

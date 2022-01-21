@@ -159,6 +159,40 @@
 		2ACE7300278DE8310089C74E /* GenotypeTableViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACE72FF278DE8310089C74E /* GenotypeTableViewCoordinator.swift */; };
 		2AD08FF9278B6D8400A55620 /* SpeciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD08FF8278B6D8400A55620 /* SpeciesView.swift */; };
 		2AD08FFA278B6D8400A55620 /* SpeciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD08FF8278B6D8400A55620 /* SpeciesView.swift */; };
+		2AD7C620279B08A300D6A05B /* BarChartGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C61F279B08A300D6A05B /* BarChartGridView.swift */; };
+		2AD7C621279B08A300D6A05B /* BarChartGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C61F279B08A300D6A05B /* BarChartGridView.swift */; };
+		2AD7C623279B0A2D00D6A05B /* HorizontalVectorBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C622279B0A2D00D6A05B /* HorizontalVectorBar.swift */; };
+		2AD7C624279B0A2D00D6A05B /* HorizontalVectorBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C622279B0A2D00D6A05B /* HorizontalVectorBar.swift */; };
+		2AD7C629279B13A600D6A05B /* MapCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C628279B13A600D6A05B /* MapCoordinator.swift */; };
+		2AD7C62A279B13A600D6A05B /* MapCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C628279B13A600D6A05B /* MapCoordinator.swift */; };
+		2AD7C62C279B13D800D6A05B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C62B279B13D800D6A05B /* MapView.swift */; };
+		2AD7C62D279B13D800D6A05B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C62B279B13D800D6A05B /* MapView.swift */; };
+		2AD7C640279B164300D6A05B /* BarPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C633279B164200D6A05B /* BarPath.swift */; };
+		2AD7C641279B164300D6A05B /* BarPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C633279B164200D6A05B /* BarPath.swift */; };
+		2AD7C642279B164300D6A05B /* BarStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C634279B164200D6A05B /* BarStack.swift */; };
+		2AD7C643279B164300D6A05B /* BarStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C634279B164200D6A05B /* BarStack.swift */; };
+		2AD7C644279B164300D6A05B /* ChartAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C635279B164200D6A05B /* ChartAxis.swift */; };
+		2AD7C645279B164300D6A05B /* ChartAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C635279B164200D6A05B /* ChartAxis.swift */; };
+		2AD7C646279B164300D6A05B /* BarChartBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C636279B164200D6A05B /* BarChartBar.swift */; };
+		2AD7C647279B164300D6A05B /* BarChartBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C636279B164200D6A05B /* BarChartBar.swift */; };
+		2AD7C648279B164300D6A05B /* PieSliceText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C637279B164200D6A05B /* PieSliceText.swift */; };
+		2AD7C649279B164300D6A05B /* PieSliceText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C637279B164200D6A05B /* PieSliceText.swift */; };
+		2AD7C64A279B164300D6A05B /* BarChartGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C638279B164200D6A05B /* BarChartGrid.swift */; };
+		2AD7C64B279B164300D6A05B /* BarChartGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C638279B164200D6A05B /* BarChartGrid.swift */; };
+		2AD7C64C279B164300D6A05B /* LabelStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C639279B164200D6A05B /* LabelStack.swift */; };
+		2AD7C64D279B164300D6A05B /* LabelStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C639279B164200D6A05B /* LabelStack.swift */; };
+		2AD7C64E279B164300D6A05B /* RadarChartPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63A279B164200D6A05B /* RadarChartPath.swift */; };
+		2AD7C64F279B164300D6A05B /* RadarChartPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63A279B164200D6A05B /* RadarChartPath.swift */; };
+		2AD7C650279B164300D6A05B /* PieSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63B279B164200D6A05B /* PieSlice.swift */; };
+		2AD7C651279B164300D6A05B /* PieSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63B279B164200D6A05B /* PieSlice.swift */; };
+		2AD7C652279B164300D6A05B /* RadarChartGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63C279B164200D6A05B /* RadarChartGrid.swift */; };
+		2AD7C653279B164300D6A05B /* RadarChartGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63C279B164200D6A05B /* RadarChartGrid.swift */; };
+		2AD7C654279B164300D6A05B /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63D279B164200D6A05B /* PieChartView.swift */; };
+		2AD7C655279B164300D6A05B /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63D279B164200D6A05B /* PieChartView.swift */; };
+		2AD7C656279B164300D6A05B /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63E279B164200D6A05B /* BarChartView.swift */; };
+		2AD7C657279B164300D6A05B /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63E279B164200D6A05B /* BarChartView.swift */; };
+		2AD7C658279B164300D6A05B /* RadarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63F279B164300D6A05B /* RadarChartView.swift */; };
+		2AD7C659279B164300D6A05B /* RadarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63F279B164300D6A05B /* RadarChartView.swift */; };
 		2AE91604278DFE2B00A00073 /* GenotypeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE91603278DFE2B00A00073 /* GenotypeTable.swift */; };
 		2AE91605278DFE2B00A00073 /* GenotypeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE91603278DFE2B00A00073 /* GenotypeTable.swift */; };
 /* End PBXBuildFile section */
@@ -255,6 +289,23 @@
 		2ACE72FD278DDA6E0089C74E /* GenotypeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenotypeTableView.swift; sourceTree = "<group>"; };
 		2ACE72FF278DE8310089C74E /* GenotypeTableViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenotypeTableViewCoordinator.swift; sourceTree = "<group>"; };
 		2AD08FF8278B6D8400A55620 /* SpeciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesView.swift; sourceTree = "<group>"; };
+		2AD7C61F279B08A300D6A05B /* BarChartGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartGridView.swift; sourceTree = "<group>"; };
+		2AD7C622279B0A2D00D6A05B /* HorizontalVectorBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalVectorBar.swift; sourceTree = "<group>"; };
+		2AD7C628279B13A600D6A05B /* MapCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCoordinator.swift; sourceTree = "<group>"; };
+		2AD7C62B279B13D800D6A05B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		2AD7C633279B164200D6A05B /* BarPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarPath.swift; sourceTree = "<group>"; };
+		2AD7C634279B164200D6A05B /* BarStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarStack.swift; sourceTree = "<group>"; };
+		2AD7C635279B164200D6A05B /* ChartAxis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartAxis.swift; sourceTree = "<group>"; };
+		2AD7C636279B164200D6A05B /* BarChartBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartBar.swift; sourceTree = "<group>"; };
+		2AD7C637279B164200D6A05B /* PieSliceText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieSliceText.swift; sourceTree = "<group>"; };
+		2AD7C638279B164200D6A05B /* BarChartGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartGrid.swift; sourceTree = "<group>"; };
+		2AD7C639279B164200D6A05B /* LabelStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelStack.swift; sourceTree = "<group>"; };
+		2AD7C63A279B164200D6A05B /* RadarChartPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarChartPath.swift; sourceTree = "<group>"; };
+		2AD7C63B279B164200D6A05B /* PieSlice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieSlice.swift; sourceTree = "<group>"; };
+		2AD7C63C279B164200D6A05B /* RadarChartGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarChartGrid.swift; sourceTree = "<group>"; };
+		2AD7C63D279B164200D6A05B /* PieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		2AD7C63E279B164200D6A05B /* BarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		2AD7C63F279B164300D6A05B /* RadarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarChartView.swift; sourceTree = "<group>"; };
 		2AE91603278DFE2B00A00073 /* GenotypeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenotypeTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -329,6 +380,7 @@
 				2AAEF514277DD471004EE213 /* Extensions */,
 				2AA677B12791053800D1711B /* Genetic */,
 				2AA678112791057600D1711B /* Matrix */,
+				2AD7C627279B138500D6A05B /* Spatial */,
 				2A4901CC277C9058002755A3 /* Views */,
 			);
 			path = Shared;
@@ -391,6 +443,7 @@
 				2AD08FF7278B6D4000A55620 /* MainWindow */,
 				2AE91606278DFE3300A00073 /* GenotypeTable */,
 				2A023B0C278E2C4700221514 /* Frequency */,
+				2AD7C631279B159700D6A05B /* Charts */,
 				2ABC458F27931AD200B2CE98 /* Diversity */,
 			);
 			path = Views;
@@ -489,6 +542,7 @@
 				2AA677C92791053800D1711B /* AlleleFrequencies.swift */,
 				2AA677CA2791053800D1711B /* FrequencyViewModel.swift */,
 				2AA3392927910EFD0039B14F /* FrequencyViewModelView.swift */,
+				2AD7C61F279B08A300D6A05B /* BarChartGridView.swift */,
 			);
 			path = Frequencies;
 			sourceTree = "<group>";
@@ -549,6 +603,7 @@
 				2AA678172791057600D1711B /* RangeEnum.swift */,
 				2AA678182791057600D1711B /* Vector.swift */,
 				2AA678192791057600D1711B /* VectorVectorOperators.swift */,
+				2AD7C622279B0A2D00D6A05B /* HorizontalVectorBar.swift */,
 			);
 			path = Vectors;
 			sourceTree = "<group>";
@@ -587,8 +642,8 @@
 		2ACE72FC278DDA5C0089C74E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2ACE72FD278DDA6E0089C74E /* GenotypeTableView.swift */,
-				2ACE72FF278DE8310089C74E /* GenotypeTableViewCoordinator.swift */,
+				2AD7C626279B130C00D6A05B /* Maps */,
+				2AD7C625279B130400D6A05B /* GenotypeTable */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -601,6 +656,59 @@
 				2AD08FF8278B6D8400A55620 /* SpeciesView.swift */,
 			);
 			path = MainWindow;
+			sourceTree = "<group>";
+		};
+		2AD7C625279B130400D6A05B /* GenotypeTable */ = {
+			isa = PBXGroup;
+			children = (
+				2ACE72FD278DDA6E0089C74E /* GenotypeTableView.swift */,
+				2ACE72FF278DE8310089C74E /* GenotypeTableViewCoordinator.swift */,
+			);
+			path = GenotypeTable;
+			sourceTree = "<group>";
+		};
+		2AD7C626279B130C00D6A05B /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				2AD7C62B279B13D800D6A05B /* MapView.swift */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		2AD7C627279B138500D6A05B /* Spatial */ = {
+			isa = PBXGroup;
+			children = (
+				2AD7C628279B13A600D6A05B /* MapCoordinator.swift */,
+			);
+			path = Spatial;
+			sourceTree = "<group>";
+		};
+		2AD7C631279B159700D6A05B /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				2AD7C63E279B164200D6A05B /* BarChartView.swift */,
+				2AD7C632279B164200D6A05B /* Components */,
+				2AD7C63D279B164200D6A05B /* PieChartView.swift */,
+				2AD7C63F279B164300D6A05B /* RadarChartView.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		2AD7C632279B164200D6A05B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2AD7C633279B164200D6A05B /* BarPath.swift */,
+				2AD7C634279B164200D6A05B /* BarStack.swift */,
+				2AD7C635279B164200D6A05B /* ChartAxis.swift */,
+				2AD7C636279B164200D6A05B /* BarChartBar.swift */,
+				2AD7C637279B164200D6A05B /* PieSliceText.swift */,
+				2AD7C638279B164200D6A05B /* BarChartGrid.swift */,
+				2AD7C639279B164200D6A05B /* LabelStack.swift */,
+				2AD7C63B279B164200D6A05B /* PieSlice.swift */,
+				2AD7C63A279B164200D6A05B /* RadarChartPath.swift */,
+				2AD7C63C279B164200D6A05B /* RadarChartGrid.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		2AE91606278DFE3300A00073 /* GenotypeTable */ = {
@@ -778,11 +886,15 @@
 				2AA3392A27910EFD0039B14F /* FrequencyViewModelView.swift in Sources */,
 				2AA678362791068D00D1711B /* VectorConvertable.swift in Sources */,
 				2AA677E12791053800D1711B /* GeneticErrorType.swift in Sources */,
+				2AD7C646279B164300D6A05B /* BarChartBar.swift in Sources */,
 				2AA677D32791053800D1711B /* Locus.swift in Sources */,
 				2AA6783E2791069300D1711B /* MatrixMatrixOperations.swift in Sources */,
 				2AA678342791068D00D1711B /* Random.swift in Sources */,
+				2AD7C656279B164300D6A05B /* BarChartView.swift in Sources */,
 				2AA677EF2791053800D1711B /* FrequencyViewModel.swift in Sources */,
+				2AD7C62C279B13D800D6A05B /* MapView.swift in Sources */,
 				2A4901D7277C9058002755A3 /* MainWindow.swift in Sources */,
+				2AD7C642279B164300D6A05B /* BarStack.swift in Sources */,
 				2AA677E72791053800D1711B /* AMOVADistance.swift in Sources */,
 				2AA678352791068D00D1711B /* VectorScalarOperators.swift in Sources */,
 				2AA677DF2791053800D1711B /* Array+Individual.swift in Sources */,
@@ -794,37 +906,50 @@
 				2AA677E52791053800D1711B /* AMOVAAnalysis.swift in Sources */,
 				2AA677F92791053800D1711B /* Defaults.swift in Sources */,
 				2AA6783F2791069300D1711B /* Matrix.swift in Sources */,
+				2AD7C64E279B164300D6A05B /* RadarChartPath.swift in Sources */,
 				2AA677D52791053800D1711B /* Individual.swift in Sources */,
 				2AA678422791069300D1711B /* MatrixConvertable.swift in Sources */,
+				2AD7C658279B164300D6A05B /* RadarChartView.swift in Sources */,
 				2A4901E0277C90D1002755A3 /* Color.swift in Sources */,
 				2AA678372791068D00D1711B /* VectorVectorOperators.swift in Sources */,
 				2A27CD16278B4F490067CD00 /* NSImage.swift in Sources */,
 				2AA677E32791053800D1711B /* GeneticError.swift in Sources */,
 				2AA677D92791053800D1711B /* Array+CLLocationCoordinate2D.swift in Sources */,
 				2AA678302791068700D1711B /* Operators.swift in Sources */,
+				2AD7C64C279B164300D6A05B /* LabelStack.swift in Sources */,
 				2A4901E3277C9183002755A3 /* Documentation.docc in Sources */,
+				2AD7C620279B08A300D6A05B /* BarChartGridView.swift in Sources */,
 				2AAEF521277DE86B004EE213 /* UTType.swift in Sources */,
 				2ABC459127931AE800B2CE98 /* DiversityView.swift in Sources */,
 				2AA677F32791053800D1711B /* DiversityParameters.swift in Sources */,
 				2AA678412791069300D1711B /* MatrixAlgebra.swift in Sources */,
 				2A4901B8277C9049002755A3 /* GeneticStudioDocument.swift in Sources */,
+				2AD7C629279B13A600D6A05B /* MapCoordinator.swift in Sources */,
 				2AA678322791068D00D1711B /* RangeEnum.swift in Sources */,
 				2AA677F52791053800D1711B /* DiversityType.swift in Sources */,
+				2AD7C64A279B164300D6A05B /* BarChartGrid.swift in Sources */,
 				2AA677D12791053800D1711B /* Stratum.swift in Sources */,
 				2AD08FF9278B6D8400A55620 /* SpeciesView.swift in Sources */,
 				2A4901B6277C9049002755A3 /* GeneticStudioApp.swift in Sources */,
+				2AD7C648279B164300D6A05B /* PieSliceText.swift in Sources */,
+				2AD7C654279B164300D6A05B /* PieChartView.swift in Sources */,
 				2AA677DB2791053800D1711B /* Matrix+ANOVA.swift in Sources */,
 				2AA6782F2791068000D1711B /* rSourceConvertible.swift in Sources */,
 				2AA677D72791053800D1711B /* String.swift in Sources */,
+				2AD7C623279B0A2D00D6A05B /* HorizontalVectorBar.swift in Sources */,
 				2AA677F12791053800D1711B /* DiversityViewModel.swift in Sources */,
 				2AA677E92791053800D1711B /* AMOVA.swift in Sources */,
 				2ABC459527931D4F00B2CE98 /* MatrixGridView.swift in Sources */,
+				2AD7C650279B164300D6A05B /* PieSlice.swift in Sources */,
 				2A4901BA277C9049002755A3 /* ContentView.swift in Sources */,
+				2AD7C640279B164300D6A05B /* BarPath.swift in Sources */,
 				2AA678332791068D00D1711B /* Vector.swift in Sources */,
 				2AA677DD2791053800D1711B /* Sequence.swift in Sources */,
+				2AD7C652279B164300D6A05B /* RadarChartGrid.swift in Sources */,
 				2A4901DB277C9058002755A3 /* AnalysisListViewItem.swift in Sources */,
 				2AA677ED2791053800D1711B /* AlleleFrequencies.swift in Sources */,
 				2AA678402791069300D1711B /* MatrixScalarOperators.swift in Sources */,
+				2AD7C644279B164300D6A05B /* ChartAxis.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -833,22 +958,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AA677D82791053800D1711B /* String.swift in Sources */,
+				2AD7C64D279B164300D6A05B /* LabelStack.swift in Sources */,
 				2A4901D8277C9058002755A3 /* MainWindow.swift in Sources */,
 				2AA678392791068E00D1711B /* Vector.swift in Sources */,
 				2AA677F42791053800D1711B /* DiversityParameters.swift in Sources */,
 				2AA677F22791053800D1711B /* DiversityViewModel.swift in Sources */,
 				2AA677E62791053800D1711B /* AMOVAAnalysis.swift in Sources */,
+				2AD7C64B279B164300D6A05B /* BarChartGrid.swift in Sources */,
 				2AA677E82791053800D1711B /* AMOVADistance.swift in Sources */,
 				2AE91605278DFE2B00A00073 /* GenotypeTable.swift in Sources */,
 				2AA6783B2791068E00D1711B /* VectorScalarOperators.swift in Sources */,
 				2AA677DC2791053800D1711B /* Matrix+ANOVA.swift in Sources */,
 				2A4901E1277C90D1002755A3 /* Color.swift in Sources */,
+				2AD7C643279B164300D6A05B /* BarStack.swift in Sources */,
 				2AA677FA2791053800D1711B /* Defaults.swift in Sources */,
+				2AD7C64F279B164300D6A05B /* RadarChartPath.swift in Sources */,
 				2AA677D42791053800D1711B /* Locus.swift in Sources */,
+				2AD7C62A279B13A600D6A05B /* MapCoordinator.swift in Sources */,
 				2AA677DE2791053800D1711B /* Sequence.swift in Sources */,
 				2AA678442791069400D1711B /* Matrix.swift in Sources */,
 				2A27CD17278B4F490067CD00 /* NSImage.swift in Sources */,
 				2AA6783D2791068E00D1711B /* VectorVectorOperators.swift in Sources */,
+				2AD7C659279B164300D6A05B /* RadarChartView.swift in Sources */,
 				2AA677F82791053800D1711B /* AnalysisProtocol.swift in Sources */,
 				2AA3392B27910EFD0039B14F /* FrequencyViewModelView.swift in Sources */,
 				2A4901E4277C9183002755A3 /* Documentation.docc in Sources */,
@@ -856,6 +987,7 @@
 				2AA677EC2791053800D1711B /* AnalysisType.swift in Sources */,
 				2A023B0F278E2C7200221514 /* FrequencyView.swift in Sources */,
 				2ACE72FE278DDA6E0089C74E /* GenotypeTableView.swift in Sources */,
+				2AD7C624279B0A2D00D6A05B /* HorizontalVectorBar.swift in Sources */,
 				2AA677EE2791053800D1711B /* AlleleFrequencies.swift in Sources */,
 				2AA678472791069400D1711B /* MatrixConvertable.swift in Sources */,
 				2AA677DA2791053800D1711B /* Array+CLLocationCoordinate2D.swift in Sources */,
@@ -865,6 +997,7 @@
 				2AA677D22791053800D1711B /* Stratum.swift in Sources */,
 				2AA677E42791053800D1711B /* GeneticError.swift in Sources */,
 				2A4901B9277C9049002755A3 /* GeneticStudioDocument.swift in Sources */,
+				2AD7C647279B164300D6A05B /* BarChartBar.swift in Sources */,
 				2AA678312791068800D1711B /* Operators.swift in Sources */,
 				2AA678382791068E00D1711B /* RangeEnum.swift in Sources */,
 				2AA678462791069400D1711B /* MatrixAlgebra.swift in Sources */,
@@ -872,17 +1005,26 @@
 				2AA677D62791053800D1711B /* Individual.swift in Sources */,
 				2A4901B7277C9049002755A3 /* GeneticStudioApp.swift in Sources */,
 				2AA677F02791053800D1711B /* FrequencyViewModel.swift in Sources */,
+				2AD7C657279B164300D6A05B /* BarChartView.swift in Sources */,
 				2AA6783C2791068E00D1711B /* VectorConvertable.swift in Sources */,
+				2AD7C653279B164300D6A05B /* RadarChartGrid.swift in Sources */,
 				2AA677EA2791053800D1711B /* AMOVA.swift in Sources */,
 				2A4901BB277C9049002755A3 /* ContentView.swift in Sources */,
 				2ABC459627931D4F00B2CE98 /* MatrixGridView.swift in Sources */,
 				2ABC45A62793271500B2CE98 /* DiversityView.swift in Sources */,
+				2AD7C649279B164300D6A05B /* PieSliceText.swift in Sources */,
+				2AD7C645279B164300D6A05B /* ChartAxis.swift in Sources */,
 				2AA678432791069400D1711B /* MatrixMatrixOperations.swift in Sources */,
 				2AA677E22791053800D1711B /* GeneticErrorType.swift in Sources */,
+				2AD7C651279B164300D6A05B /* PieSlice.swift in Sources */,
+				2AD7C62D279B13D800D6A05B /* MapView.swift in Sources */,
 				2AA6782E2791067C00D1711B /* rSourceConvertible.swift in Sources */,
+				2AD7C641279B164300D6A05B /* BarPath.swift in Sources */,
 				2A4901DC277C9058002755A3 /* AnalysisListViewItem.swift in Sources */,
 				2AA677F62791053800D1711B /* DiversityType.swift in Sources */,
+				2AD7C655279B164300D6A05B /* PieChartView.swift in Sources */,
 				2ACE7300278DE8310089C74E /* GenotypeTableViewCoordinator.swift in Sources */,
+				2AD7C621279B08A300D6A05B /* BarChartGridView.swift in Sources */,
 				2ABC459F2793218C00B2CE98 /* DiversityViewModelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
