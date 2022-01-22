@@ -92,7 +92,7 @@ struct MainWindow: View {
                     })
                     
                     NavigationLink(destination: {
-                        Text("Structural")
+                        GraphView(graph: $document.graph)
                     }, label: {
                         AnalysisListViewItem(title: "Structural", subtitle: "Visual Display", image: "perspective")
                     })

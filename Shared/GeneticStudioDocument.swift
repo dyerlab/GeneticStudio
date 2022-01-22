@@ -22,6 +22,9 @@ struct GeneticStudioDocument: FileDocument, Codable  {
     
     /// The stratum
     var strata: Stratum
+    
+    /// The graph
+    var graph: Graph
 
     /// Readable types for import and load/save
     static var readableContentTypes: [UTType] {
@@ -33,6 +36,7 @@ struct GeneticStudioDocument: FileDocument, Codable  {
         case species
         case strata
         case imageData
+        case graph
     }
     
     
@@ -41,6 +45,7 @@ struct GeneticStudioDocument: FileDocument, Codable  {
         self.species = "Araptus attenuata"
         self.strata = Stratum.DefaultStratum()
         self.image = NSImage(named: "Arapat")!
+        self.graph = Graph.DefaultGraph()
     }
     
     
@@ -51,6 +56,7 @@ struct GeneticStudioDocument: FileDocument, Codable  {
         self.strata = try values.decode( Stratum.self, forKey: .strata )
         let data = try values.decode( Data.self, forKey: .imageData )
         self.image = NSImage(data: data ) ?? NSImage(named: "Tree")!
+        self.graph = try values.decode( Graph.self, forKey: .graph )
     }
 
     /// Required encoder
@@ -59,6 +65,7 @@ struct GeneticStudioDocument: FileDocument, Codable  {
         try container.encode( self.species, forKey: .species )
         try container.encode( self.strata, forKey: .strata )
         try container.encode( self.image.PNGRepresentation(), forKey: .imageData )
+        try container.encode( self.graph, forKey: .graph )
     }
     
 

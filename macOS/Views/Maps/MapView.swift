@@ -19,7 +19,6 @@ struct MapView: NSViewRepresentable {
         mapView.mapType = self.currentType
         mapView.delegate = context.coordinator
         
-        
         return mapView
     }
     
