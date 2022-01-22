@@ -16,6 +16,7 @@ class GraphSpriteKitModel {
         
         for node in graph.nodes {
             self.root.addChild( Node2D(node: node) )
+            print("Added node: \(node.label)")
         }
         
         for edge in graph.edges {
@@ -25,6 +26,8 @@ class GraphSpriteKitModel {
             }
             
         }
+        
+        print("Root has \(self.root.children.count) children")
     }
     
     

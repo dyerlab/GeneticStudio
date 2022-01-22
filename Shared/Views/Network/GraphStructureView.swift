@@ -8,23 +8,25 @@
 import SwiftUI
 import SpriteKit
 
-struct GraphView: View {
+struct GraphStructureView: View {
     @Binding var graph: Graph
     
     var scene: SKScene {
         let scene = GraphScene()
         scene.scaleMode = .fill
-        scene.addChild( GraphSpriteKitModel(graph: self.graph).root )
+        scene.addGraph(graph: self.graph )
         return scene
     }
     
     var body: some View {
-        SpriteView(scene: scene)
+        GeometryReader { proxy in
+            GraphView(scene: self.scene, proxy: proxy)
+        }
     }
 }
 
 struct PopGraphView_Previews: PreviewProvider {
     static var previews: some View {
-        GraphView(graph: .constant(Graph.DefaultGraph()) )
+        GraphStructureView(graph: .constant(Graph.DefaultGraph()) )
     }
 }

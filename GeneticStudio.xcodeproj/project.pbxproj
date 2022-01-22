@@ -221,12 +221,18 @@
 		2AD87149279C46F60093F2C9 /* Notification.Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87147279C46F60093F2C9 /* Notification.Name.swift */; };
 		2AD8714B279C4A0A0093F2C9 /* Array+Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8714A279C4A0A0093F2C9 /* Array+Bool.swift */; };
 		2AD8714C279C4A0A0093F2C9 /* Array+Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8714A279C4A0A0093F2C9 /* Array+Bool.swift */; };
-		2AD8714F279C506E0093F2C9 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8714E279C506E0093F2C9 /* GraphView.swift */; };
-		2AD87150279C506E0093F2C9 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8714E279C506E0093F2C9 /* GraphView.swift */; };
+		2AD8714F279C506E0093F2C9 /* GraphStructureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8714E279C506E0093F2C9 /* GraphStructureView.swift */; };
+		2AD87150279C506E0093F2C9 /* GraphStructureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8714E279C506E0093F2C9 /* GraphStructureView.swift */; };
 		2AD87152279C551B0093F2C9 /* GraphSpriteKitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87151279C551B0093F2C9 /* GraphSpriteKitModel.swift */; };
 		2AD87153279C551B0093F2C9 /* GraphSpriteKitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87151279C551B0093F2C9 /* GraphSpriteKitModel.swift */; };
 		2AD87155279C5A520093F2C9 /* GraphScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87154279C5A520093F2C9 /* GraphScene.swift */; };
 		2AD87156279C5A520093F2C9 /* GraphScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87154279C5A520093F2C9 /* GraphScene.swift */; };
+		2AD87158279C62E70093F2C9 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87157279C62E70093F2C9 /* CGFloat.swift */; };
+		2AD87159279C62E70093F2C9 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87157279C62E70093F2C9 /* CGFloat.swift */; };
+		2AD8715D279C6A600093F2C9 /* GraphViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8715C279C6A600093F2C9 /* GraphViewCoordinator.swift */; };
+		2AD8715E279C6A600093F2C9 /* GraphViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8715C279C6A600093F2C9 /* GraphViewCoordinator.swift */; };
+		2AD87160279C6AB40093F2C9 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8715F279C6AB40093F2C9 /* GraphView.swift */; };
+		2AD87161279C6AB40093F2C9 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8715F279C6AB40093F2C9 /* GraphView.swift */; };
 		2AE91604278DFE2B00A00073 /* GenotypeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE91603278DFE2B00A00073 /* GenotypeTable.swift */; };
 		2AE91605278DFE2B00A00073 /* GenotypeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE91603278DFE2B00A00073 /* GenotypeTable.swift */; };
 /* End PBXBuildFile section */
@@ -354,9 +360,12 @@
 		2AD87140279C46C00093F2C9 /* MKMapRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKMapRect.swift; sourceTree = "<group>"; };
 		2AD87147279C46F60093F2C9 /* Notification.Name.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.Name.swift; sourceTree = "<group>"; };
 		2AD8714A279C4A0A0093F2C9 /* Array+Bool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Bool.swift"; sourceTree = "<group>"; };
-		2AD8714E279C506E0093F2C9 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		2AD8714E279C506E0093F2C9 /* GraphStructureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphStructureView.swift; sourceTree = "<group>"; };
 		2AD87151279C551B0093F2C9 /* GraphSpriteKitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphSpriteKitModel.swift; sourceTree = "<group>"; };
 		2AD87154279C5A520093F2C9 /* GraphScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphScene.swift; sourceTree = "<group>"; };
+		2AD87157279C62E70093F2C9 /* CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
+		2AD8715C279C6A600093F2C9 /* GraphViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewCoordinator.swift; sourceTree = "<group>"; };
+		2AD8715F279C6AB40093F2C9 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		2AE91603278DFE2B00A00073 /* GenotypeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenotypeTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -540,6 +549,7 @@
 				2A4901DF277C90D1002755A3 /* Color.swift */,
 				2AA677B82791053800D1711B /* String.swift */,
 				2AD8713B279C46440093F2C9 /* CLLocationCoordinate2D.swift */,
+				2AD87157279C62E70093F2C9 /* CGFloat.swift */,
 			);
 			path = Types;
 			sourceTree = "<group>";
@@ -701,6 +711,7 @@
 		2ACE72FC278DDA5C0089C74E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2AD8715B279C6A4E0093F2C9 /* SpriteView */,
 				2AD7C626279B130C00D6A05B /* Maps */,
 				2AD7C625279B130400D6A05B /* GenotypeTable */,
 			);
@@ -798,9 +809,18 @@
 		2AD8714D279C4FD60093F2C9 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				2AD8714E279C506E0093F2C9 /* GraphView.swift */,
+				2AD8714E279C506E0093F2C9 /* GraphStructureView.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		2AD8715B279C6A4E0093F2C9 /* SpriteView */ = {
+			isa = PBXGroup;
+			children = (
+				2AD8715C279C6A600093F2C9 /* GraphViewCoordinator.swift */,
+				2AD8715F279C6AB40093F2C9 /* GraphView.swift */,
+			);
+			path = SpriteView;
 			sourceTree = "<group>";
 		};
 		2AE91606278DFE3300A00073 /* GenotypeTable */ = {
@@ -989,6 +1009,7 @@
 				2A4901D7277C9058002755A3 /* MainWindow.swift in Sources */,
 				2AD87129279C45C90093F2C9 /* Node2D.swift in Sources */,
 				2AD7C642279B164300D6A05B /* BarStack.swift in Sources */,
+				2AD87160279C6AB40093F2C9 /* GraphView.swift in Sources */,
 				2AA677E72791053800D1711B /* AMOVADistance.swift in Sources */,
 				2AD87145279C46C00093F2C9 /* MKMapRect.swift in Sources */,
 				2AA678352791068D00D1711B /* VectorScalarOperators.swift in Sources */,
@@ -1001,6 +1022,7 @@
 				2ABC459327931B2000B2CE98 /* DiversityViewModelView.swift in Sources */,
 				2AA677EB2791053800D1711B /* AnalysisType.swift in Sources */,
 				2AA677E52791053800D1711B /* AMOVAAnalysis.swift in Sources */,
+				2AD8715D279C6A600093F2C9 /* GraphViewCoordinator.swift in Sources */,
 				2AA677F92791053800D1711B /* Defaults.swift in Sources */,
 				2AA6783F2791069300D1711B /* Matrix.swift in Sources */,
 				2AD7C64E279B164300D6A05B /* RadarChartPath.swift in Sources */,
@@ -1008,7 +1030,7 @@
 				2AA678422791069300D1711B /* MatrixConvertable.swift in Sources */,
 				2AD7C658279B164300D6A05B /* RadarChartView.swift in Sources */,
 				2A4901E0277C90D1002755A3 /* Color.swift in Sources */,
-				2AD8714F279C506E0093F2C9 /* GraphView.swift in Sources */,
+				2AD8714F279C506E0093F2C9 /* GraphStructureView.swift in Sources */,
 				2AA678372791068D00D1711B /* VectorVectorOperators.swift in Sources */,
 				2AD87155279C5A520093F2C9 /* GraphScene.swift in Sources */,
 				2A27CD16278B4F490067CD00 /* NSImage.swift in Sources */,
@@ -1020,6 +1042,7 @@
 				2AD7C620279B08A300D6A05B /* BarChartGridView.swift in Sources */,
 				2AAEF521277DE86B004EE213 /* UTType.swift in Sources */,
 				2ABC459127931AE800B2CE98 /* DiversityView.swift in Sources */,
+				2AD87158279C62E70093F2C9 /* CGFloat.swift in Sources */,
 				2AA677F32791053800D1711B /* DiversityParameters.swift in Sources */,
 				2AA678412791069300D1711B /* MatrixAlgebra.swift in Sources */,
 				2A4901B8277C9049002755A3 /* GeneticStudioDocument.swift in Sources */,
@@ -1075,11 +1098,12 @@
 				2AA677E62791053800D1711B /* AMOVAAnalysis.swift in Sources */,
 				2AD87138279C461A0093F2C9 /* PlaceMarker.swift in Sources */,
 				2AD7C64B279B164300D6A05B /* BarChartGrid.swift in Sources */,
-				2AD87150279C506E0093F2C9 /* GraphView.swift in Sources */,
+				2AD87150279C506E0093F2C9 /* GraphStructureView.swift in Sources */,
 				2AA677E82791053800D1711B /* AMOVADistance.swift in Sources */,
 				2AE91605278DFE2B00A00073 /* GenotypeTable.swift in Sources */,
 				2AA6783B2791068E00D1711B /* VectorScalarOperators.swift in Sources */,
 				2AD87144279C46C00093F2C9 /* SCNGeometry.swift in Sources */,
+				2AD8715E279C6A600093F2C9 /* GraphViewCoordinator.swift in Sources */,
 				2AD8712C279C45C90093F2C9 /* Edge2D.swift in Sources */,
 				2AA677DC2791053800D1711B /* Matrix+ANOVA.swift in Sources */,
 				2A4901E1277C90D1002755A3 /* Color.swift in Sources */,
@@ -1093,6 +1117,7 @@
 				2AA677DE2791053800D1711B /* Sequence.swift in Sources */,
 				2AA678442791069400D1711B /* Matrix.swift in Sources */,
 				2A27CD17278B4F490067CD00 /* NSImage.swift in Sources */,
+				2AD87161279C6AB40093F2C9 /* GraphView.swift in Sources */,
 				2AA6783D2791068E00D1711B /* VectorVectorOperators.swift in Sources */,
 				2AD7C659279B164300D6A05B /* RadarChartView.swift in Sources */,
 				2AD8714C279C4A0A0093F2C9 /* Array+Bool.swift in Sources */,
@@ -1144,6 +1169,7 @@
 				2AD7C651279B164300D6A05B /* PieSlice.swift in Sources */,
 				2AD7C62D279B13D800D6A05B /* MapView.swift in Sources */,
 				2AA6782E2791067C00D1711B /* rSourceConvertible.swift in Sources */,
+				2AD87159279C62E70093F2C9 /* CGFloat.swift in Sources */,
 				2AD7C641279B164300D6A05B /* BarPath.swift in Sources */,
 				2A4901DC277C9058002755A3 /* AnalysisListViewItem.swift in Sources */,
 				2AA677F62791053800D1711B /* DiversityType.swift in Sources */,
