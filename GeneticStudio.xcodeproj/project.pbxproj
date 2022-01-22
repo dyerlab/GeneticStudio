@@ -233,6 +233,10 @@
 		2AD8715E279C6A600093F2C9 /* GraphViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8715C279C6A600093F2C9 /* GraphViewCoordinator.swift */; };
 		2AD87160279C6AB40093F2C9 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8715F279C6AB40093F2C9 /* GraphView.swift */; };
 		2AD87161279C6AB40093F2C9 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8715F279C6AB40093F2C9 /* GraphView.swift */; };
+		2AD87163279C8F4B0093F2C9 /* Array+CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87162279C8F4B0093F2C9 /* Array+CGPoint.swift */; };
+		2AD87164279C8F4B0093F2C9 /* Array+CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87162279C8F4B0093F2C9 /* Array+CGPoint.swift */; };
+		2AD87166279C90440093F2C9 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87165279C90440093F2C9 /* CGPoint.swift */; };
+		2AD87167279C90440093F2C9 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87165279C90440093F2C9 /* CGPoint.swift */; };
 		2AE91604278DFE2B00A00073 /* GenotypeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE91603278DFE2B00A00073 /* GenotypeTable.swift */; };
 		2AE91605278DFE2B00A00073 /* GenotypeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE91603278DFE2B00A00073 /* GenotypeTable.swift */; };
 /* End PBXBuildFile section */
@@ -366,6 +370,8 @@
 		2AD87157279C62E70093F2C9 /* CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
 		2AD8715C279C6A600093F2C9 /* GraphViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewCoordinator.swift; sourceTree = "<group>"; };
 		2AD8715F279C6AB40093F2C9 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		2AD87162279C8F4B0093F2C9 /* Array+CGPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+CGPoint.swift"; sourceTree = "<group>"; };
+		2AD87165279C90440093F2C9 /* CGPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
 		2AE91603278DFE2B00A00073 /* GenotypeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenotypeTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -550,6 +556,7 @@
 				2AA677B82791053800D1711B /* String.swift */,
 				2AD8713B279C46440093F2C9 /* CLLocationCoordinate2D.swift */,
 				2AD87157279C62E70093F2C9 /* CGFloat.swift */,
+				2AD87165279C90440093F2C9 /* CGPoint.swift */,
 			);
 			path = Types;
 			sourceTree = "<group>";
@@ -562,6 +569,7 @@
 				2AA677BC2791053800D1711B /* Sequence.swift */,
 				2AA677BD2791053800D1711B /* Array+Individual.swift */,
 				2AD8714A279C4A0A0093F2C9 /* Array+Bool.swift */,
+				2AD87162279C8F4B0093F2C9 /* Array+CGPoint.swift */,
 			);
 			path = Containers;
 			sourceTree = "<group>";
@@ -1015,6 +1023,7 @@
 				2AA678352791068D00D1711B /* VectorScalarOperators.swift in Sources */,
 				2AA677DF2791053800D1711B /* Array+Individual.swift in Sources */,
 				2AE91604278DFE2B00A00073 /* GenotypeTable.swift in Sources */,
+				2AD87163279C8F4B0093F2C9 /* Array+CGPoint.swift in Sources */,
 				2A023B0E278E2C6E00221514 /* FrequencyView.swift in Sources */,
 				2AD8712B279C45C90093F2C9 /* Edge2D.swift in Sources */,
 				2AA677F72791053800D1711B /* AnalysisProtocol.swift in Sources */,
@@ -1051,6 +1060,7 @@
 				2AA678322791068D00D1711B /* RangeEnum.swift in Sources */,
 				2AA677F52791053800D1711B /* DiversityType.swift in Sources */,
 				2AD7C64A279B164300D6A05B /* BarChartGrid.swift in Sources */,
+				2AD87166279C90440093F2C9 /* CGPoint.swift in Sources */,
 				2AA677D12791053800D1711B /* Stratum.swift in Sources */,
 				2AD08FF9278B6D8400A55620 /* SpeciesView.swift in Sources */,
 				2A4901B6277C9049002755A3 /* GeneticStudioApp.swift in Sources */,
@@ -1105,6 +1115,7 @@
 				2AD87144279C46C00093F2C9 /* SCNGeometry.swift in Sources */,
 				2AD8715E279C6A600093F2C9 /* GraphViewCoordinator.swift in Sources */,
 				2AD8712C279C45C90093F2C9 /* Edge2D.swift in Sources */,
+				2AD87164279C8F4B0093F2C9 /* Array+CGPoint.swift in Sources */,
 				2AA677DC2791053800D1711B /* Matrix+ANOVA.swift in Sources */,
 				2A4901E1277C90D1002755A3 /* Color.swift in Sources */,
 				2AD87156279C5A520093F2C9 /* GraphScene.swift in Sources */,
@@ -1147,6 +1158,7 @@
 				2AA678312791068800D1711B /* Operators.swift in Sources */,
 				2AA678382791068E00D1711B /* RangeEnum.swift in Sources */,
 				2AA678462791069400D1711B /* MatrixAlgebra.swift in Sources */,
+				2AD87167279C90440093F2C9 /* CGPoint.swift in Sources */,
 				2AD08FFA278B6D8400A55620 /* SpeciesView.swift in Sources */,
 				2AA677D62791053800D1711B /* Individual.swift in Sources */,
 				2A4901B7277C9049002755A3 /* GeneticStudioApp.swift in Sources */,

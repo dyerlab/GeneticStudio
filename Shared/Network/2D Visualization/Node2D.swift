@@ -69,8 +69,8 @@ public class Node2D: SKNode {
                                                 object: nil)
         
         if node.coordinate.isZero {
-            self.position = CGPoint(x: CGFloat.random(in: -100.0 ... 100.0 ),
-                                    y: CGFloat.random(in: -100.0 ... 100.0 ) )
+            self.position = CGPoint(x: CGFloat.random(in: 0.0 ... 500.0 ),
+                                    y: CGFloat.random(in: 0.0 ... 500.0 ) )
         } else {
             self.position = CGPoint( x: node.coordinate.longitude,
                                      y: node.coordinate.latitude )
