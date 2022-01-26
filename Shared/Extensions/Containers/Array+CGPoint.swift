@@ -22,7 +22,7 @@ extension Array where Element == CGPoint {
     
     func centerInSize( size: CGSize ) {
         
-        let sz = self.size
+        //let sz = self.size
         
         
         

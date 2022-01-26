@@ -817,6 +817,7 @@
 		2AD8714D279C4FD60093F2C9 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				2AD8715C279C6A600093F2C9 /* GraphViewCoordinator.swift */,
 				2AD8714E279C506E0093F2C9 /* GraphStructureView.swift */,
 			);
 			path = Network;
@@ -825,7 +826,6 @@
 		2AD8715B279C6A4E0093F2C9 /* SpriteView */ = {
 			isa = PBXGroup;
 			children = (
-				2AD8715C279C6A600093F2C9 /* GraphViewCoordinator.swift */,
 				2AD8715F279C6AB40093F2C9 /* GraphView.swift */,
 			);
 			path = SpriteView;

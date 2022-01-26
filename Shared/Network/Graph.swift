@@ -137,10 +137,10 @@ extension Graph {
         
         let graph = Graph()
         
-        graph.addNode(label: "A", size: 2.0)
-        graph.addNode(label: "B", size: 1.0)
-        graph.addNode(label: "C", size: 1.5)
-        graph.addNode(label: "D", size: 1.0)
+        graph.addNode(label: "A", size: 20.0)
+        graph.addNode(label: "B", size: 10.0)
+        graph.addNode(label: "C", size: 30.5)
+        graph.addNode(label: "D", size: 40.0)
         
         graph.addEdge(from: "A", to: "B", weight: 2.0)
         graph.addEdge(from: "A", to: "C", weight: 2.0)

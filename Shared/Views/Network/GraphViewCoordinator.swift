@@ -11,10 +11,11 @@ import SwiftUI
 
 class GraphViewCoordinator: NSObject {
     
-    weak var scene: SKScene?
+    weak var scene: GraphScene?
     
     func resizeScene( proxy: GeometryProxy ) {
         scene?.size = proxy.size
+        //scene?.randomizeGraphNodes(within: proxy.size )
     }
     
 }
