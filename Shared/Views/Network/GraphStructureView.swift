@@ -11,7 +11,7 @@ import SpriteKit
 struct GraphStructureView: View {
     @Binding var graph: Graph
     
-    var scene: SKScene {
+    var scene: GraphScene {
         let scene = GraphScene()
         scene.scaleMode = .fill
         scene.addGraph(graph: self.graph )
@@ -23,6 +23,7 @@ struct GraphStructureView: View {
             GraphView(scene: self.scene, proxy: proxy)
         }
     }
+        
 }
 
 struct PopGraphView_Previews: PreviewProvider {

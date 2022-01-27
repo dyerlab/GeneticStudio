@@ -28,7 +28,7 @@ public class Node2D: SKNode {
         super.init()
         
         self.name = node.label
-        self.zPosition = 0.0
+        self.zPosition = 1.0
         self.isUserInteractionEnabled = true
         
         let shape = SKShapeNode(circleOfRadius: node.size / 2.0 )
@@ -41,7 +41,7 @@ public class Node2D: SKNode {
         labelNode.fontColor = .orange
         labelNode.position = CGPoint(x: 0.0,
                                      y: labelNode.frame.height)
-        labelNode.zPosition = 2.0
+        labelNode.zPosition = 3.0
         self.addChild( labelNode )
         
         let physicsBody = SKPhysicsBody(circleOfRadius:  node.size / 2.0 )
@@ -52,15 +52,6 @@ public class Node2D: SKNode {
         physicsBody.linearDamping = 0.9
         physicsBody.isDynamic = true
         self.physicsBody = physicsBody
-        
-        /*
-        let fieldNode = SKFieldNode.radialGravityField()
-        fieldNode.strength = -0.001
-        fieldNode.falloff = 1.05
-        
-        
-        self.addChild( fieldNode )
-        */
         
         
         NotificationCenter.default.addObserver( self,

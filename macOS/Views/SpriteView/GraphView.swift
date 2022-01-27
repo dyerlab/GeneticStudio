@@ -11,8 +11,8 @@ import SwiftUI
 
 struct GraphView: NSViewRepresentable {
     
-    let scene: SKScene
-    let proxy: GeometryProxy
+    let scene: GraphScene
+    var proxy: GeometryProxy
     
     func makeCoordinator() -> GraphViewCoordinator {
         return GraphViewCoordinator()
@@ -28,6 +28,7 @@ struct GraphView: NSViewRepresentable {
     
     func updateNSView(_ nsView: SKView, context: Context) {
         context.coordinator.resizeScene(proxy: proxy)
+        scene.randomizeGraphNodes(within: proxy.size )
     }
     
     

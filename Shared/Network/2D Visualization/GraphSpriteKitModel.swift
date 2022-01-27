@@ -15,6 +15,10 @@ class GraphSpriteKitModel {
         return self.root.children.compactMap{ $0 as? Node2D }
     }
     
+    var edges: [Edge2D] {
+        return self.root.children.compactMap{ $0 as? Edge2D }
+    }
+    
     init( graph: Graph ) {
         self.root = SKNode()
         
@@ -22,13 +26,7 @@ class GraphSpriteKitModel {
             self.root.addChild( Node2D(node: node) )
             print("Added node: \(node.label)")
         }
-        
-        let center = root.children.compactMap { $0 as? Node2D }.compactMap { $0.position }.center
-        
-        for node in self.nodes {
-            node.position = node.position - center 
-        }
-    
+            
         for edge in graph.edges {
             if let n1 = self.root.childNode(withName: edge.fromNode.label) as? Node2D,
                let n2 = self.root.childNode(withName: edge.toNode.label ) as? Node2D {
@@ -39,6 +37,6 @@ class GraphSpriteKitModel {
         
         print("Root has \(self.root.children.count) children")
     }
-    
+ 
     
 }
