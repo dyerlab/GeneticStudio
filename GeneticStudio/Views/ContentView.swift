@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @Binding var document: GeneticStudioDocument
+    
 
     var body: some View {
         NavigationView {
@@ -26,14 +27,23 @@ struct ContentView: View {
                 
                 NavigationLink(destination: Text("Map")) { Label("Map", systemImage: "map.fill") }
                     .accentColor( .red )
+                    .disabled( !document.dataStore.isEmpty )
+                
                 NavigationLink(destination: Text("Diversity")) { Label("Diversity", systemImage: "slider.horizontal.3") }
                     .accentColor( .orange )
+                    .disabled( !document.dataStore.isEmpty )
+                
                 NavigationLink(destination: Text("Ordination")) { Label("Ordination", systemImage: "square.and.line.vertical.and.square.filled") }
                     .accentColor( .green )
+                    .disabled( !document.dataStore.isEmpty )
+                
                 NavigationLink(destination: Text("Structure")) { Label("Structure", systemImage: "circle.grid.3x3.fill") }
                     .accentColor( .blue )
+                    .disabled( !document.dataStore.isEmpty )
+                
                 NavigationLink(destination: Text("Popgraph")) { Label("Popgraph", systemImage: "perspective") }
                     .accentColor(.purple)
+                    .disabled( !document.dataStore.isEmpty )
                 
             }
             .listStyle( SidebarListStyle() )
