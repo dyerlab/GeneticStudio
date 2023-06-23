@@ -11,11 +11,7 @@
 		2A7AC55E2A4638CD0029F965 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7AC55D2A4638CD0029F965 /* DataStore.swift */; };
 		2A7AC5612A463E380029F965 /* DLGenetic in Frameworks */ = {isa = PBXBuildFile; productRef = 2A7AC5602A463E380029F965 /* DLGenetic */; };
 		2A7AC5632A463EF40029F965 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2A7AC5622A463EF40029F965 /* README.md */; };
-		2A7AC56C2A463F5B0029F965 /* virginia.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2A7AC5652A463F5B0029F965 /* virginia.tif */; };
 		2A7AC56D2A463F5B0029F965 /* PedimaFinalGenotypesRegions.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A7AC5662A463F5B0029F965 /* PedimaFinalGenotypesRegions.csv */; };
-		2A7AC56E2A463F5B0029F965 /* human.snp in Resources */ = {isa = PBXBuildFile; fileRef = 2A7AC5672A463F5B0029F965 /* human.snp */; };
-		2A7AC56F2A463F5B0029F965 /* Arapat.gstudio in Resources */ = {isa = PBXBuildFile; fileRef = 2A7AC5682A463F5B0029F965 /* Arapat.gstudio */; };
-		2A7AC5702A463F5B0029F965 /* Euphorbia_lomelli.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A7AC5692A463F5B0029F965 /* Euphorbia_lomelli.csv */; };
 		2A7AC5712A463F5B0029F965 /* Arapat.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A7AC56A2A463F5B0029F965 /* Arapat.csv */; };
 		2A7AC5722A463F5B0029F965 /* DogwoodByCanopyType.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A7AC56B2A463F5B0029F965 /* DogwoodByCanopyType.csv */; };
 		2AEBC2B52A46131300542CAB /* GeneticStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBC2B42A46131300542CAB /* GeneticStudioApp.swift */; };
@@ -52,11 +48,7 @@
 		2A3FEE012A46215D0060E223 /* GeneticStudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioView.swift; sourceTree = "<group>"; };
 		2A7AC55D2A4638CD0029F965 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		2A7AC5622A463EF40029F965 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2A7AC5652A463F5B0029F965 /* virginia.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = virginia.tif; sourceTree = "<group>"; };
 		2A7AC5662A463F5B0029F965 /* PedimaFinalGenotypesRegions.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PedimaFinalGenotypesRegions.csv; sourceTree = "<group>"; };
-		2A7AC5672A463F5B0029F965 /* human.snp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = human.snp; sourceTree = "<group>"; };
-		2A7AC5682A463F5B0029F965 /* Arapat.gstudio */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Arapat.gstudio; sourceTree = "<group>"; };
-		2A7AC5692A463F5B0029F965 /* Euphorbia_lomelli.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Euphorbia_lomelli.csv; sourceTree = "<group>"; };
 		2A7AC56A2A463F5B0029F965 /* Arapat.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Arapat.csv; sourceTree = "<group>"; };
 		2A7AC56B2A463F5B0029F965 /* DogwoodByCanopyType.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DogwoodByCanopyType.csv; sourceTree = "<group>"; };
 		2AEBC2B12A46131300542CAB /* GeneticStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneticStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,12 +98,8 @@
 		2A7AC5642A463F5B0029F965 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				2A7AC5652A463F5B0029F965 /* virginia.tif */,
-				2A7AC5662A463F5B0029F965 /* PedimaFinalGenotypesRegions.csv */,
-				2A7AC5672A463F5B0029F965 /* human.snp */,
-				2A7AC5682A463F5B0029F965 /* Arapat.gstudio */,
-				2A7AC5692A463F5B0029F965 /* Euphorbia_lomelli.csv */,
 				2A7AC56A2A463F5B0029F965 /* Arapat.csv */,
+				2A7AC5662A463F5B0029F965 /* PedimaFinalGenotypesRegions.csv */,
 				2A7AC56B2A463F5B0029F965 /* DogwoodByCanopyType.csv */,
 			);
 			path = Data;
@@ -319,14 +307,10 @@
 			files = (
 				2A7AC5632A463EF40029F965 /* README.md in Resources */,
 				2A7AC5712A463F5B0029F965 /* Arapat.csv in Resources */,
-				2A7AC56E2A463F5B0029F965 /* human.snp in Resources */,
 				2A7AC56D2A463F5B0029F965 /* PedimaFinalGenotypesRegions.csv in Resources */,
-				2A7AC5702A463F5B0029F965 /* Euphorbia_lomelli.csv in Resources */,
 				2A7AC5722A463F5B0029F965 /* DogwoodByCanopyType.csv in Resources */,
 				2AEBC2BE2A46131400542CAB /* Preview Assets.xcassets in Resources */,
-				2A7AC56C2A463F5B0029F965 /* virginia.tif in Resources */,
 				2AEBC2BB2A46131400542CAB /* Assets.xcassets in Resources */,
-				2A7AC56F2A463F5B0029F965 /* Arapat.gstudio in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
