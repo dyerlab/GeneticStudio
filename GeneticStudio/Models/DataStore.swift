@@ -6,13 +6,18 @@
 //
 
 import Foundation
+import DLGenetic
 
 
 class DataStore {
     
-    var individuals: [Individual] = []()
+    var individuals: [Individual]
     var isEmpty: Bool {
         return individuals.count > 0
+    }
+    
+    init() {
+        self.individuals = [Individual]()
     }
     
     
