@@ -3,401 +3,79 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A023B0E278E2C6E00221514 /* FrequencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A023B0D278E2C6E00221514 /* FrequencyView.swift */; };
-		2A023B0F278E2C7200221514 /* FrequencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A023B0D278E2C6E00221514 /* FrequencyView.swift */; };
-		2A27CD16278B4F490067CD00 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A27CD15278B4F490067CD00 /* NSImage.swift */; };
-		2A27CD17278B4F490067CD00 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A27CD15278B4F490067CD00 /* NSImage.swift */; };
-		2A4901A7277C9049002755A3 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901A6277C9049002755A3 /* Tests_iOS.swift */; };
-		2A4901A9277C9049002755A3 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901A8277C9049002755A3 /* Tests_iOSLaunchTests.swift */; };
-		2A4901B3277C9049002755A3 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901B2277C9049002755A3 /* Tests_macOS.swift */; };
-		2A4901B5277C9049002755A3 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901B4277C9049002755A3 /* Tests_macOSLaunchTests.swift */; };
-		2A4901B6277C9049002755A3 /* GeneticStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A49018A277C9048002755A3 /* GeneticStudioApp.swift */; };
-		2A4901B7277C9049002755A3 /* GeneticStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A49018A277C9048002755A3 /* GeneticStudioApp.swift */; };
-		2A4901B8277C9049002755A3 /* GeneticStudioDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A49018B277C9048002755A3 /* GeneticStudioDocument.swift */; };
-		2A4901B9277C9049002755A3 /* GeneticStudioDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A49018B277C9048002755A3 /* GeneticStudioDocument.swift */; };
-		2A4901BA277C9049002755A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A49018C277C9048002755A3 /* ContentView.swift */; };
-		2A4901BB277C9049002755A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A49018C277C9048002755A3 /* ContentView.swift */; };
-		2A4901BC277C9049002755A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A49018D277C9049002755A3 /* Assets.xcassets */; };
-		2A4901BD277C9049002755A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A49018D277C9049002755A3 /* Assets.xcassets */; };
-		2A4901D7277C9058002755A3 /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901CF277C9058002755A3 /* MainWindow.swift */; };
-		2A4901D8277C9058002755A3 /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901CF277C9058002755A3 /* MainWindow.swift */; };
-		2A4901DB277C9058002755A3 /* AnalysisListViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901D1277C9058002755A3 /* AnalysisListViewItem.swift */; };
-		2A4901DC277C9058002755A3 /* AnalysisListViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901D1277C9058002755A3 /* AnalysisListViewItem.swift */; };
-		2A4901E0277C90D1002755A3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901DF277C90D1002755A3 /* Color.swift */; };
-		2A4901E1277C90D1002755A3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901DF277C90D1002755A3 /* Color.swift */; };
-		2A4901E3277C9183002755A3 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901E2277C9183002755A3 /* Documentation.docc */; };
-		2A4901E4277C9183002755A3 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901E2277C9183002755A3 /* Documentation.docc */; };
-		2AA3392A27910EFD0039B14F /* FrequencyViewModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA3392927910EFD0039B14F /* FrequencyViewModelView.swift */; };
-		2AA3392B27910EFD0039B14F /* FrequencyViewModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA3392927910EFD0039B14F /* FrequencyViewModelView.swift */; };
-		2AA677D12791053800D1711B /* Stratum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B22791053800D1711B /* Stratum.swift */; };
-		2AA677D22791053800D1711B /* Stratum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B22791053800D1711B /* Stratum.swift */; };
-		2AA677D32791053800D1711B /* Locus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B42791053800D1711B /* Locus.swift */; };
-		2AA677D42791053800D1711B /* Locus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B42791053800D1711B /* Locus.swift */; };
-		2AA677D52791053800D1711B /* Individual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B52791053800D1711B /* Individual.swift */; };
-		2AA677D62791053800D1711B /* Individual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B52791053800D1711B /* Individual.swift */; };
-		2AA677D72791053800D1711B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B82791053800D1711B /* String.swift */; };
-		2AA677D82791053800D1711B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B82791053800D1711B /* String.swift */; };
-		2AA677D92791053800D1711B /* Array+CLLocationCoordinate2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BA2791053800D1711B /* Array+CLLocationCoordinate2D.swift */; };
-		2AA677DA2791053800D1711B /* Array+CLLocationCoordinate2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BA2791053800D1711B /* Array+CLLocationCoordinate2D.swift */; };
-		2AA677DB2791053800D1711B /* Matrix+ANOVA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BB2791053800D1711B /* Matrix+ANOVA.swift */; };
-		2AA677DC2791053800D1711B /* Matrix+ANOVA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BB2791053800D1711B /* Matrix+ANOVA.swift */; };
-		2AA677DD2791053800D1711B /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BC2791053800D1711B /* Sequence.swift */; };
-		2AA677DE2791053800D1711B /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BC2791053800D1711B /* Sequence.swift */; };
-		2AA677DF2791053800D1711B /* Array+Individual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BD2791053800D1711B /* Array+Individual.swift */; };
-		2AA677E02791053800D1711B /* Array+Individual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BD2791053800D1711B /* Array+Individual.swift */; };
-		2AA677E12791053800D1711B /* GeneticErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BF2791053800D1711B /* GeneticErrorType.swift */; };
-		2AA677E22791053800D1711B /* GeneticErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BF2791053800D1711B /* GeneticErrorType.swift */; };
-		2AA677E32791053800D1711B /* GeneticError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C02791053800D1711B /* GeneticError.swift */; };
-		2AA677E42791053800D1711B /* GeneticError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C02791053800D1711B /* GeneticError.swift */; };
-		2AA677E52791053800D1711B /* AMOVAAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C42791053800D1711B /* AMOVAAnalysis.swift */; };
-		2AA677E62791053800D1711B /* AMOVAAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C42791053800D1711B /* AMOVAAnalysis.swift */; };
-		2AA677E72791053800D1711B /* AMOVADistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C52791053800D1711B /* AMOVADistance.swift */; };
-		2AA677E82791053800D1711B /* AMOVADistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C52791053800D1711B /* AMOVADistance.swift */; };
-		2AA677E92791053800D1711B /* AMOVA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C62791053800D1711B /* AMOVA.swift */; };
-		2AA677EA2791053800D1711B /* AMOVA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C62791053800D1711B /* AMOVA.swift */; };
-		2AA677EB2791053800D1711B /* AnalysisType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C72791053800D1711B /* AnalysisType.swift */; };
-		2AA677EC2791053800D1711B /* AnalysisType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C72791053800D1711B /* AnalysisType.swift */; };
-		2AA677ED2791053800D1711B /* AlleleFrequencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C92791053800D1711B /* AlleleFrequencies.swift */; };
-		2AA677EE2791053800D1711B /* AlleleFrequencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C92791053800D1711B /* AlleleFrequencies.swift */; };
-		2AA677EF2791053800D1711B /* FrequencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CA2791053800D1711B /* FrequencyViewModel.swift */; };
-		2AA677F02791053800D1711B /* FrequencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CA2791053800D1711B /* FrequencyViewModel.swift */; };
-		2AA677F12791053800D1711B /* DiversityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CC2791053800D1711B /* DiversityViewModel.swift */; };
-		2AA677F22791053800D1711B /* DiversityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CC2791053800D1711B /* DiversityViewModel.swift */; };
-		2AA677F32791053800D1711B /* DiversityParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CD2791053800D1711B /* DiversityParameters.swift */; };
-		2AA677F42791053800D1711B /* DiversityParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CD2791053800D1711B /* DiversityParameters.swift */; };
-		2AA677F52791053800D1711B /* DiversityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CE2791053800D1711B /* DiversityType.swift */; };
-		2AA677F62791053800D1711B /* DiversityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CE2791053800D1711B /* DiversityType.swift */; };
-		2AA677F72791053800D1711B /* AnalysisProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CF2791053800D1711B /* AnalysisProtocol.swift */; };
-		2AA677F82791053800D1711B /* AnalysisProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CF2791053800D1711B /* AnalysisProtocol.swift */; };
-		2AA677F92791053800D1711B /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677D02791053800D1711B /* Defaults.swift */; };
-		2AA677FA2791053800D1711B /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677D02791053800D1711B /* Defaults.swift */; };
-		2AA678042791055100D1711B /* DiversityParametersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677FC2791055100D1711B /* DiversityParametersTest.swift */; };
-		2AA678052791055100D1711B /* DLGeneticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677FD2791055100D1711B /* DLGeneticTests.swift */; };
-		2AA678062791055100D1711B /* AMOVAMatrixTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677FE2791055100D1711B /* AMOVAMatrixTest.swift */; };
-		2AA678072791055100D1711B /* LocusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677FF2791055100D1711B /* LocusTests.swift */; };
-		2AA678082791055100D1711B /* AMOVATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678002791055100D1711B /* AMOVATests.swift */; };
-		2AA678092791055100D1711B /* FrequencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678012791055100D1711B /* FrequencyTests.swift */; };
-		2AA6780A2791055100D1711B /* IndividualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678022791055100D1711B /* IndividualTests.swift */; };
-		2AA6780B2791055100D1711B /* StratumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678032791055100D1711B /* StratumTests.swift */; };
-		2AA6780F2791056400D1711B /* MatrixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6780D2791056400D1711B /* MatrixTests.swift */; };
-		2AA678102791056400D1711B /* VectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6780E2791056400D1711B /* VectorTests.swift */; };
-		2AA678212791057600D1711B /* rSourceConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678122791057600D1711B /* rSourceConvertible.swift */; };
-		2AA678222791057600D1711B /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678142791057600D1711B /* Random.swift */; };
-		2AA678232791057600D1711B /* VectorScalarOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678152791057600D1711B /* VectorScalarOperators.swift */; };
-		2AA678242791057600D1711B /* VectorConvertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678162791057600D1711B /* VectorConvertable.swift */; };
-		2AA678252791057600D1711B /* RangeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678172791057600D1711B /* RangeEnum.swift */; };
-		2AA678262791057600D1711B /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678182791057600D1711B /* Vector.swift */; };
-		2AA678272791057600D1711B /* VectorVectorOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678192791057600D1711B /* VectorVectorOperators.swift */; };
-		2AA678282791057600D1711B /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781A2791057600D1711B /* Operators.swift */; };
-		2AA678292791057600D1711B /* MatrixConvertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781C2791057600D1711B /* MatrixConvertable.swift */; };
-		2AA6782A2791057600D1711B /* MatrixMatrixOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781D2791057600D1711B /* MatrixMatrixOperations.swift */; };
-		2AA6782B2791057600D1711B /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781E2791057600D1711B /* Matrix.swift */; };
-		2AA6782C2791057600D1711B /* MatrixScalarOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781F2791057600D1711B /* MatrixScalarOperators.swift */; };
-		2AA6782D2791057600D1711B /* MatrixAlgebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678202791057600D1711B /* MatrixAlgebra.swift */; };
-		2AA6782E2791067C00D1711B /* rSourceConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678122791057600D1711B /* rSourceConvertible.swift */; };
-		2AA6782F2791068000D1711B /* rSourceConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678122791057600D1711B /* rSourceConvertible.swift */; };
-		2AA678302791068700D1711B /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781A2791057600D1711B /* Operators.swift */; };
-		2AA678312791068800D1711B /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781A2791057600D1711B /* Operators.swift */; };
-		2AA678322791068D00D1711B /* RangeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678172791057600D1711B /* RangeEnum.swift */; };
-		2AA678332791068D00D1711B /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678182791057600D1711B /* Vector.swift */; };
-		2AA678342791068D00D1711B /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678142791057600D1711B /* Random.swift */; };
-		2AA678352791068D00D1711B /* VectorScalarOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678152791057600D1711B /* VectorScalarOperators.swift */; };
-		2AA678362791068D00D1711B /* VectorConvertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678162791057600D1711B /* VectorConvertable.swift */; };
-		2AA678372791068D00D1711B /* VectorVectorOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678192791057600D1711B /* VectorVectorOperators.swift */; };
-		2AA678382791068E00D1711B /* RangeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678172791057600D1711B /* RangeEnum.swift */; };
-		2AA678392791068E00D1711B /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678182791057600D1711B /* Vector.swift */; };
-		2AA6783A2791068E00D1711B /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678142791057600D1711B /* Random.swift */; };
-		2AA6783B2791068E00D1711B /* VectorScalarOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678152791057600D1711B /* VectorScalarOperators.swift */; };
-		2AA6783C2791068E00D1711B /* VectorConvertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678162791057600D1711B /* VectorConvertable.swift */; };
-		2AA6783D2791068E00D1711B /* VectorVectorOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678192791057600D1711B /* VectorVectorOperators.swift */; };
-		2AA6783E2791069300D1711B /* MatrixMatrixOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781D2791057600D1711B /* MatrixMatrixOperations.swift */; };
-		2AA6783F2791069300D1711B /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781E2791057600D1711B /* Matrix.swift */; };
-		2AA678402791069300D1711B /* MatrixScalarOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781F2791057600D1711B /* MatrixScalarOperators.swift */; };
-		2AA678412791069300D1711B /* MatrixAlgebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678202791057600D1711B /* MatrixAlgebra.swift */; };
-		2AA678422791069300D1711B /* MatrixConvertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781C2791057600D1711B /* MatrixConvertable.swift */; };
-		2AA678432791069400D1711B /* MatrixMatrixOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781D2791057600D1711B /* MatrixMatrixOperations.swift */; };
-		2AA678442791069400D1711B /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781E2791057600D1711B /* Matrix.swift */; };
-		2AA678452791069400D1711B /* MatrixScalarOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781F2791057600D1711B /* MatrixScalarOperators.swift */; };
-		2AA678462791069400D1711B /* MatrixAlgebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA678202791057600D1711B /* MatrixAlgebra.swift */; };
-		2AA678472791069400D1711B /* MatrixConvertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6781C2791057600D1711B /* MatrixConvertable.swift */; };
-		2AA67848279106B800D1711B /* Individual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B52791053800D1711B /* Individual.swift */; };
-		2AA67849279106B800D1711B /* Locus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B42791053800D1711B /* Locus.swift */; };
-		2AA6784A279106BC00D1711B /* Stratum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B22791053800D1711B /* Stratum.swift */; };
-		2AA6784B279106BC00D1711B /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677D02791053800D1711B /* Defaults.swift */; };
-		2AA6784C279106C200D1711B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677B82791053800D1711B /* String.swift */; };
-		2AA6784D279106C700D1711B /* Matrix+ANOVA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BB2791053800D1711B /* Matrix+ANOVA.swift */; };
-		2AA6784E279106C700D1711B /* Array+CLLocationCoordinate2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BA2791053800D1711B /* Array+CLLocationCoordinate2D.swift */; };
-		2AA6784F279106C700D1711B /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BC2791053800D1711B /* Sequence.swift */; };
-		2AA67850279106C700D1711B /* Array+Individual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BD2791053800D1711B /* Array+Individual.swift */; };
-		2AA67851279106CC00D1711B /* GeneticErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677BF2791053800D1711B /* GeneticErrorType.swift */; };
-		2AA67852279106CC00D1711B /* GeneticError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C02791053800D1711B /* GeneticError.swift */; };
-		2AA67853279106DE00D1711B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4901DF277C90D1002755A3 /* Color.swift */; };
-		2AAEF521277DE86B004EE213 /* UTType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAEF520277DE86B004EE213 /* UTType.swift */; };
-		2AAEF522277DE86B004EE213 /* UTType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAEF520277DE86B004EE213 /* UTType.swift */; };
-		2ABC459127931AE800B2CE98 /* DiversityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC459027931AE800B2CE98 /* DiversityView.swift */; };
-		2ABC459327931B2000B2CE98 /* DiversityViewModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC459227931B2000B2CE98 /* DiversityViewModelView.swift */; };
-		2ABC459527931D4F00B2CE98 /* MatrixGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC459427931D4F00B2CE98 /* MatrixGridView.swift */; };
-		2ABC459627931D4F00B2CE98 /* MatrixGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC459427931D4F00B2CE98 /* MatrixGridView.swift */; };
-		2ABC45972793217B00B2CE98 /* AMOVA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C62791053800D1711B /* AMOVA.swift */; };
-		2ABC45982793217B00B2CE98 /* AMOVAAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C42791053800D1711B /* AMOVAAnalysis.swift */; };
-		2ABC45992793217B00B2CE98 /* AMOVADistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C52791053800D1711B /* AMOVADistance.swift */; };
-		2ABC459A2793218100B2CE98 /* AnalysisProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CF2791053800D1711B /* AnalysisProtocol.swift */; };
-		2ABC459B2793218100B2CE98 /* AnalysisType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C72791053800D1711B /* AnalysisType.swift */; };
-		2ABC459C2793218500B2CE98 /* AlleleFrequencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677C92791053800D1711B /* AlleleFrequencies.swift */; };
-		2ABC459D2793218500B2CE98 /* FrequencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CA2791053800D1711B /* FrequencyViewModel.swift */; };
-		2ABC459F2793218C00B2CE98 /* DiversityViewModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC459227931B2000B2CE98 /* DiversityViewModelView.swift */; };
-		2ABC45A02793218D00B2CE98 /* DiversityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CE2791053800D1711B /* DiversityType.swift */; };
-		2ABC45A12793218D00B2CE98 /* DiversityParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CD2791053800D1711B /* DiversityParameters.swift */; };
-		2ABC45A32793218D00B2CE98 /* DiversityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA677CC2791053800D1711B /* DiversityViewModel.swift */; };
-		2ABC45A52793227F00B2CE98 /* FrequencyViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC45A42793227F00B2CE98 /* FrequencyViewModelTests.swift */; };
-		2ABC45A62793271500B2CE98 /* DiversityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC459027931AE800B2CE98 /* DiversityView.swift */; };
-		2ACE72FE278DDA6E0089C74E /* GenotypeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACE72FD278DDA6E0089C74E /* GenotypeTableView.swift */; };
-		2ACE7300278DE8310089C74E /* GenotypeTableViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACE72FF278DE8310089C74E /* GenotypeTableViewCoordinator.swift */; };
-		2AD08FF9278B6D8400A55620 /* SpeciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD08FF8278B6D8400A55620 /* SpeciesView.swift */; };
-		2AD08FFA278B6D8400A55620 /* SpeciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD08FF8278B6D8400A55620 /* SpeciesView.swift */; };
-		2AD7C620279B08A300D6A05B /* BarChartGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C61F279B08A300D6A05B /* BarChartGridView.swift */; };
-		2AD7C621279B08A300D6A05B /* BarChartGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C61F279B08A300D6A05B /* BarChartGridView.swift */; };
-		2AD7C623279B0A2D00D6A05B /* HorizontalVectorBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C622279B0A2D00D6A05B /* HorizontalVectorBar.swift */; };
-		2AD7C624279B0A2D00D6A05B /* HorizontalVectorBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C622279B0A2D00D6A05B /* HorizontalVectorBar.swift */; };
-		2AD7C629279B13A600D6A05B /* MapCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C628279B13A600D6A05B /* MapCoordinator.swift */; };
-		2AD7C62A279B13A600D6A05B /* MapCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C628279B13A600D6A05B /* MapCoordinator.swift */; };
-		2AD7C62C279B13D800D6A05B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C62B279B13D800D6A05B /* MapView.swift */; };
-		2AD7C62D279B13D800D6A05B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C62B279B13D800D6A05B /* MapView.swift */; };
-		2AD7C640279B164300D6A05B /* BarPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C633279B164200D6A05B /* BarPath.swift */; };
-		2AD7C641279B164300D6A05B /* BarPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C633279B164200D6A05B /* BarPath.swift */; };
-		2AD7C642279B164300D6A05B /* BarStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C634279B164200D6A05B /* BarStack.swift */; };
-		2AD7C643279B164300D6A05B /* BarStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C634279B164200D6A05B /* BarStack.swift */; };
-		2AD7C644279B164300D6A05B /* ChartAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C635279B164200D6A05B /* ChartAxis.swift */; };
-		2AD7C645279B164300D6A05B /* ChartAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C635279B164200D6A05B /* ChartAxis.swift */; };
-		2AD7C646279B164300D6A05B /* BarChartBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C636279B164200D6A05B /* BarChartBar.swift */; };
-		2AD7C647279B164300D6A05B /* BarChartBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C636279B164200D6A05B /* BarChartBar.swift */; };
-		2AD7C648279B164300D6A05B /* PieSliceText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C637279B164200D6A05B /* PieSliceText.swift */; };
-		2AD7C649279B164300D6A05B /* PieSliceText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C637279B164200D6A05B /* PieSliceText.swift */; };
-		2AD7C64A279B164300D6A05B /* BarChartGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C638279B164200D6A05B /* BarChartGrid.swift */; };
-		2AD7C64B279B164300D6A05B /* BarChartGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C638279B164200D6A05B /* BarChartGrid.swift */; };
-		2AD7C64C279B164300D6A05B /* LabelStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C639279B164200D6A05B /* LabelStack.swift */; };
-		2AD7C64D279B164300D6A05B /* LabelStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C639279B164200D6A05B /* LabelStack.swift */; };
-		2AD7C64E279B164300D6A05B /* RadarChartPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63A279B164200D6A05B /* RadarChartPath.swift */; };
-		2AD7C64F279B164300D6A05B /* RadarChartPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63A279B164200D6A05B /* RadarChartPath.swift */; };
-		2AD7C650279B164300D6A05B /* PieSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63B279B164200D6A05B /* PieSlice.swift */; };
-		2AD7C651279B164300D6A05B /* PieSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63B279B164200D6A05B /* PieSlice.swift */; };
-		2AD7C652279B164300D6A05B /* RadarChartGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63C279B164200D6A05B /* RadarChartGrid.swift */; };
-		2AD7C653279B164300D6A05B /* RadarChartGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63C279B164200D6A05B /* RadarChartGrid.swift */; };
-		2AD7C654279B164300D6A05B /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63D279B164200D6A05B /* PieChartView.swift */; };
-		2AD7C655279B164300D6A05B /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63D279B164200D6A05B /* PieChartView.swift */; };
-		2AD7C656279B164300D6A05B /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63E279B164200D6A05B /* BarChartView.swift */; };
-		2AD7C657279B164300D6A05B /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63E279B164200D6A05B /* BarChartView.swift */; };
-		2AD7C658279B164300D6A05B /* RadarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63F279B164300D6A05B /* RadarChartView.swift */; };
-		2AD7C659279B164300D6A05B /* RadarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C63F279B164300D6A05B /* RadarChartView.swift */; };
-		2AD87129279C45C90093F2C9 /* Node2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87123279C45C90093F2C9 /* Node2D.swift */; };
-		2AD8712A279C45C90093F2C9 /* Node2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87123279C45C90093F2C9 /* Node2D.swift */; };
-		2AD8712B279C45C90093F2C9 /* Edge2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87124279C45C90093F2C9 /* Edge2D.swift */; };
-		2AD8712C279C45C90093F2C9 /* Edge2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87124279C45C90093F2C9 /* Edge2D.swift */; };
-		2AD8712D279C45C90093F2C9 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87125279C45C90093F2C9 /* Edge.swift */; };
-		2AD8712E279C45C90093F2C9 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87125279C45C90093F2C9 /* Edge.swift */; };
-		2AD8712F279C45C90093F2C9 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87126279C45C90093F2C9 /* Graph.swift */; };
-		2AD87130279C45C90093F2C9 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87126279C45C90093F2C9 /* Graph.swift */; };
-		2AD87131279C45C90093F2C9 /* Force.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87127279C45C90093F2C9 /* Force.swift */; };
-		2AD87132279C45C90093F2C9 /* Force.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87127279C45C90093F2C9 /* Force.swift */; };
-		2AD87133279C45C90093F2C9 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87128279C45C90093F2C9 /* Node.swift */; };
-		2AD87134279C45C90093F2C9 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87128279C45C90093F2C9 /* Node.swift */; };
-		2AD87137279C461A0093F2C9 /* PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87135279C461A0093F2C9 /* PlaceMarker.swift */; };
-		2AD87138279C461A0093F2C9 /* PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87135279C461A0093F2C9 /* PlaceMarker.swift */; };
-		2AD87139279C461A0093F2C9 /* PlaceMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87136279C461A0093F2C9 /* PlaceMarkerView.swift */; };
-		2AD8713A279C461A0093F2C9 /* PlaceMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87136279C461A0093F2C9 /* PlaceMarkerView.swift */; };
-		2AD8713C279C46440093F2C9 /* CLLocationCoordinate2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8713B279C46440093F2C9 /* CLLocationCoordinate2D.swift */; };
-		2AD8713D279C46440093F2C9 /* CLLocationCoordinate2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8713B279C46440093F2C9 /* CLLocationCoordinate2D.swift */; };
-		2AD87141279C46C00093F2C9 /* MKCoordinateRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8713E279C46C00093F2C9 /* MKCoordinateRegion.swift */; };
-		2AD87142279C46C00093F2C9 /* MKCoordinateRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8713E279C46C00093F2C9 /* MKCoordinateRegion.swift */; };
-		2AD87143279C46C00093F2C9 /* SCNGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8713F279C46C00093F2C9 /* SCNGeometry.swift */; };
-		2AD87144279C46C00093F2C9 /* SCNGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8713F279C46C00093F2C9 /* SCNGeometry.swift */; };
-		2AD87145279C46C00093F2C9 /* MKMapRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87140279C46C00093F2C9 /* MKMapRect.swift */; };
-		2AD87146279C46C00093F2C9 /* MKMapRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87140279C46C00093F2C9 /* MKMapRect.swift */; };
-		2AD87148279C46F60093F2C9 /* Notification.Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87147279C46F60093F2C9 /* Notification.Name.swift */; };
-		2AD87149279C46F60093F2C9 /* Notification.Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87147279C46F60093F2C9 /* Notification.Name.swift */; };
-		2AD8714B279C4A0A0093F2C9 /* Array+Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8714A279C4A0A0093F2C9 /* Array+Bool.swift */; };
-		2AD8714C279C4A0A0093F2C9 /* Array+Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8714A279C4A0A0093F2C9 /* Array+Bool.swift */; };
-		2AD8714F279C506E0093F2C9 /* GraphStructureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8714E279C506E0093F2C9 /* GraphStructureView.swift */; };
-		2AD87150279C506E0093F2C9 /* GraphStructureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8714E279C506E0093F2C9 /* GraphStructureView.swift */; };
-		2AD87152279C551B0093F2C9 /* GraphSpriteKitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87151279C551B0093F2C9 /* GraphSpriteKitModel.swift */; };
-		2AD87153279C551B0093F2C9 /* GraphSpriteKitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87151279C551B0093F2C9 /* GraphSpriteKitModel.swift */; };
-		2AD87155279C5A520093F2C9 /* GraphScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87154279C5A520093F2C9 /* GraphScene.swift */; };
-		2AD87156279C5A520093F2C9 /* GraphScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87154279C5A520093F2C9 /* GraphScene.swift */; };
-		2AD87158279C62E70093F2C9 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87157279C62E70093F2C9 /* CGFloat.swift */; };
-		2AD87159279C62E70093F2C9 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87157279C62E70093F2C9 /* CGFloat.swift */; };
-		2AD8715D279C6A600093F2C9 /* GraphViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8715C279C6A600093F2C9 /* GraphViewCoordinator.swift */; };
-		2AD8715E279C6A600093F2C9 /* GraphViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8715C279C6A600093F2C9 /* GraphViewCoordinator.swift */; };
-		2AD87160279C6AB40093F2C9 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8715F279C6AB40093F2C9 /* GraphView.swift */; };
-		2AD87161279C6AB40093F2C9 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8715F279C6AB40093F2C9 /* GraphView.swift */; };
-		2AD87163279C8F4B0093F2C9 /* Array+CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87162279C8F4B0093F2C9 /* Array+CGPoint.swift */; };
-		2AD87164279C8F4B0093F2C9 /* Array+CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87162279C8F4B0093F2C9 /* Array+CGPoint.swift */; };
-		2AD87166279C90440093F2C9 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87165279C90440093F2C9 /* CGPoint.swift */; };
-		2AD87167279C90440093F2C9 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87165279C90440093F2C9 /* CGPoint.swift */; };
-		2AE91604278DFE2B00A00073 /* GenotypeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE91603278DFE2B00A00073 /* GenotypeTable.swift */; };
-		2AE91605278DFE2B00A00073 /* GenotypeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE91603278DFE2B00A00073 /* GenotypeTable.swift */; };
+		2A3FEE022A46215D0060E223 /* GeneticStudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3FEE012A46215D0060E223 /* GeneticStudioView.swift */; };
+		2A7AC55E2A4638CD0029F965 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7AC55D2A4638CD0029F965 /* DataStore.swift */; };
+		2AEBC2B52A46131300542CAB /* GeneticStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBC2B42A46131300542CAB /* GeneticStudioApp.swift */; };
+		2AEBC2B72A46131300542CAB /* GeneticStudioDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBC2B62A46131300542CAB /* GeneticStudioDocument.swift */; };
+		2AEBC2B92A46131300542CAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBC2B82A46131300542CAB /* ContentView.swift */; };
+		2AEBC2BB2A46131400542CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AEBC2BA2A46131400542CAB /* Assets.xcassets */; };
+		2AEBC2BE2A46131400542CAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AEBC2BD2A46131400542CAB /* Preview Assets.xcassets */; };
+		2AEBC2CA2A46131400542CAB /* GeneticStudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBC2C92A46131400542CAB /* GeneticStudioTests.swift */; };
+		2AEBC2D42A46131400542CAB /* GeneticStudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBC2D32A46131400542CAB /* GeneticStudioUITests.swift */; };
+		2AEBC2D62A46131400542CAB /* GeneticStudioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBC2D52A46131400542CAB /* GeneticStudioUITestsLaunchTests.swift */; };
+		2AEBC2E62A4617B000542CAB /* UTType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBC2E52A4617B000542CAB /* UTType.swift */; };
+		2AEBC2E82A46194F00542CAB /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBC2E72A46194F00542CAB /* SummaryView.swift */; };
+		2AEBC2EA2A4619FC00542CAB /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBC2E92A4619FC00542CAB /* Defaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2A4901A3277C9049002755A3 /* PBXContainerItemProxy */ = {
+		2AEBC2C62A46131400542CAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2A490185277C9048002755A3 /* Project object */;
+			containerPortal = 2AEBC2A92A46131300542CAB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2A490191277C9049002755A3;
-			remoteInfo = "GeneticStudio (iOS)";
+			remoteGlobalIDString = 2AEBC2B02A46131300542CAB;
+			remoteInfo = GeneticStudio;
 		};
-		2A4901AF277C9049002755A3 /* PBXContainerItemProxy */ = {
+		2AEBC2D02A46131400542CAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2A490185277C9048002755A3 /* Project object */;
+			containerPortal = 2AEBC2A92A46131300542CAB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2A490199277C9049002755A3;
-			remoteInfo = "GeneticStudio (macOS)";
+			remoteGlobalIDString = 2AEBC2B02A46131300542CAB;
+			remoteInfo = GeneticStudio;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A023B0D278E2C6E00221514 /* FrequencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyView.swift; sourceTree = "<group>"; };
-		2A27CD15278B4F490067CD00 /* NSImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
-		2A49018A277C9048002755A3 /* GeneticStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioApp.swift; sourceTree = "<group>"; };
-		2A49018B277C9048002755A3 /* GeneticStudioDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioDocument.swift; sourceTree = "<group>"; };
-		2A49018C277C9048002755A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2A49018D277C9049002755A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2A490192277C9049002755A3 /* GeneticStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneticStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A490195277C9049002755A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A49019A277C9049002755A3 /* GeneticStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneticStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A49019C277C9049002755A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A49019D277C9049002755A3 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		2A4901A2277C9049002755A3 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A4901A6277C9049002755A3 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		2A4901A8277C9049002755A3 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
-		2A4901AE277C9049002755A3 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A4901B2277C9049002755A3 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		2A4901B4277C9049002755A3 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
-		2A4901CF277C9058002755A3 /* MainWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
-		2A4901D1277C9058002755A3 /* AnalysisListViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisListViewItem.swift; sourceTree = "<group>"; };
-		2A4901DF277C90D1002755A3 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		2A4901E2277C9183002755A3 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
-		2AA3392927910EFD0039B14F /* FrequencyViewModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyViewModelView.swift; sourceTree = "<group>"; };
-		2AA677B22791053800D1711B /* Stratum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stratum.swift; sourceTree = "<group>"; };
-		2AA677B42791053800D1711B /* Locus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locus.swift; sourceTree = "<group>"; };
-		2AA677B52791053800D1711B /* Individual.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Individual.swift; sourceTree = "<group>"; };
-		2AA677B82791053800D1711B /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		2AA677BA2791053800D1711B /* Array+CLLocationCoordinate2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+CLLocationCoordinate2D.swift"; sourceTree = "<group>"; };
-		2AA677BB2791053800D1711B /* Matrix+ANOVA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Matrix+ANOVA.swift"; sourceTree = "<group>"; };
-		2AA677BC2791053800D1711B /* Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
-		2AA677BD2791053800D1711B /* Array+Individual.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Individual.swift"; sourceTree = "<group>"; };
-		2AA677BF2791053800D1711B /* GeneticErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneticErrorType.swift; sourceTree = "<group>"; };
-		2AA677C02791053800D1711B /* GeneticError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneticError.swift; sourceTree = "<group>"; };
-		2AA677C42791053800D1711B /* AMOVAAnalysis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMOVAAnalysis.swift; sourceTree = "<group>"; };
-		2AA677C52791053800D1711B /* AMOVADistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMOVADistance.swift; sourceTree = "<group>"; };
-		2AA677C62791053800D1711B /* AMOVA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMOVA.swift; sourceTree = "<group>"; };
-		2AA677C72791053800D1711B /* AnalysisType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisType.swift; sourceTree = "<group>"; };
-		2AA677C92791053800D1711B /* AlleleFrequencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlleleFrequencies.swift; sourceTree = "<group>"; };
-		2AA677CA2791053800D1711B /* FrequencyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrequencyViewModel.swift; sourceTree = "<group>"; };
-		2AA677CC2791053800D1711B /* DiversityViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiversityViewModel.swift; sourceTree = "<group>"; };
-		2AA677CD2791053800D1711B /* DiversityParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiversityParameters.swift; sourceTree = "<group>"; };
-		2AA677CE2791053800D1711B /* DiversityType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiversityType.swift; sourceTree = "<group>"; };
-		2AA677CF2791053800D1711B /* AnalysisProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisProtocol.swift; sourceTree = "<group>"; };
-		2AA677D02791053800D1711B /* Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
-		2AA677FC2791055100D1711B /* DiversityParametersTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiversityParametersTest.swift; sourceTree = "<group>"; };
-		2AA677FD2791055100D1711B /* DLGeneticTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLGeneticTests.swift; sourceTree = "<group>"; };
-		2AA677FE2791055100D1711B /* AMOVAMatrixTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMOVAMatrixTest.swift; sourceTree = "<group>"; };
-		2AA677FF2791055100D1711B /* LocusTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocusTests.swift; sourceTree = "<group>"; };
-		2AA678002791055100D1711B /* AMOVATests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMOVATests.swift; sourceTree = "<group>"; };
-		2AA678012791055100D1711B /* FrequencyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrequencyTests.swift; sourceTree = "<group>"; };
-		2AA678022791055100D1711B /* IndividualTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndividualTests.swift; sourceTree = "<group>"; };
-		2AA678032791055100D1711B /* StratumTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StratumTests.swift; sourceTree = "<group>"; };
-		2AA6780D2791056400D1711B /* MatrixTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixTests.swift; sourceTree = "<group>"; };
-		2AA6780E2791056400D1711B /* VectorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorTests.swift; sourceTree = "<group>"; };
-		2AA678122791057600D1711B /* rSourceConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSourceConvertible.swift; sourceTree = "<group>"; };
-		2AA678142791057600D1711B /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
-		2AA678152791057600D1711B /* VectorScalarOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorScalarOperators.swift; sourceTree = "<group>"; };
-		2AA678162791057600D1711B /* VectorConvertable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorConvertable.swift; sourceTree = "<group>"; };
-		2AA678172791057600D1711B /* RangeEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeEnum.swift; sourceTree = "<group>"; };
-		2AA678182791057600D1711B /* Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
-		2AA678192791057600D1711B /* VectorVectorOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorVectorOperators.swift; sourceTree = "<group>"; };
-		2AA6781A2791057600D1711B /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
-		2AA6781C2791057600D1711B /* MatrixConvertable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixConvertable.swift; sourceTree = "<group>"; };
-		2AA6781D2791057600D1711B /* MatrixMatrixOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixMatrixOperations.swift; sourceTree = "<group>"; };
-		2AA6781E2791057600D1711B /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
-		2AA6781F2791057600D1711B /* MatrixScalarOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixScalarOperators.swift; sourceTree = "<group>"; };
-		2AA678202791057600D1711B /* MatrixAlgebra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixAlgebra.swift; sourceTree = "<group>"; };
-		2AAEF520277DE86B004EE213 /* UTType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTType.swift; sourceTree = "<group>"; };
-		2ABC459027931AE800B2CE98 /* DiversityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiversityView.swift; sourceTree = "<group>"; };
-		2ABC459227931B2000B2CE98 /* DiversityViewModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiversityViewModelView.swift; sourceTree = "<group>"; };
-		2ABC459427931D4F00B2CE98 /* MatrixGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixGridView.swift; sourceTree = "<group>"; };
-		2ABC45A42793227F00B2CE98 /* FrequencyViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyViewModelTests.swift; sourceTree = "<group>"; };
-		2ACE72FD278DDA6E0089C74E /* GenotypeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenotypeTableView.swift; sourceTree = "<group>"; };
-		2ACE72FF278DE8310089C74E /* GenotypeTableViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenotypeTableViewCoordinator.swift; sourceTree = "<group>"; };
-		2AD08FF8278B6D8400A55620 /* SpeciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesView.swift; sourceTree = "<group>"; };
-		2AD7C61F279B08A300D6A05B /* BarChartGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartGridView.swift; sourceTree = "<group>"; };
-		2AD7C622279B0A2D00D6A05B /* HorizontalVectorBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalVectorBar.swift; sourceTree = "<group>"; };
-		2AD7C628279B13A600D6A05B /* MapCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCoordinator.swift; sourceTree = "<group>"; };
-		2AD7C62B279B13D800D6A05B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		2AD7C633279B164200D6A05B /* BarPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarPath.swift; sourceTree = "<group>"; };
-		2AD7C634279B164200D6A05B /* BarStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarStack.swift; sourceTree = "<group>"; };
-		2AD7C635279B164200D6A05B /* ChartAxis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartAxis.swift; sourceTree = "<group>"; };
-		2AD7C636279B164200D6A05B /* BarChartBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartBar.swift; sourceTree = "<group>"; };
-		2AD7C637279B164200D6A05B /* PieSliceText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieSliceText.swift; sourceTree = "<group>"; };
-		2AD7C638279B164200D6A05B /* BarChartGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartGrid.swift; sourceTree = "<group>"; };
-		2AD7C639279B164200D6A05B /* LabelStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelStack.swift; sourceTree = "<group>"; };
-		2AD7C63A279B164200D6A05B /* RadarChartPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarChartPath.swift; sourceTree = "<group>"; };
-		2AD7C63B279B164200D6A05B /* PieSlice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieSlice.swift; sourceTree = "<group>"; };
-		2AD7C63C279B164200D6A05B /* RadarChartGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarChartGrid.swift; sourceTree = "<group>"; };
-		2AD7C63D279B164200D6A05B /* PieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
-		2AD7C63E279B164200D6A05B /* BarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
-		2AD7C63F279B164300D6A05B /* RadarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarChartView.swift; sourceTree = "<group>"; };
-		2AD87123279C45C90093F2C9 /* Node2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node2D.swift; sourceTree = "<group>"; };
-		2AD87124279C45C90093F2C9 /* Edge2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edge2D.swift; sourceTree = "<group>"; };
-		2AD87125279C45C90093F2C9 /* Edge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
-		2AD87126279C45C90093F2C9 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
-		2AD87127279C45C90093F2C9 /* Force.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Force.swift; sourceTree = "<group>"; };
-		2AD87128279C45C90093F2C9 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
-		2AD87135279C461A0093F2C9 /* PlaceMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceMarker.swift; sourceTree = "<group>"; };
-		2AD87136279C461A0093F2C9 /* PlaceMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceMarkerView.swift; sourceTree = "<group>"; };
-		2AD8713B279C46440093F2C9 /* CLLocationCoordinate2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationCoordinate2D.swift; sourceTree = "<group>"; };
-		2AD8713E279C46C00093F2C9 /* MKCoordinateRegion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKCoordinateRegion.swift; sourceTree = "<group>"; };
-		2AD8713F279C46C00093F2C9 /* SCNGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNGeometry.swift; sourceTree = "<group>"; };
-		2AD87140279C46C00093F2C9 /* MKMapRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKMapRect.swift; sourceTree = "<group>"; };
-		2AD87147279C46F60093F2C9 /* Notification.Name.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.Name.swift; sourceTree = "<group>"; };
-		2AD8714A279C4A0A0093F2C9 /* Array+Bool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Bool.swift"; sourceTree = "<group>"; };
-		2AD8714E279C506E0093F2C9 /* GraphStructureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphStructureView.swift; sourceTree = "<group>"; };
-		2AD87151279C551B0093F2C9 /* GraphSpriteKitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphSpriteKitModel.swift; sourceTree = "<group>"; };
-		2AD87154279C5A520093F2C9 /* GraphScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphScene.swift; sourceTree = "<group>"; };
-		2AD87157279C62E70093F2C9 /* CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
-		2AD8715C279C6A600093F2C9 /* GraphViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewCoordinator.swift; sourceTree = "<group>"; };
-		2AD8715F279C6AB40093F2C9 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
-		2AD87162279C8F4B0093F2C9 /* Array+CGPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+CGPoint.swift"; sourceTree = "<group>"; };
-		2AD87165279C90440093F2C9 /* CGPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
-		2AE91603278DFE2B00A00073 /* GenotypeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenotypeTable.swift; sourceTree = "<group>"; };
+		2A3FEE012A46215D0060E223 /* GeneticStudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioView.swift; sourceTree = "<group>"; };
+		2A7AC55D2A4638CD0029F965 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		2AEBC2B12A46131300542CAB /* GeneticStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneticStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AEBC2B42A46131300542CAB /* GeneticStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioApp.swift; sourceTree = "<group>"; };
+		2AEBC2B62A46131300542CAB /* GeneticStudioDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioDocument.swift; sourceTree = "<group>"; };
+		2AEBC2B82A46131300542CAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2AEBC2BA2A46131400542CAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AEBC2BD2A46131400542CAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AEBC2BF2A46131400542CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AEBC2C02A46131400542CAB /* GeneticStudio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GeneticStudio.entitlements; sourceTree = "<group>"; };
+		2AEBC2C52A46131400542CAB /* GeneticStudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneticStudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AEBC2C92A46131400542CAB /* GeneticStudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioTests.swift; sourceTree = "<group>"; };
+		2AEBC2CF2A46131400542CAB /* GeneticStudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneticStudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AEBC2D32A46131400542CAB /* GeneticStudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioUITests.swift; sourceTree = "<group>"; };
+		2AEBC2D52A46131400542CAB /* GeneticStudioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2AEBC2E52A4617B000542CAB /* UTType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTType.swift; sourceTree = "<group>"; };
+		2AEBC2E72A46194F00542CAB /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		2AEBC2E92A4619FC00542CAB /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2A49018F277C9049002755A3 /* Frameworks */ = {
+		2AEBC2AE2A46131300542CAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A490197277C9049002755A3 /* Frameworks */ = {
+		2AEBC2C22A46131400542CAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A49019F277C9049002755A3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2A4901AB277C9049002755A3 /* Frameworks */ = {
+		2AEBC2CC2A46131400542CAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -407,589 +85,211 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A023B0C278E2C4700221514 /* Frequency */ = {
+		2AEBC2A82A46131300542CAB = {
 			isa = PBXGroup;
 			children = (
-				2A023B0D278E2C6E00221514 /* FrequencyView.swift */,
-			);
-			path = Frequency;
-			sourceTree = "<group>";
-		};
-		2A27CD11278B4CDF0067CD00 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				2A27CD15278B4F490067CD00 /* NSImage.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		2A490184277C9048002755A3 = {
-			isa = PBXGroup;
-			children = (
-				2A4901E2277C9183002755A3 /* Documentation.docc */,
-				2A490189277C9048002755A3 /* Shared */,
-				2A490194277C9049002755A3 /* iOS */,
-				2A49019B277C9049002755A3 /* macOS */,
-				2A4901A5277C9049002755A3 /* Tests iOS */,
-				2A4901B1277C9049002755A3 /* Tests macOS */,
-				2A490193277C9049002755A3 /* Products */,
-				2A5A73D027833DB5006E996A /* Frameworks */,
+				2AEBC2B32A46131300542CAB /* GeneticStudio */,
+				2AEBC2C82A46131400542CAB /* GeneticStudioTests */,
+				2AEBC2D22A46131400542CAB /* GeneticStudioUITests */,
+				2AEBC2B22A46131300542CAB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2A490189277C9048002755A3 /* Shared */ = {
+		2AEBC2B22A46131300542CAB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A49018D277C9049002755A3 /* Assets.xcassets */,
-				2A49018A277C9048002755A3 /* GeneticStudioApp.swift */,
-				2A49018B277C9048002755A3 /* GeneticStudioDocument.swift */,
-				2AAEF514277DD471004EE213 /* Extensions */,
-				2AA677B12791053800D1711B /* Genetic */,
-				2AA678112791057600D1711B /* Matrix */,
-				2AD87121279C45C90093F2C9 /* Network */,
-				2AD7C627279B138500D6A05B /* Spatial */,
-				2A4901CC277C9058002755A3 /* Views */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		2A490193277C9049002755A3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2A490192277C9049002755A3 /* GeneticStudio.app */,
-				2A49019A277C9049002755A3 /* GeneticStudio.app */,
-				2A4901A2277C9049002755A3 /* Tests iOS.xctest */,
-				2A4901AE277C9049002755A3 /* Tests macOS.xctest */,
+				2AEBC2B12A46131300542CAB /* GeneticStudio.app */,
+				2AEBC2C52A46131400542CAB /* GeneticStudioTests.xctest */,
+				2AEBC2CF2A46131400542CAB /* GeneticStudioUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2A490194277C9049002755A3 /* iOS */ = {
+		2AEBC2B32A46131300542CAB /* GeneticStudio */ = {
 			isa = PBXGroup;
 			children = (
-				2A490195277C9049002755A3 /* Info.plist */,
+				2AEBC2B42A46131300542CAB /* GeneticStudioApp.swift */,
+				2AEBC2B62A46131300542CAB /* GeneticStudioDocument.swift */,
+				2AEBC2E42A46179F00542CAB /* Extensions */,
+				2AEBC2E32A46134100542CAB /* Models */,
+				2AEBC2E22A46133A00542CAB /* Views */,
+				2AEBC2BA2A46131400542CAB /* Assets.xcassets */,
+				2AEBC2BF2A46131400542CAB /* Info.plist */,
+				2AEBC2C02A46131400542CAB /* GeneticStudio.entitlements */,
+				2AEBC2BC2A46131400542CAB /* Preview Content */,
 			);
-			path = iOS;
+			path = GeneticStudio;
 			sourceTree = "<group>";
 		};
-		2A49019B277C9049002755A3 /* macOS */ = {
+		2AEBC2BC2A46131400542CAB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				2ACE72FC278DDA5C0089C74E /* Views */,
-				2A27CD11278B4CDF0067CD00 /* Extensions */,
-				2A49019C277C9049002755A3 /* Info.plist */,
-				2A49019D277C9049002755A3 /* macOS.entitlements */,
+				2AEBC2BD2A46131400542CAB /* Preview Assets.xcassets */,
 			);
-			path = macOS;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		2A4901A5277C9049002755A3 /* Tests iOS */ = {
+		2AEBC2C82A46131400542CAB /* GeneticStudioTests */ = {
 			isa = PBXGroup;
 			children = (
-				2A4901A6277C9049002755A3 /* Tests_iOS.swift */,
-				2A4901A8277C9049002755A3 /* Tests_iOSLaunchTests.swift */,
+				2AEBC2C92A46131400542CAB /* GeneticStudioTests.swift */,
 			);
-			path = "Tests iOS";
+			path = GeneticStudioTests;
 			sourceTree = "<group>";
 		};
-		2A4901B1277C9049002755A3 /* Tests macOS */ = {
+		2AEBC2D22A46131400542CAB /* GeneticStudioUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2AA6780C2791056400D1711B /* DLabMatrixTests */,
-				2AA677FB2791055100D1711B /* DLabGeneticTests */,
-				2A4901B2277C9049002755A3 /* Tests_macOS.swift */,
-				2A4901B4277C9049002755A3 /* Tests_macOSLaunchTests.swift */,
+				2AEBC2D32A46131400542CAB /* GeneticStudioUITests.swift */,
+				2AEBC2D52A46131400542CAB /* GeneticStudioUITestsLaunchTests.swift */,
 			);
-			path = "Tests macOS";
+			path = GeneticStudioUITests;
 			sourceTree = "<group>";
 		};
-		2A4901CC277C9058002755A3 /* Views */ = {
+		2AEBC2E22A46133A00542CAB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2A49018C277C9048002755A3 /* ContentView.swift */,
-				2AD7C631279B159700D6A05B /* Charts */,
-				2AD08FF7278B6D4000A55620 /* MainWindow */,
-				2AE91606278DFE3300A00073 /* GenotypeTable */,
-				2A023B0C278E2C4700221514 /* Frequency */,
-				2ABC458F27931AD200B2CE98 /* Diversity */,
-				2AD8714D279C4FD60093F2C9 /* Network */,
+				2AEBC2B82A46131300542CAB /* ContentView.swift */,
+				2AEBC2E72A46194F00542CAB /* SummaryView.swift */,
+				2A3FEE012A46215D0060E223 /* GeneticStudioView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		2A5A73D027833DB5006E996A /* Frameworks */ = {
+		2AEBC2E32A46134100542CAB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2A7AC55D2A4638CD0029F965 /* DataStore.swift */,
 			);
-			name = Frameworks;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		2AA677B12791053800D1711B /* Genetic */ = {
+		2AEBC2E42A46179F00542CAB /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				2AA677B22791053800D1711B /* Stratum.swift */,
-				2AA677B32791053800D1711B /* Individuals */,
-				2AA677C12791053800D1711B /* Analyses */,
-				2AA677D02791053800D1711B /* Defaults.swift */,
-			);
-			path = Genetic;
-			sourceTree = "<group>";
-		};
-		2AA677B32791053800D1711B /* Individuals */ = {
-			isa = PBXGroup;
-			children = (
-				2AA677B42791053800D1711B /* Locus.swift */,
-				2AA677B52791053800D1711B /* Individual.swift */,
-			);
-			path = Individuals;
-			sourceTree = "<group>";
-		};
-		2AA677B72791053800D1711B /* Types */ = {
-			isa = PBXGroup;
-			children = (
-				2AD87147279C46F60093F2C9 /* Notification.Name.swift */,
-				2AD8713E279C46C00093F2C9 /* MKCoordinateRegion.swift */,
-				2AD87140279C46C00093F2C9 /* MKMapRect.swift */,
-				2AD8713F279C46C00093F2C9 /* SCNGeometry.swift */,
-				2AAEF520277DE86B004EE213 /* UTType.swift */,
-				2A4901DF277C90D1002755A3 /* Color.swift */,
-				2AA677B82791053800D1711B /* String.swift */,
-				2AD8713B279C46440093F2C9 /* CLLocationCoordinate2D.swift */,
-				2AD87157279C62E70093F2C9 /* CGFloat.swift */,
-				2AD87165279C90440093F2C9 /* CGPoint.swift */,
-			);
-			path = Types;
-			sourceTree = "<group>";
-		};
-		2AA677B92791053800D1711B /* Containers */ = {
-			isa = PBXGroup;
-			children = (
-				2AA677BA2791053800D1711B /* Array+CLLocationCoordinate2D.swift */,
-				2AA677BB2791053800D1711B /* Matrix+ANOVA.swift */,
-				2AA677BC2791053800D1711B /* Sequence.swift */,
-				2AA677BD2791053800D1711B /* Array+Individual.swift */,
-				2AD8714A279C4A0A0093F2C9 /* Array+Bool.swift */,
-				2AD87162279C8F4B0093F2C9 /* Array+CGPoint.swift */,
-			);
-			path = Containers;
-			sourceTree = "<group>";
-		};
-		2AA677BE2791053800D1711B /* Errors */ = {
-			isa = PBXGroup;
-			children = (
-				2AA677BF2791053800D1711B /* GeneticErrorType.swift */,
-				2AA677C02791053800D1711B /* GeneticError.swift */,
-			);
-			path = Errors;
-			sourceTree = "<group>";
-		};
-		2AA677C12791053800D1711B /* Analyses */ = {
-			isa = PBXGroup;
-			children = (
-				2AA677C72791053800D1711B /* AnalysisType.swift */,
-				2AA677CF2791053800D1711B /* AnalysisProtocol.swift */,
-				2AA677C22791053800D1711B /* PCA */,
-				2AA677C32791053800D1711B /* AMOVA */,
-				2AA677C82791053800D1711B /* Frequencies */,
-				2AA677CB2791053800D1711B /* Diversity */,
-			);
-			path = Analyses;
-			sourceTree = "<group>";
-		};
-		2AA677C22791053800D1711B /* PCA */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = PCA;
-			sourceTree = "<group>";
-		};
-		2AA677C32791053800D1711B /* AMOVA */ = {
-			isa = PBXGroup;
-			children = (
-				2AA677C42791053800D1711B /* AMOVAAnalysis.swift */,
-				2AA677C52791053800D1711B /* AMOVADistance.swift */,
-				2AA677C62791053800D1711B /* AMOVA.swift */,
-			);
-			path = AMOVA;
-			sourceTree = "<group>";
-		};
-		2AA677C82791053800D1711B /* Frequencies */ = {
-			isa = PBXGroup;
-			children = (
-				2AA677C92791053800D1711B /* AlleleFrequencies.swift */,
-				2AA677CA2791053800D1711B /* FrequencyViewModel.swift */,
-				2AA3392927910EFD0039B14F /* FrequencyViewModelView.swift */,
-				2AD7C61F279B08A300D6A05B /* BarChartGridView.swift */,
-			);
-			path = Frequencies;
-			sourceTree = "<group>";
-		};
-		2AA677CB2791053800D1711B /* Diversity */ = {
-			isa = PBXGroup;
-			children = (
-				2AA677CC2791053800D1711B /* DiversityViewModel.swift */,
-				2ABC459227931B2000B2CE98 /* DiversityViewModelView.swift */,
-				2AA677CD2791053800D1711B /* DiversityParameters.swift */,
-				2AA677CE2791053800D1711B /* DiversityType.swift */,
-			);
-			path = Diversity;
-			sourceTree = "<group>";
-		};
-		2AA677FB2791055100D1711B /* DLabGeneticTests */ = {
-			isa = PBXGroup;
-			children = (
-				2AA677FC2791055100D1711B /* DiversityParametersTest.swift */,
-				2AA677FD2791055100D1711B /* DLGeneticTests.swift */,
-				2AA677FE2791055100D1711B /* AMOVAMatrixTest.swift */,
-				2AA677FF2791055100D1711B /* LocusTests.swift */,
-				2AA678002791055100D1711B /* AMOVATests.swift */,
-				2AA678012791055100D1711B /* FrequencyTests.swift */,
-				2AA678022791055100D1711B /* IndividualTests.swift */,
-				2AA678032791055100D1711B /* StratumTests.swift */,
-				2ABC45A42793227F00B2CE98 /* FrequencyViewModelTests.swift */,
-			);
-			path = DLabGeneticTests;
-			sourceTree = "<group>";
-		};
-		2AA6780C2791056400D1711B /* DLabMatrixTests */ = {
-			isa = PBXGroup;
-			children = (
-				2AA6780D2791056400D1711B /* MatrixTests.swift */,
-				2AA6780E2791056400D1711B /* VectorTests.swift */,
-			);
-			path = DLabMatrixTests;
-			sourceTree = "<group>";
-		};
-		2AA678112791057600D1711B /* Matrix */ = {
-			isa = PBXGroup;
-			children = (
-				2AA6781A2791057600D1711B /* Operators.swift */,
-				2AA678132791057600D1711B /* Vectors */,
-				2AA6781B2791057600D1711B /* Matrices */,
-				2AA678122791057600D1711B /* rSourceConvertible.swift */,
-			);
-			path = Matrix;
-			sourceTree = "<group>";
-		};
-		2AA678132791057600D1711B /* Vectors */ = {
-			isa = PBXGroup;
-			children = (
-				2AA678142791057600D1711B /* Random.swift */,
-				2AA678152791057600D1711B /* VectorScalarOperators.swift */,
-				2AA678162791057600D1711B /* VectorConvertable.swift */,
-				2AA678172791057600D1711B /* RangeEnum.swift */,
-				2AA678182791057600D1711B /* Vector.swift */,
-				2AA678192791057600D1711B /* VectorVectorOperators.swift */,
-				2AD7C622279B0A2D00D6A05B /* HorizontalVectorBar.swift */,
-			);
-			path = Vectors;
-			sourceTree = "<group>";
-		};
-		2AA6781B2791057600D1711B /* Matrices */ = {
-			isa = PBXGroup;
-			children = (
-				2AA6781C2791057600D1711B /* MatrixConvertable.swift */,
-				2AA6781D2791057600D1711B /* MatrixMatrixOperations.swift */,
-				2AA6781E2791057600D1711B /* Matrix.swift */,
-				2AA6781F2791057600D1711B /* MatrixScalarOperators.swift */,
-				2AA678202791057600D1711B /* MatrixAlgebra.swift */,
-				2ABC459427931D4F00B2CE98 /* MatrixGridView.swift */,
-			);
-			path = Matrices;
-			sourceTree = "<group>";
-		};
-		2AAEF514277DD471004EE213 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				2AA677B92791053800D1711B /* Containers */,
-				2AA677BE2791053800D1711B /* Errors */,
-				2AA677B72791053800D1711B /* Types */,
+				2AEBC2E52A4617B000542CAB /* UTType.swift */,
+				2AEBC2E92A4619FC00542CAB /* Defaults.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		2ABC458F27931AD200B2CE98 /* Diversity */ = {
-			isa = PBXGroup;
-			children = (
-				2ABC459027931AE800B2CE98 /* DiversityView.swift */,
-			);
-			path = Diversity;
-			sourceTree = "<group>";
-		};
-		2ACE72FC278DDA5C0089C74E /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				2AD8715B279C6A4E0093F2C9 /* SpriteView */,
-				2AD7C626279B130C00D6A05B /* Maps */,
-				2AD7C625279B130400D6A05B /* GenotypeTable */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		2AD08FF7278B6D4000A55620 /* MainWindow */ = {
-			isa = PBXGroup;
-			children = (
-				2A4901CF277C9058002755A3 /* MainWindow.swift */,
-				2A4901D1277C9058002755A3 /* AnalysisListViewItem.swift */,
-				2AD08FF8278B6D8400A55620 /* SpeciesView.swift */,
-			);
-			path = MainWindow;
-			sourceTree = "<group>";
-		};
-		2AD7C625279B130400D6A05B /* GenotypeTable */ = {
-			isa = PBXGroup;
-			children = (
-				2ACE72FD278DDA6E0089C74E /* GenotypeTableView.swift */,
-				2ACE72FF278DE8310089C74E /* GenotypeTableViewCoordinator.swift */,
-			);
-			path = GenotypeTable;
-			sourceTree = "<group>";
-		};
-		2AD7C626279B130C00D6A05B /* Maps */ = {
-			isa = PBXGroup;
-			children = (
-				2AD7C62B279B13D800D6A05B /* MapView.swift */,
-			);
-			path = Maps;
-			sourceTree = "<group>";
-		};
-		2AD7C627279B138500D6A05B /* Spatial */ = {
-			isa = PBXGroup;
-			children = (
-				2AD87135279C461A0093F2C9 /* PlaceMarker.swift */,
-				2AD87136279C461A0093F2C9 /* PlaceMarkerView.swift */,
-				2AD7C628279B13A600D6A05B /* MapCoordinator.swift */,
-			);
-			path = Spatial;
-			sourceTree = "<group>";
-		};
-		2AD7C631279B159700D6A05B /* Charts */ = {
-			isa = PBXGroup;
-			children = (
-				2AD7C63E279B164200D6A05B /* BarChartView.swift */,
-				2AD7C632279B164200D6A05B /* Components */,
-				2AD7C63D279B164200D6A05B /* PieChartView.swift */,
-				2AD7C63F279B164300D6A05B /* RadarChartView.swift */,
-			);
-			path = Charts;
-			sourceTree = "<group>";
-		};
-		2AD7C632279B164200D6A05B /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				2AD7C633279B164200D6A05B /* BarPath.swift */,
-				2AD7C634279B164200D6A05B /* BarStack.swift */,
-				2AD7C635279B164200D6A05B /* ChartAxis.swift */,
-				2AD7C636279B164200D6A05B /* BarChartBar.swift */,
-				2AD7C637279B164200D6A05B /* PieSliceText.swift */,
-				2AD7C638279B164200D6A05B /* BarChartGrid.swift */,
-				2AD7C639279B164200D6A05B /* LabelStack.swift */,
-				2AD7C63B279B164200D6A05B /* PieSlice.swift */,
-				2AD7C63A279B164200D6A05B /* RadarChartPath.swift */,
-				2AD7C63C279B164200D6A05B /* RadarChartGrid.swift */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		2AD87121279C45C90093F2C9 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				2AD87122279C45C90093F2C9 /* 2D Visualization */,
-				2AD87125279C45C90093F2C9 /* Edge.swift */,
-				2AD87126279C45C90093F2C9 /* Graph.swift */,
-				2AD87127279C45C90093F2C9 /* Force.swift */,
-				2AD87128279C45C90093F2C9 /* Node.swift */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		2AD87122279C45C90093F2C9 /* 2D Visualization */ = {
-			isa = PBXGroup;
-			children = (
-				2AD87123279C45C90093F2C9 /* Node2D.swift */,
-				2AD87124279C45C90093F2C9 /* Edge2D.swift */,
-				2AD87151279C551B0093F2C9 /* GraphSpriteKitModel.swift */,
-				2AD87154279C5A520093F2C9 /* GraphScene.swift */,
-			);
-			path = "2D Visualization";
-			sourceTree = "<group>";
-		};
-		2AD8714D279C4FD60093F2C9 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				2AD8715C279C6A600093F2C9 /* GraphViewCoordinator.swift */,
-				2AD8714E279C506E0093F2C9 /* GraphStructureView.swift */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		2AD8715B279C6A4E0093F2C9 /* SpriteView */ = {
-			isa = PBXGroup;
-			children = (
-				2AD8715F279C6AB40093F2C9 /* GraphView.swift */,
-			);
-			path = SpriteView;
-			sourceTree = "<group>";
-		};
-		2AE91606278DFE3300A00073 /* GenotypeTable */ = {
-			isa = PBXGroup;
-			children = (
-				2AE91603278DFE2B00A00073 /* GenotypeTable.swift */,
-			);
-			path = GenotypeTable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2A490191277C9049002755A3 /* GeneticStudio (iOS) */ = {
+		2AEBC2B02A46131300542CAB /* GeneticStudio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A4901C0277C9049002755A3 /* Build configuration list for PBXNativeTarget "GeneticStudio (iOS)" */;
+			buildConfigurationList = 2AEBC2D92A46131400542CAB /* Build configuration list for PBXNativeTarget "GeneticStudio" */;
 			buildPhases = (
-				2A49018E277C9049002755A3 /* Sources */,
-				2A49018F277C9049002755A3 /* Frameworks */,
-				2A490190277C9049002755A3 /* Resources */,
+				2AEBC2AD2A46131300542CAB /* Sources */,
+				2AEBC2AE2A46131300542CAB /* Frameworks */,
+				2AEBC2AF2A46131300542CAB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "GeneticStudio (iOS)";
-			packageProductDependencies = (
-			);
-			productName = "GeneticStudio (iOS)";
-			productReference = 2A490192277C9049002755A3 /* GeneticStudio.app */;
+			name = GeneticStudio;
+			productName = GeneticStudio;
+			productReference = 2AEBC2B12A46131300542CAB /* GeneticStudio.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2A490199277C9049002755A3 /* GeneticStudio (macOS) */ = {
+		2AEBC2C42A46131400542CAB /* GeneticStudioTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A4901C3277C9049002755A3 /* Build configuration list for PBXNativeTarget "GeneticStudio (macOS)" */;
+			buildConfigurationList = 2AEBC2DC2A46131400542CAB /* Build configuration list for PBXNativeTarget "GeneticStudioTests" */;
 			buildPhases = (
-				2A490196277C9049002755A3 /* Sources */,
-				2A490197277C9049002755A3 /* Frameworks */,
-				2A490198277C9049002755A3 /* Resources */,
+				2AEBC2C12A46131400542CAB /* Sources */,
+				2AEBC2C22A46131400542CAB /* Frameworks */,
+				2AEBC2C32A46131400542CAB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2AEBC2C72A46131400542CAB /* PBXTargetDependency */,
 			);
-			name = "GeneticStudio (macOS)";
-			packageProductDependencies = (
-			);
-			productName = "GeneticStudio (macOS)";
-			productReference = 2A49019A277C9049002755A3 /* GeneticStudio.app */;
-			productType = "com.apple.product-type.application";
+			name = GeneticStudioTests;
+			productName = GeneticStudioTests;
+			productReference = 2AEBC2C52A46131400542CAB /* GeneticStudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2A4901A1277C9049002755A3 /* Tests iOS */ = {
+		2AEBC2CE2A46131400542CAB /* GeneticStudioUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A4901C6277C9049002755A3 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildConfigurationList = 2AEBC2DF2A46131400542CAB /* Build configuration list for PBXNativeTarget "GeneticStudioUITests" */;
 			buildPhases = (
-				2A49019E277C9049002755A3 /* Sources */,
-				2A49019F277C9049002755A3 /* Frameworks */,
-				2A4901A0277C9049002755A3 /* Resources */,
+				2AEBC2CB2A46131400542CAB /* Sources */,
+				2AEBC2CC2A46131400542CAB /* Frameworks */,
+				2AEBC2CD2A46131400542CAB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2A4901A4277C9049002755A3 /* PBXTargetDependency */,
+				2AEBC2D12A46131400542CAB /* PBXTargetDependency */,
 			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = 2A4901A2277C9049002755A3 /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		2A4901AD277C9049002755A3 /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2A4901C9277C9049002755A3 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				2A4901AA277C9049002755A3 /* Sources */,
-				2A4901AB277C9049002755A3 /* Frameworks */,
-				2A4901AC277C9049002755A3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2A4901B0277C9049002755A3 /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = 2A4901AE277C9049002755A3 /* Tests macOS.xctest */;
+			name = GeneticStudioUITests;
+			productName = GeneticStudioUITests;
+			productReference = 2AEBC2CF2A46131400542CAB /* GeneticStudioUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2A490185277C9048002755A3 /* Project object */ = {
+		2AEBC2A92A46131300542CAB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					2A490191277C9049002755A3 = {
-						CreatedOnToolsVersion = 13.2;
+					2AEBC2B02A46131300542CAB = {
+						CreatedOnToolsVersion = 15.0;
 					};
-					2A490199277C9049002755A3 = {
-						CreatedOnToolsVersion = 13.2;
+					2AEBC2C42A46131400542CAB = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2AEBC2B02A46131300542CAB;
 					};
-					2A4901A1277C9049002755A3 = {
-						CreatedOnToolsVersion = 13.2;
-						TestTargetID = 2A490191277C9049002755A3;
-					};
-					2A4901AD277C9049002755A3 = {
-						CreatedOnToolsVersion = 13.2;
-						TestTargetID = 2A490199277C9049002755A3;
+					2AEBC2CE2A46131400542CAB = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2AEBC2B02A46131300542CAB;
 					};
 				};
 			};
-			buildConfigurationList = 2A490188277C9048002755A3 /* Build configuration list for PBXProject "GeneticStudio" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = 2AEBC2AC2A46131300542CAB /* Build configuration list for PBXProject "GeneticStudio" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 2A490184277C9048002755A3;
-			packageReferences = (
-			);
-			productRefGroup = 2A490193277C9049002755A3 /* Products */;
+			mainGroup = 2AEBC2A82A46131300542CAB;
+			productRefGroup = 2AEBC2B22A46131300542CAB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A490191277C9049002755A3 /* GeneticStudio (iOS) */,
-				2A490199277C9049002755A3 /* GeneticStudio (macOS) */,
-				2A4901A1277C9049002755A3 /* Tests iOS */,
-				2A4901AD277C9049002755A3 /* Tests macOS */,
+				2AEBC2B02A46131300542CAB /* GeneticStudio */,
+				2AEBC2C42A46131400542CAB /* GeneticStudioTests */,
+				2AEBC2CE2A46131400542CAB /* GeneticStudioUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2A490190277C9049002755A3 /* Resources */ = {
+		2AEBC2AF2A46131300542CAB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A4901BC277C9049002755A3 /* Assets.xcassets in Resources */,
+				2AEBC2BE2A46131400542CAB /* Preview Assets.xcassets in Resources */,
+				2AEBC2BB2A46131400542CAB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A490198277C9049002755A3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A4901BD277C9049002755A3 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2A4901A0277C9049002755A3 /* Resources */ = {
+		2AEBC2C32A46131400542CAB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A4901AC277C9049002755A3 /* Resources */ = {
+		2AEBC2CD2A46131400542CAB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -999,288 +299,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2A49018E277C9049002755A3 /* Sources */ = {
+		2AEBC2AD2A46131300542CAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AA3392A27910EFD0039B14F /* FrequencyViewModelView.swift in Sources */,
-				2AA678362791068D00D1711B /* VectorConvertable.swift in Sources */,
-				2AA677E12791053800D1711B /* GeneticErrorType.swift in Sources */,
-				2AD7C646279B164300D6A05B /* BarChartBar.swift in Sources */,
-				2AA677D32791053800D1711B /* Locus.swift in Sources */,
-				2AD87133279C45C90093F2C9 /* Node.swift in Sources */,
-				2AA6783E2791069300D1711B /* MatrixMatrixOperations.swift in Sources */,
-				2AA678342791068D00D1711B /* Random.swift in Sources */,
-				2AD7C656279B164300D6A05B /* BarChartView.swift in Sources */,
-				2AA677EF2791053800D1711B /* FrequencyViewModel.swift in Sources */,
-				2AD7C62C279B13D800D6A05B /* MapView.swift in Sources */,
-				2A4901D7277C9058002755A3 /* MainWindow.swift in Sources */,
-				2AD87129279C45C90093F2C9 /* Node2D.swift in Sources */,
-				2AD7C642279B164300D6A05B /* BarStack.swift in Sources */,
-				2AD87160279C6AB40093F2C9 /* GraphView.swift in Sources */,
-				2AA677E72791053800D1711B /* AMOVADistance.swift in Sources */,
-				2AD87145279C46C00093F2C9 /* MKMapRect.swift in Sources */,
-				2AA678352791068D00D1711B /* VectorScalarOperators.swift in Sources */,
-				2AA677DF2791053800D1711B /* Array+Individual.swift in Sources */,
-				2AE91604278DFE2B00A00073 /* GenotypeTable.swift in Sources */,
-				2AD87163279C8F4B0093F2C9 /* Array+CGPoint.swift in Sources */,
-				2A023B0E278E2C6E00221514 /* FrequencyView.swift in Sources */,
-				2AD8712B279C45C90093F2C9 /* Edge2D.swift in Sources */,
-				2AA677F72791053800D1711B /* AnalysisProtocol.swift in Sources */,
-				2AD87141279C46C00093F2C9 /* MKCoordinateRegion.swift in Sources */,
-				2ABC459327931B2000B2CE98 /* DiversityViewModelView.swift in Sources */,
-				2AA677EB2791053800D1711B /* AnalysisType.swift in Sources */,
-				2AA677E52791053800D1711B /* AMOVAAnalysis.swift in Sources */,
-				2AD8715D279C6A600093F2C9 /* GraphViewCoordinator.swift in Sources */,
-				2AA677F92791053800D1711B /* Defaults.swift in Sources */,
-				2AA6783F2791069300D1711B /* Matrix.swift in Sources */,
-				2AD7C64E279B164300D6A05B /* RadarChartPath.swift in Sources */,
-				2AA677D52791053800D1711B /* Individual.swift in Sources */,
-				2AA678422791069300D1711B /* MatrixConvertable.swift in Sources */,
-				2AD7C658279B164300D6A05B /* RadarChartView.swift in Sources */,
-				2A4901E0277C90D1002755A3 /* Color.swift in Sources */,
-				2AD8714F279C506E0093F2C9 /* GraphStructureView.swift in Sources */,
-				2AA678372791068D00D1711B /* VectorVectorOperators.swift in Sources */,
-				2AD87155279C5A520093F2C9 /* GraphScene.swift in Sources */,
-				2A27CD16278B4F490067CD00 /* NSImage.swift in Sources */,
-				2AA677E32791053800D1711B /* GeneticError.swift in Sources */,
-				2AA677D92791053800D1711B /* Array+CLLocationCoordinate2D.swift in Sources */,
-				2AA678302791068700D1711B /* Operators.swift in Sources */,
-				2AD7C64C279B164300D6A05B /* LabelStack.swift in Sources */,
-				2A4901E3277C9183002755A3 /* Documentation.docc in Sources */,
-				2AD7C620279B08A300D6A05B /* BarChartGridView.swift in Sources */,
-				2AAEF521277DE86B004EE213 /* UTType.swift in Sources */,
-				2ABC459127931AE800B2CE98 /* DiversityView.swift in Sources */,
-				2AD87158279C62E70093F2C9 /* CGFloat.swift in Sources */,
-				2AA677F32791053800D1711B /* DiversityParameters.swift in Sources */,
-				2AA678412791069300D1711B /* MatrixAlgebra.swift in Sources */,
-				2A4901B8277C9049002755A3 /* GeneticStudioDocument.swift in Sources */,
-				2AD7C629279B13A600D6A05B /* MapCoordinator.swift in Sources */,
-				2AD8714B279C4A0A0093F2C9 /* Array+Bool.swift in Sources */,
-				2AA678322791068D00D1711B /* RangeEnum.swift in Sources */,
-				2AA677F52791053800D1711B /* DiversityType.swift in Sources */,
-				2AD7C64A279B164300D6A05B /* BarChartGrid.swift in Sources */,
-				2AD87166279C90440093F2C9 /* CGPoint.swift in Sources */,
-				2AA677D12791053800D1711B /* Stratum.swift in Sources */,
-				2AD08FF9278B6D8400A55620 /* SpeciesView.swift in Sources */,
-				2A4901B6277C9049002755A3 /* GeneticStudioApp.swift in Sources */,
-				2AD87143279C46C00093F2C9 /* SCNGeometry.swift in Sources */,
-				2AD8712F279C45C90093F2C9 /* Graph.swift in Sources */,
-				2AD87152279C551B0093F2C9 /* GraphSpriteKitModel.swift in Sources */,
-				2AD7C648279B164300D6A05B /* PieSliceText.swift in Sources */,
-				2AD7C654279B164300D6A05B /* PieChartView.swift in Sources */,
-				2AD87131279C45C90093F2C9 /* Force.swift in Sources */,
-				2AD87137279C461A0093F2C9 /* PlaceMarker.swift in Sources */,
-				2AA677DB2791053800D1711B /* Matrix+ANOVA.swift in Sources */,
-				2AD87139279C461A0093F2C9 /* PlaceMarkerView.swift in Sources */,
-				2AA6782F2791068000D1711B /* rSourceConvertible.swift in Sources */,
-				2AA677D72791053800D1711B /* String.swift in Sources */,
-				2AD7C623279B0A2D00D6A05B /* HorizontalVectorBar.swift in Sources */,
-				2AA677F12791053800D1711B /* DiversityViewModel.swift in Sources */,
-				2AA677E92791053800D1711B /* AMOVA.swift in Sources */,
-				2AD8712D279C45C90093F2C9 /* Edge.swift in Sources */,
-				2ABC459527931D4F00B2CE98 /* MatrixGridView.swift in Sources */,
-				2AD8713C279C46440093F2C9 /* CLLocationCoordinate2D.swift in Sources */,
-				2AD7C650279B164300D6A05B /* PieSlice.swift in Sources */,
-				2A4901BA277C9049002755A3 /* ContentView.swift in Sources */,
-				2AD7C640279B164300D6A05B /* BarPath.swift in Sources */,
-				2AD87148279C46F60093F2C9 /* Notification.Name.swift in Sources */,
-				2AA678332791068D00D1711B /* Vector.swift in Sources */,
-				2AA677DD2791053800D1711B /* Sequence.swift in Sources */,
-				2AD7C652279B164300D6A05B /* RadarChartGrid.swift in Sources */,
-				2A4901DB277C9058002755A3 /* AnalysisListViewItem.swift in Sources */,
-				2AA677ED2791053800D1711B /* AlleleFrequencies.swift in Sources */,
-				2AA678402791069300D1711B /* MatrixScalarOperators.swift in Sources */,
-				2AD7C644279B164300D6A05B /* ChartAxis.swift in Sources */,
+				2AEBC2B72A46131300542CAB /* GeneticStudioDocument.swift in Sources */,
+				2A7AC55E2A4638CD0029F965 /* DataStore.swift in Sources */,
+				2AEBC2B52A46131300542CAB /* GeneticStudioApp.swift in Sources */,
+				2AEBC2E82A46194F00542CAB /* SummaryView.swift in Sources */,
+				2AEBC2EA2A4619FC00542CAB /* Defaults.swift in Sources */,
+				2A3FEE022A46215D0060E223 /* GeneticStudioView.swift in Sources */,
+				2AEBC2E62A4617B000542CAB /* UTType.swift in Sources */,
+				2AEBC2B92A46131300542CAB /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A490196277C9049002755A3 /* Sources */ = {
+		2AEBC2C12A46131400542CAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AA677D82791053800D1711B /* String.swift in Sources */,
-				2AD7C64D279B164300D6A05B /* LabelStack.swift in Sources */,
-				2A4901D8277C9058002755A3 /* MainWindow.swift in Sources */,
-				2AA678392791068E00D1711B /* Vector.swift in Sources */,
-				2AA677F42791053800D1711B /* DiversityParameters.swift in Sources */,
-				2AA677F22791053800D1711B /* DiversityViewModel.swift in Sources */,
-				2AA677E62791053800D1711B /* AMOVAAnalysis.swift in Sources */,
-				2AD87138279C461A0093F2C9 /* PlaceMarker.swift in Sources */,
-				2AD7C64B279B164300D6A05B /* BarChartGrid.swift in Sources */,
-				2AD87150279C506E0093F2C9 /* GraphStructureView.swift in Sources */,
-				2AA677E82791053800D1711B /* AMOVADistance.swift in Sources */,
-				2AE91605278DFE2B00A00073 /* GenotypeTable.swift in Sources */,
-				2AA6783B2791068E00D1711B /* VectorScalarOperators.swift in Sources */,
-				2AD87144279C46C00093F2C9 /* SCNGeometry.swift in Sources */,
-				2AD8715E279C6A600093F2C9 /* GraphViewCoordinator.swift in Sources */,
-				2AD8712C279C45C90093F2C9 /* Edge2D.swift in Sources */,
-				2AD87164279C8F4B0093F2C9 /* Array+CGPoint.swift in Sources */,
-				2AA677DC2791053800D1711B /* Matrix+ANOVA.swift in Sources */,
-				2A4901E1277C90D1002755A3 /* Color.swift in Sources */,
-				2AD87156279C5A520093F2C9 /* GraphScene.swift in Sources */,
-				2AD7C643279B164300D6A05B /* BarStack.swift in Sources */,
-				2AA677FA2791053800D1711B /* Defaults.swift in Sources */,
-				2AD7C64F279B164300D6A05B /* RadarChartPath.swift in Sources */,
-				2AA677D42791053800D1711B /* Locus.swift in Sources */,
-				2AD8713A279C461A0093F2C9 /* PlaceMarkerView.swift in Sources */,
-				2AD7C62A279B13A600D6A05B /* MapCoordinator.swift in Sources */,
-				2AA677DE2791053800D1711B /* Sequence.swift in Sources */,
-				2AA678442791069400D1711B /* Matrix.swift in Sources */,
-				2A27CD17278B4F490067CD00 /* NSImage.swift in Sources */,
-				2AD87161279C6AB40093F2C9 /* GraphView.swift in Sources */,
-				2AA6783D2791068E00D1711B /* VectorVectorOperators.swift in Sources */,
-				2AD7C659279B164300D6A05B /* RadarChartView.swift in Sources */,
-				2AD8714C279C4A0A0093F2C9 /* Array+Bool.swift in Sources */,
-				2AA677F82791053800D1711B /* AnalysisProtocol.swift in Sources */,
-				2AA3392B27910EFD0039B14F /* FrequencyViewModelView.swift in Sources */,
-				2AD87153279C551B0093F2C9 /* GraphSpriteKitModel.swift in Sources */,
-				2AD8712E279C45C90093F2C9 /* Edge.swift in Sources */,
-				2AD8713D279C46440093F2C9 /* CLLocationCoordinate2D.swift in Sources */,
-				2A4901E4277C9183002755A3 /* Documentation.docc in Sources */,
-				2AA677E02791053800D1711B /* Array+Individual.swift in Sources */,
-				2AA677EC2791053800D1711B /* AnalysisType.swift in Sources */,
-				2A023B0F278E2C7200221514 /* FrequencyView.swift in Sources */,
-				2ACE72FE278DDA6E0089C74E /* GenotypeTableView.swift in Sources */,
-				2AD87149279C46F60093F2C9 /* Notification.Name.swift in Sources */,
-				2AD7C624279B0A2D00D6A05B /* HorizontalVectorBar.swift in Sources */,
-				2AD87146279C46C00093F2C9 /* MKMapRect.swift in Sources */,
-				2AA677EE2791053800D1711B /* AlleleFrequencies.swift in Sources */,
-				2AA678472791069400D1711B /* MatrixConvertable.swift in Sources */,
-				2AA677DA2791053800D1711B /* Array+CLLocationCoordinate2D.swift in Sources */,
-				2AAEF522277DE86B004EE213 /* UTType.swift in Sources */,
-				2AA678452791069400D1711B /* MatrixScalarOperators.swift in Sources */,
-				2AA6783A2791068E00D1711B /* Random.swift in Sources */,
-				2AA677D22791053800D1711B /* Stratum.swift in Sources */,
-				2AA677E42791053800D1711B /* GeneticError.swift in Sources */,
-				2A4901B9277C9049002755A3 /* GeneticStudioDocument.swift in Sources */,
-				2AD7C647279B164300D6A05B /* BarChartBar.swift in Sources */,
-				2AA678312791068800D1711B /* Operators.swift in Sources */,
-				2AA678382791068E00D1711B /* RangeEnum.swift in Sources */,
-				2AA678462791069400D1711B /* MatrixAlgebra.swift in Sources */,
-				2AD87167279C90440093F2C9 /* CGPoint.swift in Sources */,
-				2AD08FFA278B6D8400A55620 /* SpeciesView.swift in Sources */,
-				2AA677D62791053800D1711B /* Individual.swift in Sources */,
-				2A4901B7277C9049002755A3 /* GeneticStudioApp.swift in Sources */,
-				2AA677F02791053800D1711B /* FrequencyViewModel.swift in Sources */,
-				2AD7C657279B164300D6A05B /* BarChartView.swift in Sources */,
-				2AD87134279C45C90093F2C9 /* Node.swift in Sources */,
-				2AA6783C2791068E00D1711B /* VectorConvertable.swift in Sources */,
-				2AD7C653279B164300D6A05B /* RadarChartGrid.swift in Sources */,
-				2AA677EA2791053800D1711B /* AMOVA.swift in Sources */,
-				2A4901BB277C9049002755A3 /* ContentView.swift in Sources */,
-				2AD87132279C45C90093F2C9 /* Force.swift in Sources */,
-				2AD8712A279C45C90093F2C9 /* Node2D.swift in Sources */,
-				2ABC459627931D4F00B2CE98 /* MatrixGridView.swift in Sources */,
-				2ABC45A62793271500B2CE98 /* DiversityView.swift in Sources */,
-				2AD7C649279B164300D6A05B /* PieSliceText.swift in Sources */,
-				2AD87130279C45C90093F2C9 /* Graph.swift in Sources */,
-				2AD7C645279B164300D6A05B /* ChartAxis.swift in Sources */,
-				2AA678432791069400D1711B /* MatrixMatrixOperations.swift in Sources */,
-				2AA677E22791053800D1711B /* GeneticErrorType.swift in Sources */,
-				2AD7C651279B164300D6A05B /* PieSlice.swift in Sources */,
-				2AD7C62D279B13D800D6A05B /* MapView.swift in Sources */,
-				2AA6782E2791067C00D1711B /* rSourceConvertible.swift in Sources */,
-				2AD87159279C62E70093F2C9 /* CGFloat.swift in Sources */,
-				2AD7C641279B164300D6A05B /* BarPath.swift in Sources */,
-				2A4901DC277C9058002755A3 /* AnalysisListViewItem.swift in Sources */,
-				2AA677F62791053800D1711B /* DiversityType.swift in Sources */,
-				2AD7C655279B164300D6A05B /* PieChartView.swift in Sources */,
-				2AD87142279C46C00093F2C9 /* MKCoordinateRegion.swift in Sources */,
-				2ACE7300278DE8310089C74E /* GenotypeTableViewCoordinator.swift in Sources */,
-				2AD7C621279B08A300D6A05B /* BarChartGridView.swift in Sources */,
-				2ABC459F2793218C00B2CE98 /* DiversityViewModelView.swift in Sources */,
+				2AEBC2CA2A46131400542CAB /* GeneticStudioTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A49019E277C9049002755A3 /* Sources */ = {
+		2AEBC2CB2A46131400542CAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A4901A9277C9049002755A3 /* Tests_iOSLaunchTests.swift in Sources */,
-				2A4901A7277C9049002755A3 /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2A4901AA277C9049002755A3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A4901B5277C9049002755A3 /* Tests_macOSLaunchTests.swift in Sources */,
-				2ABC459D2793218500B2CE98 /* FrequencyViewModel.swift in Sources */,
-				2AA6784E279106C700D1711B /* Array+CLLocationCoordinate2D.swift in Sources */,
-				2AA678282791057600D1711B /* Operators.swift in Sources */,
-				2ABC45A12793218D00B2CE98 /* DiversityParameters.swift in Sources */,
-				2AA678052791055100D1711B /* DLGeneticTests.swift in Sources */,
-				2AA6782A2791057600D1711B /* MatrixMatrixOperations.swift in Sources */,
-				2AA6784D279106C700D1711B /* Matrix+ANOVA.swift in Sources */,
-				2AA678102791056400D1711B /* VectorTests.swift in Sources */,
-				2ABC459A2793218100B2CE98 /* AnalysisProtocol.swift in Sources */,
-				2AA67851279106CC00D1711B /* GeneticErrorType.swift in Sources */,
-				2AA678082791055100D1711B /* AMOVATests.swift in Sources */,
-				2AA67848279106B800D1711B /* Individual.swift in Sources */,
-				2AA67853279106DE00D1711B /* Color.swift in Sources */,
-				2AA678072791055100D1711B /* LocusTests.swift in Sources */,
-				2ABC45A32793218D00B2CE98 /* DiversityViewModel.swift in Sources */,
-				2ABC459B2793218100B2CE98 /* AnalysisType.swift in Sources */,
-				2AA6784A279106BC00D1711B /* Stratum.swift in Sources */,
-				2ABC45992793217B00B2CE98 /* AMOVADistance.swift in Sources */,
-				2AA6780B2791055100D1711B /* StratumTests.swift in Sources */,
-				2AA6782C2791057600D1711B /* MatrixScalarOperators.swift in Sources */,
-				2ABC45982793217B00B2CE98 /* AMOVAAnalysis.swift in Sources */,
-				2AA6782D2791057600D1711B /* MatrixAlgebra.swift in Sources */,
-				2AA6784C279106C200D1711B /* String.swift in Sources */,
-				2ABC45A02793218D00B2CE98 /* DiversityType.swift in Sources */,
-				2AA678222791057600D1711B /* Random.swift in Sources */,
-				2AA67849279106B800D1711B /* Locus.swift in Sources */,
-				2AA6784F279106C700D1711B /* Sequence.swift in Sources */,
-				2ABC45972793217B00B2CE98 /* AMOVA.swift in Sources */,
-				2AA678092791055100D1711B /* FrequencyTests.swift in Sources */,
-				2AA6780F2791056400D1711B /* MatrixTests.swift in Sources */,
-				2AA67850279106C700D1711B /* Array+Individual.swift in Sources */,
-				2AA67852279106CC00D1711B /* GeneticError.swift in Sources */,
-				2ABC459C2793218500B2CE98 /* AlleleFrequencies.swift in Sources */,
-				2AA678212791057600D1711B /* rSourceConvertible.swift in Sources */,
-				2AA678242791057600D1711B /* VectorConvertable.swift in Sources */,
-				2AA678042791055100D1711B /* DiversityParametersTest.swift in Sources */,
-				2AA6782B2791057600D1711B /* Matrix.swift in Sources */,
-				2AA678232791057600D1711B /* VectorScalarOperators.swift in Sources */,
-				2A4901B3277C9049002755A3 /* Tests_macOS.swift in Sources */,
-				2AA678062791055100D1711B /* AMOVAMatrixTest.swift in Sources */,
-				2ABC45A52793227F00B2CE98 /* FrequencyViewModelTests.swift in Sources */,
-				2AA678272791057600D1711B /* VectorVectorOperators.swift in Sources */,
-				2AA678292791057600D1711B /* MatrixConvertable.swift in Sources */,
-				2AA6780A2791055100D1711B /* IndividualTests.swift in Sources */,
-				2AA6784B279106BC00D1711B /* Defaults.swift in Sources */,
-				2AA678262791057600D1711B /* Vector.swift in Sources */,
-				2AA678252791057600D1711B /* RangeEnum.swift in Sources */,
+				2AEBC2D62A46131400542CAB /* GeneticStudioUITestsLaunchTests.swift in Sources */,
+				2AEBC2D42A46131400542CAB /* GeneticStudioUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2A4901A4277C9049002755A3 /* PBXTargetDependency */ = {
+		2AEBC2C72A46131400542CAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2A490191277C9049002755A3 /* GeneticStudio (iOS) */;
-			targetProxy = 2A4901A3277C9049002755A3 /* PBXContainerItemProxy */;
+			target = 2AEBC2B02A46131300542CAB /* GeneticStudio */;
+			targetProxy = 2AEBC2C62A46131400542CAB /* PBXContainerItemProxy */;
 		};
-		2A4901B0277C9049002755A3 /* PBXTargetDependency */ = {
+		2AEBC2D12A46131400542CAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2A490199277C9049002755A3 /* GeneticStudio (macOS) */;
-			targetProxy = 2A4901AF277C9049002755A3 /* PBXContainerItemProxy */;
+			target = 2AEBC2B02A46131300542CAB /* GeneticStudio */;
+			targetProxy = 2AEBC2D02A46131400542CAB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2A4901BE277C9049002755A3 /* Debug */ = {
+		2AEBC2D72A46131400542CAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -1310,7 +384,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1324,22 +399,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		2A4901BF277C9049002755A3 /* Release */ = {
+		2AEBC2D82A46131400542CAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -1369,7 +447,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -1377,184 +456,110 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		2A4901C1277C9049002755A3 /* Debug */ = {
+		2AEBC2DA2A46131400542CAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3L9D67FVN7;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.GeneticStudio;
-				PRODUCT_NAME = GeneticStudio;
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2A4901C2277C9049002755A3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3L9D67FVN7;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.GeneticStudio;
-				PRODUCT_NAME = GeneticStudio;
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		2A4901C4277C9049002755A3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_ENTITLEMENTS = GeneticStudio/GeneticStudio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeneticStudio/Preview Content\"";
 				DEVELOPMENT_TEAM = 3L9D67FVN7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_FILE = GeneticStudio/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.GeneticStudio;
-				PRODUCT_NAME = GeneticStudio;
-				SDKROOT = macosx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		2A4901C5277C9049002755A3 /* Release */ = {
+		2AEBC2DB2A46131400542CAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_ENTITLEMENTS = GeneticStudio/GeneticStudio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeneticStudio/Preview Content\"";
 				DEVELOPMENT_TEAM = 3L9D67FVN7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_FILE = GeneticStudio/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.GeneticStudio;
-				PRODUCT_NAME = GeneticStudio;
-				SDKROOT = macosx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		2A4901C7277C9049002755A3 /* Debug */ = {
+		2AEBC2DD2A46131400542CAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3L9D67FVN7;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dyerlab.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.popgen.GeneticStudioTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "GeneticStudio (iOS)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeneticStudio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeneticStudio";
 			};
 			name = Debug;
 		};
-		2A4901C8277C9049002755A3 /* Release */ = {
+		2AEBC2DE2A46131400542CAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3L9D67FVN7;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dyerlab.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.popgen.GeneticStudioTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "GeneticStudio (iOS)";
-				VALIDATE_PRODUCT = YES;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeneticStudio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeneticStudio";
 			};
 			name = Release;
 		};
-		2A4901CA277C9049002755A3 /* Debug */ = {
+		2AEBC2E02A46131400542CAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -1562,18 +567,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3L9D67FVN7;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dyerlab.Tests-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.popgen.GeneticStudioUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "GeneticStudio (macOS)";
+				TEST_TARGET_NAME = GeneticStudio;
 			};
 			name = Debug;
 		};
-		2A4901CB277C9049002755A3 /* Release */ = {
+		2AEBC2E12A46131400542CAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -1581,66 +584,55 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3L9D67FVN7;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dyerlab.Tests-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.popgen.GeneticStudioUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "GeneticStudio (macOS)";
+				TEST_TARGET_NAME = GeneticStudio;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A490188277C9048002755A3 /* Build configuration list for PBXProject "GeneticStudio" */ = {
+		2AEBC2AC2A46131300542CAB /* Build configuration list for PBXProject "GeneticStudio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A4901BE277C9049002755A3 /* Debug */,
-				2A4901BF277C9049002755A3 /* Release */,
+				2AEBC2D72A46131400542CAB /* Debug */,
+				2AEBC2D82A46131400542CAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A4901C0277C9049002755A3 /* Build configuration list for PBXNativeTarget "GeneticStudio (iOS)" */ = {
+		2AEBC2D92A46131400542CAB /* Build configuration list for PBXNativeTarget "GeneticStudio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A4901C1277C9049002755A3 /* Debug */,
-				2A4901C2277C9049002755A3 /* Release */,
+				2AEBC2DA2A46131400542CAB /* Debug */,
+				2AEBC2DB2A46131400542CAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A4901C3277C9049002755A3 /* Build configuration list for PBXNativeTarget "GeneticStudio (macOS)" */ = {
+		2AEBC2DC2A46131400542CAB /* Build configuration list for PBXNativeTarget "GeneticStudioTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A4901C4277C9049002755A3 /* Debug */,
-				2A4901C5277C9049002755A3 /* Release */,
+				2AEBC2DD2A46131400542CAB /* Debug */,
+				2AEBC2DE2A46131400542CAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A4901C6277C9049002755A3 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+		2AEBC2DF2A46131400542CAB /* Build configuration list for PBXNativeTarget "GeneticStudioUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A4901C7277C9049002755A3 /* Debug */,
-				2A4901C8277C9049002755A3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2A4901C9277C9049002755A3 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2A4901CA277C9049002755A3 /* Debug */,
-				2A4901CB277C9049002755A3 /* Release */,
+				2AEBC2E02A46131400542CAB /* Debug */,
+				2AEBC2E12A46131400542CAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2A490185277C9048002755A3 /* Project object */;
+	rootObject = 2AEBC2A92A46131300542CAB /* Project object */;
 }
