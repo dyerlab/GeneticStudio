@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SummaryView: View {
-    var notes: String
+    @Binding var notes: String
     
     var body: some View {
         
@@ -20,9 +20,10 @@ struct SummaryView: View {
                 .font(.headline)
             Spacer()
         }
+        .padding()
     }
 }
 
 #Preview {
-    SummaryView( notes: "notes" )
+    SummaryView( notes: .constant("These are my notes") )
 }

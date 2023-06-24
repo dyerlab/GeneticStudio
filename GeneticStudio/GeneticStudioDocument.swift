@@ -10,28 +10,31 @@ import UniformTypeIdentifiers
 
 struct GeneticStudioDocument: FileDocument {
     var notes: String
-    var dataStore: DataStore
+    var dataSet: DataSet
+    var isEmpty: Bool {
+        return dataSet.indiviudals.count == 0 
+    }
 
     init(notes: String = "Hello, world!") {
         self.notes = notes
-        self.dataStore = DataStore()
+        self.dataSet = DataSet.defaultBajaData
     }
 
     static var readableContentTypes: [UTType] { [.gstudio] }
 
     init(configuration: ReadConfiguration) throws {
-        guard let data = configuration.file.regularFileContents,
-              let string = String(data: data, encoding: .utf8)
+        guard let fileData = configuration.file.regularFileContents,
+              let string = String(data: fileData, encoding: .utf8)
         else {
             throw CocoaError(.fileReadCorruptFile)
         }
         notes = string
-        dataStore = DataStore()
+        dataSet = DataSet.defaultBajaData
     }
     
     func fileWrapper(configuration: WriteConfiguration) throws -> FileWrapper {
-        let data = notes.data(using: .utf8)!
-        return .init(regularFileWithContents: data)
+        let fileData = notes.data(using: .utf8)!
+        return .init(regularFileWithContents: fileData)
     }
 }
 

@@ -6,11 +6,14 @@
 //
 
 import Foundation
-
+import DLGenetic
 
 struct Defaults {
+    
     static var document: GeneticStudioDocument {
-        let doc = GeneticStudioDocument(notes: "These are the default notes.")
+        var doc = GeneticStudioDocument(notes: "These are the default notes.")
+        doc.dataSet = DataSet.defaultBajaData
+        
         return doc
     }
 }
