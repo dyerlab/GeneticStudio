@@ -12,8 +12,7 @@ struct Defaults {
     
     static var document: GeneticStudioDocument {
         var doc = GeneticStudioDocument(notes: "These are the default notes.")
-        doc.dataSet = DataSet.defaultBajaData
-        
+        doc.dataSet = DataStore.Default()
         return doc
     }
 }

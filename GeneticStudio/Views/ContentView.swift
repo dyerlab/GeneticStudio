@@ -27,23 +27,23 @@ struct ContentView: View {
                 
                 NavigationLink(destination: Text("Map")) { Label("Map", systemImage: "map.fill") }
                     .accentColor( .red )
-                    .disabled( !document.isEmpty )
+                    .disabled( document.isEmpty )
                 
                 NavigationLink(destination: Text("Diversity")) { Label("Diversity", systemImage: "slider.horizontal.3") }
                     .accentColor( .orange )
-                    .disabled( !document.isEmpty )
+                    .disabled( document.isEmpty )
                 
                 NavigationLink(destination: Text("Ordination")) { Label("Ordination", systemImage: "square.and.line.vertical.and.square.filled") }
                     .accentColor( .green )
-                    .disabled( !document.isEmpty )
+                    .disabled( document.isEmpty )
                 
                 NavigationLink(destination: Text("Structure")) { Label("Structure", systemImage: "circle.grid.3x3.fill") }
                     .accentColor( .blue )
-                    .disabled( !document.isEmpty )
+                    .disabled( document.isEmpty )
                 
                 NavigationLink(destination: Text("Popgraph")) { Label("Popgraph", systemImage: "perspective") }
                     .accentColor(.purple)
-                    .disabled( !document.isEmpty )
+                    .disabled( document.isEmpty )
                 
             }
             .listStyle( SidebarListStyle() )

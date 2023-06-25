@@ -6,18 +6,19 @@
 //
 
 import SwiftUI
+import DLGenetic
 import UniformTypeIdentifiers
 
 struct GeneticStudioDocument: FileDocument {
     var notes: String
-    var dataSet: DataSet
+    var dataSet: DataStore
     var isEmpty: Bool {
-        return dataSet.indiviudals.count == 0 
+        return dataSet.isEmpty
     }
 
-    init(notes: String = "Hello, world!") {
+    init(notes: String = "Default note from init(notes:)") {
         self.notes = notes
-        self.dataSet = DataSet.defaultBajaData
+        self.dataSet = DataStore.Default()
     }
 
     static var readableContentTypes: [UTType] { [.gstudio] }
@@ -29,7 +30,7 @@ struct GeneticStudioDocument: FileDocument {
             throw CocoaError(.fileReadCorruptFile)
         }
         notes = string
-        dataSet = DataSet.defaultBajaData
+        dataSet = DataStore.Default()
     }
     
     func fileWrapper(configuration: WriteConfiguration) throws -> FileWrapper {
