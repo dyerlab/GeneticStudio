@@ -10,22 +10,31 @@ import SwiftUI
 import DLGenetic
 
 struct MapView: View {
-    @Binding var locations: [Location]
+
+    var locations: [Location]
     
     var body: some View {
         Map {
-            ForEach(locations) { location in
-                Marker( location.name,
-                        systemImage: "tree",
-                        coordinate: location.coordinate)
+            ForEach( locations ) { location in
+                Annotation( "\(location.name )",
+                            coordinate: location.coordinate,
+                            anchor: .center
+                ) {
+                    Image(systemName: "tree")
+                }
             }
         }
+        /*
+        Map( coordinateRegion: .constant(model.region),
+             interactionModes: .all,
+             showsUserLocation: false,
+             annotationItems: model.annotations) { annotation in
+            MapAnnotation(coordinate: annotation.coordinate,
+                          content: AnnotationView(title: annotation.title? ?? "The title",
+                                                  subtitle: annotation.subtitle? ?? "The subtitle"))
+        }
+         */
     }
 }
 
-#Preview {
-    MapView( locations: .constant( [
-        Location(name: "Bob", coordinate: CLLocationCoordinate2DMake(36.0, -77)),
-        Location(name: "Bob", coordinate: CLLocationCoordinate2DMake(37.0, -78)),
-    ] ) )
-}
+

@@ -9,9 +9,10 @@ import SwiftUI
 import DLGenetic
 import UniformTypeIdentifiers
 
+@Observable
 struct GeneticStudioDocument: FileDocument {
-    var notes: String
-    var dataSet: DataStore
+    var notes: String = ""
+    var dataSet: DataStore = DataStore.Default()
     var isEmpty: Bool {
         return dataSet.isEmpty
     }

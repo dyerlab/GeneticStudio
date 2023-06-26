@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		2A210DD02A4871CD00E9F4AB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A210DCF2A4871CD00E9F4AB /* MapView.swift */; };
 		2A3FEE022A46215D0060E223 /* GeneticStudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3FEE012A46215D0060E223 /* GeneticStudioView.swift */; };
+		2A4C168A2A49CADC001AE341 /* AnnotationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4C16892A49CADC001AE341 /* AnnotationModel.swift */; };
+		2A4C168C2A49CB7D001AE341 /* LocationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4C168B2A49CB7D001AE341 /* LocationAnnotation.swift */; };
+		2A4C168E2A49D0F6001AE341 /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4C168D2A49D0F6001AE341 /* AnnotationView.swift */; };
 		2A7AC5612A463E380029F965 /* DLGenetic in Frameworks */ = {isa = PBXBuildFile; productRef = 2A7AC5602A463E380029F965 /* DLGenetic */; };
 		2A7AC5632A463EF40029F965 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2A7AC5622A463EF40029F965 /* README.md */; };
 		2A7AC56D2A463F5B0029F965 /* PedimaFinalGenotypesRegions.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A7AC5662A463F5B0029F965 /* PedimaFinalGenotypesRegions.csv */; };
@@ -47,6 +50,9 @@
 /* Begin PBXFileReference section */
 		2A210DCF2A4871CD00E9F4AB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		2A3FEE012A46215D0060E223 /* GeneticStudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioView.swift; sourceTree = "<group>"; };
+		2A4C16892A49CADC001AE341 /* AnnotationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationModel.swift; sourceTree = "<group>"; };
+		2A4C168B2A49CB7D001AE341 /* LocationAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAnnotation.swift; sourceTree = "<group>"; };
+		2A4C168D2A49D0F6001AE341 /* AnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
 		2A7AC5622A463EF40029F965 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2A7AC5662A463F5B0029F965 /* PedimaFinalGenotypesRegions.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PedimaFinalGenotypesRegions.csv; sourceTree = "<group>"; };
 		2A7AC56A2A463F5B0029F965 /* Arapat.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Arapat.csv; sourceTree = "<group>"; };
@@ -190,6 +196,9 @@
 		2AEBC2E32A46134100542CAB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2A4C16892A49CADC001AE341 /* AnnotationModel.swift */,
+				2A4C168B2A49CB7D001AE341 /* LocationAnnotation.swift */,
+				2A4C168D2A49D0F6001AE341 /* AnnotationView.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -348,9 +357,12 @@
 				2AEBC2E82A46194F00542CAB /* SummaryView.swift in Sources */,
 				2AEBC2EA2A4619FC00542CAB /* Defaults.swift in Sources */,
 				2A3FEE022A46215D0060E223 /* GeneticStudioView.swift in Sources */,
+				2A4C168E2A49D0F6001AE341 /* AnnotationView.swift in Sources */,
 				2AEBC2E62A4617B000542CAB /* UTType.swift in Sources */,
 				2A210DD02A4871CD00E9F4AB /* MapView.swift in Sources */,
+				2A4C168A2A49CADC001AE341 /* AnnotationModel.swift in Sources */,
 				2AEBC2B92A46131300542CAB /* ContentView.swift in Sources */,
+				2A4C168C2A49CB7D001AE341 /* LocationAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

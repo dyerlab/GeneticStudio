@@ -25,7 +25,7 @@ struct ContentView: View {
                 
                 Text("")
                 
-                NavigationLink(destination: MapView(locations: $document.locations)) { Label("Map", systemImage: "map.fill") }
+                NavigationLink(destination: MapView(locations: document.dataSet.locations)) { Label("Map", systemImage: "map.fill") }
                     .accentColor( .red )
                     .disabled( document.isEmpty )
                 
