@@ -22,18 +22,10 @@ struct MapView: View {
                 ) {
                     Image(systemName: "tree")
                 }
+                .annotationTitles(.hidden)
             }
         }
-        /*
-        Map( coordinateRegion: .constant(model.region),
-             interactionModes: .all,
-             showsUserLocation: false,
-             annotationItems: model.annotations) { annotation in
-            MapAnnotation(coordinate: annotation.coordinate,
-                          content: AnnotationView(title: annotation.title? ?? "The title",
-                                                  subtitle: annotation.subtitle? ?? "The subtitle"))
-        }
-         */
+        .mapStyle( .standard(elevation: .realistic ) )
     }
 }
 
