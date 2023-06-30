@@ -17,7 +17,7 @@ struct GeneticStudioDocument: FileDocument {
         return dataStore.isEmpty
     }
 
-    init(species: String = "Hello, world!") {
+    init(species: String = "Araptus attenuatus") {
         self.species = species
         self.dataStore = DataStore.Default()
     }

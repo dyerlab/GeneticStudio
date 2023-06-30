@@ -23,18 +23,11 @@ struct SidebarView: View {
 
             }
             
-
-            /*
-            NavigationLink(destination: MapView(locations: document.dataSet.locations)) { Label("Map", systemImage: "map.fill") }
-                .accentColor( .red )
-                .disabled( document.isEmpty )
-            */
-            
             Section {
-                NavigationLink(destination: Text("Map")) { Label("Map", systemImage: "map.fill") }
-                    .accentColor( .orange )
-                    .disabled( document.isEmpty )
                 
+                NavigationLink(destination: MapView(locations: document.dataStore.locations)) { Label("Map", systemImage: "map.fill") }
+                    .accentColor( .red )
+                    .disabled( document.isEmpty )
                 
                 NavigationLink(destination: Text("Diversity")) { Label("Diversity", systemImage: "slider.horizontal.3") }
                     .accentColor( .orange )
@@ -57,6 +50,7 @@ struct SidebarView: View {
             
         }
         .listStyle( SidebarListStyle() )
+        .frame(minWidth: 200, idealWidth: 210, maxWidth: 220)
     }
 }
 
