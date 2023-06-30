@@ -25,7 +25,7 @@ struct SidebarView: View {
             
             Section {
                 
-                NavigationLink(destination: MapView(locations: document.dataStore.locations)) { Label("Map", systemImage: "map.fill") }
+                NavigationLink(destination: MapsPageView(dataStore: $document.dataStore)) { Label("Map", systemImage: "map.fill") }
                     .accentColor( .red )
                     .disabled( document.isEmpty )
                 

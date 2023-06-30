@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A12D5892A4F805700710FFE /* MapsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A12D5882A4F805700710FFE /* MapsPageView.swift */; };
+		2A12D58B2A4F80F900710FFE /* MapCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A12D58A2A4F80F900710FFE /* MapCardView.swift */; };
 		2A8EDC1B2A4F291E00B6E358 /* GeneticStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC1A2A4F291E00B6E358 /* GeneticStudioApp.swift */; };
 		2A8EDC1D2A4F291E00B6E358 /* GeneticStudioDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC1C2A4F291E00B6E358 /* GeneticStudioDocument.swift */; };
 		2A8EDC1F2A4F291E00B6E358 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC1E2A4F291E00B6E358 /* ContentView.swift */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A12D5882A4F805700710FFE /* MapsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsPageView.swift; sourceTree = "<group>"; };
+		2A12D58A2A4F80F900710FFE /* MapCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCardView.swift; sourceTree = "<group>"; };
 		2A8EDC172A4F291E00B6E358 /* GeneticStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneticStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A8EDC1A2A4F291E00B6E358 /* GeneticStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioApp.swift; sourceTree = "<group>"; };
 		2A8EDC1C2A4F291E00B6E358 /* GeneticStudioDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioDocument.swift; sourceTree = "<group>"; };
@@ -89,6 +93,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A12D5872A4F804400710FFE /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				2AF7C5E02A4F4AFA0094A89D /* MapView.swift */,
+				2A12D5882A4F805700710FFE /* MapsPageView.swift */,
+				2A12D58A2A4F80F900710FFE /* MapCardView.swift */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
 		2A8EDC0E2A4F291E00B6E358 = {
 			isa = PBXGroup;
 			children = (
@@ -173,7 +187,7 @@
 				2A8EDC4D2A4F2A7500B6E358 /* TitleView.swift */,
 				2A8EDC4F2A4F2FDE00B6E358 /* SidebarView.swift */,
 				2A8EDC512A4F306A00B6E358 /* SummaryView.swift */,
-				2AF7C5E02A4F4AFA0094A89D /* MapView.swift */,
+				2A12D5872A4F804400710FFE /* Maps */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -318,9 +332,11 @@
 				2AF7C5DF2A4F44FB0094A89D /* Defaults.swift in Sources */,
 				2A8EDC522A4F306A00B6E358 /* SummaryView.swift in Sources */,
 				2A8EDC1B2A4F291E00B6E358 /* GeneticStudioApp.swift in Sources */,
+				2A12D5892A4F805700710FFE /* MapsPageView.swift in Sources */,
 				2A8EDC4B2A4F29FF00B6E358 /* UTType.swift in Sources */,
 				2A8EDC1F2A4F291E00B6E358 /* ContentView.swift in Sources */,
 				2A8EDC4E2A4F2A7500B6E358 /* TitleView.swift in Sources */,
+				2A12D58B2A4F80F900710FFE /* MapCardView.swift in Sources */,
 				2AF7C5E12A4F4AFA0094A89D /* MapView.swift in Sources */,
 				2A8EDC502A4F2FDE00B6E358 /* SidebarView.swift in Sources */,
 			);
@@ -502,7 +518,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.popgen.GeneticStudio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -543,7 +559,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.popgen.GeneticStudio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
