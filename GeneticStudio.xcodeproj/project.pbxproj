@@ -3,95 +3,81 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A210DD02A4871CD00E9F4AB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A210DCF2A4871CD00E9F4AB /* MapView.swift */; };
-		2A3FEE022A46215D0060E223 /* GeneticStudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3FEE012A46215D0060E223 /* GeneticStudioView.swift */; };
-		2A4C168A2A49CADC001AE341 /* AnnotationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4C16892A49CADC001AE341 /* AnnotationModel.swift */; };
-		2A4C168C2A49CB7D001AE341 /* LocationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4C168B2A49CB7D001AE341 /* LocationAnnotation.swift */; };
-		2A4C168E2A49D0F6001AE341 /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4C168D2A49D0F6001AE341 /* AnnotationView.swift */; };
-		2A7AC5612A463E380029F965 /* DLGenetic in Frameworks */ = {isa = PBXBuildFile; productRef = 2A7AC5602A463E380029F965 /* DLGenetic */; };
-		2A7AC5632A463EF40029F965 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2A7AC5622A463EF40029F965 /* README.md */; };
-		2A7AC56D2A463F5B0029F965 /* PedimaFinalGenotypesRegions.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A7AC5662A463F5B0029F965 /* PedimaFinalGenotypesRegions.csv */; };
-		2A7AC5712A463F5B0029F965 /* Arapat.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A7AC56A2A463F5B0029F965 /* Arapat.csv */; };
-		2A7AC5722A463F5B0029F965 /* DogwoodByCanopyType.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A7AC56B2A463F5B0029F965 /* DogwoodByCanopyType.csv */; };
-		2AEBC2B52A46131300542CAB /* GeneticStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBC2B42A46131300542CAB /* GeneticStudioApp.swift */; };
-		2AEBC2B72A46131300542CAB /* GeneticStudioDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBC2B62A46131300542CAB /* GeneticStudioDocument.swift */; };
-		2AEBC2B92A46131300542CAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBC2B82A46131300542CAB /* ContentView.swift */; };
-		2AEBC2BB2A46131400542CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AEBC2BA2A46131400542CAB /* Assets.xcassets */; };
-		2AEBC2BE2A46131400542CAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AEBC2BD2A46131400542CAB /* Preview Assets.xcassets */; };
-		2AEBC2CA2A46131400542CAB /* GeneticStudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBC2C92A46131400542CAB /* GeneticStudioTests.swift */; };
-		2AEBC2D42A46131400542CAB /* GeneticStudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBC2D32A46131400542CAB /* GeneticStudioUITests.swift */; };
-		2AEBC2D62A46131400542CAB /* GeneticStudioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBC2D52A46131400542CAB /* GeneticStudioUITestsLaunchTests.swift */; };
-		2AEBC2E62A4617B000542CAB /* UTType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBC2E52A4617B000542CAB /* UTType.swift */; };
-		2AEBC2E82A46194F00542CAB /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBC2E72A46194F00542CAB /* SummaryView.swift */; };
-		2AEBC2EA2A4619FC00542CAB /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBC2E92A4619FC00542CAB /* Defaults.swift */; };
+		2A8EDC1B2A4F291E00B6E358 /* GeneticStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC1A2A4F291E00B6E358 /* GeneticStudioApp.swift */; };
+		2A8EDC1D2A4F291E00B6E358 /* GeneticStudioDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC1C2A4F291E00B6E358 /* GeneticStudioDocument.swift */; };
+		2A8EDC1F2A4F291E00B6E358 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC1E2A4F291E00B6E358 /* ContentView.swift */; };
+		2A8EDC212A4F291F00B6E358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8EDC202A4F291F00B6E358 /* Assets.xcassets */; };
+		2A8EDC262A4F291F00B6E358 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8EDC252A4F291F00B6E358 /* Preview Assets.xcassets */; };
+		2A8EDC302A4F291F00B6E358 /* GeneticStudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC2F2A4F291F00B6E358 /* GeneticStudioTests.swift */; };
+		2A8EDC3A2A4F291F00B6E358 /* GeneticStudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC392A4F291F00B6E358 /* GeneticStudioUITests.swift */; };
+		2A8EDC3C2A4F291F00B6E358 /* GeneticStudioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC3B2A4F291F00B6E358 /* GeneticStudioUITestsLaunchTests.swift */; };
+		2A8EDC4B2A4F29FF00B6E358 /* UTType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC4A2A4F29FF00B6E358 /* UTType.swift */; };
+		2A8EDC4E2A4F2A7500B6E358 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC4D2A4F2A7500B6E358 /* TitleView.swift */; };
+		2A8EDC502A4F2FDE00B6E358 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC4F2A4F2FDE00B6E358 /* SidebarView.swift */; };
+		2A8EDC522A4F306A00B6E358 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC512A4F306A00B6E358 /* SummaryView.swift */; };
+		2A8EDC552A4F40EC00B6E358 /* DLGenetic in Frameworks */ = {isa = PBXBuildFile; productRef = 2A8EDC542A4F40EC00B6E358 /* DLGenetic */; };
+		2AF7C5DF2A4F44FB0094A89D /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF7C5DE2A4F44FB0094A89D /* Defaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2AEBC2C62A46131400542CAB /* PBXContainerItemProxy */ = {
+		2A8EDC2C2A4F291F00B6E358 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2AEBC2A92A46131300542CAB /* Project object */;
+			containerPortal = 2A8EDC0F2A4F291E00B6E358 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2AEBC2B02A46131300542CAB;
+			remoteGlobalIDString = 2A8EDC162A4F291E00B6E358;
 			remoteInfo = GeneticStudio;
 		};
-		2AEBC2D02A46131400542CAB /* PBXContainerItemProxy */ = {
+		2A8EDC362A4F291F00B6E358 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2AEBC2A92A46131300542CAB /* Project object */;
+			containerPortal = 2A8EDC0F2A4F291E00B6E358 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2AEBC2B02A46131300542CAB;
+			remoteGlobalIDString = 2A8EDC162A4F291E00B6E358;
 			remoteInfo = GeneticStudio;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A210DCF2A4871CD00E9F4AB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		2A3FEE012A46215D0060E223 /* GeneticStudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioView.swift; sourceTree = "<group>"; };
-		2A4C16892A49CADC001AE341 /* AnnotationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationModel.swift; sourceTree = "<group>"; };
-		2A4C168B2A49CB7D001AE341 /* LocationAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAnnotation.swift; sourceTree = "<group>"; };
-		2A4C168D2A49D0F6001AE341 /* AnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
-		2A7AC5622A463EF40029F965 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2A7AC5662A463F5B0029F965 /* PedimaFinalGenotypesRegions.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PedimaFinalGenotypesRegions.csv; sourceTree = "<group>"; };
-		2A7AC56A2A463F5B0029F965 /* Arapat.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Arapat.csv; sourceTree = "<group>"; };
-		2A7AC56B2A463F5B0029F965 /* DogwoodByCanopyType.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DogwoodByCanopyType.csv; sourceTree = "<group>"; };
-		2AEBC2B12A46131300542CAB /* GeneticStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneticStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AEBC2B42A46131300542CAB /* GeneticStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioApp.swift; sourceTree = "<group>"; };
-		2AEBC2B62A46131300542CAB /* GeneticStudioDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioDocument.swift; sourceTree = "<group>"; };
-		2AEBC2B82A46131300542CAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2AEBC2BA2A46131400542CAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2AEBC2BD2A46131400542CAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2AEBC2BF2A46131400542CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2AEBC2C02A46131400542CAB /* GeneticStudio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GeneticStudio.entitlements; sourceTree = "<group>"; };
-		2AEBC2C52A46131400542CAB /* GeneticStudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneticStudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AEBC2C92A46131400542CAB /* GeneticStudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioTests.swift; sourceTree = "<group>"; };
-		2AEBC2CF2A46131400542CAB /* GeneticStudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneticStudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AEBC2D32A46131400542CAB /* GeneticStudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioUITests.swift; sourceTree = "<group>"; };
-		2AEBC2D52A46131400542CAB /* GeneticStudioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		2AEBC2E52A4617B000542CAB /* UTType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTType.swift; sourceTree = "<group>"; };
-		2AEBC2E72A46194F00542CAB /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
-		2AEBC2E92A4619FC00542CAB /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		2A8EDC172A4F291E00B6E358 /* GeneticStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneticStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8EDC1A2A4F291E00B6E358 /* GeneticStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioApp.swift; sourceTree = "<group>"; };
+		2A8EDC1C2A4F291E00B6E358 /* GeneticStudioDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioDocument.swift; sourceTree = "<group>"; };
+		2A8EDC1E2A4F291E00B6E358 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A8EDC202A4F291F00B6E358 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A8EDC222A4F291F00B6E358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A8EDC232A4F291F00B6E358 /* GeneticStudio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GeneticStudio.entitlements; sourceTree = "<group>"; };
+		2A8EDC252A4F291F00B6E358 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A8EDC2B2A4F291F00B6E358 /* GeneticStudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneticStudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8EDC2F2A4F291F00B6E358 /* GeneticStudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioTests.swift; sourceTree = "<group>"; };
+		2A8EDC352A4F291F00B6E358 /* GeneticStudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneticStudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8EDC392A4F291F00B6E358 /* GeneticStudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioUITests.swift; sourceTree = "<group>"; };
+		2A8EDC3B2A4F291F00B6E358 /* GeneticStudioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A8EDC4A2A4F29FF00B6E358 /* UTType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTType.swift; sourceTree = "<group>"; };
+		2A8EDC4D2A4F2A7500B6E358 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		2A8EDC4F2A4F2FDE00B6E358 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		2A8EDC512A4F306A00B6E358 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		2AF7C5DE2A4F44FB0094A89D /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2AEBC2AE2A46131300542CAB /* Frameworks */ = {
+		2A8EDC142A4F291E00B6E358 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A7AC5612A463E380029F965 /* DLGenetic in Frameworks */,
+				2A8EDC552A4F40EC00B6E358 /* DLGenetic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AEBC2C22A46131400542CAB /* Frameworks */ = {
+		2A8EDC282A4F291F00B6E358 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AEBC2CC2A46131400542CAB /* Frameworks */ = {
+		2A8EDC322A4F291F00B6E358 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -101,127 +87,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A210DCE2A4871AF00E9F4AB /* MapView */ = {
+		2A8EDC0E2A4F291E00B6E358 = {
 			isa = PBXGroup;
 			children = (
-				2A210DCF2A4871CD00E9F4AB /* MapView.swift */,
-			);
-			path = MapView;
-			sourceTree = "<group>";
-		};
-		2A7AC5642A463F5B0029F965 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				2A7AC56A2A463F5B0029F965 /* Arapat.csv */,
-				2A7AC5662A463F5B0029F965 /* PedimaFinalGenotypesRegions.csv */,
-				2A7AC56B2A463F5B0029F965 /* DogwoodByCanopyType.csv */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		2AEBC2A82A46131300542CAB = {
-			isa = PBXGroup;
-			children = (
-				2A7AC5642A463F5B0029F965 /* Data */,
-				2A7AC5622A463EF40029F965 /* README.md */,
-				2AEBC2B32A46131300542CAB /* GeneticStudio */,
-				2AEBC2C82A46131400542CAB /* GeneticStudioTests */,
-				2AEBC2D22A46131400542CAB /* GeneticStudioUITests */,
-				2AEBC2B22A46131300542CAB /* Products */,
+				2A8EDC192A4F291E00B6E358 /* GeneticStudio */,
+				2A8EDC2E2A4F291F00B6E358 /* GeneticStudioTests */,
+				2A8EDC382A4F291F00B6E358 /* GeneticStudioUITests */,
+				2A8EDC182A4F291E00B6E358 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2AEBC2B22A46131300542CAB /* Products */ = {
+		2A8EDC182A4F291E00B6E358 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2AEBC2B12A46131300542CAB /* GeneticStudio.app */,
-				2AEBC2C52A46131400542CAB /* GeneticStudioTests.xctest */,
-				2AEBC2CF2A46131400542CAB /* GeneticStudioUITests.xctest */,
+				2A8EDC172A4F291E00B6E358 /* GeneticStudio.app */,
+				2A8EDC2B2A4F291F00B6E358 /* GeneticStudioTests.xctest */,
+				2A8EDC352A4F291F00B6E358 /* GeneticStudioUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2AEBC2B32A46131300542CAB /* GeneticStudio */ = {
+		2A8EDC192A4F291E00B6E358 /* GeneticStudio */ = {
 			isa = PBXGroup;
 			children = (
-				2AEBC2B42A46131300542CAB /* GeneticStudioApp.swift */,
-				2AEBC2B62A46131300542CAB /* GeneticStudioDocument.swift */,
-				2AEBC2E42A46179F00542CAB /* Extensions */,
-				2AEBC2E32A46134100542CAB /* Models */,
-				2AEBC2E22A46133A00542CAB /* Views */,
-				2AEBC2BA2A46131400542CAB /* Assets.xcassets */,
-				2AEBC2BF2A46131400542CAB /* Info.plist */,
-				2AEBC2C02A46131400542CAB /* GeneticStudio.entitlements */,
-				2AEBC2BC2A46131400542CAB /* Preview Content */,
+				2A8EDC1A2A4F291E00B6E358 /* GeneticStudioApp.swift */,
+				2A8EDC1C2A4F291E00B6E358 /* GeneticStudioDocument.swift */,
+				2A8EDC1E2A4F291E00B6E358 /* ContentView.swift */,
+				2A8EDC492A4F298400B6E358 /* Extensions */,
+				2A8EDC482A4F297D00B6E358 /* Models */,
+				2A8EDC4C2A4F2A6300B6E358 /* Views */,
+				2A8EDC202A4F291F00B6E358 /* Assets.xcassets */,
+				2A8EDC222A4F291F00B6E358 /* Info.plist */,
+				2A8EDC232A4F291F00B6E358 /* GeneticStudio.entitlements */,
+				2A8EDC242A4F291F00B6E358 /* Preview Content */,
 			);
 			path = GeneticStudio;
 			sourceTree = "<group>";
 		};
-		2AEBC2BC2A46131400542CAB /* Preview Content */ = {
+		2A8EDC242A4F291F00B6E358 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				2AEBC2BD2A46131400542CAB /* Preview Assets.xcassets */,
+				2A8EDC252A4F291F00B6E358 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		2AEBC2C82A46131400542CAB /* GeneticStudioTests */ = {
+		2A8EDC2E2A4F291F00B6E358 /* GeneticStudioTests */ = {
 			isa = PBXGroup;
 			children = (
-				2AEBC2C92A46131400542CAB /* GeneticStudioTests.swift */,
+				2A8EDC2F2A4F291F00B6E358 /* GeneticStudioTests.swift */,
 			);
 			path = GeneticStudioTests;
 			sourceTree = "<group>";
 		};
-		2AEBC2D22A46131400542CAB /* GeneticStudioUITests */ = {
+		2A8EDC382A4F291F00B6E358 /* GeneticStudioUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2AEBC2D32A46131400542CAB /* GeneticStudioUITests.swift */,
-				2AEBC2D52A46131400542CAB /* GeneticStudioUITestsLaunchTests.swift */,
+				2A8EDC392A4F291F00B6E358 /* GeneticStudioUITests.swift */,
+				2A8EDC3B2A4F291F00B6E358 /* GeneticStudioUITestsLaunchTests.swift */,
 			);
 			path = GeneticStudioUITests;
 			sourceTree = "<group>";
 		};
-		2AEBC2E22A46133A00542CAB /* Views */ = {
+		2A8EDC482A4F297D00B6E358 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2AEBC2B82A46131300542CAB /* ContentView.swift */,
-				2AEBC2E72A46194F00542CAB /* SummaryView.swift */,
-				2A3FEE012A46215D0060E223 /* GeneticStudioView.swift */,
-				2A210DCE2A4871AF00E9F4AB /* MapView */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		2AEBC2E32A46134100542CAB /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				2A4C16892A49CADC001AE341 /* AnnotationModel.swift */,
-				2A4C168B2A49CB7D001AE341 /* LocationAnnotation.swift */,
-				2A4C168D2A49D0F6001AE341 /* AnnotationView.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		2AEBC2E42A46179F00542CAB /* Extensions */ = {
+		2A8EDC492A4F298400B6E358 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				2AEBC2E52A4617B000542CAB /* UTType.swift */,
-				2AEBC2E92A4619FC00542CAB /* Defaults.swift */,
+				2A8EDC4A2A4F29FF00B6E358 /* UTType.swift */,
+				2AF7C5DE2A4F44FB0094A89D /* Defaults.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2A8EDC4C2A4F2A6300B6E358 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A8EDC4D2A4F2A7500B6E358 /* TitleView.swift */,
+				2A8EDC4F2A4F2FDE00B6E358 /* SidebarView.swift */,
+				2A8EDC512A4F306A00B6E358 /* SummaryView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2AEBC2B02A46131300542CAB /* GeneticStudio */ = {
+		2A8EDC162A4F291E00B6E358 /* GeneticStudio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AEBC2D92A46131400542CAB /* Build configuration list for PBXNativeTarget "GeneticStudio" */;
+			buildConfigurationList = 2A8EDC3F2A4F291F00B6E358 /* Build configuration list for PBXNativeTarget "GeneticStudio" */;
 			buildPhases = (
-				2AEBC2AD2A46131300542CAB /* Sources */,
-				2AEBC2AE2A46131300542CAB /* Frameworks */,
-				2AEBC2AF2A46131300542CAB /* Resources */,
+				2A8EDC132A4F291E00B6E358 /* Sources */,
+				2A8EDC142A4F291E00B6E358 /* Frameworks */,
+				2A8EDC152A4F291E00B6E358 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -229,72 +192,72 @@
 			);
 			name = GeneticStudio;
 			packageProductDependencies = (
-				2A7AC5602A463E380029F965 /* DLGenetic */,
+				2A8EDC542A4F40EC00B6E358 /* DLGenetic */,
 			);
 			productName = GeneticStudio;
-			productReference = 2AEBC2B12A46131300542CAB /* GeneticStudio.app */;
+			productReference = 2A8EDC172A4F291E00B6E358 /* GeneticStudio.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2AEBC2C42A46131400542CAB /* GeneticStudioTests */ = {
+		2A8EDC2A2A4F291F00B6E358 /* GeneticStudioTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AEBC2DC2A46131400542CAB /* Build configuration list for PBXNativeTarget "GeneticStudioTests" */;
+			buildConfigurationList = 2A8EDC422A4F291F00B6E358 /* Build configuration list for PBXNativeTarget "GeneticStudioTests" */;
 			buildPhases = (
-				2AEBC2C12A46131400542CAB /* Sources */,
-				2AEBC2C22A46131400542CAB /* Frameworks */,
-				2AEBC2C32A46131400542CAB /* Resources */,
+				2A8EDC272A4F291F00B6E358 /* Sources */,
+				2A8EDC282A4F291F00B6E358 /* Frameworks */,
+				2A8EDC292A4F291F00B6E358 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2AEBC2C72A46131400542CAB /* PBXTargetDependency */,
+				2A8EDC2D2A4F291F00B6E358 /* PBXTargetDependency */,
 			);
 			name = GeneticStudioTests;
 			productName = GeneticStudioTests;
-			productReference = 2AEBC2C52A46131400542CAB /* GeneticStudioTests.xctest */;
+			productReference = 2A8EDC2B2A4F291F00B6E358 /* GeneticStudioTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2AEBC2CE2A46131400542CAB /* GeneticStudioUITests */ = {
+		2A8EDC342A4F291F00B6E358 /* GeneticStudioUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AEBC2DF2A46131400542CAB /* Build configuration list for PBXNativeTarget "GeneticStudioUITests" */;
+			buildConfigurationList = 2A8EDC452A4F291F00B6E358 /* Build configuration list for PBXNativeTarget "GeneticStudioUITests" */;
 			buildPhases = (
-				2AEBC2CB2A46131400542CAB /* Sources */,
-				2AEBC2CC2A46131400542CAB /* Frameworks */,
-				2AEBC2CD2A46131400542CAB /* Resources */,
+				2A8EDC312A4F291F00B6E358 /* Sources */,
+				2A8EDC322A4F291F00B6E358 /* Frameworks */,
+				2A8EDC332A4F291F00B6E358 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2AEBC2D12A46131400542CAB /* PBXTargetDependency */,
+				2A8EDC372A4F291F00B6E358 /* PBXTargetDependency */,
 			);
 			name = GeneticStudioUITests;
 			productName = GeneticStudioUITests;
-			productReference = 2AEBC2CF2A46131400542CAB /* GeneticStudioUITests.xctest */;
+			productReference = 2A8EDC352A4F291F00B6E358 /* GeneticStudioUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2AEBC2A92A46131300542CAB /* Project object */ = {
+		2A8EDC0F2A4F291E00B6E358 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					2AEBC2B02A46131300542CAB = {
+					2A8EDC162A4F291E00B6E358 = {
 						CreatedOnToolsVersion = 15.0;
 					};
-					2AEBC2C42A46131400542CAB = {
+					2A8EDC2A2A4F291F00B6E358 = {
 						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 2AEBC2B02A46131300542CAB;
+						TestTargetID = 2A8EDC162A4F291E00B6E358;
 					};
-					2AEBC2CE2A46131400542CAB = {
+					2A8EDC342A4F291F00B6E358 = {
 						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 2AEBC2B02A46131300542CAB;
+						TestTargetID = 2A8EDC162A4F291E00B6E358;
 					};
 				};
 			};
-			buildConfigurationList = 2AEBC2AC2A46131300542CAB /* Build configuration list for PBXProject "GeneticStudio" */;
+			buildConfigurationList = 2A8EDC122A4F291E00B6E358 /* Build configuration list for PBXProject "GeneticStudio" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -302,43 +265,39 @@
 				en,
 				Base,
 			);
-			mainGroup = 2AEBC2A82A46131300542CAB;
+			mainGroup = 2A8EDC0E2A4F291E00B6E358;
 			packageReferences = (
-				2A7AC55F2A463E380029F965 /* XCRemoteSwiftPackageReference "DLGenetic" */,
+				2A8EDC532A4F40EC00B6E358 /* XCLocalSwiftPackageReference "../DLGenetic" */,
 			);
-			productRefGroup = 2AEBC2B22A46131300542CAB /* Products */;
+			productRefGroup = 2A8EDC182A4F291E00B6E358 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2AEBC2B02A46131300542CAB /* GeneticStudio */,
-				2AEBC2C42A46131400542CAB /* GeneticStudioTests */,
-				2AEBC2CE2A46131400542CAB /* GeneticStudioUITests */,
+				2A8EDC162A4F291E00B6E358 /* GeneticStudio */,
+				2A8EDC2A2A4F291F00B6E358 /* GeneticStudioTests */,
+				2A8EDC342A4F291F00B6E358 /* GeneticStudioUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2AEBC2AF2A46131300542CAB /* Resources */ = {
+		2A8EDC152A4F291E00B6E358 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A7AC5632A463EF40029F965 /* README.md in Resources */,
-				2A7AC5712A463F5B0029F965 /* Arapat.csv in Resources */,
-				2A7AC56D2A463F5B0029F965 /* PedimaFinalGenotypesRegions.csv in Resources */,
-				2A7AC5722A463F5B0029F965 /* DogwoodByCanopyType.csv in Resources */,
-				2AEBC2BE2A46131400542CAB /* Preview Assets.xcassets in Resources */,
-				2AEBC2BB2A46131400542CAB /* Assets.xcassets in Resources */,
+				2A8EDC262A4F291F00B6E358 /* Preview Assets.xcassets in Resources */,
+				2A8EDC212A4F291F00B6E358 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AEBC2C32A46131400542CAB /* Resources */ = {
+		2A8EDC292A4F291F00B6E358 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AEBC2CD2A46131400542CAB /* Resources */ = {
+		2A8EDC332A4F291F00B6E358 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -348,58 +307,55 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2AEBC2AD2A46131300542CAB /* Sources */ = {
+		2A8EDC132A4F291E00B6E358 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AEBC2B72A46131300542CAB /* GeneticStudioDocument.swift in Sources */,
-				2AEBC2B52A46131300542CAB /* GeneticStudioApp.swift in Sources */,
-				2AEBC2E82A46194F00542CAB /* SummaryView.swift in Sources */,
-				2AEBC2EA2A4619FC00542CAB /* Defaults.swift in Sources */,
-				2A3FEE022A46215D0060E223 /* GeneticStudioView.swift in Sources */,
-				2A4C168E2A49D0F6001AE341 /* AnnotationView.swift in Sources */,
-				2AEBC2E62A4617B000542CAB /* UTType.swift in Sources */,
-				2A210DD02A4871CD00E9F4AB /* MapView.swift in Sources */,
-				2A4C168A2A49CADC001AE341 /* AnnotationModel.swift in Sources */,
-				2AEBC2B92A46131300542CAB /* ContentView.swift in Sources */,
-				2A4C168C2A49CB7D001AE341 /* LocationAnnotation.swift in Sources */,
+				2A8EDC1D2A4F291E00B6E358 /* GeneticStudioDocument.swift in Sources */,
+				2AF7C5DF2A4F44FB0094A89D /* Defaults.swift in Sources */,
+				2A8EDC522A4F306A00B6E358 /* SummaryView.swift in Sources */,
+				2A8EDC1B2A4F291E00B6E358 /* GeneticStudioApp.swift in Sources */,
+				2A8EDC4B2A4F29FF00B6E358 /* UTType.swift in Sources */,
+				2A8EDC1F2A4F291E00B6E358 /* ContentView.swift in Sources */,
+				2A8EDC4E2A4F2A7500B6E358 /* TitleView.swift in Sources */,
+				2A8EDC502A4F2FDE00B6E358 /* SidebarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AEBC2C12A46131400542CAB /* Sources */ = {
+		2A8EDC272A4F291F00B6E358 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AEBC2CA2A46131400542CAB /* GeneticStudioTests.swift in Sources */,
+				2A8EDC302A4F291F00B6E358 /* GeneticStudioTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AEBC2CB2A46131400542CAB /* Sources */ = {
+		2A8EDC312A4F291F00B6E358 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AEBC2D62A46131400542CAB /* GeneticStudioUITestsLaunchTests.swift in Sources */,
-				2AEBC2D42A46131400542CAB /* GeneticStudioUITests.swift in Sources */,
+				2A8EDC3C2A4F291F00B6E358 /* GeneticStudioUITestsLaunchTests.swift in Sources */,
+				2A8EDC3A2A4F291F00B6E358 /* GeneticStudioUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2AEBC2C72A46131400542CAB /* PBXTargetDependency */ = {
+		2A8EDC2D2A4F291F00B6E358 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2AEBC2B02A46131300542CAB /* GeneticStudio */;
-			targetProxy = 2AEBC2C62A46131400542CAB /* PBXContainerItemProxy */;
+			target = 2A8EDC162A4F291E00B6E358 /* GeneticStudio */;
+			targetProxy = 2A8EDC2C2A4F291F00B6E358 /* PBXContainerItemProxy */;
 		};
-		2AEBC2D12A46131400542CAB /* PBXTargetDependency */ = {
+		2A8EDC372A4F291F00B6E358 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2AEBC2B02A46131300542CAB /* GeneticStudio */;
-			targetProxy = 2AEBC2D02A46131400542CAB /* PBXContainerItemProxy */;
+			target = 2A8EDC162A4F291E00B6E358 /* GeneticStudio */;
+			targetProxy = 2A8EDC362A4F291F00B6E358 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2AEBC2D72A46131400542CAB /* Debug */ = {
+		2A8EDC3D2A4F291F00B6E358 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -452,17 +408,15 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		2AEBC2D82A46131400542CAB /* Release */ = {
+		2A8EDC3E2A4F291F00B6E358 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -509,22 +463,19 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
 		};
-		2AEBC2DA2A46131400542CAB /* Debug */ = {
+		2A8EDC402A4F291F00B6E358 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = GeneticStudio/GeneticStudio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GeneticStudio/Preview Content\"";
 				DEVELOPMENT_TEAM = 3L9D67FVN7;
@@ -532,27 +483,40 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GeneticStudio/Info.plist;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphonesimulator*]" = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.GeneticStudio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.popgen.GeneticStudio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		2AEBC2DB2A46131400542CAB /* Release */ = {
+		2A8EDC412A4F291F00B6E358 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = GeneticStudio/GeneticStudio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GeneticStudio/Preview Content\"";
 				DEVELOPMENT_TEAM = 3L9D67FVN7;
@@ -560,20 +524,34 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GeneticStudio/Info.plist;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphonesimulator*]" = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.GeneticStudio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.popgen.GeneticStudio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		2AEBC2DD2A46131400542CAB /* Debug */ = {
+		2A8EDC432A4F291F00B6E358 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -582,17 +560,21 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3L9D67FVN7;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.popgen.GeneticStudioTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeneticStudio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeneticStudio";
 			};
 			name = Debug;
 		};
-		2AEBC2DE2A46131400542CAB /* Release */ = {
+		2A8EDC442A4F291F00B6E358 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -601,17 +583,21 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3L9D67FVN7;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.popgen.GeneticStudioTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeneticStudio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeneticStudio";
 			};
 			name = Release;
 		};
-		2AEBC2E02A46131400542CAB /* Debug */ = {
+		2A8EDC462A4F291F00B6E358 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -619,16 +605,21 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3L9D67FVN7;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.popgen.GeneticStudioUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = GeneticStudio;
 			};
 			name = Debug;
 		};
-		2AEBC2E12A46131400542CAB /* Release */ = {
+		2A8EDC472A4F291F00B6E358 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -636,11 +627,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3L9D67FVN7;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.popgen.GeneticStudioUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = GeneticStudio;
 			};
 			name = Release;
@@ -648,62 +644,57 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2AEBC2AC2A46131300542CAB /* Build configuration list for PBXProject "GeneticStudio" */ = {
+		2A8EDC122A4F291E00B6E358 /* Build configuration list for PBXProject "GeneticStudio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AEBC2D72A46131400542CAB /* Debug */,
-				2AEBC2D82A46131400542CAB /* Release */,
+				2A8EDC3D2A4F291F00B6E358 /* Debug */,
+				2A8EDC3E2A4F291F00B6E358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2AEBC2D92A46131400542CAB /* Build configuration list for PBXNativeTarget "GeneticStudio" */ = {
+		2A8EDC3F2A4F291F00B6E358 /* Build configuration list for PBXNativeTarget "GeneticStudio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AEBC2DA2A46131400542CAB /* Debug */,
-				2AEBC2DB2A46131400542CAB /* Release */,
+				2A8EDC402A4F291F00B6E358 /* Debug */,
+				2A8EDC412A4F291F00B6E358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2AEBC2DC2A46131400542CAB /* Build configuration list for PBXNativeTarget "GeneticStudioTests" */ = {
+		2A8EDC422A4F291F00B6E358 /* Build configuration list for PBXNativeTarget "GeneticStudioTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AEBC2DD2A46131400542CAB /* Debug */,
-				2AEBC2DE2A46131400542CAB /* Release */,
+				2A8EDC432A4F291F00B6E358 /* Debug */,
+				2A8EDC442A4F291F00B6E358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2AEBC2DF2A46131400542CAB /* Build configuration list for PBXNativeTarget "GeneticStudioUITests" */ = {
+		2A8EDC452A4F291F00B6E358 /* Build configuration list for PBXNativeTarget "GeneticStudioUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AEBC2E02A46131400542CAB /* Debug */,
-				2AEBC2E12A46131400542CAB /* Release */,
+				2A8EDC462A4F291F00B6E358 /* Debug */,
+				2A8EDC472A4F291F00B6E358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		2A7AC55F2A463E380029F965 /* XCRemoteSwiftPackageReference "DLGenetic" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/dyerlab/DLGenetic";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.1;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		2A8EDC532A4F40EC00B6E358 /* XCLocalSwiftPackageReference "../DLGenetic" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../DLGenetic;
 		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2A7AC5602A463E380029F965 /* DLGenetic */ = {
+		2A8EDC542A4F40EC00B6E358 /* DLGenetic */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2A7AC55F2A463E380029F965 /* XCRemoteSwiftPackageReference "DLGenetic" */;
 			productName = DLGenetic;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 2AEBC2A92A46131300542CAB /* Project object */;
+	rootObject = 2A8EDC0F2A4F291E00B6E358 /* Project object */;
 }

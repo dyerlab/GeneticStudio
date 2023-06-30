@@ -1,33 +1,40 @@
 //
-//  ContentView.swift
+//  SidebarView.swift
 //  GeneticStudio
 //
-//  Created by Rodney Dyer on 6/23/23.
+//  Created by Rodney Dyer on 6/30/23.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct SidebarView: View {
     @Binding var document: GeneticStudioDocument
     
-
     var body: some View {
-        NavigationView {
-
-            List {
+        List {
+            Section {
                 NavigationLink {
-                    SummaryView(notes: $document.notes )
+                    SummaryView(document: $document )
                 } label: {
                     Label("Summary", systemImage: "heart")
                 }
-
+                
                 NavigationLink(destination: Text("Favorites")) { Label("Favorites", systemImage: "star") }
-                
-                Text("")
-                
-                NavigationLink(destination: MapView(locations: document.dataSet.locations)) { Label("Map", systemImage: "map.fill") }
-                    .accentColor( .red )
+
+            }
+            
+
+            /*
+            NavigationLink(destination: MapView(locations: document.dataSet.locations)) { Label("Map", systemImage: "map.fill") }
+                .accentColor( .red )
+                .disabled( document.isEmpty )
+            */
+            
+            Section {
+                NavigationLink(destination: Text("Map")) { Label("Map", systemImage: "map.fill") }
+                    .accentColor( .orange )
                     .disabled( document.isEmpty )
+                
                 
                 NavigationLink(destination: Text("Diversity")) { Label("Diversity", systemImage: "slider.horizontal.3") }
                     .accentColor( .orange )
@@ -44,18 +51,15 @@ struct ContentView: View {
                 NavigationLink(destination: Text("Popgraph")) { Label("Popgraph", systemImage: "perspective") }
                     .accentColor(.purple)
                     .disabled( document.isEmpty )
-                
-            }
-            .listStyle( SidebarListStyle() )
-        
-            GeneticStudioView()
-        }
 
+            }
+            
+            
+        }
+        .listStyle( SidebarListStyle() )
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView(document: .constant(GeneticStudioDocument()))
-    }
+#Preview {
+    SidebarView(document: .constant( GeneticStudioDocument() ) )
 }

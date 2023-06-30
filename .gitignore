@@ -118,4 +118,5 @@ iOSInjectionProject/
 
 
 *.swp
+.DS_Store
 

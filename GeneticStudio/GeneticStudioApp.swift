@@ -2,7 +2,7 @@
 //  GeneticStudioApp.swift
 //  GeneticStudio
 //
-//  Created by Rodney Dyer on 6/23/23.
+//  Created by Rodney Dyer on 6/30/23.
 //
 
 import SwiftUI
@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct GeneticStudioApp: App {
     var body: some Scene {
-        DocumentGroup(newDocument: Defaults.document ) { file in
+        DocumentGroup(newDocument: GeneticStudioDocument()) { file in
             ContentView(document: file.$document)
         }
     }

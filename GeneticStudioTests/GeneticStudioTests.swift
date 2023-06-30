@@ -2,11 +2,10 @@
 //  GeneticStudioTests.swift
 //  GeneticStudioTests
 //
-//  Created by Rodney Dyer on 6/23/23.
+//  Created by Rodney Dyer on 6/30/23.
 //
 
 import XCTest
-@testable import GeneticStudio
 
 final class GeneticStudioTests: XCTestCase {
 
@@ -28,7 +27,7 @@ final class GeneticStudioTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }

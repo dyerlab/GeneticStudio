@@ -2,17 +2,17 @@
 //  Defaults.swift
 //  GeneticStudio
 //
-//  Created by Rodney Dyer on 6/23/23.
+//  Created by Rodney Dyer on 6/30/23.
 //
 
-import Foundation
 import DLGenetic
+import Foundation
 
 struct Defaults {
     
-    static var document: GeneticStudioDocument {
-        var doc = GeneticStudioDocument(notes: "These are the default notes.")
-        doc.dataSet = DataStore.Default()
+    static var geneticStudioDocument: GeneticStudioDocument {
+        var doc = GeneticStudioDocument(species: "Araptus attenuatus")
+        doc.dataStore = DataStore.Default()
         return doc
     }
 }
