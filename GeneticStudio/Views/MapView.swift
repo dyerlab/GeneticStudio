@@ -25,6 +25,7 @@ struct MapView: View {
             }
         }
         .mapStyle( .standard(elevation: .realistic ) )
+        .navigationTitle("Map")
     }
 }
 

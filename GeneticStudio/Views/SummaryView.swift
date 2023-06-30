@@ -46,6 +46,8 @@ struct SummaryView: View {
             
         }
         .padding()
+        .navigationTitle("Summary")
+        
     }
 }
 
