@@ -31,15 +31,16 @@ struct TitleView: View {
                     
                 }
                 ZStack {
-                    Image("Pipette")
+                    Image("PipetteDark")
                         .resizable()
                         .rotation3DEffect( Angle(degrees: 180.0),
                                            axis: (0,1,0) )
                         .frame(width: 50, height: 50)
-                    Image(systemName: "wrench.fill")
+                    Image(systemName: "hammer.fill")
                         .resizable()
                         .frame(width: 50, height: 50)
                         .offset(x:10)
+                        .opacity(0.8)
                 }
             }
         }
