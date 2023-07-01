@@ -20,13 +20,15 @@ struct MapCardView: View {
             VStack {
                 HStack(alignment: .center) {
                     Text("\(title)")
-                        .font( .title)
+                        .font( .title2 )
+                        .foregroundColor(.red)
                     Spacer()
                     Image(systemName: "square.and.arrow.up")
-                        .symbolRenderingMode(.hierarchical)
-                        .font( .headline )
+                        .symbolRenderingMode(.multicolor)
+                        .font( .title2 )
+                        .tint( .red )
                 }
-                .padding()
+                .padding([.leading, .top, .trailing])
                 Spacer()
                 Map {
                     ForEach( locations ) { location in
@@ -39,7 +41,7 @@ struct MapCardView: View {
                         .annotationTitles(.hidden)
                     }
                 }
-                .mapStyle( .standard(elevation: .realistic ) )
+                .mapStyle( .hybrid(elevation: .realistic) )
                 .clipShape(
                     .rect(
                         topLeadingRadius: 0,
