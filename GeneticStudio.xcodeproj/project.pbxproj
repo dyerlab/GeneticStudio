@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A12D5892A4F805700710FFE /* MapsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A12D5882A4F805700710FFE /* MapsPageView.swift */; };
+		2A12D5892A4F805700710FFE /* MapsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A12D5882A4F805700710FFE /* MapsPage.swift */; };
 		2A12D58B2A4F80F900710FFE /* MapCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A12D58A2A4F80F900710FFE /* MapCardView.swift */; };
 		2A8EDC1B2A4F291E00B6E358 /* GeneticStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC1A2A4F291E00B6E358 /* GeneticStudioApp.swift */; };
 		2A8EDC1D2A4F291E00B6E358 /* GeneticStudioDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC1C2A4F291E00B6E358 /* GeneticStudioDocument.swift */; };
@@ -22,6 +22,8 @@
 		2A8EDC502A4F2FDE00B6E358 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC4F2A4F2FDE00B6E358 /* SidebarView.swift */; };
 		2A8EDC522A4F306A00B6E358 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC512A4F306A00B6E358 /* SummaryView.swift */; };
 		2A8EDC552A4F40EC00B6E358 /* DLGenetic in Frameworks */ = {isa = PBXBuildFile; productRef = 2A8EDC542A4F40EC00B6E358 /* DLGenetic */; };
+		2AB2A0D02A51AF6F0038374E /* GeneticDiversityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2A0CF2A51AF6F0038374E /* GeneticDiversityView.swift */; };
+		2AB2A0D42A51B6DF0038374E /* DiversityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2A0D32A51B6DF0038374E /* DiversityPage.swift */; };
 		2AF7C5DF2A4F44FB0094A89D /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF7C5DE2A4F44FB0094A89D /* Defaults.swift */; };
 		2AF7C5E12A4F4AFA0094A89D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF7C5E02A4F4AFA0094A89D /* MapView.swift */; };
 /* End PBXBuildFile section */
@@ -44,7 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A12D5882A4F805700710FFE /* MapsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsPageView.swift; sourceTree = "<group>"; };
+		2A12D5882A4F805700710FFE /* MapsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsPage.swift; sourceTree = "<group>"; };
 		2A12D58A2A4F80F900710FFE /* MapCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCardView.swift; sourceTree = "<group>"; };
 		2A8EDC172A4F291E00B6E358 /* GeneticStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneticStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A8EDC1A2A4F291E00B6E358 /* GeneticStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioApp.swift; sourceTree = "<group>"; };
@@ -63,6 +65,8 @@
 		2A8EDC4D2A4F2A7500B6E358 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		2A8EDC4F2A4F2FDE00B6E358 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		2A8EDC512A4F306A00B6E358 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		2AB2A0CF2A51AF6F0038374E /* GeneticDiversityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticDiversityView.swift; sourceTree = "<group>"; };
+		2AB2A0D32A51B6DF0038374E /* DiversityPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiversityPage.swift; sourceTree = "<group>"; };
 		2AF7C5DE2A4F44FB0094A89D /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
 		2AF7C5E02A4F4AFA0094A89D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,9 +100,9 @@
 		2A12D5872A4F804400710FFE /* Maps */ = {
 			isa = PBXGroup;
 			children = (
-				2AF7C5E02A4F4AFA0094A89D /* MapView.swift */,
-				2A12D5882A4F805700710FFE /* MapsPageView.swift */,
+				2A12D5882A4F805700710FFE /* MapsPage.swift */,
 				2A12D58A2A4F80F900710FFE /* MapCardView.swift */,
+				2AF7C5E02A4F4AFA0094A89D /* MapView.swift */,
 			);
 			path = Maps;
 			sourceTree = "<group>";
@@ -187,8 +191,8 @@
 				2A8EDC4D2A4F2A7500B6E358 /* TitleView.swift */,
 				2A8EDC4F2A4F2FDE00B6E358 /* SidebarView.swift */,
 				2AE81C1C2A51A50600714535 /* Summary */,
-				2AE81C1B2A51A46200714535 /* Diversity */,
 				2A12D5872A4F804400710FFE /* Maps */,
+				2AE81C1B2A51A46200714535 /* Diversity */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,6 +200,8 @@
 		2AE81C1B2A51A46200714535 /* Diversity */ = {
 			isa = PBXGroup;
 			children = (
+				2AB2A0D32A51B6DF0038374E /* DiversityPage.swift */,
+				2AB2A0CF2A51AF6F0038374E /* GeneticDiversityView.swift */,
 			);
 			path = Diversity;
 			sourceTree = "<group>";
@@ -348,13 +354,15 @@
 				2AF7C5DF2A4F44FB0094A89D /* Defaults.swift in Sources */,
 				2A8EDC522A4F306A00B6E358 /* SummaryView.swift in Sources */,
 				2A8EDC1B2A4F291E00B6E358 /* GeneticStudioApp.swift in Sources */,
-				2A12D5892A4F805700710FFE /* MapsPageView.swift in Sources */,
+				2A12D5892A4F805700710FFE /* MapsPage.swift in Sources */,
 				2A8EDC4B2A4F29FF00B6E358 /* UTType.swift in Sources */,
+				2AB2A0D02A51AF6F0038374E /* GeneticDiversityView.swift in Sources */,
 				2A8EDC1F2A4F291E00B6E358 /* ContentView.swift in Sources */,
 				2A8EDC4E2A4F2A7500B6E358 /* TitleView.swift in Sources */,
 				2A12D58B2A4F80F900710FFE /* MapCardView.swift in Sources */,
 				2AF7C5E12A4F4AFA0094A89D /* MapView.swift in Sources */,
 				2A8EDC502A4F2FDE00B6E358 /* SidebarView.swift in Sources */,
+				2AB2A0D42A51B6DF0038374E /* DiversityPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

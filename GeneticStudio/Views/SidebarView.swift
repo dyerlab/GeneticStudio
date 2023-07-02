@@ -25,31 +25,32 @@ struct SidebarView: View {
             
             Section {
                 
-                NavigationLink(destination: MapsPageView(dataStore: $document.dataStore)) {
+                NavigationLink(destination: MapsPage(dataStore: $document.dataStore)) {
                     Label( "Maps",
                            systemImage: "map.fill")
+                    .foregroundColor( .red )
                 }
-                .accentColor( .red )
                 .disabled( document.isEmpty )
                 
-                NavigationLink(destination: Text("Diversity")) { Label("Diversity", systemImage: "slider.horizontal.3") }
-                    .accentColor( .orange )
+                NavigationLink(destination: DiversityPage(dataStore: $document.dataStore) ) {
+                    Label("Diversity", systemImage: "slider.horizontal.3")
+                        .foregroundColor( .orange )
+                        
+                }
+                .disabled( document.isEmpty )
+                
+                NavigationLink(destination: Text("Ordination")) { Label("Ordination", systemImage: "square.and.line.vertical.and.square.filled")
+                    .foregroundColor( .green )}
                     .disabled( document.isEmpty )
                 
-                NavigationLink(destination: Text("Ordination")) { Label("Ordination", systemImage: "square.and.line.vertical.and.square.filled") }
-                    .accentColor( .green )
+                NavigationLink(destination: Text("Structure")) { Label("Structure", systemImage: "circle.grid.3x3.fill")
+                    .foregroundColor(.blue )}
                     .disabled( document.isEmpty )
                 
-                NavigationLink(destination: Text("Structure")) { Label("Structure", systemImage: "circle.grid.3x3.fill") }
-                    .accentColor( .blue )
-                    .disabled( document.isEmpty )
-                
-                NavigationLink(destination: Text("Popgraph")) { Label("Popgraph", systemImage: "perspective") }
-                    .accentColor(.purple)
+                NavigationLink(destination: Text("Popgraph")) { Label("Popgraph", systemImage: "perspective").foregroundColor(.purple) }
                     .disabled( document.isEmpty )
                 
             }
-            
             
         }
         .listStyle( SidebarListStyle() )

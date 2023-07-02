@@ -14,19 +14,22 @@ struct MapCardView: View {
     var locations: [Location]
     
     var body: some View {
+        
         ZStack {
             RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/)
                 .fill( .background )
+                .shadow(radius: 4.0)
             VStack {
                 HStack(alignment: .center) {
-                    Text("\(title)")
-                        .font( .title2 )
-                        .foregroundColor(.red)
+
+                    HStack{
+                        Image(systemName: "map.fill")
+                        Text("\(title)")
+                    }
+                    .font( .title2 )
+                    .foregroundColor(.red)
+
                     Spacer()
-                    Image(systemName: "square.and.arrow.up")
-                        .symbolRenderingMode(.multicolor)
-                        .font( .title2 )
-                        .tint( .red )
                 }
                 .padding([.leading, .top, .trailing])
                 Spacer()

@@ -49,7 +49,7 @@ struct SummaryView: View {
             
         }
         .padding()
-        .navigationTitle("Summary")
+        .navigationTitle("Study Species Summary Information")
         
     }
 }
