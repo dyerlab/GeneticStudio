@@ -18,7 +18,7 @@ struct MapsPageView: View {
                     ForEach( dataStore.individuals.levelsForStratum(named: key), id: \.self) { level in
                         
                         MapCardView(title: "\(key): \(level)",
-                                    locations: dataStore.individualsAtLevel( strata: key,
+                                    locations: dataStore.individualsAtLevel( stratum: key,
                                                                              level: level).locations )
                         .padding()
                     }

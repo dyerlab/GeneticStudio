@@ -20,14 +20,17 @@ struct SidebarView: View {
                 }
                 
                 NavigationLink(destination: Text("Favorites")) { Label("Favorites", systemImage: "star") }
-
+                
             }
             
             Section {
                 
-                NavigationLink(destination: MapsPageView(dataStore: $document.dataStore)) { Label("Map", systemImage: "map.fill") }
-                    .accentColor( .red )
-                    .disabled( document.isEmpty )
+                NavigationLink(destination: MapsPageView(dataStore: $document.dataStore)) {
+                    Label( "Maps",
+                           systemImage: "map.fill")
+                }
+                .accentColor( .red )
+                .disabled( document.isEmpty )
                 
                 NavigationLink(destination: Text("Diversity")) { Label("Diversity", systemImage: "slider.horizontal.3") }
                     .accentColor( .orange )
@@ -44,7 +47,7 @@ struct SidebarView: View {
                 NavigationLink(destination: Text("Popgraph")) { Label("Popgraph", systemImage: "perspective") }
                     .accentColor(.purple)
                     .disabled( document.isEmpty )
-
+                
             }
             
             

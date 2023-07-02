@@ -61,6 +61,6 @@ struct MapCardView: View {
 
 #Preview {
     MapCardView( title: "Item Title",
-                 locations: DataStore.Default().individualsAtLevel( strata: "Population",
+                 locations: DataStore.Default().individualsAtLevel( stratum: "Population",
                                                                     level: "9").locations )
 }

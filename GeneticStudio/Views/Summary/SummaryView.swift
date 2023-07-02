@@ -24,12 +24,15 @@ struct SummaryView: View {
             Section(header: Text("Partitions").font(.headline).padding(.top), content: {
                 ForEach( document.dataStore.strataKeys, id: \.self ) { key in
                     Text("\t• \(key)")
+                        .italic()
+                    Text("\t\t• \(document.dataStore.individuals.levelsForStratum(named: key).count) levels")
+                    
                 }
             })
             
             Section(header: Text("Spatial").font(.headline).padding(.top), content: {
                 if document.dataStore.individuals.isSpatial {
-                    Text("\t• Latitude/Longitude")
+                    Text("\t• Datum: Latitude/Longitude")
                     Text("\t• \(document.dataStore.individuals.numberWithCoordinates)/\(document.dataStore.count) with coordinates")
                 } else {
                     Text("\t• No")
