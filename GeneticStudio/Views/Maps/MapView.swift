@@ -10,7 +10,11 @@ import SwiftUI
 import MapKit
 
 struct MapView: View {
-    var locations: [Location]
+    var locations: [Location] {
+        didSet {
+            print("set to \(locations.count)")
+        }
+    }
     
     var body: some View {
         Map {
@@ -19,13 +23,20 @@ struct MapView: View {
                             coordinate: location.coordinate,
                             anchor: .center
                 ) {
-                    Image(systemName: "tree")
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 4)
+                            .fill( .background )
+                        RoundedRectangle(cornerRadius: 4)
+                            .stroke(.red, lineWidth: 1)
+                        Image(systemName: "tree")
+                            .padding(4)
+                    }
+
                 }
                 .annotationTitles(.hidden)
             }
         }
-        .mapStyle( .standard(elevation: .realistic ) )
-        .navigationTitle("Map")
+        .mapStyle( .hybrid(elevation: .realistic) )
     }
 }
 

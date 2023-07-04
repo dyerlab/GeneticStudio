@@ -25,8 +25,16 @@ struct DiversityPage: View {
     
     var body: some View {
         VStack(alignment: .leading ) {
-            Text( "Type: \(selectedDiversity)")
-            Text( "Level: \(selectedLevel)")
+            switch selectedDiversity {
+            case "Allelic":
+                AllelicDiversityPage( level: selectedLevel,
+                                      dataStore: dataStore)
+            default:
+                VStack{
+                    Text( "Type: \(selectedDiversity)")
+                    Text( "Level: \(selectedLevel)")
+                }
+            }
         }
         .padding()
         .navigationTitle("Diversity")

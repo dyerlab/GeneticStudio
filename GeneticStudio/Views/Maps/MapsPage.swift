@@ -10,6 +10,8 @@ import DLGenetic
 
 struct MapsPage: View {
     @Binding var dataStore: DataStore
+    @State var currentMap: Int = 0
+    
     var levelTypes: [String] {
         var ret = [String]()
         ret.append( "All" )
@@ -26,20 +28,8 @@ struct MapsPage: View {
                     .padding()
                 
             } else {
-                ScrollView {
-                    LazyVStack(alignment: .center, spacing: 10) {
-                        
-                        ForEach( dataStore.individuals.levelsForStratum(named: selectedLevel), id: \.self) { level in
-                            
-                            MapCardView(title: "\(selectedLevel): \(level)",
-                                        locations: dataStore.individualsAtLevel( stratum: selectedLevel,
-                                                                                 level: level).locations )
-                            .padding()
-                        }
-                        
-                    }
-                    
-                }
+                
+                MultiMapCardView(strata: selectedLevel, levels: dataStore.individuals.levelsForStratum(named: selectedLevel), locations: dataStore.strataLocations(strata: selectedLevel) )
             }
             
             
@@ -47,6 +37,7 @@ struct MapsPage: View {
         }
         .toolbar {
             ToolbarItemGroup(placement: .primaryAction ) {
+                
                 Picker("Level", selection: $selectedLevel) {
                     ForEach( levelTypes, id: \.self) { Text($0) }
                 }

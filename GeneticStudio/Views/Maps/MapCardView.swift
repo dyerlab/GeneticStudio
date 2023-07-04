@@ -14,7 +14,6 @@ struct MapCardView: View {
     var locations: [Location]
     
     var body: some View {
-        
         ZStack {
             RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/)
                 .fill( .background )
@@ -33,18 +32,7 @@ struct MapCardView: View {
                 }
                 .padding([.leading, .top, .trailing])
                 Spacer()
-                Map {
-                    ForEach( locations ) { location in
-                        Annotation( "\(location.name )",
-                                    coordinate: location.coordinate,
-                                    anchor: .center
-                        ) {
-                            Image(systemName: "tree")
-                        }
-                        .annotationTitles(.hidden)
-                    }
-                }
-                .mapStyle( .hybrid(elevation: .realistic) )
+                MapView(locations: locations)
                 .clipShape(
                     .rect(
                         topLeadingRadius: 0,
