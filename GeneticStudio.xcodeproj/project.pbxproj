@@ -9,14 +9,13 @@
 /* Begin PBXBuildFile section */
 		2A12D5892A4F805700710FFE /* MapsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A12D5882A4F805700710FFE /* MapsPage.swift */; };
 		2A12D58B2A4F80F900710FFE /* MapCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A12D58A2A4F80F900710FFE /* MapCardView.swift */; };
+		2A3BFDF02A546EAE00E63F98 /* AllelicDiversitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3BFDEF2A546EAE00E63F98 /* AllelicDiversitiesView.swift */; };
 		2A8EDC1B2A4F291E00B6E358 /* GeneticStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC1A2A4F291E00B6E358 /* GeneticStudioApp.swift */; };
 		2A8EDC1D2A4F291E00B6E358 /* GeneticStudioDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC1C2A4F291E00B6E358 /* GeneticStudioDocument.swift */; };
 		2A8EDC1F2A4F291E00B6E358 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC1E2A4F291E00B6E358 /* ContentView.swift */; };
 		2A8EDC212A4F291F00B6E358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8EDC202A4F291F00B6E358 /* Assets.xcassets */; };
 		2A8EDC262A4F291F00B6E358 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8EDC252A4F291F00B6E358 /* Preview Assets.xcassets */; };
 		2A8EDC302A4F291F00B6E358 /* GeneticStudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC2F2A4F291F00B6E358 /* GeneticStudioTests.swift */; };
-		2A8EDC3A2A4F291F00B6E358 /* GeneticStudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC392A4F291F00B6E358 /* GeneticStudioUITests.swift */; };
-		2A8EDC3C2A4F291F00B6E358 /* GeneticStudioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC3B2A4F291F00B6E358 /* GeneticStudioUITestsLaunchTests.swift */; };
 		2A8EDC4B2A4F29FF00B6E358 /* UTType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC4A2A4F29FF00B6E358 /* UTType.swift */; };
 		2A8EDC4E2A4F2A7500B6E358 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC4D2A4F2A7500B6E358 /* TitleView.swift */; };
 		2A8EDC502A4F2FDE00B6E358 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC4F2A4F2FDE00B6E358 /* SidebarView.swift */; };
@@ -54,6 +53,7 @@
 /* Begin PBXFileReference section */
 		2A12D5882A4F805700710FFE /* MapsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsPage.swift; sourceTree = "<group>"; };
 		2A12D58A2A4F80F900710FFE /* MapCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCardView.swift; sourceTree = "<group>"; };
+		2A3BFDEF2A546EAE00E63F98 /* AllelicDiversitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllelicDiversitiesView.swift; sourceTree = "<group>"; };
 		2A8EDC172A4F291E00B6E358 /* GeneticStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneticStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A8EDC1A2A4F291E00B6E358 /* GeneticStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioApp.swift; sourceTree = "<group>"; };
 		2A8EDC1C2A4F291E00B6E358 /* GeneticStudioDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioDocument.swift; sourceTree = "<group>"; };
@@ -65,8 +65,6 @@
 		2A8EDC2B2A4F291F00B6E358 /* GeneticStudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneticStudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A8EDC2F2A4F291F00B6E358 /* GeneticStudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioTests.swift; sourceTree = "<group>"; };
 		2A8EDC352A4F291F00B6E358 /* GeneticStudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneticStudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A8EDC392A4F291F00B6E358 /* GeneticStudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioUITests.swift; sourceTree = "<group>"; };
-		2A8EDC3B2A4F291F00B6E358 /* GeneticStudioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticStudioUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2A8EDC4A2A4F29FF00B6E358 /* UTType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTType.swift; sourceTree = "<group>"; };
 		2A8EDC4D2A4F2A7500B6E358 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		2A8EDC4F2A4F2FDE00B6E358 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
@@ -176,8 +174,6 @@
 		2A8EDC382A4F291F00B6E358 /* GeneticStudioUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2A8EDC392A4F291F00B6E358 /* GeneticStudioUITests.swift */,
-				2A8EDC3B2A4F291F00B6E358 /* GeneticStudioUITestsLaunchTests.swift */,
 			);
 			path = GeneticStudioUITests;
 			sourceTree = "<group>";
@@ -223,6 +219,7 @@
 			children = (
 				2AD03C042A54599300B86637 /* AllelicDiversityView.swift */,
 				2AD03C082A545B7100B86637 /* AllelicDiversityPage.swift */,
+				2A3BFDEF2A546EAE00E63F98 /* AllelicDiversitiesView.swift */,
 			);
 			path = Allelic;
 			sourceTree = "<group>";
@@ -407,6 +404,7 @@
 				2A8EDC1B2A4F291E00B6E358 /* GeneticStudioApp.swift in Sources */,
 				2A12D5892A4F805700710FFE /* MapsPage.swift in Sources */,
 				2A8EDC4B2A4F29FF00B6E358 /* UTType.swift in Sources */,
+				2A3BFDF02A546EAE00E63F98 /* AllelicDiversitiesView.swift in Sources */,
 				2AD03C002A54581300B86637 /* LocusFrequencyView.swift in Sources */,
 				2AB2A0D02A51AF6F0038374E /* GeneticDiversityView.swift in Sources */,
 				2AB2A0D82A5219F80038374E /* MultiMapCardView.swift in Sources */,
@@ -434,8 +432,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A8EDC3C2A4F291F00B6E358 /* GeneticStudioUITestsLaunchTests.swift in Sources */,
-				2A8EDC3A2A4F291F00B6E358 /* GeneticStudioUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
