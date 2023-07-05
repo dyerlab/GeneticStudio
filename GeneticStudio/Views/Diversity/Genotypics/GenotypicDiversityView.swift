@@ -13,7 +13,7 @@ struct GenotypicDiversityView: View {
     
     var body: some View {
         Table(diversity) {
-            TableColumn("Locus", value: \.locus)
+            TableColumn("Locus", value: \.label)
             TableColumn("N") { model in Text("\(model.N)") }
             TableColumn("Ho") { model in Text("\(model.Ho)") }
             TableColumn("He") { model in Text("\(model.He)") }

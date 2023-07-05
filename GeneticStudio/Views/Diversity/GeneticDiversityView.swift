@@ -11,11 +11,11 @@ import DLGenetic
 struct GeneticDiversityView: View {
     @State var diversity: [GeneticDiversity]
     @State private var selected = Set<GeneticDiversity.ID>()
-    @State private var sortOrder = [KeyPathComparator(\GeneticDiversity.locus)]
+    @State private var sortOrder = [KeyPathComparator(\GeneticDiversity.label)]
     
     var body: some View {
         Table(diversity) {
-            TableColumn("Locus", value: \.locus)
+            TableColumn("Locus", value: \.label)
             TableColumn("N") { model in Text("\(model.N)") }
             TableColumn("A") { model in Text("\(model.A)") }
             TableColumn("A95") { model in Text("\(model.A95)") }

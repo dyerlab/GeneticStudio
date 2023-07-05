@@ -72,6 +72,6 @@ struct MultiMapCardView: View {
 
 #Preview {
     MultiMapCardView(strata: "Region",
-                     levels: DataStore.Default().individuals.strataLevels(partition: "Region"),
+                     levels: DataStore.Default().individuals.strataLevels(within: "Region"),
                      locations: DataStore.Default().strataLocations(strata: "Region") )
 }

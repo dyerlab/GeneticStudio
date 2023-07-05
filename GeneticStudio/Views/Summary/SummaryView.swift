@@ -25,7 +25,7 @@ struct SummaryView: View {
                 ForEach( document.dataStore.strataKeys, id: \.self ) { key in
                     Text("\t• \(key)")
                         .italic()
-                    Text("\t\t• \(document.dataStore.individuals.levelsForStratum(named: key).count) levels")
+                    Text("\t\t• \(document.dataStore.individuals.strataLevels(within: key).count) levels")
                     
                 }
             })

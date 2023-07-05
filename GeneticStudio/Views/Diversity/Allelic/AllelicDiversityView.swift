@@ -13,7 +13,7 @@ struct AllelicDiversityView: View {
     
     var body: some View {
         Table(diversity) {
-            TableColumn("Locus", value: \.locus)
+            TableColumn("Locus", value: \.label)
             TableColumn("N") { model in Text("\(model.N)") }
             TableColumn("A") { model in Text("\(model.A)") }
             TableColumn("A95") { model in Text("\(model.A95)") }
