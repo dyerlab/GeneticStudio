@@ -9,9 +9,10 @@ import SwiftUI
 import DLGenetic
 
 struct AllelicDiversityView: View {
-    var diversity: [GeneticDiversity]
+    @State var diversity: [GeneticDiversity]
     
     var body: some View {
+        
         Table(diversity) {
             TableColumn("Locus", value: \.label)
             TableColumn("N") { model in Text("\(model.N)") }
@@ -19,9 +20,10 @@ struct AllelicDiversityView: View {
             TableColumn("A95") { model in Text("\(model.A95)") }
             TableColumn("Ae") { model in Text("\(model.Ae)") }
         }
+        .padding()
     }
 }
 
 #Preview {
-    AllelicDiversityView(diversity: DataStore.Default().frequencies.locusDiversities )
+    AllelicDiversityView(diversity: DataStore.Default().diversityForStratLevels(locus: "LTRS", strata: "Region") )
 }

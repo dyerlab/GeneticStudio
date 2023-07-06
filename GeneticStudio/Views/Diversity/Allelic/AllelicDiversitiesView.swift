@@ -10,21 +10,35 @@ import SwiftUI
 
 struct AllelicDiversitiesView: View {
     var level: String
-    var dataStore: DataStore
+    @State var labels: [String]
+    var dataStores: [String: DataStore]
     
     var body: some View {
+        
         List {
-            ForEach( dataStore.locusKeys, id: \.self) { locus in
-                Text( "Locus: \(locus)")
-                    .font( .title )
-                AllelicDiversityView(diversity: dataStore.individuals.locusDiversityByStrataLevel(locus: locus,
-                                                                                                  stratumName: level))
+            ForEach( labels, id: \.self) { key in
+                VStack {
+                    Text("\(key) Allelic Diversity")
+                    AllelicDiversityView(diversity: diversitiesForLocus(key:key) )
+                }
+                .frame(minHeight: 400)
             }
         }
+        
     }
+    
+    private func diversitiesForLocus( key: String ) -> [GeneticDiversity] {
+        let divs = dataStores[key, default: DataStore()].diversityForStratLevels(locus: key, strata: level)
+        return divs
+    }
+    
+    
+    
+    
 }
 
 #Preview {
-    AllelicDiversitiesView( level: "Population",
-                            dataStore: DataStore.Default() )
+    AllelicDiversitiesView( level: "Region",
+                            labels: DataStore.Default().locusKeys,
+                            dataStores: DataStore.Default().partition(strata: "Region") )
 }

@@ -29,7 +29,9 @@ struct MapsPage: View {
                 
             } else {
                 
-                MultiMapCardView(strata: selectedLevel, levels: dataStore.individuals.levelsForStratum(named: selectedLevel), locations: dataStore.strataLocations(strata: selectedLevel) )
+                MultiMapCardView(strata: selectedLevel,
+                                 levels: dataStore.individuals.strataLevels(within: selectedLevel),
+                                 locations: dataStore.strataLocations(strata: selectedLevel) )
             }
             
             

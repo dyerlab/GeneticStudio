@@ -14,16 +14,25 @@ struct AllelicDiversityPage: View {
     
     var body: some View {
         VStack {
-            Text("Allelic Diversity for \(level)")
-                .font( .title )
-            AllelicDiversityView( diversity: dataStore.frequencies.locusDiversities)
-            Spacer()
+            HStack {
+                Text("Allelic Diversity for")
+                Text("\(level)")
+                    .italic()
+            }
+            .font( .title )
+            if level == "All" {
+                AllelicDiversityView(diversity: dataStore.diversityForAllLoci() )
+            }
+            else {
+                AllelicDiversitiesView( level: level,
+                                        labels: dataStore.locusKeys,
+                                        dataStores: dataStore.partition(strata: level) )
+            }
         }
-
     }
 }
 
 #Preview {
-    AllelicDiversityPage( level: "All",
+    AllelicDiversityPage( level: "Region",
                           dataStore: DataStore.Default() )
 }

@@ -25,7 +25,6 @@
 		2AB2A0D42A51B6DF0038374E /* DiversityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2A0D32A51B6DF0038374E /* DiversityPage.swift */; };
 		2AB2A0D82A5219F80038374E /* MultiMapCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2A0D72A5219F80038374E /* MultiMapCardView.swift */; };
 		2AD03BFD2A54579700B86637 /* FrequenciesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD03BFC2A54579700B86637 /* FrequenciesCardView.swift */; };
-		2AD03C002A54581300B86637 /* LocusFrequencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD03BFF2A54581300B86637 /* LocusFrequencyView.swift */; };
 		2AD03C052A54599300B86637 /* AllelicDiversityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD03C042A54599300B86637 /* AllelicDiversityView.swift */; };
 		2AD03C072A545A9D00B86637 /* GenotypicDiversityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD03C062A545A9D00B86637 /* GenotypicDiversityView.swift */; };
 		2AD03C092A545B7100B86637 /* AllelicDiversityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD03C082A545B7100B86637 /* AllelicDiversityPage.swift */; };
@@ -73,7 +72,6 @@
 		2AB2A0D32A51B6DF0038374E /* DiversityPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiversityPage.swift; sourceTree = "<group>"; };
 		2AB2A0D72A5219F80038374E /* MultiMapCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiMapCardView.swift; sourceTree = "<group>"; };
 		2AD03BFC2A54579700B86637 /* FrequenciesCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequenciesCardView.swift; sourceTree = "<group>"; };
-		2AD03BFF2A54581300B86637 /* LocusFrequencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocusFrequencyView.swift; sourceTree = "<group>"; };
 		2AD03C042A54599300B86637 /* AllelicDiversityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllelicDiversityView.swift; sourceTree = "<group>"; };
 		2AD03C062A545A9D00B86637 /* GenotypicDiversityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenotypicDiversityView.swift; sourceTree = "<group>"; };
 		2AD03C082A545B7100B86637 /* AllelicDiversityPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllelicDiversityPage.swift; sourceTree = "<group>"; };
@@ -209,7 +207,6 @@
 		2AD03BFE2A54580200B86637 /* Frequency */ = {
 			isa = PBXGroup;
 			children = (
-				2AD03BFF2A54581300B86637 /* LocusFrequencyView.swift */,
 			);
 			path = Frequency;
 			sourceTree = "<group>";
@@ -405,7 +402,6 @@
 				2A12D5892A4F805700710FFE /* MapsPage.swift in Sources */,
 				2A8EDC4B2A4F29FF00B6E358 /* UTType.swift in Sources */,
 				2A3BFDF02A546EAE00E63F98 /* AllelicDiversitiesView.swift in Sources */,
-				2AD03C002A54581300B86637 /* LocusFrequencyView.swift in Sources */,
 				2AB2A0D02A51AF6F0038374E /* GeneticDiversityView.swift in Sources */,
 				2AB2A0D82A5219F80038374E /* MultiMapCardView.swift in Sources */,
 				2AD03C072A545A9D00B86637 /* GenotypicDiversityView.swift in Sources */,

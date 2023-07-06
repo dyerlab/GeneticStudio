@@ -23,5 +23,5 @@ struct GenotypicDiversityView: View {
 }
 
 #Preview {
-    GenotypicDiversityView(diversity: DataStore.Default().frequencies.locusDiversities)
+    GenotypicDiversityView(diversity: DataStore.Default().diversityForAllLoci() )
 }
