@@ -6,24 +6,22 @@
 //
 
 import SwiftUI
+import DLMatrix
 import DLGenetic
 
 struct AllelicDiversityView: View {
-    @State var diversity: [GeneticDiversity]
+    var label: String
+    var matrix: Matrix
     
     var body: some View {
         
-        Table(diversity) {
-            TableColumn("Locus", value: \.label)
-            TableColumn("N") { model in Text("\(model.N)") }
-            TableColumn("A") { model in Text("\(model.A)") }
-            TableColumn("A95") { model in Text("\(model.A95)") }
-            TableColumn("Ae") { model in Text("\(model.Ae)") }
+        VStack {
+            MatrixView(colLabel: label, matrix: matrix)
         }
-        .padding()
     }
 }
 
 #Preview {
-    AllelicDiversityView(diversity: DataStore.Default().diversityForStratLevels(locus: "LTRS", strata: "Region") )
+    AllelicDiversityView(label: "Allelic Diversity",
+                         matrix: Defaults.allelicDiversityMatrix )
 }

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import DLMatrix
 import DLGenetic
 
 struct AllelicDiversityPage: View {
@@ -14,25 +15,24 @@ struct AllelicDiversityPage: View {
     
     var body: some View {
         VStack {
-            HStack {
-                Text("Allelic Diversity for")
-                Text("\(level)")
-                    .italic()
-            }
-            .font( .title )
             if level == "All" {
-                AllelicDiversityView(diversity: dataStore.diversityForAllLoci() )
+                AllelicDiversityView(label: level,
+                                     matrix: Matrix.forAllelicDiversity(divs: dataStore.diversityForAllLoci()) )
+                    .padding()
             }
             else {
                 AllelicDiversitiesView( level: level,
-                                        labels: dataStore.locusKeys,
+                                        loci: dataStore.locusKeys,
                                         dataStores: dataStore.partition(strata: level) )
+                .padding()
             }
+            Spacer()
         }
+        .navigationTitle("Allelic Diversity")
     }
 }
 
 #Preview {
-    AllelicDiversityPage( level: "Region",
+    AllelicDiversityPage( level: "All",
                           dataStore: DataStore.Default() )
 }

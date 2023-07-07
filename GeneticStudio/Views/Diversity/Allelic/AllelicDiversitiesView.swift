@@ -5,31 +5,30 @@
 //  Created by Rodney Dyer on 7/4/23.
 //
 
+
 import DLGenetic
+import DLMatrix
 import SwiftUI
 
 struct AllelicDiversitiesView: View {
     var level: String
-    @State var labels: [String]
+    @State var loci: [String]
     var dataStores: [String: DataStore]
     
     var body: some View {
-        
-        List {
-            ForEach( labels, id: \.self) { key in
-                VStack {
-                    Text("\(key) Allelic Diversity")
-                    AllelicDiversityView(diversity: diversitiesForLocus(key:key) )
+        ScrollView {
+            VStack(spacing: 20) {
+                ForEach( loci, id: \.self) { locus in
+                    MatrixView( colLabel: "Allelic Diversity for \(locus)",
+                                matrix: diversitiesForLocus(locus: locus))
                 }
-                .frame(minHeight: 400)
             }
         }
-        
     }
     
-    private func diversitiesForLocus( key: String ) -> [GeneticDiversity] {
-        let divs = dataStores[key, default: DataStore()].diversityForStratLevels(locus: key, strata: level)
-        return divs
+    private func diversitiesForLocus( locus: String ) -> Matrix {
+        let divs = dataStores[locus, default: DataStore.Default()].diversityForStratLevels(locus: locus, strata: level)
+        return Matrix.forGenotypicDiversity(divs: divs)
     }
     
     
@@ -38,7 +37,7 @@ struct AllelicDiversitiesView: View {
 }
 
 #Preview {
-    AllelicDiversitiesView( level: "Region",
-                            labels: DataStore.Default().locusKeys,
-                            dataStores: DataStore.Default().partition(strata: "Region") )
+    AllelicDiversitiesView( level: "Population",
+                            loci: DataStore.Default().locusKeys,
+                            dataStores: DataStore.Default().partition(strata: "Population") )
 }
