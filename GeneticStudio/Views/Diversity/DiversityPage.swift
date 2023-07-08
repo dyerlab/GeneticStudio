@@ -12,7 +12,9 @@ struct DiversityPage: View {
     @Binding var dataStore: DataStore
     
     var diversityTypes: [String] = ["Frequencies","Allelic","Genotypic","Spatial"]
-    @State private var selectedDiversity = "Frequencies"
+    @State private var selectedDiversity = "Genotypic"
+    
+    @State private var viewMode: DiversityViewMode = .grid
     
     var levelTypes: [String] {
         var ret = [String]()
@@ -20,45 +22,48 @@ struct DiversityPage: View {
         ret.append( contentsOf: dataStore.strataKeys )
         return ret
     }
-    @State var selectedLevel = "All"
-    
+    @State var level = "Region"
     
     var body: some View {
         VStack(alignment: .leading ) {
             switch selectedDiversity {
             case "Allelic":
-                AllelicDiversityPage( level: selectedLevel,
+                AllelicDiversityPage( level: level,
                                       dataStore: dataStore)
+            case "Genotypic":
+                GenotypicDiversityView(level: level,
+                                       diversity: level == "All" ? dataStore.diversityForAllLoci() :
+                                        dataStore.diversityForAllLevelsAt(strata: level) )
             default:
                 VStack{
                     Text( "Type: \(selectedDiversity)")
-                    Text( "Level: \(selectedLevel)")
+                    Text( "Level: \(level)")
                 }
             }
         }
-        .padding()
         .navigationTitle("Diversity")
         .toolbar {
             ToolbarItemGroup(placement: .primaryAction ) {
+                Picker("View Mode", selection: $viewMode) {
+                    Label("Grid",systemImage: "square.grid.3x2")
+                        .tag( DiversityViewMode.grid )
+                    Label("Table", systemImage: "tablecells")
+                        .tag( DiversityViewMode.table )
+                }
+                .help("Switch display between grid of matrices and table.")
+                .pickerStyle( .segmented)
+          
                 Picker("Type", selection: $selectedDiversity) {
                     ForEach( diversityTypes, id: \.self){ Text($0) }
                 }
-                #if os(macOS)
-                .pickerStyle( .menu )
-                #else
                 .pickerStyle( .segmented)
-                #endif
                 
-                Picker("Level", selection: $selectedLevel) {
+                
+                Picker("Level", selection: $level) {
                     ForEach( levelTypes, id: \.self) { Text($0) }
                 }
-                #if os(macOS)
-                .pickerStyle( .menu )
-                #else
                 .pickerStyle( .segmented)
-                #endif
 
-                
             }
             
         }

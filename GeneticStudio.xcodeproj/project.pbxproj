@@ -23,6 +23,7 @@
 		2A8EDC502A4F2FDE00B6E358 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC4F2A4F2FDE00B6E358 /* SidebarView.swift */; };
 		2A8EDC522A4F306A00B6E358 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC512A4F306A00B6E358 /* SummaryView.swift */; };
 		2A8EDC552A4F40EC00B6E358 /* DLGenetic in Frameworks */ = {isa = PBXBuildFile; productRef = 2A8EDC542A4F40EC00B6E358 /* DLGenetic */; };
+		2A95CE532A5A16A700152527 /* DiversityViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A95CE522A5A16A700152527 /* DiversityViewMode.swift */; };
 		2AB2A0D02A51AF6F0038374E /* GeneticDiversityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2A0CF2A51AF6F0038374E /* GeneticDiversityView.swift */; };
 		2AB2A0D42A51B6DF0038374E /* DiversityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2A0D32A51B6DF0038374E /* DiversityPage.swift */; };
 		2AB2A0D82A5219F80038374E /* MultiMapCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2A0D72A5219F80038374E /* MultiMapCardView.swift */; };
@@ -73,6 +74,7 @@
 		2A8EDC4D2A4F2A7500B6E358 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		2A8EDC4F2A4F2FDE00B6E358 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		2A8EDC512A4F306A00B6E358 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		2A95CE522A5A16A700152527 /* DiversityViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiversityViewMode.swift; sourceTree = "<group>"; };
 		2AB2A0CF2A51AF6F0038374E /* GeneticDiversityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticDiversityView.swift; sourceTree = "<group>"; };
 		2AB2A0D32A51B6DF0038374E /* DiversityPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiversityPage.swift; sourceTree = "<group>"; };
 		2AB2A0D72A5219F80038374E /* MultiMapCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiMapCardView.swift; sourceTree = "<group>"; };
@@ -238,12 +240,12 @@
 			path = Allelic;
 			sourceTree = "<group>";
 		};
-		2AD03C022A54596600B86637 /* Genotypics */ = {
+		2AD03C022A54596600B86637 /* Genotypic */ = {
 			isa = PBXGroup;
 			children = (
 				2AD03C062A545A9D00B86637 /* GenotypicDiversityView.swift */,
 			);
-			path = Genotypics;
+			path = Genotypic;
 			sourceTree = "<group>";
 		};
 		2AD03C032A54597100B86637 /* Spatial */ = {
@@ -257,8 +259,9 @@
 			isa = PBXGroup;
 			children = (
 				2AB2A0D32A51B6DF0038374E /* DiversityPage.swift */,
+				2A95CE522A5A16A700152527 /* DiversityViewMode.swift */,
 				2AD03C012A54595E00B86637 /* Allelic */,
-				2AD03C022A54596600B86637 /* Genotypics */,
+				2AD03C022A54596600B86637 /* Genotypic */,
 				2AD03BFE2A54580200B86637 /* Frequency */,
 				2AD03C032A54597100B86637 /* Spatial */,
 				2AB2A0CF2A51AF6F0038374E /* GeneticDiversityView.swift */,
@@ -414,6 +417,7 @@
 				2AD03C092A545B7100B86637 /* AllelicDiversityPage.swift in Sources */,
 				2A8EDC1D2A4F291E00B6E358 /* GeneticStudioDocument.swift in Sources */,
 				2AF7C5DF2A4F44FB0094A89D /* Defaults.swift in Sources */,
+				2A95CE532A5A16A700152527 /* DiversityViewMode.swift in Sources */,
 				2A8EDC522A4F306A00B6E358 /* SummaryView.swift in Sources */,
 				2A8EDC1B2A4F291E00B6E358 /* GeneticStudioApp.swift in Sources */,
 				2A12D5892A4F805700710FFE /* MapsPage.swift in Sources */,
