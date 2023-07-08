@@ -12,9 +12,11 @@ struct DiversityPage: View {
     @Binding var dataStore: DataStore
     
     var diversityTypes: [String] = ["Frequencies","Allelic","Genotypic","Spatial"]
-    @State private var selectedDiversity = "Genotypic"
     
-    @State private var viewMode: DiversityViewMode = .grid
+    @SceneStorage("selectedDiversity") private var selectedDiversity = "Genotypic"
+    @SceneStorage("viewMode") private var viewMode: DiversityViewMode = .grid
+    
+    
     
     var levelTypes: [String] {
         var ret = [String]()

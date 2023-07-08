@@ -11,11 +11,15 @@ import DLGenetic
 struct GenotypicDiversityView: View {
     var level: String
     var diversity: [GeneticDiversity]
+    @State private var sortOrder = [ KeyPathComparator(\GeneticDiversity.label) ]
+    var sortedDiversity: [GeneticDiversity] {
+        return diversity.sorted(using: sortOrder)
+    }
     
     var body: some View {
         VStack {
             if self.level == "All"  {
-                Table(diversity) {
+                Table(sortedDiversity, sortOrder: $sortOrder) {
                     TableColumn("Locus", value: \.label)
                     TableColumn("N") { model in Text("\(model.N)") }
                     TableColumn("Ho") { model in Text("\(model.Ho)") }
@@ -23,7 +27,7 @@ struct GenotypicDiversityView: View {
                     TableColumn("F") { model in Text("\(model.F)") }
                 }
             } else {
-                Table(diversity) {
+                Table(sortedDiversity, sortOrder: $sortOrder) {
                     TableColumn("\(level)", value: \.label)
                     TableColumn("Locus", value: \.locus)
                     TableColumn("N") { model in Text("\(model.N)") }
@@ -34,6 +38,7 @@ struct GenotypicDiversityView: View {
             }
         }
     }
+        
 }
 
 #Preview {
