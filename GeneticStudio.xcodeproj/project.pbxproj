@@ -23,11 +23,11 @@
 		2A8EDC4E2A4F2A7500B6E358 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC4D2A4F2A7500B6E358 /* TitleView.swift */; };
 		2A8EDC502A4F2FDE00B6E358 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC4F2A4F2FDE00B6E358 /* SidebarView.swift */; };
 		2A8EDC522A4F306A00B6E358 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EDC512A4F306A00B6E358 /* SummaryView.swift */; };
-		2A8EDC552A4F40EC00B6E358 /* DLGenetic in Frameworks */ = {isa = PBXBuildFile; productRef = 2A8EDC542A4F40EC00B6E358 /* DLGenetic */; };
 		2A95CE532A5A16A700152527 /* DiversityViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A95CE522A5A16A700152527 /* DiversityViewMode.swift */; };
 		2AB2A0D02A51AF6F0038374E /* GeneticDiversityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2A0CF2A51AF6F0038374E /* GeneticDiversityView.swift */; };
 		2AB2A0D42A51B6DF0038374E /* DiversityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2A0D32A51B6DF0038374E /* DiversityPage.swift */; };
 		2AB2A0D82A5219F80038374E /* MultiMapCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2A0D72A5219F80038374E /* MultiMapCardView.swift */; };
+		2ABF021D2B4DB95E0038732A /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF021C2B4DB95E0038732A /* DataSet.swift */; };
 		2ACF62562A58852800288077 /*  MatrixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACF62552A58852800288077 /*  MatrixView.swift */; };
 		2AD03BFD2A54579700B86637 /* FrequenciesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD03BFC2A54579700B86637 /* FrequenciesCardView.swift */; };
 		2AD03C052A54599300B86637 /* AllelicDiversityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD03C042A54599300B86637 /* AllelicDiversityView.swift */; };
@@ -80,6 +80,7 @@
 		2AB2A0CF2A51AF6F0038374E /* GeneticDiversityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticDiversityView.swift; sourceTree = "<group>"; };
 		2AB2A0D32A51B6DF0038374E /* DiversityPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiversityPage.swift; sourceTree = "<group>"; };
 		2AB2A0D72A5219F80038374E /* MultiMapCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiMapCardView.swift; sourceTree = "<group>"; };
+		2ABF021C2B4DB95E0038732A /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
 		2ACF62552A58852800288077 /*  MatrixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " MatrixView.swift"; sourceTree = "<group>"; };
 		2AD03BFC2A54579700B86637 /* FrequenciesCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequenciesCardView.swift; sourceTree = "<group>"; };
 		2AD03C042A54599300B86637 /* AllelicDiversityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllelicDiversityView.swift; sourceTree = "<group>"; };
@@ -94,7 +95,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A8EDC552A4F40EC00B6E358 /* DLGenetic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +126,13 @@
 			path = Maps;
 			sourceTree = "<group>";
 		};
+		2A8AB1F72B5027E400B17ECB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2A8EDC0E2A4F291E00B6E358 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +141,7 @@
 				2A8EDC2E2A4F291F00B6E358 /* GeneticStudioTests */,
 				2A8EDC382A4F291F00B6E358 /* GeneticStudioUITests */,
 				2A8EDC182A4F291E00B6E358 /* Products */,
+				2A8AB1F72B5027E400B17ECB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,6 +199,7 @@
 		2A8EDC482A4F297D00B6E358 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2ABF021C2B4DB95E0038732A /* DataSet.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -298,7 +307,6 @@
 			);
 			name = GeneticStudio;
 			packageProductDependencies = (
-				2A8EDC542A4F40EC00B6E358 /* DLGenetic */,
 			);
 			productName = GeneticStudio;
 			productReference = 2A8EDC172A4F291E00B6E358 /* GeneticStudio.app */;
@@ -374,6 +382,7 @@
 			mainGroup = 2A8EDC0E2A4F291E00B6E358;
 			packageReferences = (
 				2A8EDC532A4F40EC00B6E358 /* XCLocalSwiftPackageReference "../DLGenetic" */,
+				2AFA2F0C2B63E7D200229ACD /* XCLocalSwiftPackageReference "../DLMatrix" */,
 			);
 			productRefGroup = 2A8EDC182A4F291E00B6E358 /* Products */;
 			projectDirPath = "";
@@ -431,6 +440,7 @@
 				2AB2A0D82A5219F80038374E /* MultiMapCardView.swift in Sources */,
 				2AD03C072A545A9D00B86637 /* GenotypicDiversityView.swift in Sources */,
 				2A8EDC1F2A4F291E00B6E358 /* ContentView.swift in Sources */,
+				2ABF021D2B4DB95E0038732A /* DataSet.swift in Sources */,
 				2AD03C052A54599300B86637 /* AllelicDiversityView.swift in Sources */,
 				2A8EDC4E2A4F2A7500B6E358 /* TitleView.swift in Sources */,
 				2A12D58B2A4F80F900710FFE /* MapCardView.swift in Sources */,
@@ -807,14 +817,11 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../DLGenetic;
 		};
-/* End XCLocalSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		2A8EDC542A4F40EC00B6E358 /* DLGenetic */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = DLGenetic;
+		2AFA2F0C2B63E7D200229ACD /* XCLocalSwiftPackageReference "../DLMatrix" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../DLMatrix;
 		};
-/* End XCSwiftPackageProductDependency section */
+/* End XCLocalSwiftPackageReference section */
 	};
 	rootObject = 2A8EDC0F2A4F291E00B6E358 /* Project object */;
 }

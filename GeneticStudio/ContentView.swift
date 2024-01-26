@@ -17,6 +17,7 @@ struct ContentView: View {
                 .navigationSplitViewColumnWidth(min: 100, ideal: 200, max: 300)
             TitleView()
                 .navigationSplitViewColumnWidth(min: 100, ideal: 200, max: 300)
+                .background(.white)
 
         }
         
